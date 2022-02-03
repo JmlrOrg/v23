@@ -1,0 +1,34 @@
+{
+    "abstract": "Plug-and-Play (PnP) is a non-convex optimization framework that combines proximal algorithms, for example, the alternating direction method of multipliers (ADMM), with advanced denoising priors. Over the past few years, great empirical success has been obtained by PnP algorithms, especially for the ones that integrate deep learning-based denoisers. However, a key problem of PnP approaches is the need for manual parameter tweaking which is essential to obtain high-quality results across the high discrepancy in imaging conditions and varying scene content. In this work, we present a class of tuning-free PnP proximal algorithms that can determine parameters such as denoising strength, termination time, and other optimization-specific parameters automatically. A core part of our approach is a policy network for automated parameter search which can be effectively learned via a mixture of model-free and model-based deep reinforcement learning strategies. We demonstrate, through rigorous numerical and visual experiments, that the learned policy can customize parameters to different settings, and is often more efficient and effective than existing handcrafted criteria. Moreover, we discuss several practical considerations of  PnP denoisers, which together with our learned policy yield state-of-the-art results. This advanced performance is prevalent on both linear and nonlinear exemplar inverse imaging problems, and in particular shows promising results on compressed sensing MRI, sparse-view CT, single-photon imaging, and phase retrieval.",
+    "authors": [
+        "Kaixuan Wei",
+        "Angelica Aviles-Rivero",
+        "Jingwei Liang",
+        "Ying Fu",
+        "Hua Huang",
+        "Carola-Bibiane Sch\u00f6nlieb"
+    ],
+    "emails": [
+        "kxwei@princeton.edu",
+        "ai323@cam.ac.uk",
+        "jingwei.liang@sjtu.edu.cn",
+        "fuying@bit.edu.cn",
+        "huahuang@bnu.edu.cn",
+        "cbs31@cam.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Vandermode/TFPnP"
+        ]
+    ],
+    "id": "20-1297",
+    "issue": 16,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "TFPnP: Tuning-free Plug-and-Play Proximal Algorithms with Applications to Inverse Imaging Problems",
+    "volume": 23,
+    "year": 2022
+}

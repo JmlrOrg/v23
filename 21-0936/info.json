@@ -1,0 +1,22 @@
+{
+    "abstract": "We propose a Bayesian pseudo posterior mechanism to generate record-level synthetic databases equipped with an $(\\epsilon,\\pi)-$ probabilistic differential privacy (pDP) guarantee, where $\\pi$ denotes the probability that any observed database exceeds $\\epsilon$.  The pseudo posterior mechanism employs a data record-indexed, risk-based weight vector with weight values $\\in [0, 1]$ that surgically downweight the likelihood contributions for high-risk records for model estimation and the generation of record-level synthetic data for public release. The pseudo posterior synthesizer constructs a weight for each datum record by using the Lipschitz bound for that record under a log-pseudo likelihood utility function that generalizes the exponential mechanism (EM) used to construct a formally private data generating mechanism.  By selecting weights to remove likelihood contributions with non-finite log-likelihood values, we guarantee a finite local privacy guarantee for our pseudo posterior mechanism at every sample size.  Our results may be applied to any synthesizing model envisioned by the data disseminator in a computationally tractable way that only involves estimation of a pseudo posterior distribution for parameters, $\\theta$, unlike recent approaches that use naturally-bounded utility functions implemented through the EM.  We specify conditions that guarantee the asymptotic contraction of $\\pi$ to $0$ over the space of databases, such that the form of the guarantee provided by our method is asymptotic. We illustrate our pseudo posterior mechanism on the sensitive family income variable from the Consumer Expenditure Surveys database published by the U.S. Bureau of Labor Statistics. We show that utility is better preserved in the synthetic data for our pseudo posterior mechanism as compared to the EM, both estimated using the same non-private synthesizer, due to our use of targeted downweighting.",
+    "authors": [
+        "Terrance D. Savitsky",
+        "Matthew R.Williams",
+        "Jingchen Hu"
+    ],
+    "emails": [
+        "savitsky.terrance@bls.gov",
+        "mrwillia@nsf.gov",
+        "jihu@vassar.edu"
+    ],
+    "id": "21-0936",
+    "issue": 55,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Bayesian Pseudo Posterior Mechanism under Asymptotic Differential Privacy",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,32 @@
+{
+    "abstract": "Bayesian multinomial logistic-normal (MLN) models are popular for the analysis of sequence count data (e.g., microbiome or gene expression data) due to their ability to model multivariate count data with complex covariance structure. However, existing implementations of MLN models are limited to small datasets due to the non-conjugacy of the multinomial and logistic-normal distributions. Motivated by the need to develop efficient inference for Bayesian MLN models, we develop two key ideas. First, we develop the class of Marginally Latent Matrix-T Process (Marginally LTP) models. We demonstrate that many popular MLN models, including those with latent linear, non-linear, and dynamic linear structure are special cases of this class. Second, we develop an efficient inference scheme for Marginally LTP models with specific accelerations for the MLN subclass. Through application to MLN models, we demonstrate that our inference scheme are both highly accurate and often 4-5 orders of magnitude faster than MCMC.",
+    "authors": [
+        "Justin D. Silverman",
+        "Kimberly Roche",
+        "Zachary C. Holmes",
+        "Lawrence A. David",
+        "Sayan Mukherjee"
+    ],
+    "emails": [
+        "justinsilverman@psu.edu",
+        "kimberly.roche@duke.edu",
+        "zachary.holmes@duke.edu",
+        "lawrence.david@duke.edu",
+        "sayan@stat.duke.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/jsilve24/fido_paper_code"
+        ]
+    ],
+    "id": "19-882",
+    "issue": 7,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Bayesian Multinomial Logistic Normal Models through Marginally Latent Matrix-T Processes",
+    "volume": 23,
+    "year": 2022
+}

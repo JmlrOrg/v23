@@ -1,0 +1,26 @@
+{
+    "abstract": "We present a novel class of projected methods to perform statistical analysis on a data set of probability distributions on  the real line, with the 2-Wasserstein metric. We focus in particular on Principal Component Analysis (PCA) and regression. To define these models, we exploit a representation of the Wasserstein space closely related to its weak Riemannian structure by mapping the data to a suitable linear space and using a metric projection operator to constrain the results in the Wasserstein space. By carefully choosing the tangent point, we are able to derive fast empirical methods, exploiting a constrained B-spline approximation.  As a byproduct of our approach, we are also able to derive faster routines for previous work on PCA for distributions. By means of simulation studies, we compare our approaches to previously proposed methods, showing that our projected PCA has similar performance for a fraction of the computational cost and that the projected regression is extremely flexible even under misspecification. Several theoretical properties of the models are investigated, and asymptotic consistency is proven. Two real world applications to Covid-19 mortality in the US and wind speed forecasting are discussed.",
+    "authors": [
+        "Matteo Pegoraro",
+        "Mario Beraha"
+    ],
+    "emails": [
+        "matteo.pegoraro@polimi.it",
+        "mario.beraha@polimi.it"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/mberaha/ProjectedWasserstein"
+        ]
+    ],
+    "id": "21-0059",
+    "issue": 37,
+    "pages": [
+        1,
+        59
+    ],
+    "title": "Projected Statistical Methods for Distributional Data on the Real Line with the Wasserstein Metric",
+    "volume": 23,
+    "year": 2022
+}

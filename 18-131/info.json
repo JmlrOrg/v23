@@ -1,0 +1,26 @@
+{
+    "abstract": "The rapid development of high-throughput technologies has enabled the generation of data from biological or disease processes that span multiple layers, like genomic, proteomic or metabolomic data, and further pertain to multiple sources, like disease subtypes or experimental conditions. In this work, we propose a general statistical framework based on Gaussian graphical models for horizontal (i.e. across conditions or subtypes) and vertical (i.e. across different layers containing data on molecular compartments) integration of information in such datasets. We start with decomposing the multi-layer problem into a series of two-layer problems. For each two-layer problem, we model the outcomes at a node in the lower layer as dependent on those of other nodes in that layer, as well as all nodes in the upper layer. We use a combination of neighborhood selection and group-penalized regression to obtain sparse estimates of all model parameters. Following this, we develop a debiasing technique and asymptotic distributions of inter-layer directed edge weights that utilize already computed neighborhood selection coefficients for nodes in the upper layer. Subsequently, we establish global and simultaneous testing procedures for these edge weights. Performance of the proposed methodology is evaluated on synthetic and real data.",
+    "authors": [
+        "Subhabrata Majumdar",
+        "George Michailidis"
+    ],
+    "emails": [
+        "smajumdar@splunk.com",
+        "gmichail@ufl.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/GeorgeMichailidis/JMMLE_code"
+        ]
+    ],
+    "id": "18-131",
+    "issue": 1,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "Joint Estimation and Inference for Data Integration Problems based on Multiple Multi-layered Gaussian Graphical Models",
+    "volume": 23,
+    "year": 2022
+}

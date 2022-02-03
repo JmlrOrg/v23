@@ -1,0 +1,20 @@
+{
+    "abstract": "In this article, we dwell into the class of so-called ill-posed Linear Inverse Problems (LIP) which simply refer to the task of recovering the entire signal from its relatively few random linear measurements. Such problems arise in a variety of settings with applications ranging from medical image processing, recommender systems, etc. We propose a slightly generalized version of the error constrained linear inverse problem and obtain a novel and equivalent convex-concave min-max reformulation by providing an exposition to its convex geometry. Saddle points of the min-max problem are completely characterized in terms of a solution to the LIP, and vice versa. Applying simple saddle point seeking ascend-descent type algorithms to solve the min-max problems provides novel and simple algorithms to find a solution to the LIP. Moreover, the reformulation of an LIP as the min-max problem provided in this article is crucial in developing methods to solve the dictionary learning problem with almost sure recovery constraints.",
+    "authors": [
+        "Mohammed Rayyan Sheriff",
+        "Debasish Chatterjee"
+    ],
+    "emails": [
+        "mohammedrayyan@sc.iitb.ac.in",
+        "dchatter@iitb.ac.in"
+    ],
+    "id": "20-707",
+    "issue": 28,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "Novel Min-Max Reformulations of Linear Inverse Problems",
+    "volume": 23,
+    "year": 2022
+}

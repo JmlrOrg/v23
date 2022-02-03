@@ -1,0 +1,28 @@
+{
+    "abstract": "Sparse principal component analysis (PCA) is a popular dimensionality reduction technique for obtaining principal components which are linear combinations of a small subset of the original features. Existing approaches  cannot supply certifiably optimal principal components with more than $p=100s$ of variables. By reformulating sparse PCA as a convex mixed-integer semidefinite optimization problem, we design a cutting-plane method which solves the problem to certifiable optimality at the scale of selecting $k=5$ covariates from $p=300$ variables, and provides small bound gaps at a larger scale. We also propose a convex relaxation and greedy rounding scheme that provides bound gaps of $1-2\\%$ in practice within minutes for $p=100$s or hours for $p=1,000$s and is therefore a viable alternative to the exact method at scale. Using real-world financial and medical data sets, we illustrate our approach's ability to derive interpretable principal components tractably at scale.",
+    "authors": [
+        "Dimitris Bertsimas",
+        "Ryan Cory-Wright",
+        "Jean Pauphilet"
+    ],
+    "emails": [
+        "dbertsim@mit.edu",
+        "ryancw@mit.edu",
+        "jpauphilet@london.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ryancorywright/ScalableSPCA.jl"
+        ]
+    ],
+    "id": "20-1188",
+    "issue": 13,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Solving Large-Scale Sparse PCA to Certifiable (Near) Optimality",
+    "volume": 23,
+    "year": 2022
+}

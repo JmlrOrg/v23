@@ -1,0 +1,22 @@
+{
+    "abstract": "Convergence to a saddle point for convex-concave functions has been studied for decades, while recent years has seen a surge of interest in non-convex (zero-sum) smooth games, motivated by their recent wide applications. It remains an intriguing research challenge how local optimal points are defined and which algorithm can converge to such points. An interesting concept is known as the local minimax point, which strongly correlates with the widely-known gradient descent ascent algorithm. This paper aims to provide a comprehensive analysis of local minimax points, such as their relation with other solution concepts and their optimality conditions. We find that local saddle points can be regarded as a special type of local minimax points, called uniformly local minimax points, under mild continuity assumptions. In (non-convex) quadratic games, we show that local minimax points are (in some sense) equivalent to global minimax points. Finally, we study the stability of gradient algorithms near local minimax points. Although gradient algorithms can converge to local/global minimax points in the non-degenerate case, they would often fail in general cases. This implies the necessity of either novel algorithms or concepts beyond saddle points and minimax points in non-convex smooth games.",
+    "authors": [
+        "Guojun Zhang",
+        "Pascal Poupart",
+        "Yaoliang Yu"
+    ],
+    "emails": [
+        "guojun.zhang@uwaterloo.ca",
+        "ppoupart@uwaterloo.ca",
+        "yaoliang.yu@uwaterloo.ca"
+    ],
+    "id": "20-918",
+    "issue": 35,
+    "pages": [
+        1,
+        71
+    ],
+    "title": "Optimality and Stability in Non-Convex Smooth Games",
+    "volume": 23,
+    "year": 2022
+}

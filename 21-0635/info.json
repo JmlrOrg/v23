@@ -1,0 +1,34 @@
+{
+    "abstract": "We show that cascaded diffusion models are capable of generating high fidelity images on the class-conditional ImageNet generation benchmark, without any assistance from auxiliary image classifiers to boost sample quality. A cascaded diffusion model comprises a pipeline of multiple diffusion models that generate images of increasing resolution, beginning with a standard diffusion model at the lowest resolution, followed by one or more super-resolution diffusion models that successively upsample the image and add higher resolution details. We find that the sample quality of a cascading pipeline relies crucially on conditioning augmentation, our proposed method of data augmentation of the lower resolution conditioning inputs to the super-resolution models. Our experiments show that conditioning augmentation prevents compounding error during sampling in a cascaded model, helping us to train cascading pipelines achieving FID scores of 1.48 at 64x64, 3.52 at 128x128 and 4.88 at 256x256 resolutions, outperforming BigGAN-deep, and classification accuracy scores of 63.02% (top-1) and 84.06% (top-5) at 256x256, outperforming VQ-VAE-2.",
+    "authors": [
+        "Jonathan Ho",
+        "Chitwan Saharia",
+        "William Chan",
+        "David J. Fleet",
+        "Mohammad Norouzi",
+        "Tim Salimans"
+    ],
+    "emails": [
+        "jonathanho@google.com",
+        "sahariac@google.com",
+        "williamchan@google.com",
+        "davidfleet@google.com",
+        "mnorouzi@google.com",
+        "salimans@google.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://cascaded-diffusion.github.io/"
+        ]
+    ],
+    "id": "21-0635",
+    "issue": 47,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Cascaded Diffusion Models for High Fidelity Image Generation",
+    "volume": 23,
+    "year": 2022
+}

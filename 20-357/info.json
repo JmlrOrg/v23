@@ -1,0 +1,22 @@
+{
+    "abstract": "Performing exact Bayesian inference for complex models is computationally intractable. Markov chain Monte Carlo (MCMC) algorithms can provide reliable approximations of the posterior distribution but are expensive for large data sets and high-dimensional models. A standard approach to mitigate this complexity consists in using subsampling techniques or distributing the data across a cluster. However, these approaches are typically unreliable in high-dimensional scenarios. We focus here on a recent alternative class of MCMC schemes exploiting a splitting strategy akin to the one used by the celebrated alternating direction method of multipliers (ADMM) optimization algorithm. These methods appear to provide empirically state-of-the-art performance but their theoretical behavior in high dimension is currently unknown. In this paper, we propose a detailed theoretical study of one of these algorithms known as the split Gibbs sampler. Under regularity conditions, we establish explicit convergence rates for this scheme using Ricci curvature and coupling ideas. We support our theory with numerical illustrations.",
+    "authors": [
+        "Maxime Vono",
+        "Daniel Paulin",
+        "Arnaud Doucet"
+    ],
+    "emails": [
+        "maxime.vono@gmail.com",
+        "paulindani@gmail.com",
+        "doucet@stats.ox.ac.uk"
+    ],
+    "id": "20-357",
+    "issue": 25,
+    "pages": [
+        1,
+        69
+    ],
+    "title": "Efficient MCMC Sampling with Dimension-Free Convergence Rate using ADMM-type Splitting",
+    "volume": 23,
+    "year": 2022
+}

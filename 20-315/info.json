@@ -1,0 +1,26 @@
+{
+    "abstract": "In rank aggregation (RA), a collection of preferences from different users are summarized into a total order under the assumption of homogeneity of users. Model misspecification in RA arises since the homogeneity assumption fails to be satisfied in the complex real-world situation. Existing robust RAs usually resort to an augmentation of the ranking model to account for additional noises, where the collected preferences can be treated as a noisy perturbation of idealized preferences. Since the majority of robust RAs rely on certain perturbation assumptions,  they cannot generalize well to agnostic noise-corrupted preferences in the real world. In this paper, we propose CoarsenRank, which possesses robustness against model misspecification. Specifically, the properties of our CoarsenRank are summarized as follows: (1) CoarsenRank is designed for mild model misspecification, which assumes there exist the ideal preferences (consistent with model assumption) that locate in a neighborhood of the actual preferences. (2) CoarsenRank then performs regular RAs over a neighborhood of the preferences instead of the original data set directly. Therefore, CoarsenRank enjoys robustness against model misspecification within a neighborhood. (3) The neighborhood of the data set is defined via their empirical data distributions. Further, we put an exponential prior on the unknown size of the neighborhood and derive a much-simplified posterior formula for CoarsenRank under particular divergence measures. (4) CoarsenRank is further instantiated to Coarsened Thurstone, Coarsened Bradly-Terry, and Coarsened Plackett-Luce with three popular probability ranking models. Meanwhile, tractable optimization strategies are introduced with regards to each instantiation respectively. In the end, we apply CoarsenRank on four real-world data sets. Experiments show that CoarsenRank is fast and robust, achieving consistent improvements over baseline methods.",
+    "authors": [
+        "Yuangang Pan",
+        "Ivor W. Tsang",
+        "Weijie Chen",
+        "Gang Niu",
+        "Masashi Sugiyama"
+    ],
+    "emails": [
+        "Yuangang.Pan@gmail.com",
+        "Ivor.Tsang@gmail.com",
+        "wjcper2008@126.com",
+        "gang.niu@riken.jp",
+        "sugi@k.u-tokyo.ac.jp"
+    ],
+    "id": "20-315",
+    "issue": 23,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Fast and Robust Rank Aggregation against Model Misspecification",
+    "volume": 23,
+    "year": 2022
+}

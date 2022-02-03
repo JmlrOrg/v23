@@ -1,0 +1,26 @@
+{
+    "abstract": "High resolution geospatial data are challenging because standard geostatistical models based on Gaussian processes are known to not scale to large data sizes. While progress has been made towards methods that can be computed more efficiently, considerably less attention has been devoted to methods for large scale data that allow the description of complex relationships between several outcomes recorded at high resolutions by different sensors. Our Bayesian multivariate regression models based on spatial multivariate trees (SpamTrees) achieve scalability via conditional independence assumptions on latent random effects following a treed directed acyclic graph. Information-theoretic arguments and considerations on computational efficiency guide the construction of the tree and the related efficient sampling algorithms in imbalanced multivariate settings. In addition to simulated data examples, we illustrate SpamTrees using a large climate data set which combines satellite data with land-based station data. Software and source code are available on CRAN at https://CRAN.R-project.org/package=spamtree.",
+    "authors": [
+        "Michele Peruzzi",
+        "David B. Dunson"
+    ],
+    "emails": [
+        "michele.peruzzi@duke.edu",
+        "dunson@duke.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/mkln/spamtree"
+        ]
+    ],
+    "id": "20-1361",
+    "issue": 17,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Spatial Multivariate Trees for Big Data Bayesian Regression",
+    "volume": 23,
+    "year": 2022
+}

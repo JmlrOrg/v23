@@ -1,0 +1,20 @@
+{
+    "abstract": "We compare the performance of six model average predictors---Mallows' model averaging, stacking, Bayes model averaging,  bagging, random forests, and boosting---to the components used to form them.In all six cases we identify conditions under which the model average predictor is consistent for its intended limit and performs as well or better than any of its components asymptotically.   This is well known empirically, especially for complex problems, although theoretical results do not seem to have been formally established. We have focused our attention on the regression context since that is wheremodel averaging techniques differ most often from current practice.",
+    "authors": [
+        "Tri M. Le",
+        "Bertrand S. Clarke"
+    ],
+    "emails": [
+        "le_tm@mercer.edu",
+        "bclarke3@unl.edu"
+    ],
+    "id": "20-874",
+    "issue": 33,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "Model Averaging Is Asymptotically Better Than Model Selection For Prediction",
+    "volume": 23,
+    "year": 2022
+}

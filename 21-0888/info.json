@@ -1,0 +1,41 @@
+{
+    "abstract": "Algorithm parameters, in particular hyperparameters of machine learning algorithms, can substantially impact their performance. To support users in determining well-performing hyperparameter configurations for their algorithms, datasets and applications at hand, SMAC3 offers a robust and flexible framework for Bayesian Optimization, which can improve performance within a few evaluations. It offers several facades and pre-sets for typical use cases, such as optimizing hyperparameters, solving low dimensional continuous (artificial) global optimization problems and configuring algorithms to perform well across multiple problem instances. The SMAC3 package is available under a permissive BSD-license at https://github.com/automl/SMAC3.",
+    "authors": [
+        "Marius Lindauer",
+        "Katharina Eggensperger",
+        "Matthias Feurer",
+        "Andr\u00e9 Biedenkapp",
+        "Difan Deng",
+        "Carolin Benjamins",
+        "Tim Ruhkopf",
+        "Ren\u00e9 Sass",
+        "Frank Hutter"
+    ],
+    "emails": [
+        "lindauer@tnt.uni-hannover.de",
+        "eggenspk@cs.uni-freiburg.de",
+        "feurerm@cs.uni-freiburg.de",
+        "biedenka@cs.uni-freiburg.de",
+        "deng@tnt.uni-hannover.de",
+        "benjamins@tnt.uni-hannover.de",
+        "ruhkopf@tnt.uni-hannover.de",
+        "sass@tnt.uni-hannover.de",
+        "fh@cs.uni-freiburg.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/automl/SMAC3"
+        ]
+    ],
+    "id": "21-0888",
+    "issue": 54,
+    "pages": [
+        1,
+        9
+    ],
+    "special_issue": "MLOSS",
+    "title": "SMAC3: A Versatile Bayesian Optimization Package for Hyperparameter Optimization",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,20 @@
+{
+    "abstract": "We consider a problem of manifold estimation from noisy observations. Many manifold learning procedures locally approximate a manifold by a weighted average over a small neighborhood. However, in the presence of large noise, the assigned weights become so corrupted that the averaged estimate shows very poor performance. We suggest a structure-adaptive procedure, which simultaneously reconstructs a smooth manifold and estimates projections of the point cloud onto this manifold. The proposed approach iteratively refines the weights on each step, using the structural information obtained at previous steps. After several iterations, we obtain nearly ``oracle'' weights, so that the final estimates are nearly efficient even in the presence of relatively large noise. In our theoretical study, we establish tight lower and upper bounds proving  asymptotic optimality of the method for manifold estimation under the Hausdorff loss, provided that the noise degrades to zero fast enough.",
+    "authors": [
+        "Nikita Puchkin",
+        "Vladimir Spokoiny"
+    ],
+    "emails": [
+        "npuchkin@hse.ru",
+        "spokoiny@wias-berlin.de"
+    ],
+    "id": "21-0338",
+    "issue": 40,
+    "pages": [
+        1,
+        62
+    ],
+    "title": "Structure-adaptive Manifold Estimation",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,30 @@
+{
+    "abstract": "In this paper, we propose a flexible model for survival analysis using neural networks along with scalable optimization algorithms. One key technical challenge for directly applying maximum likelihood estimation (MLE) to censored data is that evaluating the objective function and its gradients with respect to model parameters requires the calculation of integrals. To address this challenge, we recognize from a novel perspective that the MLE for censored data can be viewed as a differential-equation constrained optimization problem. Following this connection, we model the distribution of event time through an ordinary differential equation and utilize efficient ODE solvers and adjoint sensitivity analysis to numerically evaluate the likelihood and the gradients. Using this approach, we are able to 1) provide a broad family of continuous-time survival distributions without strong structural assumptions, 2) obtain powerful feature representations using neural networks, and 3) allow efficient estimation of the model in large-scale applications using stochastic gradient descent. Through both simulation studies and real-world data examples, we demonstrate the effectiveness of the proposed method in comparison to existing state-of-the-art deep learning survival analysis models. The implementation of the proposed SODEN approach has been made publicly available at https://github.com/jiaqima/SODEN.",
+    "authors": [
+        "Weijing Tang",
+        "Jiaqi Ma",
+        "Qiaozhu Mei",
+        "Ji Zhu"
+    ],
+    "emails": [
+        "weijtang@umich.edu",
+        "jiaqima@umich.edu",
+        "qmei@umich.edu",
+        "jizhu@umich.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/jiaqima/SODEN"
+        ]
+    ],
+    "id": "20-900",
+    "issue": 34,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "SODEN: A Scalable Continuous-Time Survival Model through Ordinary Differential Equation Networks",
+    "volume": 23,
+    "year": 2022
+}

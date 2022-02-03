@@ -1,0 +1,20 @@
+{
+    "abstract": "Although various distributed machine learning schemes have been proposed recently for purely linear models and fully nonparametric models, little attention has been paid to distributed optimization for semi-parametric models with multiple structures (e.g. sparsity, linearity and nonlinearity).  To address these issues, the current paper proposes a new communication-efficient distributed learning algorithm for sparse partially linear models with an increasing number of features. The proposed method is based on the classical divide and conquer strategy for handling big data and the computation on each subsample consists of  a debiased estimation of the doubly regularized least squares approach. With the proposed method, we theoretically prove that our global parametric estimator can achieve the optimal parametric rate in our semi-parametric model given an appropriate partition on the total data. Specifically, the choice of data partition  relies on the underlying smoothness of the nonparametric component, and it is adaptive to the sparsity parameter. Finally, some simulated experiments are carried out to illustrate the empirical performances of our debiased technique under the distributed setting.",
+    "authors": [
+        "Shaogao Lv",
+        "Heng Lian"
+    ],
+    "emails": [
+        "lvsg716@nau.edu.cn",
+        "henglian@cityu.edu.hk"
+    ],
+    "id": "18-467",
+    "issue": 2,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Debiased  Distributed Learning for Sparse Partial Linear Models in  High Dimensions",
+    "volume": 23,
+    "year": 2022
+}

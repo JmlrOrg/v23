@@ -1,0 +1,26 @@
+{
+    "abstract": "Bayesian Likelihood-Free Inference (LFI) approaches allow to obtain posterior distributions for stochastic models with intractable likelihood, by relying on model simulations. In Approximate Bayesian Computation (ABC), a popular LFI method, summary statistics are used to reduce data dimensionality. ABC algorithms adaptively tailor simulations to the observation in order to sample from an approximate posterior, whose form depends on the chosen statistics. In this work, we introduce a new way to learn ABC statistics: we first generate parameter-simulation pairs from the model independently on the observation; then, we use Score Matching to train a neural conditional exponential family to approximate the likelihood. The exponential family is the largest class of distributions with fixed-size sufficient statistics; thus, we use them in ABC, which is intuitively appealing and has state-of-the-art performance. In parallel, we insert our likelihood approximation in an MCMC for doubly intractable distributions to draw posterior samples. We can repeat that for any number of observations with no additional model simulations, with performance comparable to related approaches. We validate our methods on toy models with known likelihood and a large-dimensional time-series model.",
+    "authors": [
+        "Lorenzo Pacchiardi",
+        "Ritabrata Dutta"
+    ],
+    "emails": [
+        "lorenzo.pacchiardi@stats.ox.ac.uk",
+        "Ritabrata.Dutta@warwick.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/LoryPack/SM-ExpFam-LFI"
+        ]
+    ],
+    "id": "21-0061",
+    "issue": 38,
+    "pages": [
+        1,
+        71
+    ],
+    "title": "Score Matched Neural Exponential Families for Likelihood-Free Inference",
+    "volume": 23,
+    "year": 2022
+}

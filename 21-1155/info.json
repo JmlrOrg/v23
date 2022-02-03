@@ -1,0 +1,33 @@
+{
+    "abstract": "This paper presents solo-learn, a library of self-supervised methods for visual representation learning. Implemented in Python, using Pytorch and Pytorch lightning, the library fits both research and industry needs by featuring distributed training pipelines with mixed-precision, faster data loading via Nvidia DALI, online linear evaluation for better prototyping, and many additional training tricks.  Our goal is to provide an easy-to-use library comprising a large amount of Self-supervised Learning (SSL) methods, that can be easily extended and fine-tuned by the community. solo-learn opens up avenues for exploiting large-budget SSL solutions on inexpensive smaller infrastructures and seeks to democratize SSL by making it accessible to all. The source code is available at https://github.com/vturrisi/solo-learn.",
+    "authors": [
+        "Victor Guilherme Turrisi da Costa",
+        "Enrico Fini",
+        "Moin Nabi",
+        "Nicu Sebe",
+        "Elisa Ricci"
+    ],
+    "emails": [
+        "vg.turrisidacosta@unitn.it",
+        "enrico.fini@unitn.it",
+        "m.nabi@sap.com",
+        "niculae.sebe@unitn.it",
+        "e.ricci@unitn.it"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/vturrisi/solo-learn"
+        ]
+    ],
+    "id": "21-1155",
+    "issue": 56,
+    "pages": [
+        1,
+        6
+    ],
+    "special_issue": "MLOSS",
+    "title": "solo-learn: A Library of Self-supervised Methods for Visual Representation Learning",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,34 @@
+{
+    "abstract": "Open category detection is the problem of detecting ``alien\" test instances that belong to categories or classes that were not present in the training data. In many applications, reliably detecting such aliens is central to ensuring the safety and accuracy of test set predictions. Unfortunately, there are no algorithms that provide theoretical guarantees on their ability to detect aliens under general assumptions. Further, while there are algorithms for open category detection, there are few empirical results that directly report alien detection rates. Thus, there are significant theoretical and empirical gaps in our understanding of open category detection. In this paper, we take a step toward addressing this gap by studying a simple, but practically-relevant variant of open category detection. In our setting, we are provided with a ``clean\" training set that contains only the target categories of interest and an unlabeled ``contaminated'' training set that contains a fraction $\\alpha$ of alien examples. Under the assumption that we know an upper bound on $\\alpha$, we develop an algorithm that gives PAC-style guarantees on the alien detection rate, while aiming to minimize false alarms. Given an overall budget on the amount of training data, we also derive the optimal allocation of samples between the mixture and the clean data sets. Experiments on synthetic and standard benchmark datasets evaluate the regimes in which the algorithm can be effective and provide a baseline for further advancements. In addition, for the situation when an upper bound for $\\alpha$ is not available, we employ nine different anomaly proportion estimators, and run experiments on both synthetic and standard benchmark data sets to compare their performance.",
+    "authors": [
+        "Si Liu",
+        "Risheek Garrepalli",
+        "Dan Hendrycks",
+        "Alan Fern",
+        "Debashis Mondal",
+        "Thomas G. Dietterich"
+    ],
+    "emails": [
+        "lius2@oregonstate.edu",
+        "garrepar@oregonstate.edu",
+        "hendrycks@berkeley.edu",
+        "alan.fern@oregonstate.edu",
+        "mondal@wustl.edu",
+        "tgd@cs.orst.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/liusi2019/ocd-journal"
+        ]
+    ],
+    "id": "21-0451",
+    "issue": 44,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "PAC Guarantees and Effective Algorithms for Detecting Novel Categories",
+    "volume": 23,
+    "year": 2022
+}

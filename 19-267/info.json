@@ -1,0 +1,26 @@
+{
+    "abstract": "We propose algorithms for approximate filtering and smoothing in high-dimensional Factorial hidden Markov models. The approximation involves discarding, in a principled way, likelihood factors according to a notion of locality in a factor graph associated with the emission distribution. This allows the exponential-in-dimension cost of exact filtering and smoothing to be avoided. We prove that the approximation accuracy, measured in a local total variation norm, is \"dimension-free\" in the sense that as the overall dimension of the model increases the error bounds we derive do not necessarily degrade. A key step in the analysis is to quantify the error introduced by localizing the likelihood function in a Bayes' rule update. The factorial structure of the likelihood function which we exploit arises naturally when data have known spatial or network structure. We demonstrate the new algorithms on synthetic examples and a London Underground passenger flow problem, where the factor graph is effectively given by the train network.",
+    "authors": [
+        "Lorenzo Rimella",
+        "Nick Whiteley"
+    ],
+    "emails": [
+        "l.rimella@lancaster.ac.uk",
+        "nick.whiteley@bristol.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/LorenzoRimella/GraphFilter-GraphSmoother"
+        ]
+    ],
+    "id": "19-267",
+    "issue": 4,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Exploiting locality in high-dimensional Factorial hidden Markov models",
+    "volume": 23,
+    "year": 2022
+}

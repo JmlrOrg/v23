@@ -1,0 +1,20 @@
+{
+    "abstract": "With few exceptions, neural networks have been relying on backpropagation and gradient descent as the inference engine in order to learn the model parameters, because closed-form Bayesian inference for neural networks has been considered to be intractable. In this paper, we show how we can leverage the tractable approximate Gaussian inference's (TAGI) capabilities to infer hidden states, rather than only using it for inferring the network's parameters. One novel aspect is that it allows inferring hidden states through the imposition of constraints designed to achieve specific objectives, as illustrated through three examples: (1) the generation of adversarial-attack examples, (2) the usage of a neural network as a black-box optimization method, and (3) the application of inference on continuous-action reinforcement learning. In these three examples, the constrains are in (1), a target label chosen to fool a neural network, and in (2 and 3) the derivative of the network with respect to its input that is set to zero in order to infer the optimal input values that are either maximizing or minimizing it. These applications showcase how tasks that were previously reserved to gradient-based optimization approaches can now be approached with analytically tractable inference.",
+    "authors": [
+        "Luong-Ha Nguyen",
+        "James-A. Goulet"
+    ],
+    "emails": [
+        "Luongha.Nguyen@gmail.com",
+        "James.Goulet@polymtl.ca"
+    ],
+    "id": "21-0758",
+    "issue": 50,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Analytically Tractable Hidden-States Inference in Bayesian Neural Networks",
+    "volume": 23,
+    "year": 2022
+}

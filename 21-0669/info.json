@@ -1,0 +1,24 @@
+{
+    "abstract": "Finding parameters in a deep neural network (NN) that fit training data is a nonconvex optimization problem, but a basic first-order optimization method (gradient descent) finds a global optimizer with perfect fit (zero-loss) in many practical situations. We examine this phenomenon for the case of Residual Neural Networks (ResNet) with smooth activation functions in a limiting regime in which both the number of layers (depth) and the number of weights in each layer (width) go to infinity. First, we use a mean-field-limit argument to prove that the gradient descent for parameter training becomes a gradient flow for a probability distribution that is characterized by a partial differential equation (PDE) in the large-NN limit. Next, we show that under certain assumptions, the solution to the PDE converges in the training time to a zero-loss solution. Together, these results suggest that the training of the ResNet gives a near-zero loss if the ResNet is large enough. We give estimates of the depth and width needed to reduce the loss below a given threshold, with high probability.",
+    "authors": [
+        "Zhiyan Ding",
+        "Shi Chen",
+        "Qin Li",
+        "Stephen J. Wright"
+    ],
+    "emails": [
+        "zding49@math.wisc.edu",
+        "schen636@wisc.edu",
+        "qinli@math.wisc.edu",
+        "swright@cs.wisc.edu"
+    ],
+    "id": "21-0669",
+    "issue": 48,
+    "pages": [
+        1,
+        65
+    ],
+    "title": "Overparameterization of Deep ResNet: Zero Loss and Mean-field Analysis",
+    "volume": 23,
+    "year": 2022
+}

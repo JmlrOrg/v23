@@ -1,0 +1,38 @@
+{
+    "abstract": "Decision tree learning is a widely used approach in machine learning, favoured in applications that require concise and interpretable models. Heuristic methods are traditionally used to quickly produce models with reasonably high accuracy. A commonly criticised point, however, is that the resulting trees may not necessarily be the best representation of the data in terms of accuracy and size. In recent years, this motivated the development of optimal classification tree algorithms that globally optimise the decision tree in contrast to heuristic methods that perform a sequence of locally optimal decisions. We follow this line of work and provide a novel algorithm for learning optimal classification trees based on dynamic programming and search. Our algorithm supports constraints on the depth of the tree and number of nodes. The success of our approach is attributed to a series of specialised techniques that exploit properties unique to classification trees. Whereas algorithms for optimal classification trees have traditionally been plagued by high runtimes and limited scalability, we show in a detailed experimental study that our approach uses only a fraction of the time required by the state-of-the-art and can handle datasets with tens of thousands of instances, providing several orders of magnitude improvements and notably contributing towards the practical use of optimal decision trees.",
+    "authors": [
+        "Emir Demirovi\u0107",
+        "Anna Lukina",
+        "Emmanuel Hebrard",
+        "Jeffrey Chan",
+        "James Bailey",
+        "Christopher Leckie",
+        "Kotagiri Ramamohanarao",
+        "Peter J. Stuckey"
+    ],
+    "emails": [
+        "e.demirovic@tudelft.nl",
+        "a.lukina@tudelft.nl",
+        "hebrard@laas.fr",
+        "jeffrey.chan@rmit.edu.au",
+        "baileyj@unimelb.edu.au",
+        "caleckie@unimelb.edu.au",
+        "kotagiri@unimelb.edu.au",
+        "peter.stuckey@monash.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://bitbucket.org/EmirD/murtree"
+        ]
+    ],
+    "id": "20-520",
+    "issue": 26,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "MurTree: Optimal Decision Trees via Dynamic Programming and Search",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,30 @@
+{
+    "abstract": "Graph representation learning has many real-world applications, from self-driving LiDAR, 3D computer vision to drug repurposing, protein classification, social networks analysis. An adequate representation of graph data is vital to the learning performance of a statistical or machine learning model for graph-structured data. This paper proposes a novel multiscale representation system for graph data, called decimated framelets, which form a localized tight frame on the graph. The decimated framelet system allows storage of the graph data representation on a coarse-grained chain and processes the graph data at multi scales where at each scale, the data is stored on a subgraph. Based on this, we establish decimated G-framelet transforms for the decomposition and reconstruction of the graph data at multi resolutions via a constructive data-driven filter bank. The graph framelets are built on a chain-based orthonormal basis that supports fast graph Fourier transforms. From this, we give a fast algorithm for the decimated G-framelet transforms, or FGT, that has linear computational complexity O(N) for a graph of size N. The effectiveness for constructing the decimated framelet system and the FGT is demonstrated by a simulated example of random graphs and real-world applications, including multiresolution analysis for traffic network and representation learning of graph neural networks for graph classification tasks.",
+    "authors": [
+        "Xuebin Zheng",
+        "Bingxin Zhou",
+        "Yu Guang Wang",
+        "Xiaosheng Zhuang"
+    ],
+    "emails": [
+        "xuebin.zheng@sydney.edu.au",
+        "bzho3923@uni.sydney.edu.au",
+        "yuguang.wang@sjtu.edu.cn",
+        "xzhuang7@cityu.edu.hk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/YuGuangWang/FGT"
+        ]
+    ],
+    "id": "20-1402",
+    "issue": 18,
+    "pages": [
+        1,
+        68
+    ],
+    "title": "Decimated Framelet System on Graphs and Fast G-Framelet Transforms",
+    "volume": 23,
+    "year": 2022
+}

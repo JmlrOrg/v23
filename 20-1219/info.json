@@ -1,0 +1,24 @@
+{
+    "abstract": "In high dimension, low sample size (HDLSS) settings, classifiers based on Euclidean distances like the nearest neighbor classifier and the average distance classifier perform quite poorly if differences between locations of the underlying populations get masked by scale differences. To rectify this problem, several modifications of these classifiers have been proposed in the literature. However, existing methods are confined to location and scale differences only, and they often fail to discriminate among populations differing outside of the first two moments. In this article, we propose some simple transformations of these classifiers resulting in improved performance even when the underlying populations have the same location and scale. We further propose a generalization of these classifiers based on the idea of grouping of variables. High-dimensional behavior of the proposed classifiers is studied theoretically. Numerical experiments with a variety of simulated examples as well as an extensive analysis of benchmark data sets from three different databases exhibit advantages of the proposed methods.",
+    "authors": [
+        "Sarbojit Roy",
+        "Soham Sarkar",
+        "Subhajit Dutta",
+        "Anil K. Ghosh"
+    ],
+    "emails": [
+        "sarbojit@iitk.ac.in",
+        "soham.sarkar@epfl.ch",
+        "duttas@iitk.ac.in",
+        "akghosh@isical.ac.in"
+    ],
+    "id": "20-1219",
+    "issue": 14,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "On Generalizations of Some Distance Based Classifiers for HDLSS Data",
+    "volume": 23,
+    "year": 2022
+}

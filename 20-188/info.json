@@ -1,0 +1,26 @@
+{
+    "abstract": "We propose a new tool for visualizing complex, and potentially large and high-dimensional, data sets called Centroid-Encoder (CE).  The architecture of the Centroid-Encoder is similar to the autoencoder neural network but it has a modified target, i.e., the class centroid in the ambient space.  As such, CE incorporates label information and performs a supervised data visualization.  The training of CE is done in the usual way with a training set whose parameters are tuned using a validation set.  The evaluation of the resulting CE visualization is performed on a sequestered test set where the generalization of the model is assessed both visually and quantitatively. We present a detailed comparative analysis of the method using a wide variety of data sets and techniques, both supervised and unsupervised, including NCA, non-linear NCA, t-distributed NCA, t-distributed MCML, supervised UMAP, supervised PCA, Colored Maximum Variance Unfolding, supervised Isomap, Parametric Embedding, supervised Neighbor Retrieval Visualizer, and Multiple Relational Embedding. An analysis of variance using PCA demonstrates that a non-linear preprocessing by the CE transformation of the data captures more variance than PCA by dimension.",
+    "authors": [
+        "Tomojit Ghosh",
+        "Michael Kirby"
+    ],
+    "emails": [
+        "tomojit.ghosh@colostate.edu",
+        "Kirby@math.colostate.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Tomojit1/Centroid-encoder/tree/master/GPU"
+        ]
+    ],
+    "id": "20-188",
+    "issue": 20,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Supervised Dimensionality Reduction and Visualization using Centroid-Encoder",
+    "volume": 23,
+    "year": 2022
+}

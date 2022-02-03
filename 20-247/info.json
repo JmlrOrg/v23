@@ -1,0 +1,24 @@
+{
+    "abstract": "We apply methods from randomized numerical linear algebra (RandNLA) to develop improved algorithms for the analysis of large-scale time series data. We first develop a new fast algorithm to estimate the leverage scores of an autoregressive (AR) model in big data regimes. We show that the accuracy of approximations lies within $(1+\\mathcal{O}({\\varepsilon}))$ of the true leverage scores with high probability. These theoretical results are subsequently exploited to develop an efficient algorithm, called LSAR, for fitting an appropriate AR model to big time series data. Our proposed algorithm is guaranteed, with high probability, to find the maximum likelihood estimates of the parameters of the underlying true AR model and has a worst case running time that significantly improves those of the state-of-the-art alternatives in big data regimes. Empirical results on large-scale synthetic as well as real data highly support the theoretical results and reveal the efficacy of this new approach.",
+    "authors": [
+        "Ali Eshragh",
+        "Fred Roosta",
+        "Asef Nazari",
+        "Michael W. Mahoney"
+    ],
+    "emails": [
+        "ali.eshragh@newcastle.edu.au",
+        "fred.roosta@uq.edu.au",
+        "asef.nazari@deakin.edu.au",
+        "mmahoney@stat.berkeley.edu"
+    ],
+    "id": "20-247",
+    "issue": 22,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "LSAR: Efficient Leverage Score Sampling Algorithm for the Analysis of Big Time Series Data",
+    "volume": 23,
+    "year": 2022
+}

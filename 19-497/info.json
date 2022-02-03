@@ -1,0 +1,34 @@
+{
+    "abstract": "In this paper, we study two challenging problems in explainable AI (XAI) and data clustering. The first is how to directly design a neural network with inherent interpretability, rather than giving post-hoc explanations of a black-box model. The second is implementing discrete $k$-means with a differentiable neural network that embraces the advantages of parallel computing, online clustering, and clustering-favorable representation learning. To address these two challenges, we design a novel neural network, which is a differentiable reformulation of the vanilla $k$-means, called inTerpretable nEuraL cLustering (TELL). Our contributions are threefold. First, to the best of our knowledge, most existing XAI works focus on supervised learning paradigms. This work is one of the few XAI studies on unsupervised learning, in particular, data clustering. Second, TELL is an interpretable, or the so-called intrinsically explainable and transparent model. In contrast, most existing XAI studies resort to various means for understanding a black-box model with post-hoc explanations. Third, from the view of data clustering, TELL possesses many properties highly desired by $k$-means, including but not limited to online clustering, plug-and-play module, parallel computing, and provable convergence. Extensive experiments show that our method achieves superior performance comparing with 14 clustering approaches on three challenging data sets. The source code could be accessed at www.pengxi.me.",
+    "authors": [
+        "Xi Peng",
+        "Yunfan Li",
+        "Ivor W. Tsang",
+        "Hongyuan Zhu",
+        "Jiancheng Lv",
+        "Joey Tianyi Zhou"
+    ],
+    "emails": [
+        "pengx.gm@gmail.com",
+        "yunfanli.gm@gmail.com",
+        "ivor.tsang@gmail.com",
+        "zhuh@i2r.a-star.edu.sg",
+        "lvjiancheng@scu.edu.cn",
+        "joey.tianyi.zhou@gmail.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "http://www.pengxi.me"
+        ]
+    ],
+    "id": "19-497",
+    "issue": 6,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "XAI Beyond Classification: Interpretable Neural Clustering",
+    "volume": 23,
+    "year": 2022
+}

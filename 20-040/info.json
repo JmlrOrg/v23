@@ -1,0 +1,28 @@
+{
+    "abstract": "Deep learning uses neural networks which are parameterised by their weights.  The neural networks are usually trained by tuning the weights to directly minimise a given loss function.  In this paper we propose to re-parameterise the weights into targets for the firing strengths of the individual nodes in the network. Given a set of targets, it is possible to calculate the weights which make the firing strengths best meet those targets. It is argued that using targets for training addresses the problem of exploding gradients, by a process which we call cascade untangling, and  makes the loss-function surface smoother to traverse, and so leads to easier, faster training, and also potentially better generalisation, of the neural network.  It also allows for easier learning of deeper and recurrent network structures. The necessary conversion of targets to weights comes at an extra computational expense, which is in many cases manageable.  Learning in target space can be combined with existing neural-network optimisers, for extra gain.  Experimental results show the speed of using target space, and examples of improved generalisation, for fully-connected networks and convolutional networks, and the ability to recall and process long time sequences and perform natural-language processing with recurrent networks.",
+    "authors": [
+        "Michael Fairbank",
+        "Spyridon Samothrakis",
+        "Luca Citi"
+    ],
+    "emails": [
+        "m.fairbank@essex.ac.uk",
+        "ssamot@essex.ac.uk",
+        "lciti@essex.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/mikefairbank/dlts_paper_code"
+        ]
+    ],
+    "id": "20-040",
+    "issue": 8,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "Deep Learning in Target Space",
+    "volume": 23,
+    "year": 2022
+}

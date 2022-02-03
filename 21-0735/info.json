@@ -1,0 +1,20 @@
+{
+    "abstract": "An innovations sequence of a time series is a sequence of independent and identically distributed random variables with which the original time series has a causal representation.  The innovation at a time is statistically independent of the  history of the time series.  As such, it represents the new information contained at present but not in the past.  Because of its simple probability structure, the innovations sequence is the most efficient signature of the original. Unlike the principle or independent component representations, an innovations sequence preserves not only the complete statistical properties but also the temporal order of the original time series. An long-standing open problem is to find a computationally tractable way to extract an innovations sequence of non-Gaussian processes.  This paper presents a deep learning approach, referred to as Innovations Autoencoder (IAE), that extracts innovations sequences using a causal convolutional neural network. An application of IAE to the one-class anomalous sequence detection problem with unknown anomaly and anomaly-free models is also presented.",
+    "authors": [
+        "Xinyi Wang",
+        "Lang Tong"
+    ],
+    "emails": [
+        "xw555@cornell.edu",
+        "lt35@cornell.edu"
+    ],
+    "id": "21-0735",
+    "issue": 49,
+    "pages": [
+        1,
+        27
+    ],
+    "title": "Innovations Autoencoder and its Application in One-class Anomalous Sequence  Detection",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "In increasingly many settings, data sets consist of multiple samples from a population of networks, with vertices aligned across networks; for example, brain connectivity networks in neuroscience. We consider the setting where the observed networks have a shared expectation, but may differ in the noise structure on their edges. Our approach exploits the shared mean structure to denoise edge-level measurements of the observed networks and estimate the underlying population-level parameters. We also explore the extent to which edge-level errors influence estimation and downstream inference. In the process, we establish a finite-sample concentration inequality for the low-rank eigenvalue truncation of a random weighted adjacency matrix, which may be of independent interest. The proposed approach is illustrated on synthetic networks and on data from an fMRI study of schizophrenia.",
+    "authors": [
+        "Keith Levin",
+        "Asad Lodhia",
+        "Elizaveta Levina"
+    ],
+    "emails": [
+        "kdlevin@wisc.edu",
+        "asad.i.lodhia@gmail.com",
+        "elevina@umich.edu"
+    ],
+    "id": "19-1056",
+    "issue": 3,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "Recovering shared structure from multiple networks with unknown edge distributions",
+    "volume": 23,
+    "year": 2022
+}

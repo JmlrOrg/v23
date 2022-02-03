@@ -1,0 +1,22 @@
+{
+    "abstract": "In this paper, we study the concentration property of stochastic gradient descent (SGD) solutions. In existing concentration analyses, researchers impose restrictive requirements on the gradient noise, such as boundedness or sub-Gaussianity. We consider a  much richer class of noise where only finitely-many moments are required, thus allowing heavy-tailed noises. In particular, we obtain Nagaev type high-probability upper bounds for the estimation errors of averaged stochastic gradient descent (ASGD) in a linear model. Specifically, we prove that, after $T$ steps of SGD, the ASGD estimate achieves an $O(\\sqrt{\\log(1/\\delta)/T} + (\\delta T^{q-1})^{-1/q})$ error rate with probability at least $1-\\delta$, where $q>2$ controls the tail of the gradient noise. In comparison, one has the $O(\\sqrt{\\log(1/\\delta)/T})$ error rate for sub-Gaussian noises. We also show that the Nagaev type upper bound is almost tight through an example, where the exact asymptotic form of the tail probability can be derived.  Our concentration analysis indicates that, in the case of heavy-tailed noises, the polynomial dependence on the failure probability $\\delta$ is generally unavoidable for the error rate of SGD.",
+    "authors": [
+        "Wanrong Zhu",
+        "Zhipeng Lou",
+        "Wei Biao Wu"
+    ],
+    "emails": [
+        "wanrongzhu@uchicago.edu",
+        "zhipengprob@gmail.com",
+        "wbwu@galton.uchicago.edu"
+    ],
+    "id": "21-0560",
+    "issue": 46,
+    "pages": [
+        1,
+        22
+    ],
+    "title": "Beyond Sub-Gaussian Noises: Sharp Concentration Analysis for Stochastic Gradient Descent",
+    "volume": 23,
+    "year": 2022
+}

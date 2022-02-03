@@ -1,0 +1,20 @@
+{
+    "abstract": "Conditional density estimation is a fundamental problem in statistics, with scientific and practical applications in biology, economics, finance and environmental studies, to name a few.  In this paper, we propose a conditional density estimator based on gradient boosting and Lindsey's method (LinCDE). LinCDE admits flexible modeling of the density family and can capture distributional characteristics like modality and shape. In particular, when suitably parametrized, LinCDE will produce smooth and non-negative density estimates. Furthermore, like boosted regression trees, LinCDE does automatic feature selection. We demonstrate LinCDE's efficacy through extensive simulations and three real data examples.",
+    "authors": [
+        "Zijun Gao",
+        "Trevor Hastie"
+    ],
+    "emails": [
+        "zijungao@stanford.edu",
+        "hastie@stanford.edu"
+    ],
+    "id": "21-0840",
+    "issue": 52,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "LinCDE: Conditional Density Estimation via Lindsey's Method",
+    "volume": 23,
+    "year": 2022
+}

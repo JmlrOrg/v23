@@ -1,0 +1,31 @@
+{
+    "abstract": "DoubleML is an open-source Python library implementing the double machine learning framework of Chernozhukov et al. (2018) for a variety of causal models. It contains functionalities for valid statistical inference on causal parameters when the estimation of nuisance parameters is based on machine learning methods. The object-oriented implementation of DoubleML provides a high flexibility in terms of model specifications and makes it easily extendable. The package is distributed under the MIT license and relies on core libraries from the scientific Python ecosystem: scikit-learn, numpy, pandas, scipy, statsmodels and joblib. Source code, documentation and an extensive user guide can be found at https://github.com/DoubleML/doubleml-for-py and https://docs.doubleml.org.",
+    "authors": [
+        "Philipp Bach",
+        "Victor Chernozhukov",
+        "Malte S. Kurz",
+        "Martin Spindler"
+    ],
+    "emails": [
+        "philipp.bach@uni-hamburg.de",
+        "vchern@mit.edu",
+        "malte.simon.kurz@uni-hamburg.de",
+        "martin.spindler@uni-hamburg.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/DoubleML/doubleml-for-py"
+        ]
+    ],
+    "id": "21-0862",
+    "issue": 53,
+    "pages": [
+        1,
+        6
+    ],
+    "special_issue": "MLOSS",
+    "title": "DoubleML - An Object-Oriented Implementation of Double Machine Learning in Python",
+    "volume": 23,
+    "year": 2022
+}

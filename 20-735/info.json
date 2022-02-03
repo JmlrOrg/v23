@@ -1,0 +1,20 @@
+{
+    "abstract": "Multinomial probit models are routinely-implemented representations for learning how the class probabilities of categorical response data change with $p$ observed predictors. Although several frequentist methods have been developed for estimation, inference and classification within such a class of models, Bayesian inference is still lagging behind. This is due to the apparent absence of a tractable class of conjugate priors, that may facilitate posterior inference on the multinomial probit coefficients. Such an issue has motivated increasing efforts toward the development of effective Markov chain Monte Carlo methods, but state-of-the-art solutions still face severe computational bottlenecks, especially in high dimensions. In this article, we show that the entire class of unified skew-normal (SUN) distributions is conjugate to several multinomial probit models. Leveraging this result and the SUN properties, we improve upon state-of-the-art solutions for posterior inference and classification both in terms of closed-form results for several functionals of interest, and also by developing novel computational methods relying either on independent and identically distributed samples from the exact posterior or on scalable and accurate variational approximations based on blocked partially-factorized representations. As illustrated in simulations and in a gastrointestinal lesions application, the magnitude of the improvements relative to current methods is particularly evident, in practice, when the focus is on high-dimensional studies.",
+    "authors": [
+        "Augusto Fasano",
+        "Daniele Durante"
+    ],
+    "emails": [
+        "augusto.fasano@unito.it",
+        "daniele.durante@unibocconi.it"
+    ],
+    "id": "20-735",
+    "issue": 30,
+    "pages": [
+        1,
+        26
+    ],
+    "title": "A Class of Conjugate Priors for Multinomial Probit Models which Includes the Multivariate Normal One",
+    "volume": 23,
+    "year": 2022
+}

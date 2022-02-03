@@ -1,0 +1,20 @@
+{
+    "abstract": "We introduce a novel approach to estimation problems in settings with missing data. Our proposal -- the Correlation-Assisted Missing data (CAM) estimator -- works by exploiting the relationship between the observations with missing features and those without missing features in order to obtain improved prediction accuracy.  In particular, our theoretical results elucidate general conditions under which the proposed CAM estimator has lower mean squared error than the widely used complete-case approach in a range of estimation problems.  We showcase in detail how the CAM estimator can be applied to $U$-Statistics to obtain an unbiased, asymptotically Gaussian estimator that has lower variance than the complete-case $U$-Statistic.  Further, in nonparametric density estimation and regression problems, we construct our CAM estimator using kernel functions, and show it has lower asymptotic mean squared error than the corresponding complete-case kernel estimator.  We also include practical demonstrations throughout the paper using simulated data and the Terneuzen birth cohort and Brandsma datasets available from CRAN.",
+    "authors": [
+        "Timothy I. Cannings",
+        "Yingying Fan"
+    ],
+    "emails": [
+        "timothy.cannings@ed.ac.uk",
+        "fanyingy@marshall.usc.edu"
+    ],
+    "id": "21-0345",
+    "issue": 41,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "The correlation-assisted missing data estimator",
+    "volume": 23,
+    "year": 2022
+}

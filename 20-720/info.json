@@ -1,0 +1,22 @@
+{
+    "abstract": "As a popular meta-learning approach, the model-agnostic meta-learning (MAML) algorithm has been widely used due to its  simplicity and effectiveness. However, the convergence of the general multi-step MAML still remains unexplored. In this paper, we develop a new theoretical framework to provide such convergence guarantee for two types of objective functions that are of interest in practice: (a) resampling case (e.g., reinforcement learning), where loss functions take the form in expectation and new data are sampled as the algorithm runs; and (b) finite-sum case (e.g., supervised learning), where loss functions take the finite-sum form with given samples. For both cases, we characterize the convergence rate and the computational complexity to attain an $\\epsilon$-accurate solution for multi-step MAML in the general nonconvex setting. In particular, our results suggest that an inner-stage stepsize needs to be chosen inversely proportional to the number $N$ of inner-stage steps in order for $N$-step MAML to have guaranteed convergence. From the technical perspective, we develop novel techniques to deal with the nested structure of the meta gradient for multi-step MAML, which can be of independent interest.",
+    "authors": [
+        "Kaiyi Ji",
+        "Junjie Yang",
+        "Yingbin Liang"
+    ],
+    "emails": [
+        "ji.367@osu.edu",
+        "yang.4972@osu.edu",
+        "liang.889@osu.edu"
+    ],
+    "id": "20-720",
+    "issue": 29,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Theoretical Convergence of Multi-Step Model-Agnostic Meta-Learning",
+    "volume": 23,
+    "year": 2022
+}

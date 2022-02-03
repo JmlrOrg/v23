@@ -1,0 +1,37 @@
+{
+    "abstract": "scikit-multimodallearn is a Python library for multimodal supervised learning, licensed under Free BSD, and compatible with the well-known scikit-learn toolbox (Fabian Pedregosa, 2011). This paper details the content of the library, including a specific multimodal data formatting and classification and regression algorithms. Use cases and examples are also provided.",
+    "authors": [
+        "Dominique Benielli",
+        "Baptiste Bauvin",
+        "Sokol Ko\u00e7o",
+        "Riikka Huusari",
+        "C\u00e9cile Capponi",
+        "Hachem Kadri",
+        "Fran\u00e7ois Laviolette"
+    ],
+    "emails": [
+        "dominique.benielli@univ-amu.fr",
+        "baptiste.bauvin@lis-lab.fr",
+        "sokol.koco@mines-stetienne.fr",
+        "riikka.huusari@aalto.fi",
+        "cecile.capponi@lis-lab.fr",
+        "hachem.kadri@lis-lab.fr",
+        "francois.laviolette@ift.ulvavl.ca"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/dbenielli/scikit-multimodallearn"
+        ]
+    ],
+    "id": "21-0791",
+    "issue": 51,
+    "pages": [
+        1,
+        7
+    ],
+    "special_issue": "MLOSS",
+    "title": "Toolbox for Multimodal Learn (scikit-multimodallearn)",
+    "volume": 23,
+    "year": 2022
+}

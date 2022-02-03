@@ -1,0 +1,22 @@
+{
+    "abstract": "We present a uniform analysis of biased stochastic gradient methods for minimizing convex, strongly convex, and non-convex composite objectives, and identify settings where bias is useful in stochastic gradient estimation. The framework we present allows us to extend proximal support to biased algorithms, including SAG and SARAH, for the first time in the convex setting. We also use our framework to develop a new algorithm, Stochastic Average Recursive GradiEnt (SARGE), that achieves the oracle complexity lower-bound for non-convex, finite-sum objectives and requires strictly fewer calls to a stochastic gradient oracle per iteration than SVRG and SARAH. We support our theoretical results with numerical experiments that demonstrate the benefits of certain biased gradient estimators.",
+    "authors": [
+        "Derek Driggs",
+        "Jingwei Liang",
+        "Carola-Bibiane Sch\u00f6nlieb"
+    ],
+    "emails": [
+        "d.driggs@maths.cam.ac.uk",
+        "jingwei.liang@sjtu.edu.cn",
+        "cbs31@cam.ac.uk"
+    ],
+    "id": "20-316",
+    "issue": 24,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "On Biased Stochastic Gradient Estimation",
+    "volume": 23,
+    "year": 2022
+}

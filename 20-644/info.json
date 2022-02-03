@@ -1,0 +1,22 @@
+{
+    "abstract": "Many current applications in data science need rich model classes to adequately represent the statistics that may be driving the observations. Such rich model classes may be too complex to admit uniformly consistent estimators. In such cases, it is conventional to settle for estimators with guarantees on convergence rate where the performance can be bounded in a model-dependent way, i.e. pointwise consistent estimators. But this viewpoint has the practical drawback that estimator performance is a function of the unknown model within the model class that is being estimated. Even if an estimator is consistent, how well it is doing at any given time may not be clear, no matter what the sample size of the observations. In these cases, a line of analysis favors sample dependent guarantees. We explore this framework by studying rich model classes that may only admit pointwise consistency guarantees, yet enough information about the unknown model driving the observations needed to gauge estimator accuracy can be inferred from the sample at hand. In this paper we obtain a novel characterization of lossless compression problems over a countable alphabet in the data-derived framework in terms of what we term deceptive distributions. We also show that the ability to estimate the redundancy of compressing memoryless sources is equivalent to learning the underlying single-letter marginal in a data-derived fashion. We expect that the methodology underlying such characterizations in a data-derived estimation framework will be broadly applicable to a wide range of estimation problems, enabling a more systematic approach to data-derived guarantees.",
+    "authors": [
+        "Narayana Santhanam",
+        "Venkatachalam Anantharam",
+        "Wojciech Szpankowski"
+    ],
+    "emails": [
+        "nsanthan@hawaii.edu",
+        "ananth@eecs.berkeley.edu",
+        "szpan@purdue.edu"
+    ],
+    "id": "20-644",
+    "issue": 27,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Data-Derived Weak Universal Consistency",
+    "volume": 23,
+    "year": 2022
+}
