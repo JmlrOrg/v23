@@ -1,0 +1,22 @@
+{
+    "abstract": "Instrumental variables (IV) are widely used in the social and health sciences in situations where a researcher would like to measure a causal effect but cannot perform an experiment. For valid causal inference in an IV model, there must be external (exogenous) variation that (i) has a sufficiently large impact on the variable of interest (called the relevance assumption) and where (ii) the only pathway through which the external variation impacts the outcome is via the variable of interest (called the exclusion restriction).  For statistical inference, researchers must also make assumptions about the functional form of the relationship between the three variables. Current practice assumes (i) and (ii) are met, then postulates a functional form with limited input from the data. In this paper, we describe a framework that leverages machine learning to validate these typically unchecked but consequential assumptions in the IV framework, providing the researcher empirical evidence about the quality of the instrument given the data at hand. Central to the proposed approach is the idea of prediction validity. Prediction validity checks that error terms -- which should be independent from the instrument -- cannot be modeled with machine learning any better than a model that is identically zero. We use prediction validity to develop both one-stage and two-stage approaches for IV, and demonstrate their performance on an example relevant to climate change policy.",
+    "authors": [
+        "Chunxiao Li",
+        "Cynthia Rudin",
+        "Tyler H. McCormick"
+    ],
+    "emails": [
+        "li.chunxiao@alumni.duke.edu",
+        "cynthia@cs.duke.edu",
+        "tylermc@u.washington.edu"
+    ],
+    "id": "21-0082",
+    "issue": 96,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Rethinking Nonlinear Instrumental Variable Models through Prediction Validity",
+    "volume": 23,
+    "year": 2022
+}

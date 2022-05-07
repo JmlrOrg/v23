@@ -1,0 +1,22 @@
+{
+    "abstract": "In this paper we introduce a novel model for Gaussian process (GP) regression in the fully Bayesian setting. Motivated by the ideas of sparsification, localization and Bayesian additive modeling, our model is built around a recursive partitioning (RP) scheme. Within each RP partition, a sparse GP (SGP) regression model is fitted. A Bayesian additive framework then combines multiple layers of partitioned SGPs, capturing both global trends and local refinements with efficient computations. The model addresses both the problem of efficiency in fitting a full Gaussian process regression model and the problem of prediction performance associated with a single SGP. Our approach mitigates the issue of pseudo-input selection and avoids the need for complex inter-block correlations in existing methods.  The crucial trade-off becomes choosing between many simpler local model components or fewer complex global model components, which the practitioner can sensibly tune. Implementation is via a Metropolis-Hasting Markov chain Monte-Carlo algorithm with Bayesian back-fitting. We compare our model against popular alternatives on simulated and real datasets, and find the performance is competitive, while the fully Bayesian procedure enables the quantification of model uncertainties.",
+    "authors": [
+        "Hengrui Luo",
+        "Giovanni Nattino",
+        "Matthew T. Pratola"
+    ],
+    "emails": [
+        "hengruiluo@gmail.com",
+        "nattino.1@osu.edu",
+        "mpratola@stat.osu.edu"
+    ],
+    "id": "19-597",
+    "issue": 61,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Sparse Additive Gaussian Process Regression",
+    "volume": 23,
+    "year": 2022
+}

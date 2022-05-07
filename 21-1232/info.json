@@ -1,0 +1,22 @@
+{
+    "abstract": "We develop an exact and scalable algorithm for one-dimensional Gaussian process regression with Mat\u00e9rn correlations whose smoothness parameter $\\nu$ is a half-integer. The proposed algorithm only requires $\\mathcal{O}(\\nu^3 n)$ operations and $\\mathcal{O}(\\nu n)$ storage. This leads to a linear-cost solver since $\\nu$ is chosen to be fixed and usually very small in most applications. The proposed method can be applied to multi-dimensional problems if a full grid or a sparse grid design is used. The proposed method is based on a novel theory for Mat\u00e9rn correlation functions. We find that a suitable rearrangement of these correlation functions can produce a compactly supported function, called a \"kernel packet\". Using a set of kernel packets as basis functions leads to a sparse representation of the covariance matrix that results in the proposed algorithm. Simulation studies show that the proposed algorithm, when applicable, is significantly superior to the existing alternatives in both the computational time and predictive accuracy.",
+    "authors": [
+        "Haoyuan Chen",
+        "Liang Ding",
+        "Rui Tuo"
+    ],
+    "emails": [
+        "chenhaoyuan2018@tamu.edu",
+        "ldingaa@tamu.du",
+        "ruituo@tamu.edu"
+    ],
+    "id": "21-1232",
+    "issue": 127,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Kernel Packet: An Exact and Scalable Algorithm for Gaussian Process Regression with Mat\u00e9rn Correlations",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "We consider whether distributed subgradient methods can achieve a linear speedup over a centralized subgradient method. While it might be hoped that distributed network of $n$ nodes that can compute $n$ times more subgradients in parallel compared to a single node might, as a result, be $n$ times faster,  existing bounds for distributed optimization methods are often consistent with a slowdown rather than speedup compared to a single node.  We show that a  distributed subgradient method has this ``linear speedup'' property when using a class of square-summable-but-not-summable step-sizes which include $1/t^{\\beta}$ when $\\beta \\in (1/2,1)$; for such step-sizes, we show that after a  transient period whose size depends on the spectral gap of the network, the method achieves a performance guarantee that does not depend on the network or the number of nodes. We also show that the same method can fail to have this ``asymptotic network independence'' property under the optimally decaying step-size $1/\\sqrt{t}$ and, as a consequence, can fail to provide a linear speedup compared to a single node with $1/\\sqrt{t}$ step-size.",
+    "authors": [
+        "Alex Olshevsky"
+    ],
+    "emails": [
+        "alexols@bu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/alexolshevsky/NetworkIndependenceSubgradient/blob/main/Step_size_inversion.ipynb"
+        ]
+    ],
+    "id": "20-1027",
+    "issue": 69,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Asymptotic Network Independence and Step-Size for a Distributed Subgradient Method",
+    "volume": 23,
+    "year": 2022
+}

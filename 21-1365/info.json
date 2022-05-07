@@ -1,0 +1,22 @@
+{
+    "abstract": "Understanding the properties of neural networks trained via stochastic gradient descent (SGD) is at the heart of the theory of deep learning. In this work, we take a mean-field view, and consider a two-layer ReLU network trained via noisy-SGD for a univariate regularized regression problem. Our main result is that SGD with vanishingly small noise injected in the gradients is biased towards a simple solution: at convergence, the ReLU network implements a piecewise linear map of the inputs, and the number of ``knot'' points -- i.e., points where the tangent of the ReLU network estimator changes -- between two consecutive training inputs is at most three. In particular, as the number of neurons of the network grows, the SGD dynamics is captured by the solution of a gradient flow and, at convergence, the distribution of the weights approaches the unique minimizer of a related free energy, which has a Gibbs form. Our key technical contribution consists in the analysis of the estimator resulting from this minimizer: we show that its second derivative vanishes everywhere, except at some specific locations which represent  the ``knot'' points. We also provide empirical evidence that knots at locations distinct from the data points might occur, as predicted by our theory.",
+    "authors": [
+        "Alexander Shevchenko",
+        "Vyacheslav Kungurtsev",
+        "Marco Mondelli"
+    ],
+    "emails": [
+        "alex.shevchenko@ist.ac.at",
+        "vyacheslav.kungurtsev@fel.cvut.cz",
+        "marco.mondelli@ist.ac.at"
+    ],
+    "id": "21-1365",
+    "issue": 130,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Mean-field Analysis of Piecewise Linear Solutions for Wide ReLU Networks",
+    "volume": 23,
+    "year": 2022
+}

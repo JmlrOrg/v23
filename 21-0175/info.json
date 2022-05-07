@@ -1,0 +1,32 @@
+{
+    "abstract": "Most data sets comprise of measurements on continuous and categorical variables. Yet, modeling high-dimensional mixed predictors has received limited attention in the regression and classification statistical literature. We study the general regression problem of inferring on a variable of interest based on high dimensional mixed continuous and binary predictors. The aim is to find a lower dimensional function of the mixed predictor vector that contains all the modeling information in the mixed predictors for the response, which can be either continuous or categorical. The approach we propose identifies sufficient reductions by reversing the regression and modeling the mixed predictors conditional on the response. We derive the maximum likelihood estimator of the sufficient reductions, asymptotic tests for dimension, and a regularized estimator, which simultaneously achieves variable (feature) selection and dimension reduction (feature extraction). We study the performance of the proposed method and compare it with other approaches through simulations and  real data examples.",
+    "authors": [
+        "Efstathia Bura",
+        "Liliana Forzani",
+        "Rodrigo Garcia Arancibia",
+        "Pamela Llop",
+        "Diego Tomassi"
+    ],
+    "emails": [
+        "efstathia.bura@tuwien.ac.at",
+        "liliana.forzani@gmail.com",
+        "r.garcia.arancibia@gmail.com",
+        "lloppamela@gmail.com",
+        "diegotomassi@gmail.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/lforzani/SDR_mixed_predictions"
+        ]
+    ],
+    "id": "21-0175",
+    "issue": 102,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Sufficient reductions in regression with mixed predictors",
+    "volume": 23,
+    "year": 2022
+}

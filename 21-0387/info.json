@@ -1,0 +1,26 @@
+{
+    "abstract": "Active learning prioritizes the labeling of the most informative data samples. However, the performance of active learning heuristics depends on both the structure of the underlying model architecture and the data. We propose IALE, an imitation learning scheme that imitates the selection of the best-performing expert heuristic at each stage of the learning cycle in a batch-mode pool-based setting. We use Dagger to train a transferable policy on a dataset and later apply it to different datasets and deep classifier architectures. The policy reflects on the best choices from multiple expert heuristics given the current state of the active learning process, and learns to select samples in a complementary way that unifies the expert strategies. Our experiments on well-known image datasets show that we outperform state of the art imitation learners and heuristics.",
+    "authors": [
+        "Christoffer L\u00f6ffler",
+        "Christopher Mutschler"
+    ],
+    "emails": [
+        "christoffer.loeffler@fau.de",
+        "christopher.mutschler@iis.fraunhofer.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/crispchris/IALE"
+        ]
+    ],
+    "id": "21-0387",
+    "issue": 107,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "IALE: Imitating Active Learner Ensembles",
+    "volume": 23,
+    "year": 2022
+}

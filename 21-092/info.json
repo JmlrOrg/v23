@@ -1,0 +1,20 @@
+{
+    "abstract": "We propose a spectral-based approach to analyze how two-layer neural networks separate from linear methods in terms of approximating high-dimensional functions. We show that quantifying this separation can be reduced to estimating the Kolmogorov width of two-layer neural networks, and the latter can be further characterized by using the spectrum of an associated kernel. Different from previous work, our approach allows obtaining upper bounds, lower bounds, and identifying explicit hard functions in a united manner. We provide a systematic study of how the choice of activation functions affects the separation, in particular the  dependence on the input dimension. Specifically, for nonsmooth activation functions, we extend known results to more activation functions with sharper bounds. As concrete examples, we prove that any single neuron can  instantiate the separation between neural networks and random feature models. For smooth activation functions, one surprising finding is that the separation is negligible unless the norms of inner-layer weights are polynomially large  with respect to the input dimension. By contrast, the separation for nonsmooth activation functions is independent of the norms of inner-layer weights.",
+    "authors": [
+        "Lei Wu",
+        "Jihao Long"
+    ],
+    "emails": [
+        "leiwu@math.pku.edu.cn",
+        "jihaol@princeton.edu"
+    ],
+    "id": "21-092",
+    "issue": 119,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "A spectral-based analysis of the separation between two-layer neural networks and linear methods",
+    "volume": 23,
+    "year": 2022
+}

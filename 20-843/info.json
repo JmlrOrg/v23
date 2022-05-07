@@ -1,0 +1,22 @@
+{
+    "abstract": "Error decomposition analysis is a key problem for ensemble learning, which indicates that proper combination of multiple models can achieve better performance than any individual one. Existing theoretical research of ensemble learning focuses on regression or classification tasks. There is limited theoretical research for ranking ensemble. In this paper, we first generalize the ambiguity decomposition theory from regression ensemble to ranking ensemble, which proves the effectiveness of ranking ensemble with consideration of list-wise ranking information. According to the generalized theory, we propose an explicit diversity measure for ranking ensemble, which can be used to enhance the diversity of ensemble and improve the performance of ensemble model. Furthermore, we adopt an adaptive learning scheme to learn query-dependent ensemble weights, which can fit into the generalized theory and help to further improve the performance of ensemble model. Extensive experiments on recommendation and information retrieval tasks demonstrate the effectiveness and theoretical advantages of the proposed method compared with several state-of-the-art methods.",
+    "authors": [
+        "Hongzhi Liu",
+        "Yingpeng Du",
+        "Zhonghai Wu"
+    ],
+    "emails": [
+        "liuhz@pku.edu.cn",
+        "dyp1993@pku.edu.cn",
+        "wuzh@pku.edu.cn"
+    ],
+    "id": "20-843",
+    "issue": 88,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Generalized Ambiguity Decomposition for Ranking Ensemble Learning",
+    "volume": 23,
+    "year": 2022
+}

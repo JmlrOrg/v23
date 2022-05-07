@@ -1,0 +1,24 @@
+{
+    "abstract": "In this paper, we provide a general framework for studying multi-agent online learning problems in the presence of delays and asynchronicities. Specifically, we propose and analyze a class of adaptive dual averaging schemes in which agents only need to accumulate gradient feedback received from the whole system, without requiring any between-agent coordination. In the single-agent case, the adaptivity of the proposed method allows us to extend a range of existing results to problems with potentially unbounded delays between playing an action and receiving the corresponding feedback. In the multi-agent case, the situation is significantly more complicated because agents may not have access to a global clock to use as a reference point; to overcome this, we focus on the information that is available for producing each prediction rather than the actual delay associated with each feedback. This allows us to derive adaptive learning strategies with optimal regret bounds, even in a fully decentralized, asynchronous environment. Finally, we also analyze an \u201coptimistic\u201d variant of the proposed algorithm which is capable of exploiting the predictability of problems with a slower variation and leads to improved regret bounds.",
+    "authors": [
+        "Yu-Guan Hsieh",
+        "Franck Iutzeler",
+        "J\u00e9r\u00f4me Malick",
+        "Panayotis Mertikopoulos"
+    ],
+    "emails": [
+        "Yu-Guan.Hsieh@univ-grenoble-alpes.fr",
+        "Franck.Iutzeler@univ-grenoble-alpes.fr",
+        "Jerome.Malick@univ-grenoble-alpes.fr",
+        "Panayotis.Mertikopoulos@imag.fr"
+    ],
+    "id": "20-1393",
+    "issue": 78,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Multi-Agent Online Optimization with Delays: Asynchronicity, Adaptivity, and Optimism",
+    "volume": 23,
+    "year": 2022
+}

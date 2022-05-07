@@ -1,0 +1,20 @@
+{
+    "abstract": "Regularized kernel-based methods such as support vector machines (SVMs) typically depend on the underlying probability measure $\\mathrm{P}$ (respectively an empirical measure $\\mathrm{D}_n$ in applications) as well as on the regularization parameter $\\lambda$ and the kernel $k$. Whereas classical statistical robustness only considers the effect of small perturbations in $\\mathrm{P}$, the present paper investigates the influence of simultaneous slight variations in the whole triple $(\\mathrm{P},\\lambda,k)$, respectively $(\\mathrm{D}_n,\\lambda_n,k)$, on the resulting predictor. Existing results from the literature are considerably generalized and improved. In order to also make them applicable to big data, where regular SVMs suffer from their super-linear computational requirements, we show how our results can be transferred to the context of localized learning. Here, the effect of slight variations in the applied regionalization, which might for example stem from changes in $\\mathrm{P}$ respectively $\\mathrm{D}_n$, is considered as well.",
+    "authors": [
+        "Hannes K\u00f6hler",
+        "Andreas Christmann"
+    ],
+    "emails": [
+        "Hannes.Koehler@uni-bayreuth.de",
+        "Andreas.Christmann@uni-bayreuth.de"
+    ],
+    "id": "21-0129",
+    "issue": 100,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Total Stability of SVMs and Localized SVMs",
+    "volume": 23,
+    "year": 2022
+}

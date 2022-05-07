@@ -1,0 +1,20 @@
+{
+    "abstract": "We prove a lower bound on the excess risk of sparse interpolating procedures for linear regression with Gaussian data in the overparameterized regime. We apply this result to obtain a lower bound for basis pursuit (the minimum $\\ell_1$-norm interpolant)that implies that its excess risk can converge at an exponentially slower rate than OLS (the minimum $\\ell_2$-norm interpolant), even when the ground truth is sparse.  Our analysis exposes the benefit of an effect analogous to the ``wisdom of the crowd'', except here the harm arising from fitting the noise is ameliorated by spreading it among many directions---the variance reduction arises from a foolish crowd.",
+    "authors": [
+        "Niladri S. Chatterji",
+        "Philip M. Long"
+    ],
+    "emails": [
+        "niladri@cs.stanford.edu",
+        "plong@google.com"
+    ],
+    "id": "21-1199",
+    "issue": 125,
+    "pages": [
+        1,
+        12
+    ],
+    "title": "Foolish Crowds Support Benign Overfitting",
+    "volume": 23,
+    "year": 2022
+}

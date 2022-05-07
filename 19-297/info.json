@@ -1,0 +1,20 @@
+{
+    "abstract": "Latent Dirichlet Allocation is a popular machine-learning technique that identifies latent structures in a corpus of documents. This paper addresses the ongoing concern that formal procedures for determining the optimal LDA configuration do not exist by introducing a set of parametric tests that rely on the assumed multinomial distribution specification underlying the original LDA model. Our methodology defines a set of rigorous statistical procedures that identify and evaluate the optimal topic model. The U.S. Presidential Inaugural Address Corpus is used as a case study to show the numerical results. We find that 92 topics best describe the corpus. We further validate the method through a simulation study confirming the superiority of our approach compared to other standard heuristic metrics like the perplexity index.",
+    "authors": [
+        "Craig M. Lewis",
+        "Francesco Grossetti"
+    ],
+    "emails": [
+        "craig.lewis@vanderbilt.edu",
+        "francesco.grossetti@unibocconi.it"
+    ],
+    "id": "19-297",
+    "issue": 58,
+    "pages": [
+        1,
+        20
+    ],
+    "title": "A Statistical Approach for Optimal Topic Model Identification",
+    "volume": 23,
+    "year": 2022
+}

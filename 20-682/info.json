@@ -1,0 +1,22 @@
+{
+    "abstract": "This paper is concerned with test of the conditional independence. We first establish an equivalence between the conditional independence and the mutual independence. Based on the equivalence, we propose an index to measure the conditional dependence by quantifying the mutual dependence among the transformed variables. The proposed index has several appealing properties. (a) It is distribution free since the limiting null distribution of the proposed index does not depend on the population distributions of the data. Hence the critical values can be tabulated by simulations. (b) The proposed index ranges from zero to one, and equals zero if and only if the conditional independence holds. Thus, it has nontrivial power under the alternative hypothesis. (c) It is robust to outliers and heavy-tailed data since it is invariant to conditional strictly monotone transformations. (d) It has low computational cost since it incorporates a simple closed-form expression and can be implemented in quadratic time. (e) It is insensitive to tuning parameters involved in the calculation of the proposed index. (f) The new index is applicable for multivariate random vectors as well as for discrete data. All these properties enable us to use the new index as statistical inference tools for various data. The effectiveness of the method is illustrated through extensive simulations and a real application on causal discovery.",
+    "authors": [
+        "Zhanrui Cai",
+        "Runze Li",
+        "Yaowu Zhang"
+    ],
+    "emails": [
+        "zhanruic@andrew.cmu.edu",
+        "rzli@psu.edu",
+        "zhang.yaowu@mail.shufe.edu.cn"
+    ],
+    "id": "20-682",
+    "issue": 85,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "A Distribution Free Conditional Independence Test with Applications to Causal Discovery",
+    "volume": 23,
+    "year": 2022
+}

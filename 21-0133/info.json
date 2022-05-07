@@ -1,0 +1,22 @@
+{
+    "abstract": "This paper primarily focuses on computing the Euclidean projection of a vector onto the lp ball in which p \u2208 (0,1). Such a problem emerges as the core building block in statistical machine learning and signal processing tasks because of its ability to promote the sparsity of the desired solution. However, efficient numerical algorithms for finding the projections are still not available, particularly in large-scale optimization. To meet this challenge, we first derive the first-order necessary optimality conditions of this problem. Based on this characterization, we develop a novel numerical approach for computing the stationary point by solving a sequence of projections onto the reweighted l1-balls. This method is practically simple to implement and computationally efficient. Moreover, the proposed algorithm is shown to converge uniquely under mild conditions and has a worst-case O(1/\\sqrt{k}) convergence rate. Numerical experiments demonstrate the efficiency of our proposed algorithm.",
+    "authors": [
+        "Xiangyu Yang",
+        "Jiashan Wang",
+        "Hao Wang"
+    ],
+    "emails": [
+        "yangxy3@shanghaitech.edu.cn",
+        "jsw1119@gmail.com",
+        "wanghao1@shanghaitech.edu.cn"
+    ],
+    "id": "21-0133",
+    "issue": 101,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "Towards An Efficient Approach for the Nonconvex lp Ball Projection: Algorithm and Analysis",
+    "volume": 23,
+    "year": 2022
+}

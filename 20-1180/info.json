@@ -1,0 +1,20 @@
+{
+    "abstract": "We propose a nonparametric two-sample test procedure based on Maximum Mean Discrepancy (MMD) for testing the hypothesis that two samples of functions have the same underlying distribution, using kernels defined on function spaces. This construction is motivated by a scaling analysis of the efficiency of MMD-based tests for datasets of increasing dimension. Theoretical properties of kernels on function spaces and their associated MMD  are established and employed to ascertain the efficacy of the newly proposed test, as well as to assess the effects of using functional reconstructions based on discretised function samples.  The theoretical results are demonstrated over a range of synthetic and real world datasets.",
+    "authors": [
+        "George Wynne",
+        "Andrew B. Duncan"
+    ],
+    "emails": [
+        "g.wynne18@imperial.ac.uk",
+        "a.duncan@imperial.ac.uk"
+    ],
+    "id": "20-1180",
+    "issue": 73,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "A Kernel Two-Sample Test for Functional Data",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "In this paper, we study the power iteration algorithm for the asymmetric spiked tensor model, as introduced in  Richard and Montanari (2014). We give necessary and sufficient conditions for the convergence of the power iteration algorithm. When the power iteration algorithm converges, for the rank one spiked tensor model, we show the estimators for the spike strength and linear functionals of the signal are asymptotically Gaussian; for the multi-rank spiked tensor model, we show the estimators are asymptotically mixtures of Gaussian. This new phenomenon is different from the spiked matrix model. Using these asymptotic results of our estimators, we construct valid and efficient confidence intervals for spike strengths and linear functionals of the signals.",
+    "authors": [
+        "Jiaoyang Huang",
+        "Daniel Z. Huang",
+        "Qing Yang",
+        "Guang Cheng"
+    ],
+    "emails": [
+        "jh4427@nyu.edu",
+        "dzhuang@caltech.edu",
+        "yangq@ustc.edu.cn",
+        "guangcheng@ucla.edu"
+    ],
+    "id": "21-1290",
+    "issue": 128,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Power Iteration for Tensor PCA",
+    "volume": 23,
+    "year": 2022
+}

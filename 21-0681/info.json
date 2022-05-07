@@ -1,0 +1,22 @@
+{
+    "abstract": "Recent work in unsupervised learning has focused on efficient inference and learning in latent variables models. Training these models by maximizing the evidence (marginal likelihood) is typically intractable. Thus, a common approximation is to maximize the Evidence Lower BOund (ELBO) instead. Variational autoencoders (VAE) are a powerful and widely-used class of generative models that optimize the ELBO efficiently for large datasets. However, the VAE's default Gaussian choice for the prior imposes a strong constraint on its ability to represent the true posterior, thereby degrading overall performance. A Gaussian mixture model (GMM) would be a richer prior but cannot be handled efficiently within the VAE framework because of the intractability of the Kullback-Leibler divergence for GMMs. We deviate from the common VAE framework in favor of one with an analytical solution for Gaussian mixture prior. To perform efficient inference for GMM priors, we introduce a new constrained objective based on the Cauchy-Schwarz divergence, which can be computed analytically for GMMs. This new objective allows us to incorporate richer, multi-modal priors into the autoencoding framework. We provide empirical studies on a range of datasets and show that our objective improves upon variational auto-encoding models in density estimation, unsupervised clustering, semi-supervised learning, and face analysis.",
+    "authors": [
+        "Linh Tran",
+        "Maja Pantic",
+        "Marc Peter Deisenroth"
+    ],
+    "emails": [
+        "linh.tran@imperial.ac.uk",
+        "m.pantic@imperial.ac.uk",
+        "m.deisenroth@ucl.ac.uk"
+    ],
+    "id": "21-0681",
+    "issue": 115,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Cauchy\u2013Schwarz Regularized Autoencoder",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "Clustering problems are fundamental to unsupervised learning. There is an increased emphasis on fairness in machine learning and AI; one representative notion of fairness is that no single group should be over-represented among the cluster-centers. This, and much more general clustering problems, can be formulated with ``knapsack\" and ``partition\" constraints. We develop new randomized algorithms targeting such problems, and study two in particular: multi-knapsack median and multi-knapsack center. Our rounding algorithms give new approximation and pseudo-approximation algorithms for these problems. One key technical tool, which may be of independent interest, is a new tail bound analogous to Feige (2006) for sums of random variables with unbounded variances. Such bounds can be useful in inferring properties of large networks using few samples.",
+    "authors": [
+        "David G. Harris",
+        "Thomas Pensyl",
+        "Aravind Srinivasan",
+        "Khoa Trinh"
+    ],
+    "emails": [
+        "davidgharris29@gmail.com",
+        "tpensyl@bandwidth.com",
+        "srin@cs.umd.edu",
+        "khoatrinh@google.com"
+    ],
+    "id": "20-204",
+    "issue": 81,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Dependent randomized rounding for clustering and partition systems with knapsack constraints",
+    "volume": 23,
+    "year": 2022
+}

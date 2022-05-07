@@ -1,0 +1,26 @@
+{
+    "abstract": "In many real-world data, complex dependencies are present both among samples and among features. The Kronecker sum or the Cartesian product of two graphs, each modeling dependencies across features and across samples, has been used as an inverse covariance matrix for a matrix-variate Gaussian distribution as an alternative to Kronecker-product inverse covariance matrix due to its more intuitive sparse structure. However, the existing methods for sparse Kronecker-sum inverse covariance estimation are limited in that they do not scale to more than a few hundred features and samples and that unidentifiable parameters pose challenges in estimation. In this paper, we introduce EiGLasso, a highly scalable method for sparse Kronecker-sum inverse covariance estimation, based on Newton's method combined with eigendecomposition of the sample and feature graphs to exploit the Kronecker-sum structure. EiGLasso further reduces computation time by approximating the Hessian matrix, based on the eigendecomposition of the two graphs. EiGLasso achieves quadratic convergence with the exact Hessian and linear convergence with the approximate Hessian. We describe a simple new approach to estimating the unidentifiable parameters that generalizes the existing methods. On simulated and real-world data, we demonstrate that EiGLasso achieves two to three orders-of-magnitude speed-up, compared to the existing methods.",
+    "authors": [
+        "Jun Ho Yoon",
+        "Seyoung Kim"
+    ],
+    "emails": [
+        "junhoy@cs.cmu.edu",
+        "sssykim@cs.cmu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/SeyoungKimLab/EiGLasso"
+        ]
+    ],
+    "id": "21-0511",
+    "issue": 110,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "EiGLasso for Scalable Sparse Kronecker-Sum Inverse Covariance Estimation",
+    "volume": 23,
+    "year": 2022
+}

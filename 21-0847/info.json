@@ -1,0 +1,30 @@
+{
+    "abstract": "Deep learning methods can be used to produce control policies, but certifying their safety is challenging. The resulting networks are nonlinear and often very large. In response to this challenge, we present OVERT: a sound algorithm for safety verification of nonlinear discrete-time closed loop dynamical systems with neural network control policies. The novelty of OVERT lies in combining ideas from the classical formal methods literature with ideas from the newer neural network verification literature.  The central concept of OVERT is to abstract nonlinear functions with a set of optimally tight piecewise linear bounds. Such piecewise linear bounds are designed for seamless integration into ReLU neural network verification tools.  OVERT can be used to prove bounded-time safety properties by either computing reachable sets or solving feasibility queries directly.  We demonstrate various examples of safety verification for several classical benchmark examples.  OVERT compares favorably to existing methods both in computation time and in tightness of the reachable set.",
+    "authors": [
+        "Chelsea Sidrane",
+        "Amir Maleki",
+        "Ahmed Irfan",
+        "Mykel J. Kochenderfer"
+    ],
+    "emails": [
+        "csidrane@stanford.edu",
+        "amir.maleki@stanford.edu",
+        "irfan@cs.stanford.edu",
+        "mykel@stanford.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/sisl/OVERTVerify.jl"
+        ]
+    ],
+    "id": "21-0847",
+    "issue": 117,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "OVERT: An Algorithm for Safety Verification of Neural Network Control Policies for Nonlinear Systems",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "Given a nonparametric Hidden Markov Model (HMM) with two states, the question of constructing efficient multiple testing procedures is considered, treating the states as unknown null and alternative hypotheses. A procedure is introduced, based on nonparametric empirical Bayes ideas, that controls the False Discovery Rate (FDR) at a user-specified level. Guarantees on power are also provided, in the form of a control of the true positive rate. One of the key steps in the construction requires supremum-norm convergence of preliminary estimators of the emission densities of the HMM. We provide the existence of such estimators, with convergence at the optimal minimax rate, for the case of a HMM with $J\\ge 2$ states, which is of independent interest.",
+    "authors": [
+        "Kweku Abraham",
+        "Isma\u00ebl Castillo",
+        "Elisabeth Gassiat"
+    ],
+    "emails": [
+        "lkwa2@cam.ac.uk",
+        "ismael.castillo@sorbonne-universite.fr",
+        "elisabeth.gassiat@universite-paris-saclay.fr"
+    ],
+    "id": "21-0054",
+    "issue": 94,
+    "pages": [
+        1,
+        57
+    ],
+    "title": "Multiple Testing in Nonparametric Hidden Markov Models: An Empirical Bayes Approach",
+    "volume": 23,
+    "year": 2022
+}

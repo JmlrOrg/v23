@@ -1,0 +1,26 @@
+{
+    "abstract": "Inferring graph structure from observations on the nodes is an important and popular network science task. Departing from the more common inference of a single graph, we study the problem of jointly inferring multiple graphs from the observation of signals at their nodes (graph signals), which are assumed to be stationary in the sought graphs. Graph stationarity implies that the mapping between the covariance of the signals and the sparse matrix representing the underlying graph is given by a matrix polynomial. A prominent example is that of Markov random fields, where the inverse of the covariance yields the sparse matrix of interest. From a modeling perspective, stationary graph signals can be used to model linear network processes evolving on a set of (not necessarily known) networks. Leveraging that matrix polynomials commute, a convex optimization method along with sufficient conditions that guarantee the recovery of the true graphs are provided when perfect covariance information is available. Particularly important from an empirical viewpoint, we provide high-probability bounds on the recovery error as a function of the number of signals observed and other key problem parameters. Numerical experiments demonstrate the effectiveness of the proposed method with perfect covariance information as well as its robustness in the noisy regime.",
+    "authors": [
+        "Madeline Navarro",
+        "Yuhao Wang",
+        "Antonio G. Marques",
+        "Caroline Uhler",
+        "Santiago Segarra"
+    ],
+    "emails": [
+        "nav@rice.edu",
+        "yuhaow@tsinghua.edu.cn",
+        "antonio.garcia.marques@urjc.es",
+        "cuhler@mit.edu",
+        "segarra@rice.edu"
+    ],
+    "id": "20-1375",
+    "issue": 76,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Joint Inference of Multiple Graphs from Matrix Polynomials",
+    "volume": 23,
+    "year": 2022
+}

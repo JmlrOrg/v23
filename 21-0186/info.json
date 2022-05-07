@@ -1,0 +1,20 @@
+{
+    "abstract": "This paper studies the problem of estimating the means $\\pm\\theta_{*}\\in\\mathbb{R}^{d}$ of a symmetric two-component Gaussian mixture $\\delta_{*}\\cdot N(\\theta_{*},I)+(1-\\delta_{*})\\cdot N(-\\theta_{*},I)$, where the weights $\\delta_{*}$ and $1-\\delta_{*}$ are unequal. Assuming that $\\delta_{*}$ is known, we show that the population version of the EM algorithm globally converges if the initial estimate has non-negative inner product with the mean of the larger weight component. This can be achieved by the trivial initialization $\\theta_{0}=0$. For the empirical iteration based on $n$ samples, we show that when initialized at $\\theta_{0}=0$, the EM algorithm adaptively achieves the minimax error rate $\\tilde{O}\\Big(\\min\\Big\\{\\frac{1}{(1-2\\delta_{*})}\\sqrt{\\frac{d}{n}},\\frac{1}{\\|\\theta_{*}\\|}\\sqrt{\\frac{d}{n}},\\left(\\frac{d}{n}\\right)^{1/4}\\Big\\}\\Big)$ in no more than $O\\Big(\\frac{1}{\\|\\theta_{*}\\|(1-2\\delta_{*})}\\Big)$ iterations (with high probability). We also consider the EM iteration for estimating the weight $\\delta_{*}$, assuming a fixed mean $\\theta$ (which is possibly mismatched to $\\theta_{*}$). For the empirical iteration of $n$ samples, we show that the minimax error rate $\\tilde{O}\\Big(\\frac{1}{\\|\\theta_{*}\\|}\\sqrt{\\frac{d}{n}}\\Big)$ is achieved in no more than $O\\Big(\\frac{1}{\\|\\theta_{*}\\|^{2}}\\Big)$ iterations. These results robustify and complement recent results of Wu and Zhou (2019) obtained for the equal weights case $\\delta_{*}=1/2$.",
+    "authors": [
+        "Nir Weinberger",
+        "Guy Bresler"
+    ],
+    "emails": [
+        "nirwein@technion.ac.il",
+        "guy@mit.edu"
+    ],
+    "id": "21-0186",
+    "issue": 103,
+    "pages": [
+        1,
+        79
+    ],
+    "title": "The EM Algorithm is Adaptively-Optimal for Unbalanced Symmetric Gaussian Mixtures",
+    "volume": 23,
+    "year": 2022
+}

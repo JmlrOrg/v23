@@ -1,0 +1,28 @@
+{
+    "abstract": "Neighbor embeddings are a family of methods for visualizing complex high-dimensional data sets using kNN graphs. To find the low-dimensional embedding, these algorithms combine an attractive force between neighboring pairs of points with a repulsive force between all points. One of the most popular examples of such algorithms is t-SNE. Here we empirically show that changing the balance between the attractive and the repulsive forces in t-SNE using the exaggeration parameter yields a spectrum of embeddings, which is characterized by a simple trade-off: stronger attraction can better represent continuous manifold structures, while stronger repulsion can better represent discrete cluster structures and yields higher kNN recall. We find that UMAP embeddings correspond to t-SNE with increased attraction; mathematical analysis shows that this is because the negative sampling optimization strategy employed by UMAP strongly lowers the effective repulsion. Likewise, ForceAtlas2, commonly used for visualizing developmental single-cell transcriptomic data, yields embeddings corresponding to t-SNE with the attraction increased even more. At the extreme of this spectrum lie Laplacian eigenmaps. Our results demonstrate that many prominent neighbor embedding algorithms can be placed onto the attraction-repulsion spectrum, and highlight the inherent trade-offs between them.",
+    "authors": [
+        "Jan Niklas B\u00f6hm",
+        "Philipp Berens",
+        "Dmitry Kobak"
+    ],
+    "emails": [
+        "jan-niklas.boehm@uni-tuebingen.de",
+        "philipp.berens@uni-tuebingen.de",
+        "dmitry.kobak@uni-tuebingen.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/berenslab/ne-spectrum/"
+        ]
+    ],
+    "id": "21-0055",
+    "issue": 95,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Attraction-Repulsion Spectrum in Neighbor Embeddings",
+    "volume": 23,
+    "year": 2022
+}

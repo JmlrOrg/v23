@@ -1,0 +1,22 @@
+{
+    "abstract": "We propose a multiple-splitting projection test (MPT) for one-sample mean vectors in high-dimensional settings. The idea of projection test is to project high-dimensional samples to a 1-dimensional space using an optimal projection direction such that traditional tests can be carried out with projected samples. However, estimation of the optimal projection direction has not been systematically studied in the literature. In this work, we bridge the gap by proposing a consistent estimation via regularized quadratic optimization. To retain type I error rate, we adopt a data-splitting strategy when constructing test statistics. To mitigate the power loss due to data-splitting, we further propose a test via multiple splits to enhance the testing power. We show that the $p$-values resulted from multiple splits are exchangeable.  Unlike existing methods which tend to conservatively combine dependent $p$-values, we develop an exact level $\\alpha$ test that explicitly utilizes the exchangeability structure to achieve better power. Numerical studies show that the proposed test well retains the type I error rate and is more powerful than state-of-the-art tests.",
+    "authors": [
+        "Wanjun Liu",
+        "Xiufan Yu",
+        "Runze Li"
+    ],
+    "emails": [
+        "waliu@linkedin.com",
+        "xiufan.yu@nd.edu",
+        "rzli@psu.edu"
+    ],
+    "id": "20-1103",
+    "issue": 71,
+    "pages": [
+        1,
+        27
+    ],
+    "title": "Multiple-Splitting Projection Test for High-Dimensional Mean Vectors",
+    "volume": 23,
+    "year": 2022
+}

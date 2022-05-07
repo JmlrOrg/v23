@@ -1,0 +1,26 @@
+{
+    "abstract": "Advances in information technology have led to extremely large datasets that are often kept in different storage centers. Existing statistical methods must be adapted to overcome the resulting computational obstacles while retaining statistical validity and efficiency. In this situation, the split-and-conquer strategy is among the most effective solutions to many statistical problems, including quantile processes, regression analysis, principal eigenspaces, and exponential families. This paper applies this strategy to develop a distributed learning procedure of finite Gaussian mixtures. We recommend a reduction strategy and invent an effective majorization-minimization algorithm. The new estimator is consistent and retains root-n consistency under some general conditions. Experiments based on simulated and real-world datasets show that the proposed estimator has comparable statistical performance with the global estimator based on the full dataset, if the latter is feasible. It can even outperform the global estimator for the purpose of clustering if the model assumption does not fully match the real-world data. It also has better statistical and computational performance than some existing split-and-conquer approaches.",
+    "authors": [
+        "Qiong Zhang",
+        "Jiahua Chen"
+    ],
+    "emails": [
+        "qiong.zhang@stat.ubc.ca",
+        "jhchen@stat.ubc.ca"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/SarahQiong/SCGMM"
+        ]
+    ],
+    "id": "21-0093",
+    "issue": 99,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Distributed Learning of Finite Gaussian Mixtures",
+    "volume": 23,
+    "year": 2022
+}

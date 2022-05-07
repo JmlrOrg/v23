@@ -1,0 +1,20 @@
+{
+    "abstract": "We formalize constraint-based structure learning of the \"true\" causal graph from observed data when unobserved variables are also existent. We provide conditions for a \"natural\" family of constraint-based structure-learning algorithms that output graphs that are Markov equivalent to the causal graph. Under the faithfulness assumption, this natural family contains all exact structure-learning algorithms. We also provide a set of assumptions, under which any natural structure-learning algorithm outputs Markov equivalent graphs to the causal graph. These assumptions can be thought of as a relaxation of faithfulness, and most of them can be directly tested from (the underlying distribution) of the data, particularly when one focuses on structural causal models. We specialize the definitions and results for structural causal models.",
+    "authors": [
+        "Kayvan Sadeghi",
+        "Terry Soo"
+    ],
+    "emails": [
+        "k.sadeghi@ucl.ac.uk",
+        "math@terrysoo.com"
+    ],
+    "id": "21-0425",
+    "issue": 109,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Conditions and Assumptions for Constraint-based Causal Structure Learning",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,26 @@
+{
+    "abstract": "We study a framework for performing regularized K-means, based on direct  penalization of the size of the cluster centers. Different penalization strategies are considered and compared in a theoretical analysis and an extensive Monte Carlo simulation study. Based on the results, we propose a new method called hard-threshold K-means (HTK-means), which uses an \u21130 penalty to induce sparsity. HTK-means is a fast and competitive sparse clustering method which is easily interpretable, as is illustrated on several real data examples. In this context, new graphical displays are presented and used to gain further insight into the data sets.",
+    "authors": [
+        "Jakob Raymaekers",
+        "Ruben H. Zamar"
+    ],
+    "emails": [
+        "j.raymaekers@maastrichtuniversity.nl",
+        "ruben@stat.ubc.ca"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://cran.microsoft.com/web/packages/clusterHD/index.html"
+        ]
+    ],
+    "id": "21-0052",
+    "issue": 93,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "Regularized K-means Through Hard-Thresholding",
+    "volume": 23,
+    "year": 2022
+}

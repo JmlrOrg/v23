@@ -1,0 +1,22 @@
+{
+    "abstract": "Batch normalization (BN) is a popular and ubiquitous method in deep learning that has been shown to decrease training time and improve generalization performance of neural networks. Despite its success, BN is not theoretically well understood. It is not suitable for use with very small mini-batch sizes or online learning. In this paper, we propose a new method called Batch Normalization Preconditioning (BNP). Instead of applying normalization explicitly through a batch normalization layer as is done in BN, BNP applies normalization by conditioning the parameter gradients directly during training. This is designed to improve the Hessian matrix of the loss function and hence convergence during training. One benefit is that BNP is not constrained on the mini-batch size and works in the online learning setting. Furthermore, its connection to BN provides theoretical insights on how BN improves training and how BN is applied to special architectures such as convolutional neural networks. For a theoretical foundation, we also present a novel Hessian condition number based convergence theory for a locally convex but not strong-convex loss, which is applicable to networks with a scale-invariant property.",
+    "authors": [
+        "Susanna Lange",
+        "Kyle Helfrich",
+        "Qiang Ye"
+    ],
+    "emails": [
+        "susanna.lange@uky.edu",
+        "kylehelfrich1@gmail.com",
+        "qiang.ye@uky.edu"
+    ],
+    "id": "20-1135",
+    "issue": 72,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Batch Normalization Preconditioning for Neural Network Training",
+    "volume": 23,
+    "year": 2022
+}

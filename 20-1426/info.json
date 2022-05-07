@@ -1,0 +1,22 @@
+{
+    "abstract": "When working with multimodal Bayesian posterior distributions, Markov chain Monte Carlo (MCMC) algorithms have difficulty moving between modes, and default variational or mode-based approximate inferences will understate posterior uncertainty. And, even if the most important modes can be found, it is difficult to evaluate their relative weights in the posterior. Here we propose an approach using parallel runs of MCMC, variational, or mode-based inference to hit as many modes or separated regions as possible and then combine these using Bayesian stacking, a scalable method for constructing a weighted average of distributions. The result from stacking efficiently samples from multimodal posterior distribution, minimizes cross validation prediction error, and represents the posterior uncertainty better than variational inference, but it is not necessarily equivalent, even asymptotically, to fully Bayesian inference. We present theoretical consistency with an example where the stacked inference approximates the true data generating process from the misspecified model and a non-mixing sampler, from which the predictive performance is better than full Bayesian inference, hence the multimodality can be considered a blessing rather than a curse under model misspecification. We demonstrate practical implementation in several model families: latent Dirichlet allocation, Gaussian process regression, hierarchical regression, horseshoe variable selection, and neural networks.",
+    "authors": [
+        "Yuling Yao",
+        "Aki Vehtari",
+        "Andrew Gelman"
+    ],
+    "emails": [
+        "yyao@flatironinstitute.org",
+        "aki.vehtari@aalto.fi",
+        "gelman@stat.columbia.edu"
+    ],
+    "id": "20-1426",
+    "issue": 79,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "Stacking for Non-mixing Bayesian Computations: The Curse and Blessing of Multimodal Posteriors",
+    "volume": 23,
+    "year": 2022
+}

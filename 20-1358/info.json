@@ -1,0 +1,22 @@
+{
+    "abstract": "Posterior collapse is a common failure mode of density models trained as variational autoencoders, wherein they model the data without relying on their latent variables, rendering these variables useless. We focus on two factors contributing to posterior collapse, that have been studied separately in the literature. First, the underspecification of the model, which in an extreme but common case allows posterior collapse to be the theoretical optimium. Second, the looseness of the variational lower bound and the related underestimation of the utility of the latents. We weave these two strands of research together, specifically the tighter bounds of multi-sample Monte-Carlo objectives and constraints on the mutual information between the observable and the latent variables. The main obstacle is that the usual method of estimating the mutual information as the average Kullback-Leibler divergence between the easily available variational posterior q(z|x) and the prior does not work with Monte-Carlo objectives because their q(z|x) is not a direct approximation to the model's true posterior p(z|x). Hence, we construct estimators of the Kullback-Leibler divergence of the true posterior from the prior by recycling samples used in the objective, with which we train models of continuous and discrete latents at much improved rate-distortion and no posterior collapse. While alleviated, the tradeoff between modelling the data and using the latents still remains, and we urge for evaluating inference methods across a range of mutual information values.",
+    "authors": [
+        "G\u00e1bor Melis",
+        "Andr\u00e1s Gy\u00f6rgy",
+        "Phil Blunsom"
+    ],
+    "emails": [
+        "melisgl@google.com",
+        "agyorgy@google.com",
+        "blunsom@google.com"
+    ],
+    "id": "20-1358",
+    "issue": 75,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Mutual Information Constraints for Monte-Carlo Objectives to Prevent Posterior Collapse Especially in Language Modelling",
+    "volume": 23,
+    "year": 2022
+}

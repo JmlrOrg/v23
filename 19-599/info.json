@@ -1,0 +1,24 @@
+{
+    "abstract": "Statistical learning from incomplete data is typically performed under an assumption of ignorability for the mechanism that causes missing values. Notably, the expectation maximization (EM) algorithm is based on the assumption that values are missing at random. Most approaches that tackle non-ignorable mechanisms are based on specific modeling assumptions for these mechanisms. The adaptive imputation and maximization (AIM) algorithm has  been introduced in earlier  work as a general paradigm for learning from incomplete data without any assumptions on the process that causes observations to be incomplete.   In this paper we give a thorough analysis of the theoretical properties of the AIM algorithm, and its  relationship with EM. We identify conditions under which EM and AIM are in fact equivalent, and show that when these conditions are not met, then AIM can produce consistent estimates in non-ignorable incomplete data scenarios where EM becomes inconsistent. Convergence results for AIM are obtained that closely mirror the available convergence  guarantees for EM. We develop the general theory of the AIM algorithm for discrete data settings, and then develop a general discretization approach that allows to apply the method also to incomplete continuous data.  We demonstrate the practical usability of the AIM algorithm by prototype implementations for  parameter learning from continuous Gaussian data, and from discrete Bayesian network data. Extensive experiments  show that the theoretical differences between AIM and EM can be observed in practice, and that a combination of the two methods leads to robust performance for both ignorable and non-ignorable mechanisms.",
+    "authors": [
+        "Manfred Jaeger"
+    ],
+    "emails": [
+        "jaeger@cs.aau.dk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/manfred-jaeger-aalborg/aim_for_gauss"
+        ]
+    ],
+    "id": "19-599",
+    "issue": 62,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "The AIM and EM Algorithms for Learning from Coarse Data",
+    "volume": 23,
+    "year": 2022
+}

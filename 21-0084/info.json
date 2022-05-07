@@ -1,0 +1,20 @@
+{
+    "abstract": "In this paper we analyze the graph-based approach to semi-supervised learning under a manifold assumption. We adopt a Bayesian perspective and demonstrate that, for a suitable choice of prior constructed with sufficiently many unlabeled data, the posterior contracts around the truth at a rate that is minimax optimal up to a logarithmic factor. Our theory covers both regression and classification.",
+    "authors": [
+        "Daniel Sanz-Alonso",
+        "Ruiyi Yang"
+    ],
+    "emails": [
+        "sanzalonso@uchicago.edu",
+        "yry@uchicago.edu"
+    ],
+    "id": "21-0084",
+    "issue": 97,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "Unlabeled Data Help in Graph-Based Semi-Supervised Learning: A Bayesian Nonparametrics Perspective",
+    "volume": 23,
+    "year": 2022
+}

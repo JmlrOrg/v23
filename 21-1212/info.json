@@ -1,0 +1,20 @@
+{
+    "abstract": "Statistical divergences (SDs), which quantify the dissimilarity between probability distributions, are a basic constituent of statistical inference and machine learning. A modern method for estimating those divergences relies on parametrizing an empirical variational form by a neural network (NN) and optimizing over parameter space. Such neural estimators are abundantly used in practice, but corresponding performance guarantees are partial and call for further exploration. We establish non-asymptotic absolute error bounds for a neural estimator realized by a shallow NN, focusing on four popular $\\mathsf{f}$-divergences---Kullback-Leibler, chi-squared, squared Hellinger, and total variation. Our analysis relies on non-asymptotic function approximation theorems and tools from empirical process theory to bound the two sources of error involved: function approximation and empirical estimation. The bounds characterize the effective error in terms of NN size and the number of samples, and reveal scaling rates that ensure consistency. For compactly supported distributions, we further show that neural estimators of the first three divergences above with appropriate NN growth-rate are minimax rate-optimal, achieving the parametric convergence rate.",
+    "authors": [
+        "Sreejith Sreekumar",
+        "Ziv Goldfeld"
+    ],
+    "emails": [
+        "sreejithsreekumar@cornell.edu",
+        "goldfeld@cornell.edu"
+    ],
+    "id": "21-1212",
+    "issue": 126,
+    "pages": [
+        1,
+        75
+    ],
+    "title": "Neural Estimation of Statistical Divergences",
+    "volume": 23,
+    "year": 2022
+}

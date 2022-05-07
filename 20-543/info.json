@@ -1,0 +1,24 @@
+{
+    "abstract": "Varying coefficient models (VCMs) are widely used for estimating nonlinear regression functions for functional data. Their Bayesian variants using Gaussian process priors on the functional coefficients, however, have received limited attention in massive data applications, mainly due to the prohibitively slow posterior computations using Markov chain Monte Carlo (MCMC) algorithms. We address this problem using a divide-and-conquer Bayesian approach. We first create a large number of data subsamples with much smaller sizes. Then, we formulate the VCM as a linear mixed-effects model and develop a data augmentation algorithm for obtaining MCMC draws on all the subsets in parallel. Finally, we aggregate the MCMC-based estimates of subset posteriors into a single Aggregated Monte Carlo (AMC) posterior, which is used as a computationally efficient alternative to the true posterior distribution. Theoretically, we derive minimax optimal posterior convergence rates for the AMC posteriors of both the varying coefficients and the mean regression function. We provide quantification on the orders of subset sample sizes and the number of subsets. The empirical results show that the combination schemes that satisfy our theoretical assumptions, including the AMC posterior, have better estimation performance than their main competitors across diverse simulations and in a real data analysis.",
+    "authors": [
+        "Rajarshi Guhaniyogi",
+        "Cheng Li",
+        "Terrance D. Savitsky",
+        "Sanvesh Srivastava"
+    ],
+    "emails": [
+        "rajguhaniyogi@tamu.edu",
+        "stalic@nus.edu.sg",
+        "savitsky.terrance@bls.gov",
+        "sanvesh-srivastava@uiowa.edu"
+    ],
+    "id": "20-543",
+    "issue": 84,
+    "pages": [
+        1,
+        59
+    ],
+    "title": "Distributed Bayesian Varying Coefficient Modeling Using a Gaussian Process Prior",
+    "volume": 23,
+    "year": 2022
+}

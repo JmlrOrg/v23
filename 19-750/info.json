@@ -1,0 +1,24 @@
+{
+    "abstract": "Stochastic zeroth-order optimization algorithms have been predominantly analyzed under the assumption that the objective function being optimized is time-invariant. Motivated by dynamic matrix sensing and completion problems, and online reinforcement learning problems, in this work, we propose and analyze stochastic zeroth-order optimization algorithms when the objective being optimized changes with time. Considering general nonconvex functions, we propose nonstationary versions of regret measures based on first-order and second-order optimal solutions, and provide the corresponding regret bounds.  For the case of first-order optimal solution based regret measures, we provide regret bounds in both the low- and high-dimensional settings. For the case of second-order optimal solution based regret, we propose zeroth-order versions of the stochastic cubic-regularized Newton's method based on estimating the Hessian matrices in the bandit setting via second-order Gaussian Stein's identity. Our nonstationary regret bounds in terms of second-order optimal solutions have interesting consequences for avoiding saddle points in the nonstationary setting.",
+    "authors": [
+        "Abhishek Roy",
+        "Krishnakumar Balasubramanian",
+        "Saeed Ghadimi",
+        "Prasant Mohapatra"
+    ],
+    "emails": [
+        "abroy@ucdavis.edu",
+        "kbala@ucdavis.edu",
+        "sghadimi@uwaterloo.ca",
+        "pmohapatra@ucdavis.edu"
+    ],
+    "id": "19-750",
+    "issue": 64,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Stochastic Zeroth-Order Optimization under Nonstationarity and Nonconvexity",
+    "volume": 23,
+    "year": 2022
+}

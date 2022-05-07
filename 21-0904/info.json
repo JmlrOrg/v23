@@ -1,0 +1,24 @@
+{
+    "abstract": "In this paper, we propose an ensemble learning algorithm called under-bagging $k$-nearest neighbors (under-bagging $k$-NN) for imbalanced classification problems. On the theoretical side, by developing a new learning theory analysis, we show that with properly chosen parameters, i.e., the number of nearest neighbors $k$, the expected sub-sample size $s$, and the bagging rounds $B$, optimal convergence rates for under-bagging $k$-NN can be achieved under mild assumptions w.r.t. the arithmetic mean (AM) of recalls. Moreover, we show that with a relatively small $B$, the expected sub-sample size $s$ can be much smaller than the number of training data $n$ at each bagging round, and the number of nearest neighbors $k$ can be reduced simultaneously, especially when the data are highly imbalanced, which leads to substantially lower time complexity and roughly the same space complexity. On the practical side, we conduct numerical experiments to verify the theoretical results on the benefits of the under-bagging technique by the promising AM performance and efficiency of our proposed algorithm.",
+    "authors": [
+        "Hanyuan Hang",
+        "Yuchao Cai",
+        "Hanfang Yang",
+        "Zhouchen Lin"
+    ],
+    "emails": [
+        "h.hang@utwente.nl",
+        "yccai@ruc.edu.cn",
+        "hyang@ruc.edu.cn",
+        "zlin@pku.edu.cn"
+    ],
+    "id": "21-0904",
+    "issue": 118,
+    "pages": [
+        1,
+        63
+    ],
+    "title": "Under-bagging Nearest Neighbors for Imbalanced Classification",
+    "volume": 23,
+    "year": 2022
+}

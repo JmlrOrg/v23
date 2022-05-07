@@ -1,0 +1,22 @@
+{
+    "abstract": "Understanding deep neural networks is a major research objective with notable experimental and theoretical attention in recent years. The practical success of excessively large networks underscores the need for better theoretical analyses and justifications. In this paper we focus on layer-wise functional structure and behavior in overparameterized deep models. To do so, we study empirically the layers' robustness to post-training re-initialization and re-randomization of the parameters. We provide experimental results which give evidence for the heterogeneity of layers. Morally, layers of large deep neural networks can be categorized as either \"robust\" or \"critical\". Resetting the robust layers to their initial values does not result in adverse decline in performance. In many cases, robust layers hardly change throughout training. In contrast, re-initializing critical layers vastly degrades the performance of the network with test error essentially dropping to random guesses. Our study provides further evidence that mere parameter counting or norm calculations are too coarse in studying generalization of deep models, and \"flatness\" and robustness analysis of trained models need to be examined while taking into account the respective network architectures.",
+    "authors": [
+        "Chiyuan Zhang",
+        "Samy Bengio",
+        "Yoram Singer"
+    ],
+    "emails": [
+        "chiyuan.zh@gmail.com",
+        "bengio@gmail.com",
+        "yoram.singer@gmail.com"
+    ],
+    "id": "20-069",
+    "issue": 67,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "Are All Layers Created Equal?",
+    "volume": 23,
+    "year": 2022
+}

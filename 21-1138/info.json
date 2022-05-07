@@ -1,0 +1,22 @@
+{
+    "abstract": "The tensor train (TT) format enjoys appealing advantages in handling structural high-order tensors. The recent decade has witnessed the wide applications of TT-format tensors from diverse disciplines, among which tensor completion has drawn considerable attention. Numerous fast algorithms, including the Riemannian gradient descent (RGrad),  have been proposed for the TT-format tensor completion. However, the theoretical guarantees of these algorithms are largely missing or sub-optimal, partly due to the complicated and recursive algebraic operations in TT-format decomposition. Moreover, existing results established for the tensors of other formats, for example, Tucker and CP, are inapplicable because the algorithms treating TT-format tensors are substantially different and more involved. In this paper, we provide, to our best knowledge, the first theoretical guarantees of the convergence of RGrad algorithm for TT-format tensor completion, under a nearly optimal sample size condition. The RGrad algorithm converges linearly with a constant contraction rate that is free of tensor condition number without the necessity of re-conditioning. We also propose a novel approach, referred to as the  sequential second-order moment method, to attain a warm initialization under a similar sample size requirement. As a byproduct, our result even significantly refines the prior investigation of RGrad algorithm for matrix completion.  Lastly,  statistically (near) optimal rate is derived for RGrad algorithm if the observed entries consist of random sub-Gaussian noise.  Numerical experiments confirm our theoretical discovery and showcase the computational speedup gained by the TT-format decomposition.",
+    "authors": [
+        "Jian-Feng Cai",
+        "Jingyang Li",
+        "Dong Xia"
+    ],
+    "emails": [
+        "jfcai@ust.hk",
+        "jlieb@connect.ust.hk",
+        "madxia@ust.hk"
+    ],
+    "id": "21-1138",
+    "issue": 123,
+    "pages": [
+        1,
+        77
+    ],
+    "title": "Provable Tensor-Train Format Tensor Completion by Riemannian Optimization",
+    "volume": 23,
+    "year": 2022
+}

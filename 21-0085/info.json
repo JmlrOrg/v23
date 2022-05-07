@@ -1,0 +1,32 @@
+{
+    "abstract": "Many large-scale applications amount to finding relevant results from an enormous output space of potential candidates. For example, finding the best matching product from a large catalog or suggesting related search phrases on a search engine. The size of the output space for these problems can range from millions to billions, and can even be infinite in some applications. Moreover, training data is often limited for the ``long-tail'' items in the output space. Fortunately, items in the output space are often correlated thereby presenting an opportunity to alleviate the data sparsity issue. In this paper, we propose the Prediction for Enormous and Correlated Output Spaces (PECOS) framework, a versatile and modular machine learning framework for solving prediction problems for very large output spaces, and apply it to the eXtreme Multilabel Ranking (XMR) problem: given an input instance, find and rank the most relevant items from an enormous but fixed and finite output space. We propose a three phase framework for PECOS: (i) in the first phase, PECOS organizes the output space using a semantic indexing scheme, (ii) in the second phase, PECOS uses the indexing to narrow down the output space by orders of magnitude using a machine learned matching scheme, and (iii) in the third phase, PECOS ranks the matched items using a final ranking scheme. The versatility and modularity of PECOS allows for easy plug-and-play of various choices for the indexing, matching, and ranking phases. The indexing and matching phases alleviate the data sparsity issue by leveraging correlations across different items in the output space. For the critical matching phase, we develop a recursive machine learned matching strategy with both linear and neural matchers. When applied to eXtreme Multilabel Ranking where the input instances are in textual form, we find that the recursive Transformer matcher gives state-of-the-art accuracy results, at the cost of two orders of magnitude increased training time compared to the recursive linear matcher. For example, on a dataset where the output space is of size 2.8 million, the recursive Transformer matcher results in a 6% increase in precision@1 (from 48.6% to 54.2%) over the recursive linear matcher but takes 100x more time to train. Thus it is up to the practitioner to evaluate the trade-offs and decide whether the increased training time and infrastructure cost is warranted for their application; indeed, the flexibility of the PECOS framework seamlessly allows different strategies to be used. We also develop very fast inference procedures which allow us to perform XMR predictions in real time; for example, inference takes less than 1 millisecond per input on the dataset with 2.8 million labels. The PECOS software is available at https://libpecos.org.",
+    "authors": [
+        "Hsiang-Fu Yu",
+        "Kai Zhong",
+        "Jiong Zhang",
+        "Wei-Cheng Chang",
+        "Inderjit S. Dhillon"
+    ],
+    "emails": [
+        "rofu.yu@gmail.com",
+        "kaizhong89@gmail.com",
+        "zhangjiong724@gmail.com",
+        "weicheng.cmu@gmail.com",
+        "inderjit@cs.utexas.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://libpecos.org/"
+        ]
+    ],
+    "id": "21-0085",
+    "issue": 98,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "PECOS: Prediction for Enormous and Correlated Output Spaces",
+    "volume": 23,
+    "year": 2022
+}

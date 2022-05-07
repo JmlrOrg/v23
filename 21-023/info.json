@@ -1,0 +1,26 @@
+{
+    "abstract": "Recursive linear structural equation models are widely used to postulate causal mechanisms underlying observational data. In these models, each variable equals a linear combination of a subset of the remaining variables plus an error term. When there is no unobserved confounding or selection bias, the error terms are assumed to be independent. We consider estimating a total causal effect in this setting. The causal structure is assumed to be known only up to a maximally oriented partially directed acyclic graph (MPDAG), a general class of graphs that can represent a Markov equivalence class of directed acyclic graphs (DAGs) with added background knowledge. We propose a simple estimator based on recursive least squares, which can consistently estimate any identified total causal effect, under point or joint intervention. We show that this estimator is the most efficient among all regular estimators that are based on the sample covariance, which includes covariate adjustment and the estimators employed by the joint-IDA algorithm. Notably, our result holds without assuming Gaussian errors.",
+    "authors": [
+        "F. Richard Guo",
+        "Emilija Perkovi\u0107"
+    ],
+    "emails": [
+        "ricguo@uw.edu",
+        "perkovic@uw.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://cran.r-project.org/package=eff2"
+        ]
+    ],
+    "id": "21-023",
+    "issue": 104,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Efficient Least Squares for Estimating Total Effects under Linearity and Causal Sufficiency",
+    "volume": 23,
+    "year": 2022
+}

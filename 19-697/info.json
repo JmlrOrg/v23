@@ -1,0 +1,20 @@
+{
+    "abstract": "We propose a method for simultaneous estimation and variable selection of an additive quantile regression model that can be used with high dimensional data. Quantile regression is an appealing method for analyzing high dimensional data because it can correctly model heteroscedastic relationships, is robust to outliers in the response, sparsity levels can change with quantiles, and it provides a thorough analysis of the conditional distribution of the response. An additive nonlinear model can capture more complex relationships, while avoiding the curse of dimensionality. The additive nonlinear model is fit using B-splines and a nonconvex group penalty is used for simultaneous estimation and variable selection. We derive the asymptotic properties of the estimator, including an oracle property, under general conditions that allow for the number of covariates, $p_n$, and the number of true covariates, $q_n$, to increase with the sample size, $n$. In addition, we propose a coordinate descent algorithm that reduces the computational cost compared to the linear programming approach typically used for solving quantile regression problems. The performance of the method is tested using Monte Carlo simulations, an analysis of fat content of meat conditional on a 100 channel spectrum of absorbances and predicting TRIM32 expression using gene expression data from the eyes of rats.",
+    "authors": [
+        "Ben Sherwood",
+        "Adam Maidman"
+    ],
+    "emails": [
+        "ben.sherwood@ku.edu",
+        "abmaidman@gmail.com"
+    ],
+    "id": "19-697",
+    "issue": 63,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Additive nonlinear quantile regression in ultra-high dimension",
+    "volume": 23,
+    "year": 2022
+}

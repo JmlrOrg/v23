@@ -1,0 +1,30 @@
+{
+    "abstract": "We introduce GLRklUCB, a novel algorithm for the piecewise iid non-stationary bandit problem with bounded rewards. This algorithm combines an efficient bandit algorithm, klUCB, with an efficient, parameter-free, change-point detector, the Bernoulli Generalized Likelihood Ratio Test, for which we provide new theoretical guarantees of independent interest. Unlike previous non-stationary bandit algorithms using a change-point detector, GLRklUCB does not need to be calibrated based on prior knowledge on the arms' means. We prove that this algorithm can attain a $O(\\sqrt{TA\\Upsilon_T\\log(T)})$ regret in $T$ rounds on some ``easy'' instances in which there is sufficient delay between two change-points, where $A$ is the number of arms and $\\Upsilon_T$ the number of change-points, without prior knowledge of $\\Upsilon_T$. In contrast with recently proposed algorithms that are agnostic to $\\Upsilon_T$, we perform a numerical study showing that GLRklUCB is also very efficient in practice, beyond easy instances.",
+    "authors": [
+        "Lilian Besson",
+        "Emilie Kaufmann",
+        "Odalric-Ambrym Maillard",
+        "Julien Seznec"
+    ],
+    "emails": [
+        "lilian.besson@ens-rennes.fr",
+        "emilie.kaufmann@univ-lille.fr",
+        "odalric.maillard@inria.fr",
+        "julien.seznec@inria.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/EmilieKaufmann/PiecewiseStationaryBandits"
+        ]
+    ],
+    "id": "20-1384",
+    "issue": 77,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Efficient Change-Point Detection for Tackling Piecewise-Stationary Bandits",
+    "volume": 23,
+    "year": 2022
+}

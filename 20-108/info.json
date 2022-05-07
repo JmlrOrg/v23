@@ -1,0 +1,28 @@
+{
+    "abstract": "We present a unified framework for estimation and analysis of generalized additive models in high dimensions. The framework defines a large class of penalized regression estimators, encompassing many existing methods. An efficient computational algorithm for this class is presented that easily scales to thousands of observations and features. We prove minimax optimal convergence bounds for this class under a weak compatibility condition. In addition, we characterize the rate of convergence when this compatibility condition is not met. Finally, we also show that the optimal penalty parameters for structure and sparsity penalties in our framework are linked, allowing cross-validation to be conducted over only a single tuning parameter. We complement our theoretical results with empirical studies comparing some existing methods within this framework.",
+    "authors": [
+        "Asad Haris",
+        "Noah Simon",
+        "Ali Shojaie"
+    ],
+    "emails": [
+        "asad.haris@ubc.ca",
+        "nrsimon@uw.edu",
+        "ashojaie@uw.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/asadharis/GSAM"
+        ]
+    ],
+    "id": "20-108",
+    "issue": 70,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Generalized Sparse Additive Models",
+    "volume": 23,
+    "year": 2022
+}

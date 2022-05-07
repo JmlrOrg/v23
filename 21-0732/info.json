@@ -1,0 +1,28 @@
+{
+    "abstract": "This paper studies how well generative adversarial networks (GANs) learn probability distributions from finite samples. Our main results establish the convergence rates of GANs under a collection of integral probability metrics defined through H\\\"{o}lder classes, including the Wasserstein distance as a special case. We also show that GANs are able to adaptively learn data distributions with low-dimensional structures or have H\\\"{o}lder densities, when the network architectures are chosen properly. In particular, for distributions concentrated around a low-dimensional set, we show that the learning rates of GANs do not depend on the high ambient dimension, but on the lower intrinsic dimension. Our analysis is based on a new oracle inequality decomposing the estimation error into the generator and discriminator approximation error and the statistical error, which may be of independent interest.",
+    "authors": [
+        "Jian Huang",
+        "Yuling Jiao",
+        "Zhen Li",
+        "Shiao Liu",
+        "Yang Wang",
+        "Yunfei Yang"
+    ],
+    "emails": [
+        "jian-huang@uiowa.edu",
+        "yulingjiaomath@whu.edu.cn",
+        "lishen03@gmail.com",
+        "shiao-liu@uiowa.edu",
+        "yangwang@ust.hk",
+        "yyangdc@connect.ust.hk"
+    ],
+    "id": "21-0732",
+    "issue": 116,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "An Error Analysis of Generative Adversarial Networks for Learning Distributions",
+    "volume": 23,
+    "year": 2022
+}

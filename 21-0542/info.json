@@ -1,0 +1,20 @@
+{
+    "abstract": "We develop a minimax rate analysis to describe the reason that deep neural networks (DNNs) perform better than other standard methods. For nonparametric regression problems, it is well known that many standard methods attain the minimax optimal rate of estimation errors for smooth functions, and thus, it is not straightforward to identify the theoretical advantages of DNNs. This study tries to fill this gap by considering the estimation for a class of non-smooth functions that have singularities on hypersurfaces. Our findings are as follows: (i) We derive the generalization error of a DNN estimator and prove that its convergence rate is almost optimal. (ii) We elucidate a phase diagram of estimation problems, which describes the situations where the DNNs outperform a general class of estimators, including kernel methods, Gaussian process methods, and others. We additionally show that DNNs outperform harmonic analysis based estimators. This advantage of DNNs comes from the fact that a shape of singularity can be successfully handled by their multi-layered structure.",
+    "authors": [
+        "Masaaki Imaizumi",
+        "Kenji Fukumizu"
+    ],
+    "emails": [
+        "imaizumi@g.ecc.u-tokyo.ac.jp",
+        "fukumizu@ism.ac.jp"
+    ],
+    "id": "21-0542",
+    "issue": 111,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Advantage of Deep Neural Networks for Estimating Functions with Singularity on Hypersurfaces",
+    "volume": 23,
+    "year": 2022
+}

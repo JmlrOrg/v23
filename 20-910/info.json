@@ -1,0 +1,24 @@
+{
+    "abstract": "In this paper, we consider an unconstrained optimization model where the objective is a sum of a large number of possibly nonconvex functions, though overall the objective is assumed to be smooth and convex. Our bid to solving such model uses the framework of cubic regularization of Newton's method. As well known, the crux in cubic regularization is its utilization of the Hessian information, which may be computationally expensive for large-scale problems. To tackle this, we resort to approximating the Hessian matrix via sub-sampling. In particular, we propose to compute an approximated Hessian matrix by either uniformly or non-uniformly sub-sampling the components of the objective. Based upon such sampling strategy, we develop accelerated adaptive cubic regularization approaches and provide theoretical guarantees on global iteration complexity of $\\O(\\epsilon^{-1/3})$ with high probability, which matches that of the original accelerated cubic regularization methods Jiang et al. (2020) using the full Hessian information. Interestingly, we also show that in the worst case scenario our algorithm still achieves an $O(\\epsilon^{-5/6}\\log(\\epsilon^{-1}))$ iteration complexity bound. The proof techniques are new to our knowledge and can be of independent interets. Experimental results on the regularized logistic regression problems demonstrate a clear effect of acceleration on several real data sets.",
+    "authors": [
+        "Xi Chen",
+        "Bo Jiang",
+        "Tianyi Lin",
+        "Shuzhong Zhang"
+    ],
+    "emails": [
+        "xc13@stern.nyu.edu",
+        "isyebojiang@gmail.com",
+        "darren_lin@berkeley.edu",
+        "zhangs@umn.edu"
+    ],
+    "id": "20-910",
+    "issue": 90,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Accelerating Adaptive Cubic Regularization of Newton's Method via Random Sampling",
+    "volume": 23,
+    "year": 2022
+}

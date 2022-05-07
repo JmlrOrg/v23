@@ -1,0 +1,24 @@
+{
+    "abstract": "High-dimensional depth separation results for neural networks show that certain functions can be efficiently approximated by two-hidden-layer networks but not by one-hidden-layer ones in high-dimensions. Existing results of this type mainly focus on functions with an underlying radial or one-dimensional structure, which are usually not encountered in practice. The first contribution of this paper is to extend such results to a more general class of functions, namely functions with piece-wise oscillatory structure, by building on the proof strategy of (Eldan and Shamir, 2016). We complement these results by showing that, if the domain radius and the rate of oscillation of the objective function are constant, then approximation by one-hidden-layer networks holds at a $\\mathrm{poly}(d)$ rate for any fixed error threshold. The mentioned results show that one-hidden-layer networks fail to approximate high-energy functions whose Fourier representation is spread in the frequency domain, while they succeed at approximating functions having a sparse Fourier representation. However, the choice of the domain represents a source of gaps between these positive and negative approximation results. We conclude the paper focusing on a compact approximation domain, namely the sphere $\\S$ in dimension $d$, where we provide a characterization of both functions which are efficiently approximable by one-hidden-layer networks and of functions which are provably not, in terms of their Fourier expansion.",
+    "authors": [
+        "Luca Venturi",
+        "Samy Jelassi",
+        "Tristan Ozuch",
+        "Joan Bruna"
+    ],
+    "emails": [
+        "lv800@nyu.edu",
+        "sjelassi@princeton.edu",
+        "ozuch@mit.edu",
+        "bruna@cims.nyu.edu"
+    ],
+    "id": "21-1109",
+    "issue": 122,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Depth separation beyond radial functions",
+    "volume": 23,
+    "year": 2022
+}

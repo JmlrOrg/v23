@@ -1,0 +1,22 @@
+{
+    "abstract": "Riemannian optimization has drawn a lot of attention due to its wide applications in practice. Riemannian stochastic first-order algorithms have been studied in the literature to solve large-scale machine learning problems over Riemannian manifolds. However, most of the existing Riemannian stochastic algorithms require the objective function to be differentiable, and they do not apply to the case where the objective function is nonsmooth. In this paper, we present two Riemannian stochastic proximal gradient methods for minimizing nonsmooth function over the Stiefel manifold. The two methods, named R-ProxSGD and R-ProxSPB, are generalizations of proximal SGD and proximal SpiderBoost in Euclidean setting to the Riemannian setting. Analysis on the incremental first-order oracle (IFO) complexity of the proposed algorithms is provided. Specifically, the R-ProxSPB algorithm finds an $\\epsilon$-stationary point with $O(\\epsilon^{-3})$ IFOs in the online case, and $O(n+\\sqrt{n}\\epsilon^{-3})$ IFOs in the finite-sum case with $n$ being the number of summands in the objective. Experimental results on online sparse PCA and robust low-rank matrix completion show that our proposed methods significantly outperform the existing methods that use Riemannian subgradient information.",
+    "authors": [
+        "Bokun Wang",
+        "Shiqian Ma",
+        "Lingzhou Xue"
+    ],
+    "emails": [
+        "bokunw.wang@gmail.com",
+        "sqma@ucdavis.edu",
+        "lzxue@psu.edu"
+    ],
+    "id": "21-0314",
+    "issue": 106,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Riemannian Stochastic Proximal Gradient Methods for Nonsmooth Optimization over the Stiefel Manifold",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "We study the multivariate square-root lasso, a method for fitting the multivariate response linear regression model with dependent errors. This estimator minimizes the nuclear norm of the residual matrix plus a convex penalty. Unlike existing methods that require explicit estimates of the error precision (inverse covariance) matrix, the multivariate square-root lasso implicitly accounts for error dependence and is the solution to a convex optimization problem. We establish error bounds which reveal that like the univariate square-root lasso, the multivariate square-root lasso is pivotal with respect to the unknown error covariance matrix. In addition, we propose a variation of the alternating direction method of multipliers algorithm to compute the estimator and discuss an accelerated first order algorithm that can be applied in certain cases. In both simulation studies and a genomic data application, we show that the multivariate square-root lasso can outperform more computationally intensive methods that require explicit estimation of the error precision matrix.",
+    "authors": [
+        "Aaron J. Molstad"
+    ],
+    "emails": [
+        "amolstad@ufl.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ajmolstad/MSRL"
+        ]
+    ],
+    "id": "20-064",
+    "issue": 66,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "New Insights for the Multivariate Square-Root Lasso",
+    "volume": 23,
+    "year": 2022
+}

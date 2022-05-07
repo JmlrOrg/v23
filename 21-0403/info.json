@@ -1,0 +1,24 @@
+{
+    "abstract": "Subset selection is a valuable tool for interpretable learning, scientific discovery, and data compression. However, classical subset selection is often avoided due to selection instability, lack of regularization, and difficulties with post-selection inference. We address these challenges from a Bayesian perspective. Given any Bayesian predictive model M, we extract a family of near-optimal subsets of variables for linear prediction or classification. This strategy deemphasizes the role of a single \u201cbest\u201d subset and instead advances the broader perspective that often many subsets are highly competitive. The acceptable family of subsets offers a new pathway for model interpretation and is neatly summarized by key members such as the smallest acceptable subset, along with new (co-) variable importance metrics based on whether variables (co-) appear in all, some, or no acceptable subsets. More broadly, we apply Bayesian decision analysis to derive the optimal linear coefficients for any subset of variables. These coefficients inherit both regularization and predictive uncertainty quantification via M. For both simulated and real data, the proposed approach exhibits better prediction, interval estimation, and variable selection than competing Bayesian and frequentist selection methods. These tools are applied to a large education dataset with highly correlated covariates. Our analysis provides unique insights into the combination of environmental, socioeconomic, and demographic factors that predict educational outcomes, and identifies over 200 distinct subsets of variables that offer near-optimal out-of-sample predictive accuracy.",
+    "authors": [
+        "Daniel R. Kowal"
+    ],
+    "emails": [
+        "daniel.kowal@rice.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/drkowal/BayesSubsets"
+        ]
+    ],
+    "id": "21-0403",
+    "issue": 108,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Bayesian subset selection and variable importance for interpretable prediction and classification",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,20 @@
+{
+    "abstract": "A supervised learning algorithm has access to a distribution of labeled examples, and needs to return a function (hypothesis) that correctly labels the examples. The hypothesis of the learner is taken from some fixed class of functions (e.g., linear classifiers, neural networks etc.). A failure of the learning algorithm can occur due to two possible reasons: wrong choice of hypothesis class (hardness of approximation), or failure to find the best function within the hypothesis class (hardness of learning). Although both approximation and learnability are important for the success of the algorithm, they are typically studied separately. In this work, we show a single hardness property that implies both hardness of approximation using linear classes and shallow networks, and hardness of learning using correlation queries and gradient-descent. This allows us to obtain new results on hardness of approximation and learnability of parity functions, DNF formulas and $AC^0$ circuits.",
+    "authors": [
+        "Eran Malach",
+        "Shai Shalev-Shwartz"
+    ],
+    "emails": [
+        "eran.malach@mail.huji.ac.il",
+        "shais@cs.huji.ac.il"
+    ],
+    "id": "20-940",
+    "issue": 91,
+    "pages": [
+        1,
+        24
+    ],
+    "title": "When Hardness of Approximation Meets Hardness of Learning",
+    "volume": 23,
+    "year": 2022
+}

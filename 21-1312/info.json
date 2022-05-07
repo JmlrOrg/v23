@@ -1,0 +1,24 @@
+{
+    "abstract": "Mean field control (MFC) is an effective way to mitigate the curse of dimensionality of cooperative multi-agent reinforcement learning (MARL) problems. This work considers a collection of $N_{\\mathrm{pop}}$  heterogeneous agents that can be segregated into $K$ classes such that the $k$-th class contains $N_k$ homogeneous agents. We  aim to prove approximation guarantees of the MARL problem for this heterogeneous system by its corresponding MFC problem.  We consider three  scenarios where the reward and transition dynamics of all agents are respectively taken to be functions of $(1)$ joint state and action distributions across all classes, $(2)$ individual distributions of each class, and $(3)$ marginal distributions of the entire population. We show that, in these cases, the $K$-class MARL problem can be approximated by MFC with errors given  as $e_1=\\mathcal{O}(\\frac{\\sqrt{|\\mathcal{X}|}+\\sqrt{|\\mathcal{U}|}}{N_{\\mathrm{pop}}}\\sum_{k}\\sqrt{N_k})$, $e_2=\\mathcal{O}(\\left[\\sqrt{|\\mathcal{X}|}+\\sqrt{|\\mathcal{U}|}\\right]\\sum_{k}\\frac{1}{\\sqrt{N_k}})$ and $e_3=\\mathcal{O}\\left(\\left[\\sqrt{|\\mathcal{X}|}+\\sqrt{|\\mathcal{U}|}\\right]\\left[\\frac{A}{N_{\\mathrm{pop}}}\\sum_{k\\in[K]}\\sqrt{N_k}+\\frac{B}{\\sqrt{N_{\\mathrm{pop}}}}\\right]\\right)$, respectively,  where $A, B$ are some constants and $|\\mathcal{X}|,|\\mathcal{U}|$ are the sizes of state and action spaces of each agent. Finally, we design a Natural Policy Gradient (NPG) based algorithm that, in the three cases stated above, can converge to an optimal MARL policy within $\\mathcal{O}(e_j)$ error with a sample complexity of $\\mathcal{O}(e_j^{-3})$, $j\\in\\{1,2,3\\}$, respectively.",
+    "authors": [
+        "Washim Uddin Mondal",
+        "Mridul Agarwal",
+        "Vaneet Aggarwal",
+        "Satish V. Ukkusuri"
+    ],
+    "emails": [
+        "wmondal@purdue.edu",
+        "agarw180@purdue.edu",
+        "vaneet@purdue.edu",
+        "sukkusur@purdue.edu"
+    ],
+    "id": "21-1312",
+    "issue": 129,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "On the Approximation of Cooperative Heterogeneous Multi-Agent Reinforcement Learning (MARL) using Mean Field Control (MFC)",
+    "volume": 23,
+    "year": 2022
+}

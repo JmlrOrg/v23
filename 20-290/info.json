@@ -1,0 +1,30 @@
+{
+    "abstract": "Electronic Health Record (EHR) data, a rich source for biomedical research, have been successfully used to gain novel insight into a wide range of diseases. Despite its potential, EHR is currently underutilized for discovery research due to its major limitation in the lack of precise phenotype information. To overcome such difficulties, recent efforts have been devoted to developing supervised algorithms to accurately predict phenotypes based on relatively small training datasets with gold-standard labels extracted via chart review. However, supervised methods typically require a sizable training set to yield generalizable algorithms, especially when the number of candidate features is large. In this paper, we propose a semi-supervised (SS) EHR phenotyping method that borrows information from both a small, labeled dataset (where both the label Y and the feature set X are observed) and a much larger, weakly-labeled dataset in which the feature set X is accompanied only by a surrogate label S that is available to all patients. Under a working prior assumption that S is related to X only through Y and allowing it to hold approximately, we propose a prior adaptive semi-supervised (PASS) estimator that incorporates the prior knowledge by shrinking the estimator towards a direction derived under the prior. We derive asymptotic theory for the proposed estimator and justify its efficiency and robustness to prior information of poor quality. We also demonstrate its superiority over existing estimators under various scenarios via simulation studies and on three real-world EHR phenotyping studies at a large tertiary hospital.",
+    "authors": [
+        "Yichi Zhang",
+        "Molei Liu",
+        "Matey Neykov",
+        "Tianxi Cai"
+    ],
+    "emails": [
+        "yichizhang@uri.edu",
+        "molei_liu@g.harvard.edu",
+        "mneykov@stat.cmu.edu",
+        "tcai.hsph@gmail.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/moleibobliu/PASS"
+        ]
+    ],
+    "id": "20-290",
+    "issue": 83,
+    "pages": [
+        1,
+        25
+    ],
+    "title": "Prior Adaptive Semi-supervised Learning with Application to EHR Phenotyping",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "Motivated by analyzing long-term physiological time series, we design a robust and scalable spectral embedding algorithm that we refer to as RObust and Scalable Embedding via LANdmark Diffusion (Roseland).  The key is designing a diffusion process on the dataset where the diffusion is done via a small subset called the landmark set. Roseland is theoretically justified under the manifold model, and its computational complexity is comparable with commonly applied subsampling scheme such as the Nystr\\\"om extension. Specifically, when there are $n$ data points in $\\mathbb{R}^q$ and $n^\\beta$ points in the landmark set, where $\\beta\\in (0,1)$, the computational complexity of Roseland is $O(n^{1+2\\beta}+qn^{1+\\beta})$, while that of Nystrom is $O(n^{2.81\\beta}+qn^{1+2\\beta})$. To demonstrate the potential of Roseland, we apply it to { three} datasets and compare it with several other existing algorithms. First, we apply Roseland to the task of spectral clustering using the MNIST dataset (70,000 images), achieving 85\\% accuracy when the dataset is clean and 78\\% accuracy when the dataset is noisy. Compared with other subsampling schemes, overall Roseland achieves a better performance. Second, we apply Roseland to the task of image segmentation using images from COCO. Finally, we demonstrate how to apply Roseland to explore long-term arterial blood pressure waveform dynamics during a liver transplant operation lasting for 12 hours. In conclusion, Roseland is scalable and robust, and it has a potential for analyzing large datasets.",
+    "authors": [
+        "Chao Shen",
+        "Yu-Ting Lin",
+        "Hau-Tieng Wu"
+    ],
+    "emails": [
+        "chao.shen@duke.edu",
+        "linyuting@hotmail.com.tw",
+        "hauwu@math.duke.edu"
+    ],
+    "id": "20-786",
+    "issue": 86,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Robust and scalable manifold learning via landmark diffusion for long-term medical signal processing",
+    "volume": 23,
+    "year": 2022
+}

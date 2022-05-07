@@ -1,0 +1,61 @@
+{
+    "abstract": "We present Darts, a Python machine learning library for time series, with a focus on forecasting. Darts offers a variety of models, from classics such as ARIMA to state-of-the-art deep neural networks. The emphasis of the library is on offering modern machine learning functionalities, such as supporting multidimensional series, fitting models on multiple series, training on large datasets, incorporating external data, ensembling models, and providing a rich support for probabilistic forecasting. At the same time, great care goes into the API design to make it user-friendly and easy to use. For instance, all models can be used using fit()/predict(), similar to scikit-learn.",
+    "authors": [
+        "Julien Herzen",
+        "Francesco L\u00e4ssig",
+        "Samuele Giuliano Piazzetta",
+        "Thomas Neuer",
+        "L\u00e9o Tafti",
+        "Guillaume Raille",
+        "Tomas Van Pottelbergh",
+        "Marek Pasieka",
+        "Andrzej Skrodzki",
+        "Nicolas Huguenin",
+        "Maxime Dumonal",
+        "Jan Ko\u015bcisz",
+        "Dennis Bader",
+        "Fr\u00e9d\u00e9rick Gusset",
+        "Mounir Benheddi",
+        "Camila Williamson",
+        "Michal Kosinski",
+        "Matej Petrik",
+        "Ga\u00ebl Grosch"
+    ],
+    "emails": [
+        "julien.herzen@unit8.com",
+        "francesco.laessig@unit8.com",
+        "samuele.piazzetta@gmail.com",
+        "thomas.neuer@unit8.com",
+        "leotafti@gmail.com",
+        "guillaume.raille@unit8.com",
+        "tomas.vanpottelbergh@unit8.com",
+        "marek.pasieka@unit8.com",
+        "andrzej.skrodzki@gmail.com",
+        "nicolas.huguenin@unit8.com",
+        "maxime.dumonal@unit8.com",
+        "koscis.j@gmail.com",
+        "dennis.bader@unit8.com",
+        "gusset.frederick@gmail.com",
+        "mounir.benheddi@gmail.com",
+        "camilaagw@gmail.com",
+        "kosinski.michal@gmail.com",
+        "matej.petrik@unit8.com",
+        "gael.grosch@unit8.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/unit8co/darts"
+        ]
+    ],
+    "id": "21-1177",
+    "issue": 124,
+    "pages": [
+        1,
+        6
+    ],
+    "special_issue": "MLOSS",
+    "title": "Darts: User-Friendly Modern Machine Learning for Time Series",
+    "volume": 23,
+    "year": 2022
+}
