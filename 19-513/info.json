@@ -2,13 +2,13 @@
     "abstract": "It is common to encounter large-scale monotone inclusion problems where the objective has a finite sum structure.  We develop a general framework for variance-reduced forward-backward splitting algorithms for this problem.  This framework includes a number of existing deterministic and variance-reduced algorithms for function minimization as special cases, and it is also applicable to more general problems such as saddle-point problems and variational inequalities.  With a carefully constructed Lyapunov function, we show that the algorithms covered by our framework enjoy a linear convergence rate in expectation under mild assumptions. We further consider Catalyst acceleration and asynchronous implementation to reduce the algorithmic complexity and computation time. We apply our proposed framework to a policy evaluation problem and a  strongly monotone two-player game, both of which fall outside the realm of function minimization.",
     "authors": [
         "Xun Zhang",
-        "Zhisheng Ye",
-        "William B. Haskell"
+        "William B. Haskell",
+        "Zhisheng Ye"
     ],
     "emails": [
         "xunzhang@u.nus.edu",
-        "yez@nus.edu.sg",
-        "wbhaskell@gmail.com"
+        "wbhaskell@gmail.com",
+        "yez@nus.edu.sg"
     ],
     "id": "19-513",
     "issue": 60,
