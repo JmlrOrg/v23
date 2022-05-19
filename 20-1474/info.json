@@ -1,12 +1,14 @@
 {
     "abstract": "Bayesian hierarchical models are powerful tools for learning common latent features across multiple data sources. The Hierarchical Dirichlet Process (HDP) is invoked when the number of latent components is a priori unknown. While there is a rich literature on finite sample properties and performance of hierarchical processes, the analysis of their frequentist posterior asymptotic properties is still at an early stage. Here we establish theoretical guarantees for recovering the true data generating process when the data are modeled as mixtures over the HDP or a generalization of the HDP, which we term boosted because of the faster growth in the number of discovered latent features. By extending Schwartz's theory to partially exchangeable sequences we show that posterior contraction rates are crucially affected by the relationship between the sample sizes corresponding to the different groups. The effect varies according to the smoothness level of the true data distributions. In the supersmooth case,  when the generating densities are Gaussian mixtures, we recover the parametric rate up to a logarithmic factor, provided that the sample sizes are related in a polynomial fashion. Under ordinary smoothness assumptions more caution is needed as a polynomial deviation in the sample sizes could drastically deteriorate the convergence to the truth.",
-    "authors": [
+    "authors":
+    [
         "Marta Catalano",
         "Pierpaolo De Blasi",
         "Antonio Lijoi",
-        "Igor Pr\u00fcnster"
+        "Igor Pruenster"
     ],
-    "emails": [
+    "emails":
+    [
         "marta.catalano@warwick.ac.uk",
         "pierpaolo.deblasi@unito.it",
         "antonio.lijoi@unibocconi.it",
@@ -14,7 +16,8 @@
     ],
     "id": "20-1474",
     "issue": 80,
-    "pages": [
+    "pages":
+    [
         1,
         23
     ],
