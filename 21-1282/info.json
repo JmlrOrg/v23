@@ -1,0 +1,22 @@
+{
+    "abstract": "Optimization is important in machine learning problems, and quasi-Newton methods have a reputation as the most efficient numerical methods for smooth unconstrained optimization. In this paper, we study the explicit superlinear convergence rates of quasi-Newton methods and address two open problems mentioned by Rodomanov and Nesterov (2021b). First, we extend Rodomanov and Nesterov (2021b)\u2019s results to random quasi-Newton methods, which include common DFP, BFGS, SR1 methods. Such random methods employ a random direction for updating the approximate Hessian matrix in each iteration. Second, we focus on the specific quasi-Newton methods: SR1 and BFGS methods. We provide improved versions of greedy and random methods with provable better explicit (local) superlinear convergence rates. Our analysis is closely related to the approximation of a given Hessian matrix, unconstrained quadratic objective, as well as the general strongly convex, smooth, and strongly self-concordant functions.",
+    "authors": [
+        "Dachao Lin",
+        "Haishan Ye",
+        "Zhihua Zhang"
+    ],
+    "emails": [
+        "lindachao@pku.edu.cn",
+        "yehaishan@xjtu.edu.cn",
+        "zhzhang@math.pku.edu.cn"
+    ],
+    "id": "21-1282",
+    "issue": 162,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Explicit Convergence Rates of Greedy and Random Quasi-Newton Methods",
+    "volume": 23,
+    "year": 2022
+}

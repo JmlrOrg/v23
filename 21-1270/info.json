@@ -1,0 +1,32 @@
+{
+    "abstract": "We study a regression problem on a compact manifold M. In order to take advantage of the underlying geometry and topology of the data, the regression task is performed on the basis of the first several eigenfunctions of the Laplace-Beltrami operator of the manifold, that are regularized with topological penalties. The proposed penalties are based on the topology of the sub-level sets of either the eigenfunctions or the estimated function. The overall approach is shown to yield promising and competitive performance on various applications to both synthetic and real data sets. We also provide theoretical guarantees on the regression function estimates, on both its prediction error and its smoothness (in a topological sense). Taken together, these results support the relevance of our approach in the case where the targeted function is \u201ctopologically smooth\u201d.",
+    "authors": [
+        "Olympio Hacquard",
+        "Krishnakumar Balasubramanian",
+        "Gilles Blanchard",
+        "Cl\u00e9ment Levrard",
+        "Wolfgang Polonik"
+    ],
+    "emails": [
+        "olympio.hacquard@universite-paris-saclay.fr",
+        "kbala@ucdavis.edu",
+        "gilles.blanchard@universite-paris-saclay.fr",
+        "clement.levrard@lpsm.paris",
+        "wpolonik@ucdavis.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/OlympioH/Lap_reg_topo_pen"
+        ]
+    ],
+    "id": "21-1270",
+    "issue": 161,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Topologically penalized regression on manifolds",
+    "volume": 23,
+    "year": 2022
+}

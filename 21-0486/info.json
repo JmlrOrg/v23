@@ -1,0 +1,36 @@
+{
+    "abstract": "Finding the optimal hyperparameters of a model can be cast as a bilevel optimization problem, typically solved using zero-order techniques. In this work we study first-order methods when the inner optimization problem is convex but non-smooth. We show that the forward-mode differentiation of proximal gradient descent and proximal coordinate descent yield sequences of Jacobians converging toward the exact Jacobian. Using implicit differentiation, we show it is possible to leverage the non-smoothness of the inner problem to speed up the computation. Finally, we provide a bound on the error made on the hypergradient when the inner optimization problem is solved approximately. Results on regression and classification problems reveal computational benefits for hyperparameter optimization, especially when multiple hyperparameters are required.",
+    "authors": [
+        "Quentin Bertrand",
+        "Quentin Klopfenstein",
+        "Mathurin Massias",
+        "Mathieu Blondel",
+        "Samuel Vaiter",
+        "Alexandre Gramfort",
+        "Joseph Salmon"
+    ],
+    "emails": [
+        "quentin.bertrand@inria.fr",
+        "quentin.klopfenstein@u-bourgogne.fr",
+        "mathurin.massias@gmail.com",
+        "mblondel@google.com",
+        "samuel.vaiter@math.cnrs.fr",
+        "alexandre.gramfort@inria.fr",
+        "joseph.salmon@umontpellier.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/qb3/sparse-ho"
+        ]
+    ],
+    "id": "21-0486",
+    "issue": 149,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "Implicit Differentiation for Fast Hyperparameter Selection in Non-Smooth Convex Learning",
+    "volume": 23,
+    "year": 2022
+}

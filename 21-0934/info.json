@@ -1,0 +1,26 @@
+{
+    "abstract": "Emphatic Temporal Difference (TD) methods are a class of off-policy Reinforcement Learning (RL) methods involving the use of followon traces.  Despite the theoretical success of emphatic TD methods in addressing the notorious deadly triad of off-policy RL, there are still two open problems. First, followon traces typically suffer from large variance, making them hard to use in practice.  Second, though Yu (2015) confirms the asymptotic convergence of some emphatic TD methods for prediction problems, there is still no finite sample analysis for any emphatic TD method for prediction, much less control. In this paper,  we address those two open problems simultaneously via using truncated followon traces in emphatic TD methods. Unlike the original followon traces, which depend on all previous history, truncated followon traces depend on only finite history, reducing variance and enabling the finite sample analysis of our proposed emphatic TD methods for both prediction and control.",
+    "authors": [
+        "Shangtong Zhang",
+        "Shimon Whiteson"
+    ],
+    "emails": [
+        "shangtong.zhang@cs.ox.ac.uk",
+        "shimon.whiteson@cs.ox.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ShangtongZhang/DeepRL"
+        ]
+    ],
+    "id": "21-0934",
+    "issue": 153,
+    "pages": [
+        1,
+        59
+    ],
+    "title": "Truncated Emphatic Temporal Difference Methods for Prediction and Control",
+    "volume": 23,
+    "year": 2022
+}

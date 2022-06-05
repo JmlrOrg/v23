@@ -1,0 +1,18 @@
+{
+    "abstract": "We present a universally consistent learning rule whose expected error is monotone non-increasing with the sample size under every data distribution. The question of existence of such rules was brought up in 1996 by Devroye, Gy\u00f6rfi and Lugosi (who called them ``smart''). Our rule is fully deterministic, a data-dependent partitioning rule constructed in an arbitrary domain (a standard Borel space) using a cyclic order. The central idea is to only partition at each step those cyclic intervals that exhibit a sufficient empirical diversity of labels, thus avoiding a region where the error function is convex.",
+    "authors": [
+        "Vladimir Pestov"
+    ],
+    "emails": [
+        "vladimir.pestov@uottawa.ca"
+    ],
+    "id": "21-1043",
+    "issue": 157,
+    "pages": [
+        1,
+        27
+    ],
+    "title": "A universally consistent learning rule with a universally monotone error",
+    "volume": 23,
+    "year": 2022
+}

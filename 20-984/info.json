@@ -1,0 +1,26 @@
+{
+    "abstract": "Kernel methods are powerful tools in various data analysis tasks. Yet, in many cases, their time and space complexity render them impractical for large datasets. Various kernel approximation methods were proposed to overcome this issue, with the most prominent method being the Nystr{\\\"o}m method. In this paper, we derive a perturbation-based kernel approximation framework building upon results from classical perturbation theory. We provide an  error analysis for this framework, and prove that in fact, it generalizes the Nystr{\\\"o}m method and several of its variants. Furthermore, we show that our framework gives rise to new kernel approximation schemes, that can be tuned to take advantage of the structure of the approximated kernel matrix. We support our theoretical results numerically and demonstrate the advantages of our approximation framework on both synthetic and real-world data.",
+    "authors": [
+        "Roy Mitz",
+        "Yoel Shkolnisky"
+    ],
+    "emails": [
+        "roymitz@mail.tau.ac.il",
+        "yoelsh@tauex.tau.ac.il"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/roymitz/perturbation_kernel_approximation"
+        ]
+    ],
+    "id": "20-984",
+    "issue": 142,
+    "pages": [
+        1,
+        26
+    ],
+    "title": "A Perturbation-Based Kernel Approximation Framework",
+    "volume": 23,
+    "year": 2022
+}

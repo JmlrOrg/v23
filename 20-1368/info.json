@@ -1,0 +1,30 @@
+{
+    "abstract": "Nonconvex regularization has been popularly used in low-rank matrix learning. However, extending  it for low-rank tensor learning is still computationally expensive. To address this problem, we develop an efficient solver for use with a nonconvex extension of the overlapped nuclear norm regularizer. Based on the proximal average algorithm, the proposed algorithm can avoid expensive tensor folding/unfolding operations. A special ``sparse plus low-rank\" structure is maintained throughout the iterations, and allows fast computation of the individual proximal steps. Empirical convergence is further improved with the use of adaptive momentum. We  provide convergence guarantees to critical points on smooth losses and also on objectives satisfying the Kurdyka-Lojasiewicz condition. While the optimization problem is nonconvex and nonsmooth, we show that its critical points still have good statistical performance on the tensor completion problem. Experiments on various synthetic and real-world data sets show that the proposed algorithm is efficient in both time and space and more accurate than the existing state-of-the-art.",
+    "authors": [
+        "Quanming Yao",
+        "Yaqing Wang",
+        "Bo Han",
+        "James T. Kwok"
+    ],
+    "emails": [
+        "qyaoaa@tsinghua.edu.cn",
+        "wangyaqing01@baidu.com",
+        "bhanml@comp.hkbu.edu.hk",
+        "jamesk@cse.ust.hk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/quanmingyao/FasTer"
+        ]
+    ],
+    "id": "20-1368",
+    "issue": 136,
+    "pages": [
+        1,
+        60
+    ],
+    "title": "Low-rank Tensor Learning with Nonconvex Overlapped Nuclear Norm Regularization",
+    "volume": 23,
+    "year": 2022
+}

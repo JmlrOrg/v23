@@ -1,0 +1,30 @@
+{
+    "abstract": "Knowing the causal structure of a system is of fundamental interest in many areas of science and can aid the design of prediction algorithms that work well under manipulations to the system. The causal structure becomes identifiable from the observational distribution under certain restrictions. To learn the structure from data, score-based methods evaluate different graphs according to the quality of their fits. However, for large, continuous, and nonlinear models, these rely on heuristic optimization approaches with no general guarantees of recovering the true causal structure. In this paper, we consider structure learning of directed trees. We propose a fast and scalable method based on Chu\u2013Liu\u2013Edmonds\u2019 algorithm we call causal additive trees (CAT). For the case of Gaussian errors, we prove consistency in an asymptotic regime with a vanishing identifiability gap. We also introduce two methods for testing substructure hypotheses with asymptotic family-wise error rate control that is valid post-selection and in unidentified settings. Furthermore, we study the identifiability gap, which quantifies how much better the true causal model fits the observational distribution, and prove that it is lower bounded by local properties of the causal model. Simulation studies demonstrate the favorable performance of CAT compared to competing structure learning methods.",
+    "authors": [
+        "Martin E. Jakobsen",
+        "Rajen D. Shah",
+        "Peter B\u00fchlmann",
+        "Jonas Peters"
+    ],
+    "emails": [
+        "m.jakobsen@math.ku.dk",
+        "r.shah@statslab.cam.ac.uk",
+        "buhlmann@stat.math.ethz.ch",
+        "jonas.peters@math.ku.dk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/MartinEmilJakobsen/CAT"
+        ]
+    ],
+    "id": "21-1159",
+    "issue": 159,
+    "pages": [
+        1,
+        97
+    ],
+    "title": "Structure Learning for Directed Trees",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "Intrinsically motivated spontaneous exploration is a key enabler of autonomous developmental learning in human children. It enables the discovery of skill repertoires through autotelic learning, i.e. the self-generation, self-selection, self-ordering and self-experimentation of learning goals. We present an algorithmic approach called Intrinsically Motivated Goal Exploration Processes (IMGEP) to enable similar properties of autonomous learning in machines. The IMGEP architecture relies on several principles: 1) self-generation of goals, generalized as parameterized fitness functions; 2) selection of goals based on intrinsic rewards; 3) exploration with incremental goal-parameterized policy search and exploitation with a batch learning algorithm; 4) systematic reuse of information acquired when targeting a goal for improving towards other goals. We present a particularly efficient form of IMGEP, called AMB, that uses a population-based policy and an object-centered spatio-temporal modularity. We provide several implementations of this architecture and demonstrate their ability to automatically generate a learning curriculum within several experimental setups. One of these experiments includes a real humanoid robot exploring multiple spaces of goals with several hundred continuous dimensions and with distractors. While no particular target goal is provided to these autotelic agents, this curriculum allows the discovery of diverse skills that act as stepping stones for learning more complex skills, e.g. nested tool use.",
+    "authors": [
+        "S\u00e9bastien Forestier",
+        "R\u00e9my Portelas",
+        "Yoan Mollard",
+        "Pierre-Yves Oudeyer"
+    ],
+    "emails": [
+        "seb@forest.bio",
+        "remy.portelas@inria.fr",
+        "yoan.mollard@inria.fr",
+        "pierre-yves.oudeyer@inria.fr"
+    ],
+    "id": "21-0808",
+    "issue": 152,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Intrinsically Motivated Goal Exploration Processes with Automatic Curriculum Learning",
+    "volume": 23,
+    "year": 2022
+}

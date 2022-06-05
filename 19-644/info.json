@@ -1,0 +1,30 @@
+{
+    "abstract": "Manifold embedding algorithms map high-dimensional data down to coordinates in a much lower-dimensional space. One of the aims of dimension reduction is to find intrinsic coordinates that describe the data manifold. The coordinates returned by the embedding algorithm are abstract, and finding their physical or domain-related meaning is not formalized and often left to domain experts. This paper studies the problem of recovering the meaning of the new low-dimensional representation in an  automatic, principled fashion.  We propose a method to explain embedding coordinates of a manifold as non-linear compositions of functions from a user-defined dictionary. We show that this problem can be set up as a sparse linear Group Lasso recovery problem, find sufficient recovery conditions, and demonstrate its effectiveness on data.",
+    "authors": [
+        "Samson J. Koelle",
+        "Hanyu Zhang",
+        "Marina Meila",
+        "Yu-Chia Chen"
+    ],
+    "emails": [
+        "sjkoelle@uw.edu",
+        "hanyuz6@uw.edu",
+        "mmp@stat.washington.edu",
+        "yuchaz@uw.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/sjkoelle/montlake/"
+        ]
+    ],
+    "id": "19-644",
+    "issue": 133,
+    "pages": [
+        1,
+        57
+    ],
+    "title": "Manifold Coordinates with Physical Meaning",
+    "volume": 23,
+    "year": 2022
+}

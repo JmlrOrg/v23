@@ -1,0 +1,24 @@
+{
+    "abstract": "$\\alpha$-posteriors and their variational approximations distort standard posterior inference by downweighting the likelihood and introducing variational approximation errors. We show that such distortions, if tuned appropriately, reduce the Kullback--Leibler (KL) divergence from the true, but perhaps infeasible, posterior distribution when there is potential parametric model misspecification. To make this point, we derive a Bernstein--von Mises theorem showing convergence in total variation distance of $\\alpha$-posteriors and their variational approximations to limiting Gaussian distributions. We use these limiting distributions to evaluate the KL divergence between true and reported posteriors. We show that the KL divergence is minimized by choosing $\\alpha$ strictly smaller than one, assuming there is a vanishingly small probability of model misspecification. The optimized value of $\\alpha$ becomes smaller as the misspecification becomes more severe. The optimized KL divergence increases logarithmically in the magnitude of misspecification and not linearly as with the usual posterior. Moreover, the optimized variational approximations of $\\alpha$-posteriors can induce additional robustness to model misspecification beyond that obtained by optimally downweighting the likelihood.",
+    "authors": [
+        "Marco Avella Medina",
+        "Jos\u00e9 Luis Montiel Olea",
+        "Cynthia Rush",
+        "Amilcar Velez"
+    ],
+    "emails": [
+        "marco.avella@columbia.edu",
+        "jm4474@columbia.edu",
+        "cynthia.rush@columbia.edu",
+        "amilcare@u.northwestern.edu"
+    ],
+    "id": "21-0386",
+    "issue": 147,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "On the Robustness to Misspecification of \u03b1-posteriors and Their Variational Approximations",
+    "volume": 23,
+    "year": 2022
+}

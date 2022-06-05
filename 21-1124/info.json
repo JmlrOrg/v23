@@ -1,0 +1,25 @@
+{
+    "abstract": "We present ktrain, a low-code Python library that makes machine learning more accessible and easier to apply. As a wrapper to TensorFlow and many other libraries (e.g., transformers, scikit-learn, stellargraph), it is designed to make sophisticated, state-of-the-art machine learning models simple to build, train, inspect, and apply by both beginners and experienced practitioners. Featuring modules that support text data (e.g., text classification, sequence tagging, open-domain question-answering), vision data (e.g., image classification), graph data (e.g., node classification, link prediction), and tabular data, ktrain presents a simple unified interface enabling one to quickly solve a wide range of tasks in as little as three or four \"commands\" or lines of code.",
+    "authors": [
+        "Arun S. Maiya"
+    ],
+    "emails": [
+        "amaiya@ida.org"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/amaiya/ktrain"
+        ]
+    ],
+    "id": "21-1124",
+    "issue": 158,
+    "pages": [
+        1,
+        6
+    ],
+    "special_issue": "MLOSS",
+    "title": "ktrain: A Low-Code Library for Augmented Machine Learning",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,20 @@
+{
+    "abstract": "We consider the problem of learning a nonlinear dynamical system governed by a nonlinear state equation $h_{t+1}=\\phi(h_t,u_t;\\theta)+w_t$. Here $\\theta$ is the unknown system dynamics, $h_t$ is the state, $u_t$ is the input and $w_t$ is the additive noise vector. We study gradient based algorithms to learn the system dynamics $\\theta$ from samples obtained from a single finite trajectory. If the system is run by a stabilizing input policy, then using a mixing-time argument we show that temporally-dependent samples can be approximated by i.i.d. samples. We then develop new guarantees for the uniform convergence of the gradient of the empirical loss induced by these i.i.d. samples. Unlike existing works, our bounds are noise sensitive which allows for learning the ground-truth dynamics with high accuracy and small sample complexity. When combined, our results facilitate efficient learning of a broader class of nonlinear dynamical systems as compared to the prior works. We specialize our guarantees to  entrywise nonlinear activations and verify our theory in various numerical experiments.",
+    "authors": [
+        "Yahya Sattar",
+        "Samet Oymak"
+    ],
+    "emails": [
+        "ysatt001@ucr.edu",
+        "oymak@ece.ucr.edu"
+    ],
+    "id": "20-617",
+    "issue": 140,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Non-asymptotic and Accurate Learning of Nonlinear Dynamical Systems",
+    "volume": 23,
+    "year": 2022
+}

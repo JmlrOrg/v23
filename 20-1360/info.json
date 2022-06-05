@@ -1,0 +1,22 @@
+{
+    "abstract": "In over two decades of research, the field of dictionary learning has gathered a large collection of successful applications, and theoretical guarantees for model recovery are known only whenever optimization is carried out in the same model class as that of the underlying dictionary. This work characterizes the surprising phenomenon that dictionary recovery can be facilitated by searching over the space of larger over-realized models. This observation is general and independent of the specific dictionary learning algorithm used. We thoroughly demonstrate this observation in practice and provide an analysis of this phenomenon by tying recovery measures to generalization bounds. In particular, we show that model recovery can be upper-bounded by the empirical risk, a model-dependent quantity and the generalization gap, reflecting our empirical findings. We further show that an efficient and provably correct distillation approach can be employed to recover the correct atoms from the over-realized model. As a result, our meta-algorithm provides dictionary estimates with consistently better recovery of the ground-truth model.",
+    "authors": [
+        "Jeremias Sulam",
+        "Chong You",
+        "Zhihui Zhu"
+    ],
+    "emails": [
+        "jsulam1@jhu.edu",
+        "cyou@berkeley.edu",
+        "zhihui.zhu@du.edu"
+    ],
+    "id": "20-1360",
+    "issue": 135,
+    "pages": [
+        1,
+        23
+    ],
+    "title": "Recovery and Generalization in Over-Realized Dictionary Learning",
+    "volume": 23,
+    "year": 2022
+}

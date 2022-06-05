@@ -1,0 +1,22 @@
+{
+    "abstract": "We present several new complexity results for the entropic regularized algorithms that approximately solve the optimal transport (OT) problem between two discrete probability measures with at most $n$ atoms. First, we improve the complexity bound of a greedy variant of Sinkhorn, known as Greenkhorn, from $\\tilde{O}(n^2\\varepsilon^{-3})$ to $\\tilde{O}(n^2\\varepsilon^{-2})$. Notably, our result can match the best known complexity bound of Sinkhorn and help clarify why Greenkhorn significantly outperforms Sinkhorn in practice in terms of row/column updates as observed by Altschuler et al. (2017). Second, we propose a new algorithm, which we refer to as APDAMD and which generalizes an adaptive primal-dual accelerated gradient descent (APDAGD) algorithm (Dvurechensky et al., 2018) with a prespecified mirror mapping $\\phi$. We prove that APDAMD achieves the complexity bound of $\\tilde{O}(n^2\\sqrt{\\delta}\\varepsilon^{-1})$ in which $\\delta>0$ stands for the regularity of $\\phi$. In addition, we show by a counterexample that the complexity bound of $\\tilde{O}(\\min\\{n^{9/4}\\varepsilon^{-1}, n^2\\varepsilon^{-2}\\})$ proved for APDAGD before is invalid and give a refined complexity bound of $\\tilde{O}(n^{5/2}\\varepsilon^{-1})$. Further, we develop a deterministic accelerated variant of Sinkhorn via appeal to estimated sequence and prove the complexity bound of $\\tilde{O}(n^{7/3}\\varepsilon^{-4/3})$. As such, we see that accelerated variant of Sinkhorn outperforms Sinkhorn and Greenkhorn in terms of $1/\\varepsilon$ and APDAGD and accelerated alternating minimization (AAM) (Guminov et al., 2021) in terms of $n$. Finally, we conduct the experiments on synthetic and real data and the numerical results show the efficiency of Greenkhorn, APDAMD and accelerated Sinkhorn in practice.",
+    "authors": [
+        "Tianyi Lin",
+        "Nhat Ho",
+        "Michael I. Jordan"
+    ],
+    "emails": [
+        "darren_lin@berkeley.edu",
+        "minhnhat@utexas.edu",
+        "jordan@cs.berkeley.edu"
+    ],
+    "id": "20-277",
+    "issue": 137,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "On the Efficiency of Entropic Regularized Algorithms for Optimal Transport",
+    "volume": 23,
+    "year": 2022
+}

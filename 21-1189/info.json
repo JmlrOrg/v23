@@ -1,0 +1,20 @@
+{
+    "abstract": "Addressing fairness concerns about machine learning models is a crucial step towards their long-term adoption in real-world automated systems. While many approaches have been developed for training fair models from data, little is known about the robustness of these methods to data corruption. In this work we consider fairness-aware learning under worst-case data manipulations. We show that an adversary can in some situations force any learner to return an overly biased classifier, regardless of the sample size and with or without degrading accuracy, and that the strength of the excess bias increases for learning problems with underrepresented protected groups in the data. We also prove that our hardness results are tight up to constant factors. To this end, we study two natural learning algorithms that optimize for both accuracy and fairness and show that these algorithms enjoy guarantees that are order-optimal in terms of the corruption ratio and the protected groups frequencies in the large data limit.",
+    "authors": [
+        "Nikola Konstantinov",
+        "Christoph H. Lampert"
+    ],
+    "emails": [
+        "nikolahristov.konstantinov@inf.ethz.ch",
+        "chl@ist.ac.at"
+    ],
+    "id": "21-1189",
+    "issue": 160,
+    "pages": [
+        1,
+        60
+    ],
+    "title": "Fairness-Aware PAC Learning from Corrupted Data",
+    "volume": 23,
+    "year": 2022
+}

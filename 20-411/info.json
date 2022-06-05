@@ -1,0 +1,26 @@
+{
+    "abstract": "Consider a scenario where a player chooses an action in each round $t$ out of $T$ rounds and observes the incurred cost after a delay of $d_{t}$ rounds. The cost functions and the delay sequence are chosen by an adversary. We show that in a non-cooperative game, the expected weighted ergodic distribution of play converges to the set of coarse correlated equilibria if players use algorithms that have ``no weighted-regret'' in the above scenario, even if they have linear regret due to too large delays. For a two-player zero-sum game, we show that no weighted-regret is sufficient for the weighted ergodic average of play to converge to the set of Nash equilibria. We prove that the FKM algorithm with $n$ dimensions achieves an expected regret of $O\\left(nT^{\\frac{3}{4}}+\\sqrt{n}T^{\\frac{1}{3}}D^{\\frac{1}{3}}\\right)$ and the EXP3 algorithm with $K$ arms achieves an expected regret of $O\\left(\\sqrt{\\log  K\\left(KT+D\\right)}\\right)$ even when $D=\\sum_{t=1}^{T}d_{t}$ and $T$ are unknown. These bounds use a novel doubling trick that, under mild assumptions, provably retains the regret bound for when $D$ and $T$ are known. Using these bounds, we show that FKM and EXP3 have no weighted-regret even for $d_{t}=O\\left(t\\log t\\right)$. Therefore, algorithms with no weighted-regret can be used to approximate a CCE of a finite or convex unknown game that can only be simulated with bandit feedback, even if the simulation involves significant delays.",
+    "authors": [
+        "Ilai Bistritz",
+        "Zhengyuan Zhou",
+        "Xi Chen",
+        "Nicholas Bambos",
+        "Jose Blanchet"
+    ],
+    "emails": [
+        "bistritz@stanford.edu",
+        "zzhou@stern.nyu.edu",
+        "xc13@stern.nyu.edu",
+        "bambos@stanford.edu",
+        "jose.blanchet@stanford.edu"
+    ],
+    "id": "20-411",
+    "issue": 139,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "No Weighted-Regret Learning in Adversarial Bandits with Delays",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "Feedforward neural networks based on Rectified linear units (ReLU) cannot efficiently approximate quantile functions which are not bounded, especially in the case of heavy-tailed distributions. We thus propose a new parametrization for the generator of a Generative adversarial network (GAN) adapted to this framework, basing on extreme-value theory. An analysis of the uniform error between the extreme quantile and its GAN approximation is provided: We establish that the rate of convergence of the error is mainly driven by the second-order parameter of the data distribution. The above results are illustrated on simulated data and real financial data. It appears that our approach outperforms the classical GAN in a wide range of situations including high-dimensional and dependent data.",
+    "authors": [
+        "Micha\u00ebl Allouche",
+        "St\u00e9phane Girard",
+        "Emmanuel Gobet"
+    ],
+    "emails": [
+        "michael.allouche@polytechnique.edu",
+        "stephane.girard@inria.fr",
+        "emmanuel.gobet@polytechnique.edu"
+    ],
+    "id": "21-0663",
+    "issue": 150,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "EV-GAN: Simulation of extreme events with ReLU neural networks",
+    "volume": 23,
+    "year": 2022
+}

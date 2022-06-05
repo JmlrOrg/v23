@@ -1,0 +1,28 @@
+{
+    "abstract": "Spectral inference on multiple networks is a rapidly-developing subfield of graph statistics. Recent work has demonstrated that joint, or simultaneous, spectral embedding of multiple independent networks can deliver more accurate estimation than individual spectral decompositions of those same networks. Such inference procedures typically rely heavily on independence assumptions across the multiple network realizations, and even in this case, little attention has been paid to the induced network correlation that can be a consequence of such joint embeddings. In this paper, we present a generalized omnibus embedding methodology and we provide a detailed analysis of this embedding across both independent and correlated networks, the latter of which significantly extends the reach of such procedures, and we describe how this omnibus embedding can itself induce correlation. This leads us to distinguish betwee inherent correlation---that is, the correlation that arises naturally in multisample network data---and induced correlation, which is an artifice of the joint embedding methodology. We show that the generalized omnibus embedding procedure is flexible and robust, and we prove both consistency and a central limit theorem for the embedded points. We examine how induced and inherent correlation can impact inference for network time series data, and we provide network analogues of classical questions such as the effective sample size for more generally correlated data. Further, we show how an appropriately calibrated generalized omnibus embedding can detect changes in real biological networks that previous embedding procedures could not discern, confirming that the effect of inherent and induced correlation can be subtle and transformative. By allowing for and deconstructing both forms of correlation, our methodology widens the scope of spectral techniques for network inference, with import in theory and practice.",
+    "authors": [
+        "Konstantinos Pantazis",
+        "Avanti Athreya",
+        "Jesus Arroyo",
+        "William N Frost",
+        "Evan S Hill",
+        "Vince Lyzinski"
+    ],
+    "emails": [
+        "kpantazi@umd.edu",
+        "dathrey1@jhu.edu",
+        "jarroyo@tamu.edu",
+        "william.frost@rosalindfranklin.edu",
+        "evan.hill@rosalindfranklin.edu",
+        "vlyzinsk@umd.edu"
+    ],
+    "id": "20-944",
+    "issue": 141,
+    "pages": [
+        1,
+        77
+    ],
+    "title": "The Importance of Being Correlated: Implications of Dependence in Joint Spectral Inference across Multiple Networks",
+    "volume": 23,
+    "year": 2022
+}

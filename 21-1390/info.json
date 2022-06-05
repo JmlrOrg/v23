@@ -1,0 +1,32 @@
+{
+    "abstract": "Tensors, which provide a powerful and flexible model for representing multi-attribute data and multi-way interactions, play an indispensable role in modern data science  across various fields in science and engineering. A fundamental task is to faithfully recover the tensor from highly incomplete measurements in a statistically and computationally efficient manner. Harnessing the low-rank structure of tensors in the Tucker decomposition, this paper develops a scaled gradient descent (ScaledGD) algorithm to directly recover the tensor factors with tailored spectral initializations, and shows that it provably converges at a linear rate independent of the condition number of the ground truth tensor for two canonical problems --- tensor completion and tensor regression --- as soon as the sample size is above the order of $n^{3/2}$ ignoring other parameter dependencies, where $n$ is the dimension of the tensor. This leads to an extremely scalable approach to low-rank tensor estimation compared with prior art, which suffers from at least one of the following drawbacks: extreme sensitivity to ill-conditioning, high per-iteration costs in terms of memory and computation, or poor sample complexity guarantees. To the best of our knowledge, ScaledGD is the first algorithm that achieves near-optimal statistical and computational complexities simultaneously for low-rank tensor completion with the Tucker decomposition. Our algorithm highlights the power of appropriate preconditioning in accelerating nonconvex statistical estimation, where the iteration-varying preconditioners promote desirable invariance properties of the trajectory with respect to the underlying symmetry in low-rank tensor factorization.",
+    "authors": [
+        "Tian Tong",
+        "Cong Ma",
+        "Ashley Prater-Bennette",
+        "Erin Tripp",
+        "Yuejie Chi"
+    ],
+    "emails": [
+        "ttong1@andrew.cmu.edu",
+        "congm@uchicago.edu",
+        "ashley.prater-bennette@us.af.mil",
+        "erin.tripp.4@us.af.mil",
+        "yuejiechi@cmu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Titan-Tong/ScaledGD"
+        ]
+    ],
+    "id": "21-1390",
+    "issue": 163,
+    "pages": [
+        1,
+        77
+    ],
+    "title": "Scaling and Scalability: Provable Nonconvex Low-Rank Tensor Estimation from Incomplete Measurements",
+    "volume": 23,
+    "year": 2022
+}

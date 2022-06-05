@@ -1,0 +1,22 @@
+{
+    "abstract": "This paper describes an efficient reverse-mode differentiation algorithm for contraction operations for arbitrary and unconventional tensor network topologies. The approach leverages the tensor contraction tree of Evenbly and Pfeifer (2014), which provides an instruction set for the contraction sequence of a network. We show that this tree can be efficiently leveraged for differentiation of a full tensor network contraction using a recursive scheme that exploits (1) the bilinear property of contraction and (2) the property that trees have a single path from root to leaves. While differentiation of tensor-tensor contraction is already possible in most automatic differentiation packages, we show that exploiting these two additional properties in the specific context of contraction sequences can improve efficiency.  Following a description of the algorithm and computational complexity analysis, we investigate its utility for gradient-based supervised learning for low-rank function recovery and for fitting real-world unstructured datasets. We demonstrate improved performance over alternating least-squares optimization approaches and the capability to handle heterogeneous and arbitrary tensor network formats. When compared to alternating minimization algorithms, we find that the gradient-based approach requires a smaller oversampling ratio (number of samples compared to number model parameters) for recovery. This increased efficiency extends to fitting unstructured data of varying dimensionality and when employing a variety of tensor network formats. Here, we show improved learning using the hierarchical Tucker method over the tensor-train in high-dimensional settings on a number of benchmark problems.",
+    "authors": [
+        "Alex A. Gorodetsky",
+        "Cosmin Safta",
+        "John D. Jakeman"
+    ],
+    "emails": [
+        "goroda@umich.edu",
+        "csafta@sandia.gov",
+        "jdjakem@sandia.gov"
+    ],
+    "id": "21-0225",
+    "issue": 143,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "Reverse-mode differentiation in arbitrary tensor network format: with application to supervised learning",
+    "volume": 23,
+    "year": 2022
+}

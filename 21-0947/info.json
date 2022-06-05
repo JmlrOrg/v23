@@ -1,0 +1,26 @@
+{
+    "abstract": "We propose a unified framework to study policy evaluation (PE) and the associated temporal difference (TD) methods for reinforcement learning in continuous time and space. We show that PE is equivalent to maintaining the martingale condition of a process. From this perspective, we find that the mean-square TD error approximates the quadratic variation of the martingale and thus is not a suitable objective for PE. We present two methods to use the martingale characterization for designing PE algorithms. The first one minimizes a ``martingale loss function\", whose solution is proved to be the best approximation of the true value function in the mean--square sense. This method interprets the classical gradient Monte-Carlo algorithm. The second method is based on a system of equations called the ``martingale orthogonality conditions\" with test functions. Solving these equations in different ways recovers various classical TD algorithms, such as TD($\\lambda$), LSTD, and GTD. Different choices of test functions determine in what sense the resulting solutions approximate the true value function. Moreover, we prove that any convergent time-discretized algorithm converges to its continuous-time counterpart as the mesh size goes to zero, and we provide the convergence rate. We demonstrate the theoretical results and corresponding algorithms with numerical experiments and applications.",
+    "authors": [
+        "Yanwei Jia",
+        "Xun Yu Zhou"
+    ],
+    "emails": [
+        "yj2650@columbia.edu",
+        "xz2574@columbia.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://www.dropbox.com/sh/5vyaw0yognhcabf/AACsArMcNmEuSwpXxcRq-qT1a?dl=0"
+        ]
+    ],
+    "id": "21-0947",
+    "issue": 154,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Policy Evaluation and Temporal-Difference Learning in Continuous Time and Space: A Martingale Approach",
+    "volume": 23,
+    "year": 2022
+}

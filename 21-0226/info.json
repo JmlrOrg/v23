@@ -1,0 +1,26 @@
+{
+    "abstract": "We introduce MADGRAD, a novel optimization method in the family of AdaGrad adaptive gradient methods. MADGRAD shows excellent performance on deep learning optimization problems from multiple fields, including classification and image-to-image tasks in vision, and recurrent and bidirectionally-masked models in natural language processing. For each of these tasks, MADGRAD matches or outperforms both SGD and ADAM in test set performance, even on problems for which adaptive methods normally perform poorly.",
+    "authors": [
+        "Aaron Defazio",
+        "Samy Jelassi"
+    ],
+    "emails": [
+        "adefazio@fb.com",
+        "sjelassi@princeton.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/facebookresearch/madgrad"
+        ]
+    ],
+    "id": "21-0226",
+    "issue": 144,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "A Momentumized, Adaptive, Dual Averaged Gradient Method",
+    "volume": 23,
+    "year": 2022
+}

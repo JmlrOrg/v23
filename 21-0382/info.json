@@ -1,0 +1,34 @@
+{
+    "abstract": "Gaussian processes (GPs) enable principled computation of model uncertainty, making them attractive for safety-critical applications. Such scenarios demand that GP decisions are not only accurate, but also robust to perturbations. In this paper we present a framework to analyse adversarial robustness of GPs, defined as invariance of the model's decision to bounded perturbations. Given a compact subset of the input space $T\\subseteq \\mathbb{R}^d$, a point $x^*$ and a GP, we provide provable guarantees of adversarial robustness of the GP by computing lower and upper bounds on its prediction range in $T$. We develop a branch-and-bound scheme to refine the bounds and show, for any $\\epsilon > 0$, that our algorithm is guaranteed to converge to values $\\epsilon$-close to the actual values in finitely many iterations. The algorithm is anytime and can handle both regression and classification tasks, with analytical formulation for most kernels used in practice. We evaluate our methods on a collection of synthetic and standard benchmark data sets, including SPAM, MNIST and FashionMNIST. We study the effect of approximate inference techniques on robustness and demonstrate how our method can be used for interpretability. Our empirical results suggest that the adversarial robustness of GPs increases with accurate posterior estimation.",
+    "authors": [
+        "Andrea Patane",
+        "Arno Blaas",
+        "Luca Laurenti",
+        "Luca Cardelli",
+        "Stephen Roberts",
+        "Marta Kwiatkowska"
+    ],
+    "emails": [
+        "apatane@tcd.ie",
+        "arno@robots.ox.ac.uk",
+        "l.laurenti@tudelft.nl",
+        "luca.cardelli@cs.ox.ac.uk",
+        "sjrob@robots.ox.ac.uk",
+        "marta.kwiatkowska@cs.ox.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/andreapatane/check-GPclass"
+        ]
+    ],
+    "id": "21-0382",
+    "issue": 146,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Adversarial Robustness Guarantees for Gaussian Processes",
+    "volume": 23,
+    "year": 2022
+}

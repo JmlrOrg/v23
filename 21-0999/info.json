@@ -1,0 +1,22 @@
+{
+    "abstract": "In this paper, we consider the learning rate of support vector machines with both a functional predictor and a high-dimensional multivariate vectorial predictor. Similar to the literature on learning in reproducing kernel Hilbert spaces, a source condition and a capacity condition are used to characterize the convergence rate of the estimator. It is highly non-trivial to establish the possibly faster rate of the linear part. Using a key basic inequality comparing losses at two carefully constructed points, we establish the learning rate of the linear part which is the same as if the functional part is known. The proof relies on empirical processes and the Rademacher complexity bound in the semi-nonparametric setting as analytic tools, Young's inequality for operators, as well as a novel  ``approximate convexity\" assumption.",
+    "authors": [
+        "Yingying Zhang",
+        "Yan-Yong Zhao",
+        "Heng Lian"
+    ],
+    "emails": [
+        "yyzhang@fem.ecnu.edu.cn",
+        "yyzhao@nau.edu.cn",
+        "henglian@cityu.edu.hk"
+    ],
+    "id": "21-0999",
+    "issue": 156,
+    "pages": [
+        1,
+        24
+    ],
+    "title": "Statistical Rates of Convergence for Functional Partially Linear Support Vector Machines for Classification",
+    "volume": 23,
+    "year": 2022
+}

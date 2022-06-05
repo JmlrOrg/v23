@@ -1,0 +1,26 @@
+{
+    "abstract": "In order to describe or estimate different quantities related to a specific random variable, it is of prime interest to numerically generate such a variate. In specific situations, the exact generation of random variables might be either momentarily unavailable or too expensive in terms of computation time. It therefore needs to be replaced by an approximation procedure. As was previously the case, the ambitious exact simulation of first exit times for diffusion processes was unreachable though it concerns many applications in different fields like mathematical finance, neuroscience or reliability. The usual way to describe first exit times was to use discretization schemes, that are of course approximation procedures. Recently, Herrmann and Zucca proposed a new algorithm, the so-called GDET-algorithm (General Diffusion Exit Time), which permits to simulate exactly the first exit time for one-dimensional diffusions. The only drawback of exact simulation methods using an acceptance-rejection sampling is their time consumption. In this paper the authors highlight an acceleration procedure for the GDET-algorithm based on a multi-armed bandit model. The efficiency of this acceleration is pointed out through numerical examples.",
+    "authors": [
+        "Samuel Herrmann",
+        "Cristina Zucca"
+    ],
+    "emails": [
+        "samuel.herrmann@u-bourgogne.fr",
+        "cristina.zucca@unito.it"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/SamHerr/Diff-FirstExitTime-Acceleration"
+        ]
+    ],
+    "id": "20-321",
+    "issue": 138,
+    "pages": [
+        1,
+        20
+    ],
+    "title": "Exact simulation of diffusion first exit times: algorithm acceleration",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,28 @@
+{
+    "abstract": "Many reinforcement learning algorithms rely on value estimation, however, the most widely used algorithms---namely temporal difference algorithms---can diverge under both off-policy sampling and nonlinear function approximation. Many algorithms have been developed for off-policy value estimation based on the linear mean squared projected Bellman error (MSPBE) and are sound under linear function approximation. Extending these methods to the nonlinear case has been largely unsuccessful. Recently, several methods have been introduced that approximate a different objective---the mean-squared Bellman error (MSBE)---which naturally facilitate nonlinear approximation. In this work, we build on these insights and introduce a new generalized MSPBE that extends the linear MSPBE to the nonlinear setting. We show how this generalized objective unifies previous work and obtain new bounds for the value error of the solutions of the generalized objective. We derive an easy-to-use, but sound, algorithm to minimize the generalized objective, and show that it is more stable across runs, is less sensitive to hyperparameters, and performs favorably across four control domains with neural network function approximation.",
+    "authors": [
+        "Andrew Patterson",
+        "Adam White",
+        "Martha White"
+    ],
+    "emails": [
+        "ap3@ualberta.ca",
+        "amw8@ualberta.ca",
+        "whitem@ualberta.ca"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/rlai-lab/Generalized-Projected-Bellman-Errors"
+        ]
+    ],
+    "id": "21-037",
+    "issue": 145,
+    "pages": [
+        1,
+        61
+    ],
+    "title": "A Generalized Projected Bellman Error for Off-policy Value Estimation in Reinforcement Learning",
+    "volume": 23,
+    "year": 2022
+}

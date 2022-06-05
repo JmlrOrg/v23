@@ -1,0 +1,26 @@
+{
+    "abstract": "Modelling functions of sets, or equivalently, permutation-invariant functions, is a long-standing challenge in machine learning. Deep Sets is a popular method which is known to be a universal approximator for continuous set functions. We provide a theoretical analysis of Deep Sets which shows that this universal approximation property is only guaranteed if the model's latent space is sufficiently high-dimensional. If the latent space is even one dimension lower than necessary, there exist piecewise-affine functions for which Deep Sets performs no better than a na\u00efve constant baseline, as judged by worst-case error. Deep Sets may be viewed as the most efficient incarnation of the Janossy pooling paradigm. We identify this paradigm as encompassing most currently popular set-learning methods. Based on this connection, we discuss the implications of our results for set learning more broadly, and identify some open questions on the universality of Janossy pooling in general.",
+    "authors": [
+        "Edward Wagstaff",
+        "Fabian B. Fuchs",
+        "Martin Engelcke",
+        "Michael A. Osborne",
+        "Ingmar Posner"
+    ],
+    "emails": [
+        "ed@robots.ox.ac.uk",
+        "fabian@robots.ox.ac.uk",
+        "martin@robots.ox.ac.uk",
+        "mosb@robots.ox.ac.uk",
+        "ingmar@robots.ox.ac.uk"
+    ],
+    "id": "21-0730",
+    "issue": 151,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Universal Approximation of Functions on Sets",
+    "volume": 23,
+    "year": 2022
+}
