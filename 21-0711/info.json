@@ -1,23 +1,28 @@
 {
-    "title": "Distributed Bootstrap for Simultaneous Inference Under High Dimensionality",
     "abstract": "We propose a distributed bootstrap method for simultaneous inference on high-dimensional massive data that are stored and processed with many machines. The method produces an $\\ell_\\infty$-norm confidence region based on a communication-efficient de-biased lasso, and we propose an efficient cross-validation approach to tune the method at every iteration. We theoretically prove a lower bound on the number of communication rounds $\\tau_{\\min}$ that warrants the statistical accuracy and efficiency. Furthermore, $\\tau_{\\min}$ only increases logarithmically with the number of workers and the intrinsic dimensionality, while nearly invariant to the nominal dimensionality. We test our theory by extensive simulation studies, and a variable screening task on a semi-synthetic dataset based on the US Airline On-Time Performance dataset. The code to reproduce the numerical results is available in Supplementary Material.",
-    "extra_links":
-    [
+    "authors": [
+        "Yang Yu",
+        "Shih-Kang Chao",
+        "Guang Cheng"
+    ],
+    "emails": [
+        "yuyang930930@gmail.com",
+        "skchao74@gmail.com",
+        "guangcheng@ucla.edu"
+    ],
+    "extra_links": [
         [
             "code",
             "https://github.com/skchao74/Distributed-bootstrap"
         ]
     ],
-    "authors":
-    [
-        "Yang Yu",
-        "Shih-Kang Chao",
-        "Guang Cheng"
+    "id": "21-0711",
+    "issue": 195,
+    "pages": [
+        1,
+        77
     ],
-    "emails":
-    [
-        "yuyang930930@gmail.com",
-        "skchao74@gmail.com",
-        "guangcheng@ucla.edu"
-    ]
+    "title": "Distributed Bootstrap for Simultaneous Inference Under High Dimensionality",
+    "volume": 23,
+    "year": 2022
 }

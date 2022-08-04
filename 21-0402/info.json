@@ -1,16 +1,22 @@
 {
-    "title": "Clustering with Semidefinite Programming and Fixed Point Iteration",
     "abstract": "We introduce a novel method for clustering using a semidefinite programming (SDP) relaxation of the Max k-Cut problem.  The approach is based on a new methodology for rounding the solution of an SDP relaxation using iterated linear optimization.  We show the vertices of the Max k-Cut relaxation correspond to partitions of the data into at most k sets.  We also show the vertices are attractive fixed points of iterated linear optimization.  Each step of this iterative process solves a relaxation of the closest vertex problem and leads to a new clustering problem where the underlying clusters are more clearly defined.  Our experiments show that using fixed point iteration for rounding the Max k-Cut SDP relaxation leads to significantly better results when compared to randomized rounding.",
-    "authors":
-    [
+    "authors": [
         "Pedro Felzenszwalb",
         "Caroline Klivans",
         "Alice Paul"
     ],
-    "emails":
-    [
+    "emails": [
         "pff@brown.edu",
         "klivans@brown.edu",
         "alice_paul@brown.edu"
-    ]
+    ],
+    "id": "21-0402",
+    "issue": 190,
+    "pages": [
+        1,
+        23
+    ],
+    "title": "Clustering with Semidefinite Programming and Fixed Point Iteration",
+    "volume": 23,
+    "year": 2022
 }

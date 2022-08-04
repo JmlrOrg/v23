@@ -1,14 +1,20 @@
 {
-    "title": "Signature Moments to Characterize Laws of Stochastic Processes",
     "abstract": "The sequence of moments of a vector-valued random variable can characterize its law. We study the analogous problem for path-valued random variables, that is stochastic processes, by using so-called robust signature moments. This allows us to derive a metric of maximum mean discrepancy type for laws of stochastic processes and study the topology it induces on the space of laws of stochastic processes. This metric can be kernelized using the signature kernel which allows to efficiently compute it. As an application, we provide a non-parametric two-sample hypothesis test for laws of stochastic processes.",
-    "authors":
-    [
+    "authors": [
         "Ilya Chevyrev",
         "Harald Oberhauser"
     ],
-    "emails":
-    [
+    "emails": [
         "ichevyrev@gmail.com",
         "oberhauser@maths.ox.ac.uk"
-    ]
+    ],
+    "id": "20-1466",
+    "issue": 176,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Signature Moments to Characterize Laws of Stochastic Processes",
+    "volume": 23,
+    "year": 2022
 }

@@ -1,18 +1,24 @@
 {
-    "title": "Projection-free Distributed Online Learning with Sublinear Communication Complexity",
     "abstract": "To deal with complicated constraints via locally light computations in distributed online learning, a recent study has presented a projection-free algorithm called distributed online conditional gradient (D-OCG), and achieved an $O(T^{3/4})$ regret bound for convex losses, where $T$ is the number of total rounds. However, it requires $T$ communication rounds, and cannot utilize the strong convexity of losses. In this paper, we propose an improved variant of D-OCG, namely D-BOCG, which can attain the same $O(T^{3/4})$ regret bound with only $O(\\sqrt{T})$ communication rounds for convex losses, and a better regret bound of $O(T^{2/3}(\\log T)^{1/3})$ with fewer $O(T^{1/3}(\\log T)^{2/3})$ communication rounds for strongly convex losses. The key idea is to adopt a delayed update mechanism that reduces the communication complexity, and redefine the surrogate loss function in D-OCG for exploiting the strong convexity. Furthermore, we provide lower bounds to demonstrate that the $O(\\sqrt{T})$ communication rounds required by D-BOCG are optimal (in terms of $T$) for achieving the $O(T^{3/4})$ regret with convex losses, and the $O(T^{1/3}(\\log T)^{2/3})$ communication rounds required by D-BOCG are near-optimal (in terms of $T$) for achieving the $O(T^{2/3}(\\log T)^{1/3})$ regret with strongly convex losses up to polylogarithmic factors. Finally, to handle the more challenging bandit setting, in which only the loss value is available, we incorporate the classical one-point gradient estimator into D-BOCG, and obtain similar theoretical guarantees.",
-    "authors":
-    [
+    "authors": [
         "Yuanyu Wan",
         "Guanghui Wang",
         "Wei-Wei Tu",
         "Lijun Zhang"
     ],
-    "emails":
-    [
+    "emails": [
         "wanyy9@gmail.com",
         "gwang369@gatech.edu",
         "tuweiwei@4paradigm.com",
         "zhanglj@lamda.nju.edu.cn"
-    ]
+    ],
+    "id": "20-1239",
+    "issue": 172,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "Projection-free Distributed Online Learning with Sublinear Communication Complexity",
+    "volume": 23,
+    "year": 2022
 }

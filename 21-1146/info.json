@@ -1,18 +1,24 @@
 {
-    "title": "Stochastic DCA with Variance Reduction and Applications in Machine Learning",
     "abstract": "We design stochastic Difference-of-Convex-functions Algorithms (DCA) for solving a class of structured  Difference-of-Convex-functions (DC) problems. As the standard DCA requires the full information of (sub)gradients which could be expensive in large-scale settings, stochastic approaches rely upon stochastic information instead. However, stochastic estimations generate additional variance terms making stochastic algorithms unstable. Therefore, we integrate some novel variance reduction techniques including SVRG and SAGA into our design. The almost sure convergence to critical points of the proposed algorithms is established and the algorithms' complexities are analyzed. To study the efficiency of our algorithms, we apply them to three important problems in machine learning: nonnegative principal component analysis, group variable selection in multiclass logistic regression, and sparse linear regression. Numerical experiments have shown the merits of our proposed algorithms in comparison with other state-of-the-art stochastic methods for solving nonconvex large-sum problems.",
-    "authors":
-    [
+    "authors": [
         "Hoai An  Le Thi",
         "Hoang Phuc Hau Luu",
         "Hoai Minh Le",
         "Tao Pham Dinh"
     ],
-    "emails":
-    [
+    "emails": [
         "hoai-an.le-thi@univ-lorraine.fr",
         "hoang-phuc-hau.luu@univ-lorraine.fr",
         "minh.le@univ-lorraine.fr",
         "pham@insa-rouen.fr"
-    ]
+    ],
+    "id": "21-1146",
+    "issue": 206,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Stochastic DCA with Variance Reduction and Applications in Machine Learning",
+    "volume": 23,
+    "year": 2022
 }

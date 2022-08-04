@@ -1,21 +1,26 @@
 {
-    "title": "Boulevard: Regularized Stochastic Gradient Boosted Trees and Their Limiting Distribution",
     "abstract": "This paper examines a novel gradient boosting framework for regression. We regularize gradient boosted trees by introducing subsampling and employ a modified shrinkage algorithm so that at every boosting stage the estimate is given by an average of trees. The resulting algorithm, titled \"Boulevard'\", is shown to converge as the number of trees grows. This construction allows us to demonstrate a central limit theorem for this limit, providing a characterization of uncertainty for predictions. A simulation study and real world examples provide support for both the predictive accuracy of the model and its limiting behavior.",
-    "extra_links":
-    [
+    "authors": [
+        "Yichen Zhou",
+        "Giles Hooker"
+    ],
+    "emails": [
+        "yz793@cornell.edu",
+        "ghooker@berkeley.edu"
+    ],
+    "extra_links": [
         [
             "code",
             "https://github.com/siriuz42/boulevard"
         ]
     ],
-    "authors":
-    [
-        "Yichen Zhou",
-        "Giles Hooker"
+    "id": "21-0078",
+    "issue": 183,
+    "pages": [
+        1,
+        44
     ],
-    "emails":
-    [
-        "yz793@cornell.edu",
-        "ghooker@berkeley.edu"
-    ]
+    "title": "Boulevard: Regularized Stochastic Gradient Boosted Trees and Their Limiting Distribution",
+    "volume": 23,
+    "year": 2022
 }

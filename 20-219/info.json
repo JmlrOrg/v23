@@ -1,8 +1,6 @@
 {
-    "title": "Asymptotic Analysis of Sampling Estimators for Randomized Numerical Linear Algebra Algorithms",
     "abstract": "The statistical analysis of Randomized Numerical Linear Algebra (RandNLA) algorithms within the past few years has mostly focused on their performance as point estimators. However, this is insufficient for conducting statistical inference, e.g., constructing confidence intervals and hypothesis testing, since the distribution of the estimator is lacking. In this article, we develop an asymptotic analysis to derive the distribution of RandNLA sampling estimators for the least-squares problem. In particular, we derive the asymptotic distribution of a general sampling estimator with arbitrary sampling probabilities in a fixed design setting. The analysis is conducted in two complementary settings, i.e., when the objective of interest is to approximate the full sample estimator, and when it is to infer the underlying ground truth model parameters. For each setting, we show that the sampling estimator is asymptotically normally distributed under mild regularity conditions. Moreover, the sampling estimator is asymptotically unbiased in both settings. Based on our asymptotic analysis, we use two criteria, the Asymptotic Mean Squared Error (AMSE) and the Expected Asymptotic Mean Squared Error (EAMSE), to identify optimal sampling probabilities. Several of these optimal sampling probability distributions are new to the literature, e.g., the root leverage sampling estimator and the predictor length sampling estimator. Our theoretical results clarify the role of leverage in the sampling process, and our empirical results demonstrate improvements over existing methods.",
-    "authors":
-    [
+    "authors": [
         "Ping Ma",
         "Yongkai Chen",
         "Xinlian Zhang",
@@ -10,13 +8,21 @@
         "Jingyi Ma",
         "Michael W. Mahoney"
     ],
-    "emails":
-    [
+    "emails": [
         "pingma@uga.edu",
         "yongkaichen@uga.edu",
         "xizhang@health.ucsd.edu",
         "xinxing@vt.edu",
         "jyma@cufe.edu.cn",
         "mmahoney@stat.berkeley.edu"
-    ]
+    ],
+    "id": "20-219",
+    "issue": 177,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "Asymptotic Analysis of Sampling Estimators for Randomized Numerical Linear Algebra Algorithms",
+    "volume": 23,
+    "year": 2022
 }

@@ -1,18 +1,24 @@
 {
-    "title": "Uniform deconvolution for Poisson Point Processes",
     "abstract": "We focus on the estimation of the intensity of a Poisson process in the presence of a uniform noise. We propose a kernel-based procedure fully calibrated in theory and practice. We show that our adaptive estimator is optimal from the oracle and minimax points of view, and provide new lower bounds when the intensity belongs to a Sobolev ball.  By developing the Goldenshluger-Lepski methodology in the case of deconvolution for Poisson processes, we propose an optimal data-driven selection of the kernel bandwidth. Our method is illustrated on the spatial distribution of replication origins and sequence motifs along the human genome.",
-    "authors":
-    [
+    "authors": [
         "Anna Bonnet",
         "Claire Lacour",
         "Franck Picard",
         "Vincent Rivoirard"
     ],
-    "emails":
-    [
+    "emails": [
         "anna.bonnet@upmc.fr",
         "claire.lacour@u-pem.fr",
         "franck.picard@ens-lyon.fr",
         "vincent.rivoirard@dauphine.fr"
-    ]
+    ],
+    "id": "21-0577",
+    "issue": 194,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Uniform deconvolution for Poisson Point Processes",
+    "volume": 23,
+    "year": 2022
 }

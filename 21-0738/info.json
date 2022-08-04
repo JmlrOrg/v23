@@ -1,16 +1,6 @@
 {
-    "title": "InterpretDL: Explaining Deep Models in PaddlePaddle",
     "abstract": "Techniques to explain the predictions of deep neural networks (DNNs) have been largely required for gaining insights into the black boxes. We introduce InterpretDL, a toolkit of explanation algorithms based on PaddlePaddle, with uniformed programming interfaces and \"plug-and-play\" designs. A few lines of codes are needed to obtain the explanation results without modifying the structure of the model. InterpretDL currently contains 16 algorithms, explaining training phases, datasets, global and local behaviors of post-trained deep models. InterpretDL also provides a number of tutorial examples and showcases to demonstrate the capability of InterpretDL working on a wide range of deep learning models, e.g., Convolutional Neural Networks (CNNs), Multi-Layer Preceptors (MLPs), Transformers, etc., for various tasks in both Computer Vision (CV) and Natural Language Processing (NLP). Furthermore, InterpretDL modularizes the implementations, making efforts to support the compatibility across frameworks. The project is available at https://github.com/PaddlePaddle/InterpretDL.",
-    "extra_links":
-    [
-        [
-            "code",
-            "https://github.com/PaddlePaddle/InterpretDL"
-        ]
-    ],
-    "special_issue": "MLOSS",
-    "authors":
-    [
+    "authors": [
         "Xuhong Li",
         "Haoyi Xiong",
         "Xingjian Li",
@@ -18,13 +8,28 @@
         "Zeyu Chen",
         "Dejing Dou"
     ],
-    "emails":
-    [
+    "emails": [
         "lixuhong@baidu.com",
         "xionghaoyi@baidu.com",
         "lixingjian@baidu.com",
         "v_wuxuanyu@baidu.com",
         "chenzeyu01@baidu.com",
         "doudejing@baidu.com"
-    ]
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/PaddlePaddle/InterpretDL"
+        ]
+    ],
+    "id": "21-0738",
+    "issue": 197,
+    "pages": [
+        1,
+        6
+    ],
+    "special_issue": "MLOSS",
+    "title": "InterpretDL: Explaining Deep Models in PaddlePaddle",
+    "volume": 23,
+    "year": 2022
 }

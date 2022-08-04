@@ -1,14 +1,20 @@
 {
-    "title": "Deep Limits and a Cut-Off Phenomenon for Neural Networks",
     "abstract": "We consider dynamical and geometrical aspects of deep learning. For many standard choices of layer maps we display semi-invariant metrics which quantify differences between data or decision functions. This allows us, when considering random layer maps and using non-commutative ergodic theorems, to deduce that certain limits exist when letting the number of layers tend to infinity. We also examine the random initialization of standard networks where we observe a surprising cut-off phenomenon in terms of the number of layers, the depth of the network. This could be a relevant parameter when choosing an appropriate number of layers for a given learning task, or for selecting a good initialization procedure. More generally, we hope that the notions and results in this paper can provide a framework, in particular a geometric one, for a part of the theoretical understanding of deep neural networks.",
-    "authors":
-    [
+    "authors": [
         "Benny Avelin",
         "Anders Karlsson"
     ],
-    "emails":
-    [
+    "emails": [
         "benny.avelin@math.uu.se",
         "anders.karlsson@unige.ch"
-    ]
+    ],
+    "id": "21-0431",
+    "issue": 191,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "Deep Limits and a Cut-Off Phenomenon for Neural Networks",
+    "volume": 23,
+    "year": 2022
 }

@@ -1,23 +1,28 @@
 {
-    "title": "A Primer for Neural Arithmetic Logic Modules",
     "abstract": "Neural Arithmetic Logic Modules have become a growing area of interest, though remain a niche field. These modules are neural networks which aim to achieve systematic generalisation in learning arithmetic and/or logic operations such as $\\{+, -, \\times, \\div, \\leq, \\textrm{AND}\\}$ while also being interpretable. This paper is the first in discussing the current state of progress of this field, explaining key works, starting with the Neural Arithmetic Logic Unit (NALU). Focusing on the shortcomings of the NALU, we provide an in-depth analysis to reason about design choices of recent modules. A cross-comparison between modules is made on experiment setups and findings, where we highlight inconsistencies in a fundamental experiment causing the inability to directly compare across papers. To alleviate the existing inconsistencies, we create a benchmark which compares all existing arithmetic NALMs. We finish by providing a novel discussion of existing applications for NALU and research directions requiring further exploration.",
-    "extra_links":
-    [
+    "authors": [
+        "Bhumika Mistry",
+        "Katayoun Farrahi",
+        "Jonathon Hare"
+    ],
+    "emails": [
+        "bm4g15@soton.ac.uk",
+        "k.farrahi@soton.ac.uk",
+        "jsh2@ecs.soton.ac.uk"
+    ],
+    "extra_links": [
         [
             "code",
             "https://github.com/bmistry4/nalm-benchmark"
         ]
     ],
-    "authors":
-    [
-        "Bhumika Mistry",
-        "Katayoun Farrahi",
-        "Jonathon Hare"
+    "id": "21-0211",
+    "issue": 185,
+    "pages": [
+        1,
+        58
     ],
-    "emails":
-    [
-        "bm4g15@soton.ac.uk",
-        "k.farrahi@soton.ac.uk",
-        "jsh2@ecs.soton.ac.uk"
-    ]
+    "title": "A Primer for Neural Arithmetic Logic Modules",
+    "volume": 23,
+    "year": 2022
 }

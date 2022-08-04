@@ -1,16 +1,22 @@
 {
-    "title": "Multi-Agent Multi-Armed Bandits with Limited Communication",
     "abstract": "We consider the problem where $N$ agents collaboratively interact with an instance of a stochastic $K$ arm bandit problem for $K \\gg N$. The agents aim to simultaneously minimize the cumulative regret over all the agents for a total of $T$ time steps, the number of communication rounds, and the number of bits in each communication round.  We present Limited Communication Collaboration - Upper Confidence Bound (LCC-UCB), a doubling-epoch based algorithm where each agent communicates only after the end of the epoch and shares the index of the best arm it knows. With our algorithm, LCC-UCB, each agent enjoys a regret of $\\tilde{O}\\left(\\sqrt{({K/N}+ N)T}\\right)$, communicates for $O(\\log T)$ steps and broadcasts $O(\\log K)$ bits in each communication step. We extend the work to sparse graphs with maximum degree $K_G$ and diameter $D$ to propose LCC-UCB-GRAPH which enjoys a regret bound of $\\tilde{O}\\left(D\\sqrt{(K/N+ K_G)DT}\\right)$. Finally, we empirically show that the LCC-UCB and the LCC-UCB-GRAPH algorithms perform well and outperform strategies that communicate through a central node.",
-    "authors":
-    [
+    "authors": [
         "Mridul Agarwal",
         "Vaneet Aggarwal",
         "Kamyar Azizzadenesheli"
     ],
-    "emails":
-    [
+    "emails": [
         "agarw180@purdue.edu",
         "vaneet@purdue.edu",
         "kamyar@purdue.edu"
-    ]
+    ],
+    "id": "21-138",
+    "issue": 212,
+    "pages": [
+        1,
+        24
+    ],
+    "title": "Multi-Agent Multi-Armed Bandits with Limited Communication",
+    "volume": 23,
+    "year": 2022
 }

@@ -1,17 +1,23 @@
 {
-    "title": "Improved Generalization Bounds for Adversarially Robust Learning",
     "abstract": "We consider a model of robust learning in an adversarial environment. The learner gets uncorrupted training data with access to possible corruptions that may be affected by the adversary during testing. The learner's goal is to build a robust classifier, which will be tested on future adversarial examples.  The adversary is limited to $k$ possible corruptions for each input. We model the learner-adversary interaction as a zero-sum game. This model is closely related to the adversarial examples model of Schmidt et al. (2018); Madry et al. (2017).  Our main results consist of generalization bounds for the binary and multiclass classification, as well as the real-valued case (regression). For the binary classification setting, we both tighten the generalization bound of Feige et al. (2015), and are also able to handle infinite hypothesis classes. The sample complexity is improved from $O(\\frac{1}{\\epsilon^4}\\log(\\frac{|H|}{\\delta}))$ to $O\\big(\\frac{1}{\\epsilon^2}(kVC(H)\\log^{\\frac{3}{2}+\\alpha}(kVC(H))+\\log(\\frac{1}{\\delta})\\big)$ for any $\\alpha > 0$. Additionally, we extend the algorithm and generalization bound from the binary to the multiclass and real-valued cases. Along the way, we obtain results on fat-shattering dimension and Rademacher complexity of $k$-fold maxima over function classes; these may be of independent interest.  For binary classification, the algorithm of Feige et al. (2015)  uses a regret minimization algorithm and an ERM oracle as a black box; we adapt it for the multiclass and regression settings. The algorithm provides us with near-optimal policies for the players on a given training sample.",
-    "special_issue": "MLOSS",
-    "authors":
-    [
+    "authors": [
         "Idan Attias",
         "Aryeh Kontorovich",
         "Yishay Mansour"
     ],
-    "emails":
-    [
+    "emails": [
         "idanatti@post.bgu.ac.il",
         "karyeh@cs.bgu.ac.il",
         "mansour.yishay@gmail.com"
-    ]
+    ],
+    "id": "20-1353",
+    "issue": 175,
+    "pages": [
+        1,
+        31
+    ],
+    "special_issue": "MLOSS",
+    "title": "Improved Generalization Bounds for Adversarially Robust Learning",
+    "volume": 23,
+    "year": 2022
 }

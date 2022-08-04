@@ -1,18 +1,24 @@
 {
-    "title": "KL-UCB-Switch: Optimal Regret Bounds for Stochastic Bandits from Both a Distribution-Dependent and a Distribution-Free Viewpoints",
-    "abstract": "We consider $K$-armed stochastic bandits and consider cumulative regret bounds up to time $T$. We are interested in strategies achieving simultaneously a distribution-free regret bound of optimal order $\\sqrt{KT}$ and a distribution-dependent regret that is asymptotically optimal, that is, matching the $\\kappa \\ln T$ lower bound by Lai and Robbins (1985) and Burnetas and Katehakis (1996), where $\\kappa$ is the optimal problem-dependent constant. This constant $\\kappa$ depends on the model $\\mathcal{D}$ considered (the family of possible distributions over the arms). Ménard and Garivier (2017) provided strategies achieving such a bi-optimality in the parametric case of models given by one-dimensional exponential families, while Lattimore (2016, 2018) did so for the family of (sub)Gaussian distributions with variance less than $1$. We extend this result to the non-parametric case of all distributions over $[0,1]$. We do so by combining the MOSS strategy by Audibert and Bubeck (2009), which enjoys a distribution-free regret bound of optimal order $\\sqrt{KT}$, and the KL-UCB strategy by Cappé et al. (2013), for which we provide in passing the first analysis of an optimal distribution-dependent $\\kappa\\ln T$ regret bound in the model of all distributions over $[0,1]$. We were able to obtain this non-parametric bi-optimality result while working hard to streamline the proofs (of previously known regret bounds and thus of the new analyses carried out); a second merit of the present contribution is therefore to provide a review of proofs of classical regret bounds for index-based strategies for $K$-armed stochastic bandits.",
-    "authors":
-    [
-        "Aurélien Garivier",
-        "Hédi Hadiji",
-        "Pierre Ménard",
+    "abstract": "We consider $K$-armed stochastic bandits and consider cumulative regret bounds up to time $T$. We are interested in strategies achieving simultaneously a distribution-free regret bound of optimal order $\\sqrt{KT}$ and a distribution-dependent regret that is asymptotically optimal, that is, matching the $\\kappa \\ln T$ lower bound by Lai and Robbins (1985) and Burnetas and Katehakis (1996), where $\\kappa$ is the optimal problem-dependent constant. This constant $\\kappa$ depends on the model $\\mathcal{D}$ considered (the family of possible distributions over the arms). M\u00e9nard and Garivier (2017) provided strategies achieving such a bi-optimality in the parametric case of models given by one-dimensional exponential families, while Lattimore (2016, 2018) did so for the family of (sub)Gaussian distributions with variance less than $1$. We extend this result to the non-parametric case of all distributions over $[0,1]$. We do so by combining the MOSS strategy by Audibert and Bubeck (2009), which enjoys a distribution-free regret bound of optimal order $\\sqrt{KT}$, and the KL-UCB strategy by Capp\u00e9 et al. (2013), for which we provide in passing the first analysis of an optimal distribution-dependent $\\kappa\\ln T$ regret bound in the model of all distributions over $[0,1]$. We were able to obtain this non-parametric bi-optimality result while working hard to streamline the proofs (of previously known regret bounds and thus of the new analyses carried out); a second merit of the present contribution is therefore to provide a review of proofs of classical regret bounds for index-based strategies for $K$-armed stochastic bandits.",
+    "authors": [
+        "Aur\u00e9lien Garivier",
+        "H\u00e9di Hadiji",
+        "Pierre M\u00e9nard",
         "Gilles Stoltz"
     ],
-    "emails":
-    [
+    "emails": [
         "aurelien.garivier@ens-lyon.fr",
         "hedi.hadiji@gmail.com",
         "pierre.menard@inria.fr",
         "gilles.stoltz@universite-paris-saclay.fr"
-    ]
+    ],
+    "id": "20-717",
+    "issue": 179,
+    "pages": [
+        1,
+        66
+    ],
+    "title": "KL-UCB-Switch: Optimal Regret Bounds for Stochastic Bandits from Both a Distribution-Dependent and a Distribution-Free Viewpoints",
+    "volume": 23,
+    "year": 2022
 }

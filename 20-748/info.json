@@ -1,23 +1,28 @@
 {
-    "title": "Matrix Completion with Covariate Information and  Informative Missingness",
     "abstract": "We study the problem of matrix completion when the missingness of the matrix entries is dependent on the unobserved response values themselves and hence the missingness itself is informative. Furthermore, we allow to take into account the covariate information to establish its relation with the response and hence enable prediction. We devise a novel procedure to simultaneously complete the partially observed matrix and assess the covariate effect. Allowing the matrix dimensions as well as the number of covariates to grow ultra-high, under the classic low-rank matrix and sparse covariate effect assumptions, we rigorously establish the statistical guarantee of our procedure and the algorithmic convergence. The method is demonstrated via simulation studies and is used to analyze a Yelp data set and a MovieLens data set.",
-    "extra_links":
-    [
+    "authors": [
+        "Huaqing Jin",
+        "Yanyuan Ma",
+        "Fei Jiang"
+    ],
+    "emails": [
+        "Huaqing.Jin@ucsf.edu",
+        "yzm63@psu.edu",
+        "Fei.Jiang@ucsf.edu"
+    ],
+    "extra_links": [
         [
             "code",
             "https://github.com/JINhuaqing/MNAR"
         ]
     ],
-    "authors":
-    [
-        "Huaqing Jin",
-        "Yanyuan Ma",
-        "Fei Jiang"
+    "id": "20-748",
+    "issue": 180,
+    "pages": [
+        1,
+        62
     ],
-    "emails":
-    [
-        "Huaqing.Jin@ucsf.edu",
-        "yzm63@psu.edu",
-        "Fei.Jiang@ucsf.edu"
-    ]
+    "title": "Matrix Completion with Covariate Information and  Informative Missingness",
+    "volume": 23,
+    "year": 2022
 }

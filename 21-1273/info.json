@@ -1,8 +1,6 @@
 {
-    "title": "Efficient Inference for Dynamic Flexible Interactions of Neural Populations",
     "abstract": "Hawkes process provides an effective statistical framework for analyzing the interactions of neural spiking activities. Although utilized in many real applications, the classic Hawkes process is incapable of modeling inhibitory interactions among neural population. Instead, the nonlinear Hawkes process allows for modeling a more flexible influence pattern with excitatory or inhibitory interactions. This work proposes a flexible nonlinear Hawkes process variant based on sigmoid nonlinearity. To ease inference, three sets of auxiliary latent variables (Polya-Gamma variables, latent marked Poisson processes and sparsity variables) are augmented to make functional connection weights appear in a Gaussian form, which enables simple iterative algorithms with analytical updates. As a result, the efficient Gibbs sampler, expectation-maximization algorithm and mean-field approximation are derived to estimate the interactions among neural populations. Furthermore, to reconcile with time-varying neural systems, the proposed time-invariant model is extended to a dynamic version by introducing a Markov state process. Similarly, three analytical iterative inference algorithms: Gibbs sampler, EM algorithm and mean-field approximation are derived. We compare the accuracy and efficiency of these inference algorithms on synthetic data, and further experiment on real neural recordings to demonstrate that the developed models achieve superior performance over the state-of-the-art competitors.",
-    "authors":
-    [
+    "authors": [
         "Feng Zhou",
         "Quyu Kong",
         "Zhijie Deng",
@@ -11,8 +9,7 @@
         "Cheng Feng",
         "Jun Zhu"
     ],
-    "emails":
-    [
+    "emails": [
         "zhoufeng6288@tsinghua.edu.cn",
         "quyu.kong@anu.edu.au",
         "dzj17@mails.tsinghua.edu.cn",
@@ -20,5 +17,14 @@
         "yixuan.zhang@student.uts.edu.au",
         "cheng.feng@siemens.com",
         "dcszj@tsinghua.edu.cn"
-    ]
+    ],
+    "id": "21-1273",
+    "issue": 211,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Efficient Inference for Dynamic Flexible Interactions of Neural Populations",
+    "volume": 23,
+    "year": 2022
 }

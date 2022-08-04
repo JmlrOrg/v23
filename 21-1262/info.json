@@ -1,14 +1,20 @@
 {
-    "title": "A Unified Statistical Learning Model for Rankings and Scores with Application to Grant Panel Review",
     "abstract": "Rankings and scores are two common data types used by judges to express preferences and/or perceptions of quality in a collection of objects. Numerous models exist to study data of each type separately, but no unified statistical model captures both data types simultaneously without first performing data conversion. We propose the Mallows-Binomial model to close this gap, which combines a Mallows $\\phi$ ranking model with Binomial score models through shared parameters that quantify object quality, a consensus ranking, and the level of consensus among judges. We propose an efficient tree-search algorithm to calculate the exact MLE of model parameters, study statistical properties of the model both analytically and through simulation, and apply our model to real data from an instance of grant panel review that collected both scores and partial rankings. Furthermore, we demonstrate how model outputs can be used to rank objects with confidence. The proposed model is shown to sensibly combine information from both scores and rankings to quantify object quality and measure consensus with appropriate levels of statistical uncertainty.",
-    "authors":
-    [
+    "authors": [
         "Michael Pearce",
         "Elena A. Erosheva"
     ],
-    "emails":
-    [
+    "emails": [
         "mpp790@uw.edu",
         "erosheva@uw.edu"
-    ]
+    ],
+    "id": "21-1262",
+    "issue": 210,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "A Unified Statistical Learning Model for Rankings and Scores with Application to Grant Panel Review",
+    "volume": 23,
+    "year": 2022
 }

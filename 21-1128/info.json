@@ -1,16 +1,22 @@
 {
-    "title": "Contraction rates for sparse variational approximations in Gaussian process regression",
-    "abstract": "We study the theoretical properties of a variational Bayes method in the Gaussian Process regression model. We consider the inducing variables method and derive sufficient conditions for obtaining contraction rates for the corresponding variational Bayes (VB) posterior. As examples we show that for three particular covariance kernels (Matérn, squared exponential, random series prior) the VB approach can achieve optimal, minimax contraction rates for a sufficiently large number of appropriately chosen inducing variables. The theoretical findings are demonstrated by numerical experiments.",
-    "authors":
-    [
+    "abstract": "We study the theoretical properties of a variational Bayes method in the Gaussian Process regression model. We consider the inducing variables method and derive sufficient conditions for obtaining contraction rates for the corresponding variational Bayes (VB) posterior. As examples we show that for three particular covariance kernels (Mat\u00e9rn, squared exponential, random series prior) the VB approach can achieve optimal, minimax contraction rates for a sufficiently large number of appropriately chosen inducing variables. The theoretical findings are demonstrated by numerical experiments.",
+    "authors": [
         "Dennis Nieman",
         "Botond Szabo",
         "Harry van Zanten"
     ],
-    "emails":
-    [
+    "emails": [
         "d.nieman@vu.nl",
         "botond.szabo@unibocconi.it",
         "j.h.van.zanten@vu.nl"
-    ]
+    ],
+    "id": "21-1128",
+    "issue": 205,
+    "pages": [
+        1,
+        26
+    ],
+    "title": "Contraction rates for sparse variational approximations in Gaussian process regression",
+    "volume": 23,
+    "year": 2022
 }

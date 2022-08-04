@@ -1,18 +1,15 @@
 {
-    "title": "Training and Evaluation of Deep Policies Using Reinforcement Learning and Generative Models",
     "abstract": "We present a data-efficient framework for solving sequential decision-making problems which exploits the combination of reinforcement learning (RL) and latent variable generative models. The framework, called GenRL, trains deep  policies by introducing an action latent variable such that the feed-forward policy search can be divided into two parts: (i) training a sub-policy that outputs a distribution over the action latent variable given a state of the system, and (ii) unsupervised training of a generative model that outputs a sequence of motor actions conditioned on the latent action variable. GenRL enables safe exploration and alleviates the data-inefficiency problem as it exploits prior knowledge about valid sequences of motor actions. Moreover, we provide a set of measures for evaluation of generative models such that we are able to predict the performance of the RL policy training prior to the actual training on a physical robot. We experimentally determine the characteristics of generative models that have most influence on the performance of the final policy training on two robotics tasks: shooting a hockey puck and throwing a basketball. Furthermore, we empirically demonstrate that GenRL is the only method which can safely and efficiently solve the robotics tasks compared to two state-of-the-art RL methods.",
-    "authors":
-    [
+    "authors": [
         "Ali Ghadirzadeh",
         "Petra Poklukar",
         "Karol Arndt",
         "Chelsea Finn",
         "Ville Kyrki",
         "Danica Kragic",
-        "Mårten Björkman"
+        "M\u00e5rten Bj\u00f6rkman"
     ],
-    "emails":
-    [
+    "emails": [
         "ghadiri@cs.stanford.edu",
         "poklukar@kth.se",
         "karol.arndt@aalto.fi",
@@ -20,5 +17,14 @@
         "ville.kyrki@aalto.fi",
         "dani@kth.se",
         "celle@kth.se"
-    ]
+    ],
+    "id": "20-1265",
+    "issue": 174,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Training and Evaluation of Deep Policies Using Reinforcement Learning and Generative Models",
+    "volume": 23,
+    "year": 2022
 }

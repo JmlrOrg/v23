@@ -1,16 +1,22 @@
 {
-    "title": "Kernel Partial Correlation Coefficient --- a Measure of Conditional Dependence",
     "abstract": "We propose and study a class of simple, nonparametric, yet interpretable measures of conditional dependence, which we call kernel partial correlation (KPC) coefficient, between two random variables $Y$ and $Z$ given a third variable $X$, all taking values in general topological spaces. The population KPC captures the strength of conditional dependence and it is 0 if and only if $Y$ is conditionally independent of $Z$ given $X$, and 1 if and only if $Y$ is a measurable function of $Z$ and $X$. We describe two consistent methods of estimating KPC. Our first method is based on the general framework of geometric graphs, including $K$-nearest neighbor graphs and minimum spanning trees. A sub-class of these estimators can be computed in near linear time and converges at a rate that adapts automatically to the intrinsic dimensionality of the underlying distributions. The second strategy involves direct estimation of conditional mean embeddings in the RKHS framework. Using these empirical measures we develop a fully model-free variable selection algorithm, and formally prove the consistency of the procedure under suitable sparsity assumptions. Extensive simulation and real-data examples illustrate the superior performance of our methods compared to existing procedures.",
-    "authors":
-    [
+    "authors": [
         "Zhen Huang",
         "Nabarun Deb",
         "Bodhisattva Sen"
     ],
-    "emails":
-    [
+    "emails": [
         "zh2395@columbia.edu",
         "nd2560@columbia.edu",
         "bodhi@stat.columbia.edu"
-    ]
+    ],
+    "id": "21-493",
+    "issue": 216,
+    "pages": [
+        1,
+        58
+    ],
+    "title": "Kernel Partial Correlation Coefficient --- a Measure of Conditional Dependence",
+    "volume": 23,
+    "year": 2022
 }

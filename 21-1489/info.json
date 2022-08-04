@@ -1,16 +1,22 @@
 {
-    "title": "When is the Convergence Time of Langevin Algorithms Dimension Independent? A Composite Optimization Viewpoint",
     "abstract": "There has been a surge of works bridging MCMC sampling and optimization, with a specific focus on translating non-asymptotic convergence guarantees for optimization problems into the analysis of Langevin algorithms in MCMC sampling. A conspicuous distinction between the convergence analysis of Langevin sampling and that of optimization is that all known convergence rates for Langevin algorithms depend on the dimensionality of the problem, whereas the convergence rates for optimization are dimension-free for convex problems. Whether a dimension independent convergence rate can be achieved by the Langevin algorithm is thus a long-standing open problem. This paper provides an affirmative answer to this problem for the case of either Lipschitz or smooth convex functions with normal priors. By viewing Langevin algorithm as composite optimization, we develop a new analysis technique that leads to dimension independent convergence rates for such problems.",
-    "authors":
-    [
+    "authors": [
         "Yoav Freund",
         "Yi-An Ma",
         "Tong Zhang"
     ],
-    "emails":
-    [
+    "emails": [
         "yfreund@ucsd.edu",
         "yianma@ucsd.edu",
         "tongzhang@tongzhang-ml.org"
-    ]
+    ],
+    "id": "21-1489",
+    "issue": 214,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "When is the Convergence Time of Langevin Algorithms Dimension Independent? A Composite Optimization Viewpoint",
+    "volume": 23,
+    "year": 2022
 }

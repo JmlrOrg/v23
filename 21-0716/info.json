@@ -1,14 +1,20 @@
 {
-    "title": "Universal Approximation Theorems for Differentiable Geometric Deep Learning",
     "abstract": "This paper addresses the growing need to process non-Euclidean data, by introducing a geometric deep learning (GDL) framework for building universal feedforward-type models compatible with differentiable manifold geometries. We show that our GDL models can approximate any continuous target function uniformly on compact sets of a controlled maximum diameter. We obtain curvature-dependent lower-bounds on this maximum diameter and upper-bounds on the depth of our approximating GDL models. Conversely, we find that there is always a continuous function between any two non-degenerate compact manifolds that any \"locally-defined\" GDL model cannot uniformly approximate. Our last main result identifies data-dependent conditions guaranteeing that the GDL model implementing our approximation breaks \"the curse of dimensionality.\" We find that any \"real-world\" (i.e. finite) dataset always satisfies our condition and, conversely, any dataset satisfies our requirement if the target function is smooth. As applications, we confirm the universal approximation capabilities of the following GDL models: Ganea et al. (2018)'s hyperbolic feedforward networks, the architecture implementing Krishnan et al. (2015)'s deep Kalman-Filter, and deep softmax classifiers. We build universal extensions/variants of: the SPD-matrix regressor of Meyer et al. (2011), and Fletcher (2003)'s Procrustean regressor. In the Euclidean setting, our results imply a quantitative version of Kidger and Lyons (2020)'s approximation theorem and a data-dependent version of Yarotsky and Zhevnerchuk (2019)'s uncursed approximation rates.",
-    "authors":
-    [
+    "authors": [
         "Anastasis Kratsios",
-        "Léonie Papon"
+        "L\u00e9onie Papon"
     ],
-    "emails":
-    [
+    "emails": [
         "kratsioa@mcmaster.ca",
         "leonie.b.papon@durham.ac.uk"
-    ]
+    ],
+    "id": "21-0716",
+    "issue": 196,
+    "pages": [
+        1,
+        73
+    ],
+    "title": "Universal Approximation Theorems for Differentiable Geometric Deep Learning",
+    "volume": 23,
+    "year": 2022
 }

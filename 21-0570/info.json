@@ -1,14 +1,20 @@
 {
-    "title": "Gaussian process regression: Optimality, robustness, and relationship with kernel ridge regression",
     "abstract": "Gaussian process regression is widely used in many fields, for example, machine learning, reinforcement learning and uncertainty quantification. One key component of Gaussian process regression is the unknown correlation function, which needs to be specified. In this paper, we investigate what would happen if the correlation function is misspecified. We derive upper and lower error bounds for Gaussian process regression with possibly misspecified correlation functions.  We find that when the sampling scheme is quasi-uniform, the optimal convergence rate can be attained even if the smoothness of the imposed correlation function exceeds that of the true correlation function. We also obtain convergence rates of kernel ridge regression with misspecified kernel function, where the underlying truth is a deterministic function. Our study reveals a close connection between the convergence rates of Gaussian process regression and kernel ridge regression, which is aligned with the relationship between sample paths of Gaussian process and the corresponding reproducing kernel Hilbert space. This work establishes a bridge between Bayesian learning based on Gaussian process and frequentist kernel methods with reproducing kernel Hilbert space.",
-    "authors":
-    [
+    "authors": [
         "Wenjia Wang",
         "Bing-Yi Jing"
     ],
-    "emails":
-    [
+    "emails": [
         "wenjiawang@ust.hk",
         "jingby@sustech.edu.cn"
-    ]
+    ],
+    "id": "21-0570",
+    "issue": 193,
+    "pages": [
+        1,
+        67
+    ],
+    "title": "Gaussian process regression: Optimality, robustness, and relationship with kernel ridge regression",
+    "volume": 23,
+    "year": 2022
 }

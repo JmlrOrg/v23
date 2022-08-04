@@ -1,17 +1,23 @@
 {
-    "title": "Unbiased estimators for random design regression",
     "abstract": "In linear regression we wish to estimate the optimum linear least squares predictor for a distribution over $d$-dimensional input points and real-valued responses, based on a small sample. Under standard random design analysis, where the sample is drawn i.i.d. from the input distribution, the least squares solution for that sample can be viewed as the natural estimator of the optimum. Unfortunately, this estimator almost always incurs an undesirable bias coming from the randomness of the input points, which is a significant bottleneck in model averaging. In this paper we show that it is possible to draw a non-i.i.d. sample of input points such that, regardless of the response model, the least squares solution is an unbiased estimator of the optimum. Moreover, this sample can be produced efficiently by augmenting a previously drawn i.i.d. sample with an additional set of $d$ points, drawn jointly according to a certain determinantal point process constructed from the input distribution rescaled by the squared volume spanned by the points. Motivated by this, we develop a theoretical framework for studying volume-rescaled sampling, and in the process prove a number of new matrix expectation identities. We use them to show that for any input distribution and $\\epsilon>0$ there is a random design consisting of $O(d\\log d+ d/\\epsilon)$ points from which an unbiased estimator can be constructed whose expected square loss over the entire distribution is bounded by $1+\\epsilon$ times the loss of the optimum. We provide efficient algorithms for constructing such unbiased estimators in a number of practical settings.  In one such setting, we let the input distribution be uniform over a large dataset of $n\\gg d$ points. Here, we obtain the first unbiased least squares estimator that can be constructed in time nearly-linear in the data size, resulting in strong guarantees for model averaging. We achieve these computational gains by introducing a new algorithmic technique, called distortion-free intermediate sampling, which is the first method to enable sampling from determinantal point processes in time polynomial in the sample size.",
-    "special_issue": "MLOSS",
-    "authors":
-    [
-        "Michał Dereziński",
+    "authors": [
+        "Micha\u0142 Derezi\u0144ski",
         "Manfred K. Warmuth",
         "Daniel Hsu"
     ],
-    "emails":
-    [
+    "emails": [
         "derezin@umich.edu",
         "manfred@google.com",
         "djhsu@cs.columbia.edu"
-    ]
+    ],
+    "id": "19-571",
+    "issue": 167,
+    "pages": [
+        1,
+        46
+    ],
+    "special_issue": "MLOSS",
+    "title": "Unbiased estimators for random design regression",
+    "volume": 23,
+    "year": 2022
 }

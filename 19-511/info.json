@@ -1,18 +1,24 @@
 {
-    "title": "Generalization Bounds and Representation Learning for Estimation of  Potential Outcomes and Causal Effects",
     "abstract": "Practitioners in diverse fields such as healthcare, economics and education are eager to apply machine learning to improve decision making. The cost and impracticality of performing experiments and a recent monumental increase in electronic record keeping has brought attention to the problem of evaluating decisions based on non-experimental observational data. This is the setting of this work. In particular, we study estimation of individual-level potential outcomes and causal effects---such as a single patient's response to alternative medication---from recorded contexts, decisions and outcomes. We give generalization bounds on the error in estimated outcomes based on distributional distance measures between re-weighted samples of groups receiving different treatments. We provide conditions under which our bounds are tight and show how they relate to results for unsupervised domain adaptation. Led by our theoretical results, we devise algorithms which learn representations and weighting functions that minimize our bounds by regularizing the representation's induced treatment group distance, and encourage sharing of information between treatment groups. Finally, an experimental evaluation on real and synthetic data shows the value of our proposed representation architecture and regularization scheme.",
-    "authors":
-    [
+    "authors": [
         "Fredrik D. Johansson",
         "Uri Shalit",
         "Nathan Kallus",
         "David Sontag"
     ],
-    "emails":
-    [
+    "emails": [
         "fredrik.johansson@chalmers.se",
         "urishalit@technion.ac.il",
         "kallus@cornell.edu",
         "dsontag@csail.mit.edu"
-    ]
+    ],
+    "id": "19-511",
+    "issue": 166,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Generalization Bounds and Representation Learning for Estimation of  Potential Outcomes and Causal Effects",
+    "volume": 23,
+    "year": 2022
 }
