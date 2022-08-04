@@ -1,0 +1,18 @@
+{
+    "title": "Learning Green's functions associated with time-dependent partial differential equations",
+    "abstract": "Neural operators are a popular technique in scientific machine learning to learn a mathematical model of the behavior of unknown physical systems from data. Neural operators are especially useful to learn solution operators associated with partial differential equations (PDEs) from pairs of forcing functions and solutions when numerical solvers are not available or the underlying physics is poorly understood. In this work, we attempt to provide theoretical foundations to understand the amount of training data needed to learn time-dependent PDEs. Given input-output pairs from a parabolic PDE in any spatial dimension $n\\geq 1$, we derive the first theoretically rigorous scheme for learning the associated solution operator, which takes the form of a convolution with a Green's function $G$. Until now, rigorously learning Green's functions associated with time-dependent PDEs has been a major challenge in the field of scientific machine learning because $G$ may not be square-integrable when $n>1$, and time-dependent PDEs have transient dynamics. By combining the hierarchical low-rank structure of $G$ together with randomized numerical linear algebra, we construct an approximant to $G$ that achieves a relative error of $\\smash{\\mathcal{O}(\\Gamma_\\epsilon^{-1/2}\\epsilon)}$ in the $L^1$-norm with high probability by using at most $\\smash{\\mathcal{O}(\\epsilon^{-\\frac{n+2}{2}}\\log(1/\\epsilon))}$ input-output training pairs, where $\\Gamma_\\epsilon$ is a measure of the quality of the training dataset for learning $G$, and $\\epsilon>0$ is sufficiently small.",
+    "authors":
+    [
+        "Nicolas Boullé",
+        "Seick Kim",
+        "Tianyi Shi",
+        "Alex Townsend"
+    ],
+    "emails":
+    [
+        "boulle@maths.ox.ac.uk",
+        "kimseick@yonsei.ac.kr",
+        "ts777@cornell.edu",
+        "townsend@cornell.edu"
+    ]
+}

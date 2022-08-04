@@ -1,0 +1,21 @@
+{
+    "title": "Training Two-Layer ReLU Networks with Gradient Descent is Inconsistent",
+    "abstract": "We prove that two-layer (Leaky)ReLU networks initialized by e.g. the widely used method proposed by He et al. (2015) and trained using gradient descent on a least-squares loss are not universally consistent. Specifically, we describe a large class of one-dimensional data-generating distributions for which, with high probability, gradient descent only finds a bad local minimum of the optimization landscape, since it is unable to move the biases far away from their initialization at zero. It turns out that in these cases, the found network essentially performs linear regression even if the target function is non-linear. We further provide numerical evidence that this happens in practical situations, for some multi-dimensional distributions and that stochastic gradient descent exhibits similar behavior. We also provide empirical results on how the choice of initialization and optimizer can influence this behavior.",
+    "extra_links":
+    [
+        [
+            "code",
+            "https://github.com/dholzmueller/nn_inconsistency"
+        ]
+    ],
+    "authors":
+    [
+        "David Holzmüller",
+        "Ingo Steinwart"
+    ],
+    "emails":
+    [
+        "david.holzmueller@mathematik.uni-stuttgart.de",
+        "ingo.steinwart@mathematik.uni-stuttgart.de"
+    ]
+}

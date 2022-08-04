@@ -1,0 +1,16 @@
+{
+    "title": "Nonconvex Matrix Completion with Linearly Parameterized Factors",
+    "abstract": "Techniques of matrix completion aim to impute a large portion of missing entries in a data matrix through a small portion of observed ones. In practice, prior information and special structures are usually employed in order to improve the accuracy of matrix completion. In this paper, we propose a unified nonconvex optimization framework for matrix completion with linearly parameterized factors. In particular, by introducing a condition referred to as Correlated Parametric Factorization, we conduct a unified geometric analysis for the nonconvex objective by establishing uniform upper bounds for low-rank estimation resulting from any local minimizer. Perhaps surprisingly, the condition of Correlated Parametric Factorization holds for important examples including subspace-constrained matrix completion and skew-symmetric matrix completion. The effectiveness of our unified nonconvex optimization method is also empirically illustrated by extensive numerical simulations.",
+    "authors":
+    [
+        "Ji Chen",
+        "Xiaodong Li",
+        "Zongming Ma"
+    ],
+    "emails":
+    [
+        "ljichen@ucdavis.edu",
+        "xdgli@ucdavis.edu",
+        "zongming@wharton.upenn.edu"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "title": "Improved Classification Rates for Localized SVMs",
+    "abstract": "Localized support vector machines solve SVMs on many spatially defined small chunks and besides their computational benefit compared to global SVMs one of their main characteristics is the freedom of choosing arbitrary kernel and regularization parameter on each cell. We take advantage of this observation to derive global learning rates for localized SVMs with Gaussian kernels and hinge loss. It turns out that our rates outperform under suitable sets of assumptions known classification rates for localized SVMs, for global SVMs, and other learning algorithms based on e.g., plug-in rules or trees. The localized SVM rates are achieved under a set of margin conditions, which describe the behavior of the data-generating distribution, and no assumption on the existence of a density is made. Moreover, we show that our rates are obtained adaptively, that is without knowing the margin parameters in advance. The statistical analysis of the excess risk relies on a simple partitioning based technique, which splits the input space into a subset that is close to the decision boundary and into a subset that is sufficiently far away. A crucial condition to derive then improved global rates is a margin condition that relates the distance to the decision boundary to the amount of noise.",
+    "authors":
+    [
+        "Ingrid Blaschzyk",
+        "Ingo Steinwart"
+    ],
+    "emails":
+    [
+        "Ingrid.Blaschzyk@mathematik.uni-stuttgart.de",
+        "Ingo.Steinwart@mathematik.uni-stuttgart.de"
+    ]
+}

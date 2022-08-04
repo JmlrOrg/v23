@@ -1,0 +1,25 @@
+{
+    "title": "A Bregman Learning Framework for Sparse Neural Networks",
+    "abstract": "We propose a learning framework based on stochastic Bregman iterations, also known as mirror descent, to train sparse neural networks with an inverse scale space approach. We derive a baseline algorithm called LinBreg, an accelerated version using momentum, and AdaBreg, which is a Bregmanized generalization of the Adam algorithm. In contrast to established methods for sparse training the proposed family of algorithms constitutes a regrowth strategy for neural networks that is solely optimization-based without additional heuristics.  Our Bregman learning framework starts the training with very few initial parameters, successively adding only significant ones to obtain a sparse and expressive network. The proposed approach is extremely easy and efficient, yet supported by the rich mathematical theory of inverse scale space methods. We derive a statistically profound sparse parameter initialization strategy and provide a rigorous stochastic convergence analysis of the loss decay and additional convergence proofs in the convex regime. Using only $3.4\\%$ of the parameters of ResNet-18 we achieve $90.2\\%$ test accuracy on CIFAR-10, compared to $93.6\\%$ using the dense network. Our algorithm also unveils an autoencoder architecture for a denoising task. The proposed framework also has a huge potential for integrating sparse backpropagation and resource-friendly training. Code is available at https://github.com/TimRoith/BregmanLearning.",
+    "extra_links":
+    [
+        [
+            "code",
+            "https://github.com/TimRoith/BregmanLearning"
+        ]
+    ],
+    "authors":
+    [
+        "Leon Bungert",
+        "Tim Roith",
+        "Daniel Tenbrinck",
+        "Martin Burger"
+    ],
+    "emails":
+    [
+        "leon.bungert@hcm.uni-bonn.de",
+        "tim.roith@fau.de",
+        "daniel.tenbrinck@fau.de",
+        "martin.burger@fau.de"
+    ]
+}

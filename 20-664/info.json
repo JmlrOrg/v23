@@ -1,0 +1,18 @@
+{
+    "title": "Logarithmic Regret for Episodic Continuous-Time Linear-Quadratic Reinforcement Learning over a Finite-Time Horizon",
+    "abstract": "We study finite-time horizon continuous-time linear-quadratic reinforcement learning problems in an episodic setting, where both  the state and control coefficients are unknown to the controller. We first propose a least-squares algorithm based on continuous-time observations and controls, and establish a logarithmic regret bound of magnitude $\\mathcal{O}((\\ln M)(\\ln\\ln M) )$, with $M$ being the number of learning episodes. The analysis consists of two components:  perturbation analysis, which exploits the regularity and robustness of the associated Riccati differential equation; and parameter estimation error, which relies on sub-exponential properties of continuous-time least-squares estimators. We further propose a practically implementable least-squares  algorithm based on discrete-time observations and piecewise constant controls, which achieves similar logarithmic regret with an additional term depending explicitly on the time stepsizes used in the algorithm.",
+    "authors":
+    [
+        "Matteo Basei",
+        "Xin Guo",
+        "Anran Hu",
+        "Yufei Zhang"
+    ],
+    "emails":
+    [
+        "matteo.basei@edf.fr",
+        "xinguo@berkeley.edu",
+        "anran_hu@berkeley.edu",
+        "yufei.zhang@maths.ox.ac.uk"
+    ]
+}

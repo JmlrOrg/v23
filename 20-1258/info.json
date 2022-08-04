@@ -1,0 +1,16 @@
+{
+    "title": "Learning Rates as a Function of Batch Size: A Random Matrix Theory Approach to Neural Network Training",
+    "abstract": "We study the effect of mini-batching on the loss landscape of deep neural networks using spiked, field-dependent random matrix theory.  We demonstrate that the magnitude of the extremal values of the batch Hessian are larger than those of the empirical Hessian. We also derive similar results for the Generalised Gauss-Newton matrix approximation of the Hessian. As a consequence of our theorems we derive an analytical expressions for the maximal learning rates as a function of batch size, informing practical training regimens for both stochastic gradient descent (linear scaling) and adaptive algorithms, such as Adam (square root scaling), for smooth, non-convex deep neural networks. Whilst the linear scaling for stochastic gradient descent has been derived under more restrictive conditions, which we generalise, the square root scaling rule for adaptive optimisers is, to our knowledge, completely novel. We validate our claims on the VGG/WideResNet architectures on the CIFAR-100 and ImageNet data sets. Based on our investigations of the sub-sampled Hessian we develop a stochastic Lanczos quadrature based on the fly learning rate and momentum learner, which avoids the need for expensive multiple evaluations for these key hyper-parameters and shows good preliminary results on the Pre-Residual Architecture for CIFAR-100. We further investigate the similarity between the Hessian spectrum of a multi-layer perceptron, trained on Gaussian mixture data, compared to that of deep neural networks trained on natural images. We find striking similarities, with both exhibiting rank degeneracy, a bulk spectrum and outliers to that spectrum. Furthermore, we show that ZCA whitening can remove such outliers early on in training before class separation occurs, but that outliers persist in later training.",
+    "authors":
+    [
+        "Diego Granziol",
+        "Stefan Zohren",
+        "Stephen Roberts"
+    ],
+    "emails":
+    [
+        "diego@purestrength.ai",
+        "zohren@robots.ox.ac.uk",
+        "sjrob@robots.ox.ac.uk"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "title": "Statistical Optimality and Stability of Tangent Transform Algorithms in Logit Models",
+    "abstract": "A systematic approach to finding variational approximation in an otherwise intractable non-conjugate model is to exploit the general principle of convex duality by minorizing the marginal likelihood that renders the problem tractable. While such approaches are popular in the context of variational inference in non-conjugate Bayesian models, theoretical guarantees on statistical optimality and algorithmic convergence are lacking. Focusing on logistic regression models, we provide mild conditions on the data generating process to derive non-asymptotic upper bounds to the risk incurred by the variational optima. We demonstrate that these assumptions can be completely relaxed if one considers a slight variation of the algorithm by raising the likelihood to a fractional power. Next, we utilize the theory of dynamical systems to provide convergence guarantees for such algorithms in logistic and multinomial logit regression. In particular, we establish local asymptotic stability of the algorithm without any assumptions on the data-generating process. We explore a special case involving a semi-orthogonal design under which a global convergence is obtained. The theory is further illustrated using several numerical studies.",
+    "authors":
+    [
+        "Indrajit Ghosh",
+        "Anirban Bhattacharya",
+        "Debdeep Pati"
+    ],
+    "emails":
+    [
+        "indrajit@stat.tamu.edu",
+        "anirbanb@stat.tamu.edu",
+        "debdeep@stat.tamu.edu"
+    ]
+}

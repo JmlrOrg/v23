@@ -1,0 +1,23 @@
+{
+    "title": "Meta-analysis of heterogeneous data: integrative sparse regression in high-dimensions",
+    "abstract": "We consider the task of meta-analysis in high-dimensional settings in which the data sources  are similar but non-identical. To borrow strength across such heterogeneous datasets, we introduce a global parameter that emphasizes interpretability and statistical efficiency in the presence of heterogeneity. We also propose a one-shot estimator of the global parameter that preserves the anonymity of the data sources and converges at a rate that depends on the size of the combined dataset.   For high-dimensional linear model settings, we demonstrate the superiority of our  identification restrictions in adapting to a previously seen data distribution as well as predicting for a new/unseen data distribution. Finally, we demonstrate the benefits of our approach on a large-scale drug treatment dataset involving several different cancer cell-lines.",
+    "extra_links":
+    [
+        [
+            "code",
+            "https://github.com/smaityumich/MrLasso"
+        ]
+    ],
+    "authors":
+    [
+        "Subha Maity",
+        "Yuekai Sun",
+        "Moulinath Banerjee"
+    ],
+    "emails":
+    [
+        "smaity@umich.edu",
+        "yuekai@umich.edu",
+        "moulib@umich.edu"
+    ]
+}

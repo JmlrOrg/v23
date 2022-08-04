@@ -1,0 +1,14 @@
+{
+    "title": "Adversarial Classification: Necessary Conditions and Geometric Flows",
+    "abstract": "We study a version of adversarial classification where an adversary is empowered to corrupt data inputs up to some distance $\\varepsilon$, using tools from variational analysis. In particular, we describe necessary conditions associated with the optimal classifier subject to such an adversary. Using the necessary conditions, we derive a geometric evolution equation which can be used to track the change in classification boundaries as $\\varepsilon$ varies. This evolution equation may be described as an uncoupled system of differential equations in one dimension, or as a mean curvature type equation in higher dimension. In one dimension, and under mild assumptions on the data distribution, we rigorously prove that one can use the initial value problem starting from $\\varepsilon=0$, which is simply the Bayes classifier, in order to solve for the global minimizer of the adversarial problem for small values of $\\varepsilon$. In higher dimensions we provide a similar result, albeit conditional to the existence of regular solutions of the initial value problem. In the process of proving our main results we obtain a result of independent interest connecting the original adversarial problem with an optimal transport problem under no assumptions on whether classes are balanced or not. Numerical examples illustrating these ideas are also presented.",
+    "authors":
+    [
+        "Nicolás García Trillos",
+        "Ryan Murray"
+    ],
+    "emails":
+    [
+        "garciatrillo@wisc.edu",
+        "rwmurray@ncsu.edu"
+    ]
+}

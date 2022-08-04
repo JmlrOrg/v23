@@ -1,0 +1,23 @@
+{
+    "title": "tntorch: Tensor Network Learning with PyTorch",
+    "abstract": "We present tntorch, a tensor learning framework that supports multiple decompositions (including Candecomp/Parafac, Tucker, and Tensor Train) under a unified interface. With our library, the user can learn and handle low-rank tensors with automatic differentiation, seamless GPU support, and the convenience of PyTorch's API. Besides decomposition algorithms, tntorch implements differentiable tensor algebra, rank truncation, cross-approximation, batch processing, comprehensive tensor arithmetics, and more.",
+    "extra_links":
+    [
+        [
+            "code",
+            "https://github.com/rballester/tntorch"
+        ]
+    ],
+    "authors":
+    [
+        "Mikhail Usvyatsov",
+        "Rafael Ballester-Ripoll",
+        "Konrad Schindler"
+    ],
+    "emails":
+    [
+        "mikhail.usvyatsov@geod.baug.ethz.ch",
+        "rafael.ballester@ie.edu",
+        "schindler@ethz.ch"
+    ]
+}

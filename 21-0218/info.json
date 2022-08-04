@@ -1,0 +1,23 @@
+{
+    "title": "Estimating Density Models with Truncation Boundaries using Score Matching",
+    "abstract": "Truncated densities are probability density functions defined on truncated domains. They share the same parametric form with their non-truncated counterparts up to a normalizing constant. Since the computation of their normalizing constants is usually infeasible, Maximum Likelihood Estimation cannot be easily applied to estimate truncated density models. Score Matching (SM) is a powerful tool for fitting parameters using only unnormalized models. However, it cannot be directly applied here as boundary conditions that derive a tractable SM objective are not satisfied by truncated densities. This paper studies parameter estimation for truncated probability densities using SM. The estimator minimizes a weighted Fisher divergence. The weight function is simply the shortest distance from a data point to the domain's boundary. We show this choice of weight function naturally arises from minimizing the Stein discrepancy and upper bounding the finite-sample estimation error. We demonstrate the usefulness of our method via numerical experiments and a study on the Chicago crime data set. We also show that the proposed density estimation can correct the outlier-trimming bias caused by aggressive outlier detection methods.",
+    "extra_links":
+    [
+        [
+            "code",
+            "https://github.com/anewgithubname/Truncated-Score-Matching"
+        ]
+    ],
+    "authors":
+    [
+        "Song Liu",
+        "Takafumi Kanamori",
+        "Daniel J. Williams"
+    ],
+    "emails":
+    [
+        "song.liu@bristol.ac.uk",
+        "kanamori@c.titech.ac.jp",
+        "daniel.williams@bristol.ac.uk"
+    ]
+}

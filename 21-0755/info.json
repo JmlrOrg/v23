@@ -1,0 +1,14 @@
+{
+    "title": "A Forward Approach for Sufficient Dimension Reduction in Binary Classification",
+    "abstract": "Since the proposal of the seminal sliced inverse regression (SIR), inverse-type methods have proved to be canonical in sufficient dimension reduction (SDR). However, they often underperform in binary classification because the binary responses yield two slices at most. In this article, we develop a forward SDR approach in binary classification based on weighted large-margin classifiers. First, we show that the gradient of a large-margin classifier is unbiased for SDR as long as the corresponding loss function is Fisher consistent. This leads us to propose the weighted outer-product of gradients (wOPG) estimator. The wOPG estimator can recover the central subspace exhaustively without linearity (or constant variance) conditions, which despite being routinely required, they are untestable assumption. We propose the gradient-based formulation for the large-margin classifier to estimate the gradient function of the classifier directly. We also establish the consistency of the proposed wOPG estimator and demonstrate its promising finite-sample performance through both simulated and real data examples.",
+    "authors":
+    [
+        "Jongkyeong Kang",
+        "Seung Jun Shin"
+    ],
+    "emails":
+    [
+        "j.k@kangwon.ac.kr",
+        "sjshin@korea.ac.kr"
+    ]
+}

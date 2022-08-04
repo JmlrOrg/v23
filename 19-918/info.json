@@ -1,0 +1,16 @@
+{
+    "title": "A Worst Case Analysis of Calibrated Label Ranking Multi-label Classification Method",
+    "abstract": "Most multi-label classification methods are evaluated on real datasets, which is a good practice for comparing the performance among methods on the average scenario. Due to the large amount of factors to consider, this empirical approach does not explain, nor does show the factors impacting the performance. A reasonable way to understand some of the performance’s factors of multi-label methods independently of the context is to find a mathematical proof about them. In this paper, mathematical proofs are given for the multi-label method ranking by pairwise comparison and its extension for classification named by calibrated label ranking, showing their performance on a worst case scenario for five multi-label metrics. The pairwise approach adopted by ranking by pairwise comparison enables the algorithm to achieve the optimal performance on Spearman rank correlation. However, the findings presented in this paper clearly show that the same pairwise approach adopted by the algorithm is also a crucial factor contributing to a very poor performance on other multi-label metrics.",
+    "authors":
+    [
+        "Lucas Henrique Sousa Mello",
+        "Flávio Miguel Varejão",
+        "Alexandre Loureiros Rodrigues"
+    ],
+    "emails":
+    [
+        "lucashsmello@gmail.com",
+        "fvarejao@inf.ufes.br",
+        "alexandre.rodrigues@ufes.br"
+    ]
+}

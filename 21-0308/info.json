@@ -1,0 +1,31 @@
+{
+    "title": "Learning to Optimize: A Primer and A Benchmark",
+    "abstract": "Learning to optimize (L2O) is an emerging approach that leverages machine learning to develop optimization methods, aiming at reducing the laborious iterations of hand engineering. It automates the design of an optimization method based on its performance on a set of training problems. This data-driven procedure generates methods that can efficiently solve problems similar to those in training. In sharp contrast, the typical and traditional designs of optimization methods are theory-driven, so they obtain performance guarantees over the classes of problems specified by the theory. The difference makes L2O suitable for repeatedly solving a particular optimization problem over a specific distribution of data, while it typically fails on out-of-distribution problems. The practicality of L2O depends on the type of target optimization, the chosen architecture of the method to learn, and the training procedure. This new paradigm has motivated a community of researchers to explore L2O and report their findings. This article is poised to be the first comprehensive survey and benchmark of L2O for continuous optimization. We set up taxonomies, categorize existing works and research directions, present insights, and identify open challenges. We benchmarked many existing L2O approaches on a few representative optimization problems. For reproducible research and fair benchmarking purposes, we released our software implementation and data in the package Open-L2O at https://github.com/VITA-Group/Open-L2O.",
+    "extra_links":
+    [
+        [
+            "code",
+            "https://github.com/VITA-Group/Open-L2O"
+        ]
+    ],
+    "authors":
+    [
+        "Tianlong Chen",
+        "Xiaohan Chen",
+        "Wuyang Chen",
+        "Howard Heaton",
+        "Jialin Liu",
+        "Zhangyang Wang",
+        "Wotao Yin"
+    ],
+    "emails":
+    [
+        "tianlong.chen@utexas.edu",
+        "xiaohan.chen@utexas.edu",
+        "wuyang.chen@utexas.edu",
+        "research@typal.llc",
+        "jialin.liu@alibaba-inc.com",
+        "atlaswang@utexas.edu",
+        "wotao.yin@alibaba-inc.com"
+    ]
+}

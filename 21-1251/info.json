@@ -1,0 +1,29 @@
+{
+    "title": "Ranking and Tuning Pre-trained Models: A New Paradigm for Exploiting Model Hubs",
+    "abstract": "Model hubs with many pre-trained models (PTMs) have become a cornerstone of deep learning. Although built at a high cost, they remain under-exploited---practitioners usually pick one PTM from the provided model hub by popularity and then fine-tune the PTM to solve the target task. This na\\\"ive but common practice poses two obstacles to full exploitation of pre-trained model hubs: first, the PTM selection by popularity has no optimality guarantee, and second, only one PTM is used while the remaining PTMs are ignored. An alternative might be to consider all possible combinations of PTMs and extensively fine-tune each combination, but this would not only be prohibitive computationally but may also lead to statistical over-fitting. In this paper, we propose a new paradigm for exploiting model hubs that is intermediate between these extremes.  The paradigm is characterized by two aspects: (1) We use an evidence maximization procedure to estimate the maximum value of label evidence given features extracted by pre-trained models.  This procedure can rank all the PTMs in a model hub for various types of PTMs and tasks before fine-tuning. (2) The best ranked PTM can either be fine-tuned and deployed if we have no preference for the model's architecture or the target PTM can be tuned by the top $K$ ranked PTMs via a Bayesian procedure that we propose. This procedure, which we refer to as B-Tuning, not only improves upon specialized methods designed for tuning homogeneous PTMs, but also applies to the challenging problem of tuning heterogeneous PTMs where it yields a new level of benchmark performance.",
+    "extra_links":
+    [
+        [
+            "code",
+            "https://github.com/thuml/LogME"
+        ]
+    ],
+    "authors":
+    [
+        "Kaichao You",
+        "Yong Liu",
+        "Ziyang Zhang",
+        "Jianmin Wang",
+        "Michael I. Jordan",
+        "Mingsheng Long"
+    ],
+    "emails":
+    [
+        "youkaichao@gmail.com",
+        "liuyong21@mails.tsinghua.edu.cn",
+        "zhangziyang11@huawei.com",
+        "jimwang@tsinghua.edu.cn",
+        "jordan@cs.berkeley.edu",
+        "mingsheng@tsinghua.edu.cn"
+    ]
+}

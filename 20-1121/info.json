@@ -1,0 +1,24 @@
+{
+    "title": "Interlocking Backpropagation: Improving depthwise model-parallelism",
+    "abstract": "The number of parameters in state of the art neural networks has drastically increased in recent years. This surge of interest in large scale neural networks has motivated the development of new distributed training strategies enabling such models. One such strategy is model-parallel distributed training. Unfortunately, model-parallelism can suffer from poor resource utilisation, which leads to wasted resources. In this work, we improve upon recent developments in an idealised model-parallel optimisation setting: local learning. Motivated by poor resource utilisation in the global setting and poor task performance in the local setting, we introduce a class of intermediary strategies between local and global learning referred to as interlocking backpropagation. These strategies preserve many of the compute-efficiency advantages of local optimisation, while recovering much of the task performance achieved by global optimisation. We assess our strategies on both image classification ResNets and Transformer language models, finding that our strategy consistently out-performs local learning in terms of task performance, and out-performs global learning in training efficiency.",
+    "authors":
+    [
+        "Aidan N. Gomez",
+        "Oscar Key",
+        "Kuba Perlin",
+        "Stephen Gou",
+        "Nick Frosst",
+        "Jeff Dean",
+        "Yarin Gal"
+    ],
+    "emails":
+    [
+        "aidan.gomez@cs.ox.ac.uk",
+        "oscar.key.20@ucl.ac.uk",
+        "kuba@cohere.com",
+        "stephen@cohere.com",
+        "nick@cohere.com",
+        "jeff@google.com",
+        "yarin@cs.ox.ac.uk"
+    ]
+}

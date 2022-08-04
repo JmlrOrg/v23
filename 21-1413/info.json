@@ -1,0 +1,25 @@
+{
+    "title": "Using Shapley Values and Variational Autoencoders to Explain Predictive Models with Dependent Mixed Features",
+    "abstract": "Shapley values are today extensively used as a model-agnostic explanation framework to explain complex predictive machine learning models. Shapley values have desirable theoretical properties and a sound mathematical foundation in the field of cooperative game theory. Precise Shapley value estimates for dependent data rely on accurate modeling of the dependencies between all feature combinations. In this paper, we use a variational autoencoder with arbitrary conditioning (VAEAC) to model all feature dependencies simultaneously. We demonstrate through comprehensive simulation studies that our VAEAC approach to Shapley value estimation outperforms the state-of-the-art methods for a wide range of settings for both continuous and mixed dependent features. For high-dimensional settings, our VAEAC approach with a non-uniform masking scheme significantly outperforms competing methods. Finally, we apply our VAEAC approach to estimate Shapley value explanations for the Abalone data set from the UCI Machine Learning Repository.",
+    "extra_links":
+    [
+        [
+            "code",
+            "https://github.com/LHBO/ShapleyValuesVAEAC"
+        ]
+    ],
+    "authors":
+    [
+        "Lars H. B. Olsen",
+        "Ingrid K. Glad",
+        "Martin Jullum",
+        "Kjersti Aas"
+    ],
+    "emails":
+    [
+        "lholsen@math.uio.no",
+        "glad@math.uio.no",
+        "jullum@nr.no",
+        "kjersti@nr.no"
+    ]
+}

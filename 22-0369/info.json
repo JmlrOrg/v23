@@ -1,0 +1,23 @@
+{
+    "title": "Smooth Robust Tensor Completion for Background/Foreground Separation with Missing Pixels: Novel Algorithm with Convergence Guarantee",
+    "abstract": "Robust PCA (RPCA) and its tensor extension, namely, Robust Tensor PCA (RTPCA), provide an effective framework for background/foreground separation by decomposing the data into low-rank and sparse components, which contain the background and the foreground (moving objects), respectively. However, in real-world applications, the presence of missing pixels is a very common and challenging issue due to errors in the acquisition process or manufacturer defects. RPCA and RTPCA are not able to recover the background and foreground simultaneously with missing pixels. This study aims to address the problem of background/foreground separation with missing pixels by combining video recovery and background/foreground separation into a single framework. To achieve this goal, a smooth robust tensor completion (SRTC) model is proposed to recover the data and decompose it into the static background and smooth foreground, respectively. An efficient algorithm based on tensor proximal alternating minimization (tenPAM) is implemented to solve the proposed model with a global convergence guarantee under very mild conditions. Extensive experiments on actual data demonstrate that the proposed method significantly outperforms the state-of-the-art approaches for background/foreground separation with missing pixels.",
+    "extra_links":
+    [
+        [
+            "code",
+            "https://github.com/BoShen0/Smooth-Robust-Tensor-Completion-for-Background-Foreground-Separation-with-Missing-Pixels"
+        ]
+    ],
+    "authors":
+    [
+        "Bo Shen",
+        "Weijun Xie",
+        "Zhenyu (James) Kong"
+    ],
+    "emails":
+    [
+        "boshen@vt.edu",
+        "wxie@vt.edu",
+        "zkong@vt.edu"
+    ]
+}

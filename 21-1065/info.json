@@ -1,0 +1,20 @@
+{
+    "title": "Testing Whether a Learning Procedure is Calibrated",
+    "abstract": "A learning procedure takes as input a dataset and performs inference for the parameters $\\theta$ of a model that is assumed to have given rise to the dataset. Here we consider learning procedures whose output is a probability distribution, representing uncertainty about $\\theta$ after seeing the dataset. Bayesian inference is a prime example of such a procedure, but one can also construct other learning procedures that return distributional output. This paper studies conditions for a learning procedure to be considered calibrated, in the sense that the true data-generating parameters are plausible as samples from its distributional output. A learning procedure whose inferences and predictions are systematically over- or under-confident will fail to be calibrated. On the other hand, a learning procedure that is calibrated need not be statistically efficient. A hypothesis-testing framework is developed in order to assess, using simulation, whether a learning procedure is calibrated. Several vignettes are presented to illustrate different aspects of the framework.",
+    "authors":
+    [
+        "Jon Cockayne",
+        "Matthew M. Graham",
+        "Chris J. Oates",
+        "T. J. Sullivan",
+        "Onur Teymur"
+    ],
+    "emails":
+    [
+        "jon.cockayne@soton.ac.uk",
+        "m.graham@ucl.ac.uk",
+        "chris.oates@ucl.ac.uk",
+        "t.j.sullivan@warwick.ac.uk",
+        "o@teymur.uk"
+    ]
+}
