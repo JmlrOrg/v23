@@ -22,6 +22,12 @@
         "suhangss@tsinghua.edu.cn",
         "dcszj@tsinghua.edu.cn"
     ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/thu-ml/tianshou/"
+        ]
+    ],
     "id": "21-1127",
     "issue": 267,
     "pages": [
