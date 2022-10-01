@@ -1,0 +1,18 @@
+{
+    "abstract": "We consider infinite-horizon discounted Markov decision problems with finite state and action spaces and study the convergence rates of the projected policy gradient method and a general class of policy mirror descent methods, all with direct parametrization in the policy space. First, we develop a theory of weak gradient-mapping dominance and use it to prove sharp sublinear convergence rate of the projected policy gradient method. Then we show that with geometrically increasing step sizes, a general class of policy mirror descent methods, including the natural policy gradient method and a projected Q-descent method, all enjoy a linear rate of convergence without relying on entropy or other strongly convex regularization. Finally, we also analyze the convergence rate of an inexact policy mirror descent method and estimate its sample complexity under a simple generative model.",
+    "authors": [
+        "Lin Xiao"
+    ],
+    "emails": [
+        "linx@fb.com"
+    ],
+    "id": "22-0056",
+    "issue": 282,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "On the Convergence Rates of Policy Gradient Methods",
+    "volume": 23,
+    "year": 2022
+}

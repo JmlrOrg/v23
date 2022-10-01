@@ -1,0 +1,22 @@
+{
+    "abstract": "Bayesian Neural Networks with Latent Variables (BNN+LVs) capture predictive uncertainty by explicitly modeling model uncertainty (via priors on network weights) and environmental stochasticity (via a latent input noise variable). In this work, we first show that BNN+LV suffers from a serious form of non-identifiability: explanatory power can be transferred between the model parameters and latent variables while fitting the data equally well. We demonstrate that as a result, in the limit of infinite data, the posterior mode over the network weights and latent variables is asymptotically biased away from the ground-truth. Due to this asymptotic bias, traditional inference methods may in practice yield parameters that generalize poorly and misestimate uncertainty. Next, we develop a novel inference procedure that explicitly mitigates the effects of likelihood non-identifiability during training and yields high-quality predictions as well as uncertainty estimates. We demonstrate that our inference method improves upon benchmark methods across a range of synthetic and real data-sets.",
+    "authors": [
+        "Yaniv Yacoby",
+        "Weiwei Pan",
+        "Finale Doshi-Velez"
+    ],
+    "emails": [
+        "yanivyacoby@g.harvard.edu",
+        "weiweipan@g.harvard.edu",
+        "finale@seas.harvard.edu"
+    ],
+    "id": "21-0152",
+    "issue": 244,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Mitigating the Effects of Non-Identifiability on Inference for Bayesian Neural Networks with Latent Variables",
+    "volume": 23,
+    "year": 2022
+}

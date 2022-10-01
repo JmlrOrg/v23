@@ -1,0 +1,22 @@
+{
+    "abstract": "We study stochastic decentralized optimization for the problem of training machine learning models with large-scale distributed data. We extend the widely used EXTRA and DIGing methods with variance reduction (VR), and propose two methods: VR-EXTRA and VR-DIGing. The proposed VR-EXTRA requires the time of $O((\\kappa_s+n)\\log\\frac{1}{\\epsilon})$ stochastic gradient evaluations and $O((\\kappa_b+\\kappa_c)\\log\\frac{1}{\\epsilon})$ communication rounds to reach precision $\\epsilon$, which are the best complexities among the non-accelerated gradient-type methods, where $\\kappa_s$ and $\\kappa_b$ are the stochastic condition number and batch condition number for strongly convex and smooth problems, respectively, $\\kappa_c$ is the condition number of the communication network, and $n$ is the sample size on each distributed node. The proposed VR-DIGing has a little higher communication cost of $O((\\kappa_b+\\kappa_c^2)\\log\\frac{1}{\\epsilon})$. Our stochastic gradient computation complexities are the same as the ones of single-machine VR methods, such as SAG, SAGA, and SVRG, and our communication complexities keep the same as those of EXTRA and DIGing, respectively. To further speed up the convergence, we also propose the accelerated VR-EXTRA and VR-DIGing with both the optimal $O((\\sqrt{n\\kappa_s}+n)\\log\\frac{1}{\\epsilon})$ stochastic gradient computation complexity and $O(\\sqrt{\\kappa_b\\kappa_c}\\log\\frac{1}{\\epsilon})$ communication complexity. Our stochastic gradient computation complexity is also the same as the ones of single-machine accelerated VR methods, such as Katyusha, and our communication complexity keeps the same as those of accelerated full batch decentralized methods, such as MSDA. To the best of our knowledge, our accelerated methods are the first to achieve both the optimal stochastic gradient computation complexity and communication complexity in the class of gradient-type methods.",
+    "authors": [
+        "Huan Li",
+        "Zhouchen Lin",
+        "Yongchun Fang"
+    ],
+    "emails": [
+        "lihuanss@nankai.edu.cn",
+        "zlin@pku.edu.cn",
+        "fangyc@nankai.edu.cn"
+    ],
+    "id": "20-1130",
+    "issue": 222,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Variance Reduced EXTRA and DIGing and Their Optimal Acceleration for Strongly Convex Decentralized Optimization",
+    "volume": 23,
+    "year": 2022
+}

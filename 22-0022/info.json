@@ -1,0 +1,22 @@
+{
+    "abstract": "A key assumption in the theory of nonlinear adaptive control is that the uncertainty of the system can be expressed in the linear span of a set of known basis functions. While this assumption leads to efficient algorithms, it limits applications to very specific classes of systems. We introduce a novel nonparametric adaptive algorithm that estimates an infinite-dimensional density over parameters online to learn an unknown dynamics in a reproducing kernel Hilbert space. Surprisingly, the resulting control input admits an analytical expression that enables its implementation despite its underlying infinite-dimensional structure. While this adaptive input is rich and expressive -- subsuming, for example, traditional linear parameterizations -- its computational complexity grows linearly with time, making it comparatively more expensive than its parametric counterparts. Leveraging the theory of random Fourier features, we provide an efficient randomized implementation that recovers the complexity of classical parametric methods while provably retaining the expressivity of the nonparametric input. In particular, our explicit bounds only depend polynomially on the underlying parameters of the system, allowing our proposed algorithms to efficiently scale to high-dimensional systems. As an illustration of the method, we demonstrate the ability of the randomized approximation algorithm to learn a predictive model of a 60-dimensional system consisting of ten point masses interacting through Newtonian gravitation. By reinterpretation as a gradient flow on a specific loss, we conclude with a natural extension of our kernel-based adaptive algorithms to deep neural networks. We show empirically that the extra expressivity afforded by deep representations can lead to improved performance at the expense of the closed-loop stability that is rigorously guaranteed and consistently observed for kernel machines.",
+    "authors": [
+        "Nicholas M. Boffi",
+        "Stephen Tu",
+        "Jean-Jacques E. Slotine"
+    ],
+    "emails": [
+        "boffi@cims.nyu.edu",
+        "stephentu@google.com",
+        "jjs@mit.edu"
+    ],
+    "id": "22-0022",
+    "issue": 281,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "Nonparametric adaptive control and prediction: theory and randomized algorithms",
+    "volume": 23,
+    "year": 2022
+}

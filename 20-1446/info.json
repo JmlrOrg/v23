@@ -1,0 +1,22 @@
+{
+    "abstract": "Time series datasets are often composed of a variety of sequences from the same domain, but from different entities, such as individuals, products, or organizations. We are interested in how time series models can be specialized to individual sequences (capturing the specific characteristics) while still retaining statistical power by sharing commonalities across the sequences. This paper describes the multi-task dynamical system (MTDS); a general methodology for extending multi-task learning (MTL) to time series models. Our approach endows dynamical systems with a set of hierarchical latent variables which can modulate all model parameters. To our knowledge, this is a novel development of MTL, and applies to time series both with and without control inputs. We apply the MTDS to motion-capture data of people walking in various styles using a multi-task recurrent neural network (RNN), and to patient drug-response data using a multi-task pharmacodynamic model.",
+    "authors": [
+        "Alex Bird",
+        "Christopher K. I. Williams",
+        "Christopher Hawthorne"
+    ],
+    "emails": [
+        "mtds@alxbrd.com",
+        "ckiw@inf.ed.ac.uk",
+        "christopher.hawthorne@glasgow.ac.uk"
+    ],
+    "id": "20-1446",
+    "issue": 230,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Multi-Task Dynamical Systems",
+    "volume": 23,
+    "year": 2022
+}

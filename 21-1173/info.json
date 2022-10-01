@@ -1,0 +1,22 @@
+{
+    "abstract": "An acyclic model, often depicted as a directed acyclic graph (DAG), has been widely employed to represent directional causal relations among collected nodes. In this article, we propose an efficient method to learn linear non-Gaussian DAG in high dimensional cases, where the noises can be of any continuous non-Gaussian distribution. The proposed method leverages the concept of topological layer to facilitate the DAG learning, and its theoretical justification in terms of exact DAG recovery is also established under mild conditions. Particularly, we show that the topological layers can be exactly reconstructed in a bottom-up fashion, and the parent-child relations among nodes can also be consistently established. The established asymptotic DAG recovery is in sharp contrast to that of many existing learning methods assuming parental faithfulness or ordered noise variances. The advantage of the proposed method is also supported by the numerical comparison against some popular competitors in various simulated examples as well as a real application on the global spread of COVID-19.",
+    "authors": [
+        "Ruixuan Zhao",
+        "Xin He",
+        "Junhui Wang"
+    ],
+    "emails": [
+        "ruixuzhao2-c@my.cityu.edu.hk",
+        "he.xin17@mail.shufe.edu.cn",
+        "junhuiwang@cuhk.edu.hk"
+    ],
+    "id": "21-1173",
+    "issue": 269,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Learning linear non-Gaussian directed acyclic graph with diverging number of nodes",
+    "volume": 23,
+    "year": 2022
+}

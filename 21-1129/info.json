@@ -1,0 +1,24 @@
+{
+    "abstract": "In Topological Data Analysis, a common way of quantifying the shape of data is to use a persistence diagram (PD). PDs are multisets of points in $R^2$ computed using tools of algebraic topology. However, this multi-set structure limits the utility of PDs in applications. Therefore, in recent years efforts have been directed towards extracting informative and efficient summaries from PDs to broaden the scope of their use for machine learning tasks. We propose a computationally efficient framework to convert a PD into a vector in $R^n$, called a vectorized persistence block (VPB). We show that our representation possesses many of the desired properties of vector-based summaries such as stability with respect to input noise, low computational cost and flexibility. Through simulation studies, we demonstrate the effectiveness of VPBs in terms of performance and computational cost for various learning tasks, namely clustering, classification and change point detection.",
+    "authors": [
+        "Kit C Chan",
+        "Umar Islambekov",
+        "Alexey Luchinsky",
+        "Rebecca Sanders"
+    ],
+    "emails": [
+        "kchan@bgsu.edu",
+        "iumar@bgsu.edu",
+        "aluchi@bgsu.edu",
+        "rebecca.sanders@marquette.edu"
+    ],
+    "id": "21-1129",
+    "issue": 268,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "A Computationally Efficient Framework for Vector Representation of Persistence Diagrams",
+    "volume": 23,
+    "year": 2022
+}

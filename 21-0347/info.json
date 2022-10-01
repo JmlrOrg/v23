@@ -1,0 +1,20 @@
+{
+    "abstract": "Most high-dimensional matrix recovery problems are studied under the assumption that the target matrix has certain intrinsic structures. For image data related matrix recovery problems, approximate low-rankness and smoothness are the two most commonly imposed structures. For approximately low-rank matrix recovery, the robust principal component analysis (PCA) is well-studied and proved to be effective. For smooth matrix problem, 2d fused Lasso and other total variation based approaches have played a fundamental role. Although both low-rankness and smoothness are key assumptions for image data analysis, the two lines of research, however, have very limited interaction. Motivated by taking advantage of both features, we in this paper develop a framework named projected robust PCA (PRPCA), under which the low-rank matrices are projected onto a space of smooth matrices. Consequently, a large class of image matrices can be decomposed as a low-rank and smooth component plus a sparse component. A key advantage of this decomposition is that the dimension of the core low-rank component can be significantly reduced. Consequently, our framework is able to address a problematic bottleneck of many low-rank matrix problems: singular value decomposition (SVD) on large matrices. Theoretically, we provide explicit statistical recovery guarantees of PRPCA and include classical robust PCA as a special case.",
+    "authors": [
+        "Long Feng",
+        "Junhui Wang"
+    ],
+    "emails": [
+        "lfeng@hku.hk",
+        "junhuiwang@cuhk.edu.hk"
+    ],
+    "id": "21-0347",
+    "issue": 249,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Projected Robust PCA with Application to Smooth Image Recovery",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "This paper presents a Gaussian process (GP) model for estimating piecewise continuous regression functions. In many scientific and engineering applications of regression analysis, the underlying regression functions are often piecewise continuous in that data follow different continuous regression models for different input regions with discontinuities across regions. However, many conventional GP regression approaches are not designed for piecewise regression analysis. There are piecewise GP models to use explicit domain partitioning and pose independent GP models over partitioned regions. They are not flexible enough to model real datasets where data domains are divided by complex and curvy jump boundaries.   We propose a new GP modeling approach to estimate an unknown piecewise continuous regression function. The new GP model seeks a local GP estimate of an unknown regression function at each test location, using local data neighboring the test location. Considering the possibilities of the local data being from different regions, the proposed approach partitions the local data into pieces by a local data partitioning function. It uses only the local data likely from the same region as the test location for the regression estimate. Since we do not know which local data points come from the relevant region, we propose a data-driven approach to split and subset local data by a local partitioning function. We discuss several modeling choices of the local data partitioning function, including a locally linear function and a locally polynomial function. We also investigate an optimization problem to jointly optimize the partitioning function and other covariance parameters using a likelihood maximization criterion. Several advantages of using the proposed approach over the conventional GP and piecewise GP modeling approaches are shown by various simulated experiments and real data studies.",
+    "authors": [
+        "Chiwoo Park"
+    ],
+    "emails": [
+        "cpark5@fsu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://www.chiwoopark.net/code-and-dataset"
+        ]
+    ],
+    "id": "21-1472",
+    "issue": 278,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Jump Gaussian Process Model for Estimating Piecewise Continuous Regression Functions",
+    "volume": 23,
+    "year": 2022
+}

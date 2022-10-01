@@ -1,0 +1,22 @@
+{
+    "abstract": "We consider the problem of matrix approximation and denoising induced by the Kronecker product decomposition. Specifically, we propose to approximate a given matrix by the sum of a few Kronecker products of matrices, which we refer to as the Kronecker product approximation (KoPA). Because the Kronecker product is an extensions of the outer product from vectors to matrices, KoPA extends the low rank matrix approximation, and includes it as a special case. Comparing with the latter, KoPA also offers a greater flexibility, since it allows the user to choose the configuration, which are the dimensions of the two smaller matrices forming the Kronecker product. On the other hand, the configuration to be used is usually unknown, and needs to be determined from the data in order to achieve the optimal balance between accuracy and parsimony. We propose to use extended information criteria to select the configuration. Under the paradigm of high dimensional analysis, we show that the proposed procedure is able to select the true configuration with probability tending to one, under suitable conditions on the signal-to-noise ratio. We demonstrate the superiority of KoPA over the low rank approximations through numerical studies, and several benchmark image examples.",
+    "authors": [
+        "Chencheng Cai",
+        "Rong Chen",
+        "Han Xiao"
+    ],
+    "emails": [
+        "chencheng.cai@temple.edu",
+        "rongchen@stat.rutgers.edu",
+        "hxiao@stat.rutgers.edu"
+    ],
+    "id": "20-931",
+    "issue": 236,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "KoPA: Automated Kronecker Product Approximation",
+    "volume": 23,
+    "year": 2022
+}

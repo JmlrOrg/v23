@@ -1,0 +1,28 @@
+{
+    "abstract": "Developing techniques to infer the behavior of networked social systems has attracted a lot of attention in the literature. Using a discrete dynamical system to model a networked social system, the problem of inferring the behavior of the system can be formulated as the problem of learning the local functions of the dynamical system. We investigate the problem assuming an active form of interaction with the system through queries. We consider two classes of local functions (namely, symmetric and threshold functions) and two interaction modes, namely batch (where all the queries must be submitted together) and adaptive (where the set of queries submitted at a stage may rely on the answers to previous queries). We establish bounds on the number of queries under both batch and adaptive query modes using vertex coloring and probabilistic methods. Our results show that a small number of appropriately chosen queries are provably sufficient to correctly learn all the local functions. We develop complexity results which suggest that, in general, the problem of generating query sets of minimum size is computationally intractable. We present efficient heuristics that produce query sets under both batch and adaptive query modes. Also, we present a query compaction algorithm that identifies and removes redundant queries from a given query set. Our algorithms were evaluated through experiments on over 20 well-known networks.",
+    "authors": [
+        "Abhijin Adiga",
+        "Chris J. Kuhlman",
+        "Madhav V. Marathe",
+        "S. S. Ravi",
+        "Daniel J. Rosenkrantz",
+        "Richard E. Stearns"
+    ],
+    "emails": [
+        "abhijin@virginia.edu",
+        "cjk8gx@virginia.edu",
+        "marathe@virginia.edu",
+        "ssravi0@gmail.com",
+        "drosenkrantz@gmail.com",
+        "thestearns2@gmail.com"
+    ],
+    "id": "21-0409",
+    "issue": 251,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "Using Active Queries to Infer Symmetric Node Functions of Graph Dynamical Systems",
+    "volume": 23,
+    "year": 2022
+}

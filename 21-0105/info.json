@@ -1,0 +1,26 @@
+{
+    "abstract": "High-dimensional graphical models are often estimated using regularization that is aimed at reducing the number of edges in a network. In this work, we show how even simpler networks can be produced by aggregating the nodes of the graphical model.  We develop a new convex regularized method, called the  tree-aggregated graphical lasso or tag-lasso, that estimates graphical models that are both edge-sparse and node-aggregated.  The aggregation is performed in a data-driven fashion by leveraging side information in the form of a tree that encodes node similarity and facilitates the interpretation of the resulting aggregated nodes. We provide an efficient implementation of the tag-lasso by using the locally adaptive alternating direction method of multipliers and illustrate our proposal's practical advantages in simulation and in applications in finance and biology.",
+    "authors": [
+        "Ines Wilms",
+        "Jacob Bien"
+    ],
+    "emails": [
+        "i.wilms@maastrichtuniversity.nl",
+        "jbien@usc.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ineswilms/taglasso"
+        ]
+    ],
+    "id": "21-0105",
+    "issue": 243,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Tree-based Node Aggregation in Sparse Graphical Models",
+    "volume": 23,
+    "year": 2022
+}

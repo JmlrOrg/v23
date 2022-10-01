@@ -1,0 +1,37 @@
+{
+    "abstract": "CleanRL is an open-source library that provides high-quality single-file implementations of Deep Reinforcement Learning (DRL) algorithms. These single-file implementations are self-contained algorithm variant files such as dqn.py, ppo.py, and ppo_atari.py that individually include all algorithm variant's implementation details. Such a paradigm significantly reduces the complexity and the lines of code (LOC) in each implemented variant, which makes them quicker and easier to understand. This paradigm gives the researchers the most fine-grained control over all aspects of the algorithm in a single file, allowing them to prototype novel features quickly. Despite having succinct implementations, CleanRL's codebase is thoroughly documented and benchmarked to ensure performance is on par with reputable sources. As a result, CleanRL produces a repository tailor-fit for two purposes: 1) understanding all implementation details of DRL algorithms and 2) quickly prototyping novel features.  CleanRL's source code can be found at https://github.com/vwxyzjn/cleanrl.",
+    "authors": [
+        "Shengyi Huang",
+        "Rousslan Fernand Julien Dossa",
+        "Chang Ye",
+        "Jeff Braga",
+        "Dipam Chakraborty",
+        "Kinal Mehta",
+        "Jo\u00e3o G.M. Ara\u00fajo"
+    ],
+    "emails": [
+        "costa.huang@outlook.com",
+        "doss@ai.cs.kobe-u.ac.jp",
+        "c.ye@nyu.edu",
+        "jeffreybraga@gmail.com",
+        "dipamc77@gmail.com",
+        "kinal.mehta11@gmail.co",
+        "joaoguilhermearujo@gmail.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/vwxyzjn/cleanrl"
+        ]
+    ],
+    "id": "21-1342",
+    "issue": 274,
+    "pages": [
+        1,
+        18
+    ],
+    "special_issue": "MLOSS",
+    "title": "CleanRL: High-quality Single-file Implementations of Deep Reinforcement Learning Algorithms",
+    "volume": 23,
+    "year": 2022
+}

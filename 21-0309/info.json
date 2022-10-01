@@ -1,0 +1,28 @@
+{
+    "abstract": "Quantile regression is the task of estimating a specified percentile response, such as the median (50th percentile), from a collection of known covariates. We study quantile regression with rectified linear unit (ReLU) neural networks as the chosen model class. We derive an upper bound on the expected mean squared error of a ReLU network used to estimate any quantile conditioning on a set of covariates. This upper bound only depends on the best possible approximation error, the number of layers in the network, and the number of nodes per layer. We further show upper bounds that are tight for two large classes of functions: compositions of \\holder functions and members of a Besov space. These tight bounds imply ReLU networks with quantile regression achieve minimax rates for broad collections of function types. Unlike existing work, the theoretical results hold under minimal assumptions and apply to general error distributions, including heavy-tailed distributions. Empirical simulations on a suite of synthetic response functions demonstrate the theoretical results translate to practical implementations of ReLU networks. Overall, the theoretical and empirical results provide insight into the strong performance of ReLU neural networks for quantile regression across a broad range of function classes and error distributions. All code for this paper is publicly available at https://github.com/tansey/quantile-regression.",
+    "authors": [
+        "Oscar Hernan Madrid Padilla",
+        "Wesley Tansey",
+        "Yanzhen Chen"
+    ],
+    "emails": [
+        "oscar.madrid@stat.ucla.edu",
+        "tanseyw@mskcc.org",
+        "imyanzhen@ust.hk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/tansey/quantile-regression"
+        ]
+    ],
+    "id": "21-0309",
+    "issue": 247,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Quantile regression with ReLU Networks: Estimators and minimax rates",
+    "volume": 23,
+    "year": 2022
+}

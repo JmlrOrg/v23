@@ -1,0 +1,18 @@
+{
+    "abstract": "Consider a finite sample from an unknown distribution over a countable alphabet. The occupancy probability (OP) refers to the total probability of symbols that appear exactly k times in the sample. Estimating the OP is a basic problem in large alphabet modeling, with a variety of applications in machine learning, statistics and information theory. The Good-Turing (GT) framework is perhaps the most popular OP estimation scheme. Classical results show that the GT estimator converges to the OP, for every k independently. In this work we introduce new exact convergence guarantees for the GT estimator, based on worst-case mean squared error analysis. Our scheme improves upon currently known results. Further, we introduce a novel simultaneous convergence rate, for any desired set of occupancy probabilities. This allows us to quantify the unified performance of OP estimators, and introduce a novel estimation framework with favorable convergence guarantees.",
+    "authors": [
+        "Amichai Painsky"
+    ],
+    "emails": [
+        "amichaip@tauex.tau.ac.il"
+    ],
+    "id": "21-1528",
+    "issue": 279,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Convergence Guarantees for the Good-Turing Estimator",
+    "volume": 23,
+    "year": 2022
+}

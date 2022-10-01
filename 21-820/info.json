@@ -1,0 +1,20 @@
+{
+    "abstract": "We propose the family of generalized resubstitution classifier error estimators based on arbitrary empirical probability measures. These error estimators are computationally efficient and do not require retraining of classifiers. The plain resubstitution error estimator corresponds to choosing the standard empirical probability measure. Other choices of empirical probability measure lead to bolstered, posterior-probability, Gaussian-process, and Bayesian error estimators; in addition, we propose here bolstered posterior-probability error estimators, as a new family of generalized resubstitution estimators. In the two-class case, we show that a generalized resubstitution estimator is consistent and asymptotically unbiased, regardless of the distribution of the features and label, if the corresponding empirical probability measure converges uniformly to the standard empirical probability measure and the classification rule has finite VC dimension. A generalized resubstitution estimator typically has hyperparameters that can be tuned to control its bias and variance, which adds flexibility. We conducted extensive numerical experiments with various classification rules trained on synthetic data, which indicate that the new family of error estimators proposed here produces the best results overall, except in the case of very complex, overfitting classifiers, in which semi-bolstered resubstitution should be used instead. In addition, results of an image classification experiment using the LeNet-5 convolutional neural network and the MNIST data set show that naive-Bayes bolstered resubstitution with a simple data-driven calibration procedure produces excellent results, demonstrating the potential of this class of error estimators in deep learning for computer vision.",
+    "authors": [
+        "Parisa Ghane",
+        "Ulisses Braga-Neto"
+    ],
+    "emails": [
+        "pghane@tamu.edu",
+        "ulisses@tamu.edu"
+    ],
+    "id": "21-820",
+    "issue": 280,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Generalized Resubstitution for Classification Error Estimation",
+    "volume": 23,
+    "year": 2022
+}

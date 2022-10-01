@@ -1,0 +1,28 @@
+{
+    "abstract": "We introduce a flexible framework that produces high-quality almost-exact matches for causal inference. Most prior work in matching uses ad-hoc distance metrics, often leading to poor quality matches, particularly when there are irrelevant covariates. In this work, we learn an interpretable distance metric for matching, which leads to substantially higher quality matches. The learned distance metric stretches the covariate space according to each covariate's contribution to outcome prediction: this stretching means that mismatches on important covariates carry a larger penalty than mismatches on irrelevant covariates. Our ability to learn flexible distance metrics leads to matches that are interpretable and useful for the estimation of conditional average treatment effects.",
+    "authors": [
+        "Harsh Parikh",
+        "Cynthia Rudin",
+        "Alexander Volfovsky"
+    ],
+    "emails": [
+        "harsh.parikh@duke.edu",
+        "cynthia@cs.duke.edu",
+        "alexander.volfovsky@duke.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/almost-matching-exactly/MALTS"
+        ]
+    ],
+    "id": "21-0053",
+    "issue": 240,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "MALTS: Matching After Learning to Stretch",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,28 @@
+{
+    "abstract": "Approximate Policy Iteration (API) algorithms alternate between (approximate) policy evaluation and (approximate) greedification. Many different approaches have been explored for approximate policy evaluation, but less is understood about approximate greedification and what choices guarantee policy improvement. In this work, we investigate approximate greedification when reducing the KL divergence between the parameterized policy and the Boltzmann distribution over action values. In particular, we investigate the difference between the forward and reverse KL divergences, with varying degrees of entropy regularization; these are chosen because they underlie many existing policy optimization approaches, as we highlight in this work. We show that the reverse KL has stronger policy improvement guarantees, and that reducing the forward KL can result in a worse policy. We also demonstrate, however, that a large enough reduction of the forward KL can induce improvement under additional assumptions. Empirically, we show on simple continuous-action environments that the forward KL can induce more exploration, but at the cost of a more suboptimal policy. No significant differences were observed in the discrete-action setting or on a suite of benchmark problems. This work provides novel theoretical and empirical insights about the forward KL and reverse KL for greedification, and clear next steps for understanding and improving our policy optimization algorithms.",
+    "authors": [
+        "Alan Chan",
+        "Hugo Silva",
+        "Sungsu Lim",
+        "Tadashi Kozuno",
+        "A. Rupam Mahmood",
+        "Martha White"
+    ],
+    "emails": [
+        "achan4@ualberta.ca",
+        "hugoluis@ualberta.ca",
+        "sungsu@ualberta.ca",
+        "kozuno@ualberta.ca",
+        "armahmood@ualberta.ca",
+        "whitem@ualberta.ca"
+    ],
+    "id": "21-054",
+    "issue": 253,
+    "pages": [
+        1,
+        79
+    ],
+    "title": "Greedification Operators for Policy Optimization: Investigating Forward and Reverse KL Divergences",
+    "volume": 23,
+    "year": 2022
+}

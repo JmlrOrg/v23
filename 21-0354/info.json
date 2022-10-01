@@ -1,0 +1,22 @@
+{
+    "abstract": "Learning optimal individualized treatment rules (ITRs) has become increasingly important in the modern era of precision medicine. Many statistical and machine learning methods for learning optimal ITRs have been developed in the literature. However, most existing methods are based on data collected from traditional randomized controlled trials and thus cannot take advantage of the accumulative evidence when patients enter the trials sequentially. It is also ethically important that future patients should have a high probability to be treated optimally based on the updated knowledge so far. In this work, we propose a new design called sequentially rule-adaptive trials to learn optimal ITRs based on the contextual bandit framework, in contrast to the response-adaptive design in traditional adaptive trials. In our design, each entering patient will be allocated with a high probability to the current best treatment for this patient, which is estimated using the past data based on some machine learning algorithm (for example, outcome weighted learning in our implementation). We explore the tradeoff between training and test values of the estimated ITR in single-stage problems by proving theoretically that for a higher probability of following the estimated ITR, the training value converges to the optimal value at a faster rate, while the test value converges at a slower rate. This problem is different from traditional decision problems in the sense that the training data are generated sequentially and are dependent. We also develop a tool that combines martingale with empirical process to tackle the problem that cannot be solved by previous techniques for i.i.d. data. We show by numerical examples that without much loss of the test value, our proposed algorithm can improve the training value significantly as compared to existing methods. Finally, we use a real data study to illustrate the performance of the proposed method.",
+    "authors": [
+        "Daiqi Gao",
+        "Yufeng Liu",
+        "Donglin Zeng"
+    ],
+    "emails": [
+        "dqgao@live.unc.edu",
+        "yfliu@email.unc.edu",
+        "dzeng@email.unc.edu"
+    ],
+    "id": "21-0354",
+    "issue": 250,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Non-asymptotic Properties of Individualized Treatment Rules from Sequentially Rule-Adaptive Trials",
+    "volume": 23,
+    "year": 2022
+}

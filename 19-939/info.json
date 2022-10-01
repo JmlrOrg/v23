@@ -1,0 +1,26 @@
+{
+    "abstract": "We study distributed stochastic gradient (D-SG) method and its accelerated variant (D-ASG) for solving decentralized strongly convex stochastic optimization problems where the objective function is distributed over several computational units, lying on a fixed but arbitrary connected communication graph, subject to local communication constraints where noisy estimates of the gradients are available. We develop a framework which allows to choose the stepsize and the momentum parameters of these algorithms in a way to optimize performance by systematically trading off the bias, variance and dependence to network effects. When gradients do not contain noise, we also prove that D-ASG can achieve acceleration, in the sense that it requires $\\mathcal{O}(\\sqrt{\\kappa} \\log(1/\\varepsilon))$ gradient evaluations and $\\mathcal{O}(\\sqrt{\\kappa} \\log(1/\\varepsilon))$ communications to converge to the same fixed point with the non-accelerated variant where $\\kappa$ is the condition number and $\\varepsilon$ is the target accuracy.  For quadratic functions, we also provide finer performance bounds that are tight with respect to bias and variance terms. Finally, we study a multistage version of D-ASG with parameters carefully varied over stages to ensure exact convergence to the optimal solution. It achieves optimal and accelerated $\\mathcal{O}(-k/\\sqrt{\\kappa})$ linear decay in the bias term as well as optimal $\\mathcal{O}(\\sigma^2/k)$ in the variance term. We illustrate through numerical experiments that our approach results in accelerated practical algorithms that are robust to gradient noise and that can outperform existing methods.",
+    "authors": [
+        "Alireza Fallah",
+        "Mert G\u00fcrb\u00fczbalaban",
+        "Asuman Ozdaglar",
+        "Umut \u015eim\u015fekli",
+        "Lingjiong Zhu"
+    ],
+    "emails": [
+        "afallah@mit.edu",
+        "mg1366@rutgers.edu",
+        "asuman@mit.edu",
+        "umut.simsekli@inria.fr",
+        "zhu@math.fsu.edu"
+    ],
+    "id": "19-939",
+    "issue": 220,
+    "pages": [
+        1,
+        96
+    ],
+    "title": "Robust Distributed Accelerated Stochastic Gradient Methods for Multi-Agent Networks",
+    "volume": 23,
+    "year": 2022
+}

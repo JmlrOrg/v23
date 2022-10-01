@@ -1,0 +1,22 @@
+{
+    "abstract": "We design a simple reinforcement learning (RL) agent that implements an optimistic version of $Q$-learning and establish through regret analysis that this agent can operate with some level of competence in any environment.  While we leverage concepts from the literature on provably efficient RL, we consider a general agent-environment interface and provide a novel agent design and analysis.  This level of generality positions our results to inform the design of future agents for operation in complex real environments.  We establish that, as time progresses, our agent performs competitively relative to policies that require longer times to evaluate.  The time it takes to approach asymptotic performance is polynomial in the complexity of the agent\u2019s state representation and the time required to evaluate the best policy that the agent can represent.  Notably, there is no dependence on the complexity of the environment.  The ultimate per-period performance loss of the agent is bounded by a constant multiple of a measure of distortion introduced by the agent\u2019s state representation.  This work is the first to establish that an algorithm approaches this asymptotic condition within a tractable time frame.",
+    "authors": [
+        "Shi Dong",
+        "Benjamin Van Roy",
+        "Zhengyuan Zhou"
+    ],
+    "emails": [
+        "sdong15@stanford.edu",
+        "bvr@stanford.edu",
+        "zzhou@stern.nyu.edu"
+    ],
+    "id": "21-0773",
+    "issue": 255,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Simple Agent, Complex Environment: Efficient Reinforcement Learning with Agent States",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,34 @@
+{
+    "abstract": "This paper proposes a Disentangled gEnerative cAusal Representation (DEAR) learning method under appropriate supervised information. Unlike existing disentanglement methods that enforce independence of the latent variables, we consider the general case where the underlying factors of interests can be causally related. We show that previous methods with independent priors fail to disentangle causally related factors even under supervision. Motivated by this finding, we propose a new disentangled learning method called DEAR that enables causal controllable generation and causal representation learning. The key ingredient of this new formulation is to use a structural causal model (SCM) as the prior distribution for a bidirectional generative model. The prior is then trained jointly with a generator and an encoder using a suitable GAN algorithm incorporated with supervised information on the ground-truth factors and their underlying causal structure. We provide theoretical justification on the identifiability and asymptotic convergence of the proposed method. We conduct extensive experiments on both synthesized and real data sets to demonstrate the effectiveness of DEAR in causal controllable generation, and the benefits of the learned representations for downstream tasks in terms of sample efficiency and distributional robustness.",
+    "authors": [
+        "Xinwei Shen",
+        "Furui Liu",
+        "Hanze Dong",
+        "Qing Lian",
+        "Zhitang Chen",
+        "Tong Zhang"
+    ],
+    "emails": [
+        "xshenal@ust.hk",
+        "liufurui@zhejianglab.com",
+        "hdongaj@ust.hk",
+        "qlianab@ust.hk",
+        "chenzhitang2@huawei.com",
+        "tongzhang@ust.hk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/xwshen51/DEAR"
+        ]
+    ],
+    "id": "21-0080",
+    "issue": 241,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Weakly Supervised Disentangled Generative Causal Representation Learning",
+    "volume": 23,
+    "year": 2022
+}

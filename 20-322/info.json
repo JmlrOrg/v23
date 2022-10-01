@@ -1,0 +1,24 @@
+{
+    "abstract": "We introduce a novel way to combine boosting with Gaussian process and mixed effects models. This allows for relaxing, first, the zero or linearity assumption for the prior mean function in Gaussian process and grouped random effects models in a flexible non-parametric way and, second, the independence assumption made in most boosting algorithms. The former is advantageous for prediction accuracy and for avoiding model misspecifications. The latter is important for efficient learning of the fixed effects predictor function and for obtaining probabilistic predictions. Our proposed algorithm is also a novel solution for handling high-cardinality categorical variables in tree-boosting. In addition, we present an extension that scales to large data using a Vecchia approximation for the Gaussian process model relying on novel results for covariance parameter inference. We obtain increased prediction accuracy compared to existing approaches on multiple simulated and real-world data sets.",
+    "authors": [
+        "Fabio Sigrist"
+    ],
+    "emails": [
+        "fabio.sigrist@hslu.ch"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/fabsig/GPBoost"
+        ]
+    ],
+    "id": "20-322",
+    "issue": 232,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "Gaussian Process Boosting",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "Stochastic gradient descent (SGD) and its variants have established themselves as the go-to algorithms for large-scale machine learning problems with independent samples due to their generalization performance and intrinsic computational advantage. However, the fact that the stochastic gradient is a biased estimator of the full gradient with correlated samples has led to the lack of theoretical understanding of how SGD behaves under correlated settings and hindered its use in such cases. In this paper, we focus on hyperparmeter estimation for the Gaussian process (GP) and take a step forward towards breaking the barrier by proving minibatch SGD converges to a critical point of the full log-likelihood loss function, and recovers model hyperparameters with rate $O(\\frac{1}{K})$ for $K$ iterations, up to a statistical error term depending on the minibatch size. Our theoretical guarantees hold provided that the kernel functions exhibit exponential or polynomial eigendecay which is satisfied by a wide range of kernels commonly used in GPs. Numerical studies on both simulated and real datasets demonstrate that minibatch SGD has better generalization over state-of-the-art GP methods while reducing the computational burden and opening a new, previously unexplored, data size regime for GPs.",
+    "authors": [
+        "Hao Chen",
+        "Lili Zheng",
+        "Raed Al Kontar",
+        "Garvesh Raskutti"
+    ],
+    "emails": [
+        "haochen@stat.wisc.edu",
+        "lili.zheng@rice.edu",
+        "alkontar@umich.edu",
+        "raskutti@stat.wisc.edu"
+    ],
+    "id": "20-1365",
+    "issue": 227,
+    "pages": [
+        1,
+        59
+    ],
+    "title": "Gaussian Process Parameter Estimation Using Mini-batch Stochastic Gradient Descent: Convergence Guarantees and Empirical Benefits",
+    "volume": 23,
+    "year": 2022
+}

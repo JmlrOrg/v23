@@ -1,0 +1,20 @@
+{
+    "abstract": "Unsupervised representation learning is one of the most important problems in machine learning. A recent promising approach is contrastive learning: A feature representation of data is learned by solving a pseudo classification problem where class labels are automatically generated from unlabelled data. However, it is not straightforward to understand what representation contrastive learning yields through the classification problem. In addition, most of practical methods for contrastive learning are based on the maximum likelihood estimation, which is often vulnerable to the contamination by outliers. In order to promote the understanding to contrastive learning, this paper first theoretically shows a connection to maximization of mutual information (MI). Our result indicates that density ratio estimation is necessary and sufficient for maximization of MI under some conditions. Since popular objective functions for classification can be regarded as estimating density ratios, contrastive learning related to density ratio estimation can be interpreted as maximizing MI. Next, in terms of density ratio estimation, we establish new recovery conditions for the latent source components in nonlinear independent component analysis (ICA). In contrast with existing work, the established conditions include a novel insight for the dimensionality of data, which is clearly supported by numerical experiments. Furthermore, inspired by nonlinear ICA, we propose a novel framework to estimate a nonlinear subspace for lower-dimensional latent source components, and some theoretical conditions for the subspace estimation are established with density ratio estimation. Motivated by the theoretical results, we propose a practical method through outlier-robust density ratio estimation, which can be seen as performing maximization of MI, nonlinear ICA or nonlinear subspace estimation.  Moreover, a sample-efficient nonlinear ICA method is also proposed based on a variational lower-bound of MI. Then, we theoretically investigate outlier-robustness of the proposed methods. Finally, we numerically demonstrate usefulness of the proposed methods in nonlinear ICA and through application to a downstream task for linear classification.",
+    "authors": [
+        "Hiroaki Sasaki",
+        "Takashi Takenouchi"
+    ],
+    "emails": [
+        "hsasaki@fun.ac.jp",
+        "t-takenouchi@grips.ac.jp"
+    ],
+    "id": "20-1469",
+    "issue": 231,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Representation Learning for Maximization of MI, Nonlinear ICA and Nonlinear Subspaces with Robust Density Ratio Estimation",
+    "volume": 23,
+    "year": 2022
+}

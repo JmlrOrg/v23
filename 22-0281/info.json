@@ -1,0 +1,43 @@
+{
+    "abstract": "This paper presents Deepchecks, a Python library for comprehensively validating machine learning models and data. Our goal is to provide an easy-to-use library comprising many checks related to various issues, such as model predictive performance, data integrity, data distribution mismatches, and more. The package is distributed under the GNU Affero General Public License and relies on core libraries from the scientific Python ecosystem: scikit-learn, PyTorch, NumPy, pandas, and SciPy.",
+    "authors": [
+        "Shir Chorev",
+        "Philip Tannor",
+        "Dan Ben Israel",
+        "Noam Bressler",
+        "Itay Gabbay",
+        "Nir Hutnik",
+        "Jonatan Liberman",
+        "Matan Perlmutter",
+        "Yurii Romanyshyn",
+        "Lior Rokach"
+    ],
+    "emails": [
+        "shir@deepchecks.com",
+        "philip@deepchecks.com",
+        "danb@deepchecks.com",
+        "noam@deepchecks.com",
+        "itay@deepchecks.com",
+        "nir@deepchecks.com",
+        "jonatan@deepchecks.com",
+        "matan@deepchecks.com",
+        "yurii@deepchecks.com",
+        "liorrk@bgu.ac.il"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/deepchecks/deepchecks"
+        ]
+    ],
+    "id": "22-0281",
+    "issue": 285,
+    "pages": [
+        1,
+        6
+    ],
+    "special_issue": "MLOSS",
+    "title": "Deepchecks: A Library for Testing and Validating Machine Learning Models and Data",
+    "volume": 23,
+    "year": 2022
+}

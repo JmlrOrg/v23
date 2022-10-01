@@ -1,0 +1,28 @@
+{
+    "abstract": "Using information-theoretic principles, we consider the generalization error (gen-error) of iterative semi-supervised learning (SSL) algorithms that iteratively generate pseudo-labels for a large amount of unlabelled data  to progressively refine the model parameters. In contrast to most previous works that bound the gen-error, we provide an exact expression for the gen-error and particularize it to  the binary Gaussian mixture model. Our theoretical results suggest that when the class conditional variances are not too large, the gen-error decreases with the number of iterations, but quickly saturates.  On the flip side, if the class conditional variances (and so amount of overlap between the classes) are large, the gen-error  increases with the number of iterations. To mitigate this undesirable effect, we show that regularization can reduce  the gen-error. The theoretical results are corroborated by extensive experiments on  the MNIST and CIFAR datasets in which we notice that  for easy-to-distinguish classes, the gen-error improves after several pseudo-labelling iterations, but saturates afterwards, and for more difficult-to-distinguish classes, regularization improves the generalization performance.",
+    "authors": [
+        "Haiyun He",
+        "Hanshu Yan",
+        "Vincent Y. F. Tan"
+    ],
+    "emails": [
+        "haiyun.he@u.nus.edu",
+        "hanshu.yan@u.nus.edu",
+        "vtan@nus.edu.sg"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/HerianHe/GenErrorSSL_2022.git"
+        ]
+    ],
+    "id": "22-0541",
+    "issue": 287,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Information-Theoretic Characterization of the Generalization Error for Iterative Semi-Supervised Learning",
+    "volume": 23,
+    "year": 2022
+}

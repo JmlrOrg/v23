@@ -1,0 +1,35 @@
+{
+    "abstract": "In this paper, we present Tianshou, a highly modularized Python library for deep reinforcement learning (DRL) that uses PyTorch as its backend. Tianshou intends to be research-friendly by providing a flexible and reliable infrastructure of DRL algorithms. It supports online and offline training with more than 20 classic algorithms through a unified interface. To facilitate related research and prove Tianshou's reliability, we have released Tianshou's benchmark of MuJoCo environments, covering eight classic algorithms with state-of-the-art performance. We open-sourced Tianshou at https://github.com/thu-ml/tianshou/.",
+    "authors": [
+        "Jiayi Weng",
+        "Huayu Chen",
+        "Dong Yan",
+        "Kaichao You",
+        "Alexis Duburcq",
+        "Minghao Zhang",
+        "Yi Su",
+        "Hang Su",
+        "Jun Zhu"
+    ],
+    "emails": [
+        "trinkle23897@gmail.com",
+        "chenhuay21@mails.tsinghua.edu.cn",
+        "sproblvem@gmail.com",
+        "youkaichao@gmail.com",
+        "alexis.duburcq@gmail.com",
+        "mehoozhang@gmail.com",
+        "nuance@gmail.com",
+        "suhangss@tsinghua.edu.cn",
+        "dcszj@tsinghua.edu.cn"
+    ],
+    "id": "21-1127",
+    "issue": 267,
+    "pages": [
+        1,
+        6
+    ],
+    "special_issue": "MLOSS",
+    "title": "Tianshou: A Highly Modularized Deep Reinforcement Learning Library",
+    "volume": 23,
+    "year": 2022
+}

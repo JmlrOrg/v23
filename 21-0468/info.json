@@ -1,0 +1,26 @@
+{
+    "abstract": "Supervised training of neural networks requires a large amount of manually annotated data and the resulting networks tend to be sensitive to out-of-distribution (OOD) data. Self- and semi-supervised training schemes reduce the amount of annotated data required during the training process. However, OOD generalization remains a major challenge for most methods. Strategies that promote smoother decision boundaries play an important role in out-of-distribution generalization. For example, embedding propagation (EP) for manifold smoothing has recently shown to considerably improve the OOD performance for few-shot classification. EP achieves smoother class manifolds by building a graph from sample embeddings and propagating information through the nodes in an unsupervised manner. In this work, we extend the original EP paper providing additional evidence and experiments showing that it attains smoother class embedding manifolds and improves results in settings beyond few-shot classification. Concretely, we show that EP improves the robustness of neural networks against multiple adversarial attacks as well as semi- and self-supervised learning performance.",
+    "authors": [
+        "Diego Velazquez",
+        "Pau Rodriguez",
+        "Josep M. Gonfaus",
+        "F. Xavier Roca",
+        "Jordi Gonzalez"
+    ],
+    "emails": [
+        "diegoalejandro.velazquez@uab.cat",
+        "pau.rodriguez@servicenow.com",
+        "pep.gonfaus@gmail.com",
+        "xavier.roca@uab.cat",
+        "xavier.roca@uab.cat"
+    ],
+    "id": "21-0468",
+    "issue": 252,
+    "pages": [
+        1,
+        27
+    ],
+    "title": "A Closer Look at Embedding Propagation for Manifold Smoothing",
+    "volume": 23,
+    "year": 2022
+}

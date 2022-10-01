@@ -1,0 +1,22 @@
+{
+    "abstract": "We address the problem of how to achieve optimal inference in distributed quantile regression without stringent scaling conditions. This is challenging due to the non-smooth nature of the quantile regression (QR) loss function, which invalidates the use of existing methodology. The difficulties are resolved through a double-smoothing approach that is applied to the local (at each data source) and global objective functions. Despite the reliance on a delicate combination of local and global smoothing parameters, the quantile regression model is fully parametric, thereby facilitating interpretation. In the low-dimensional regime, we establish a finite-sample theoretical framework for the sequentially defined distributed QR estimators. This reveals a trade-off between the communication cost and statistical error. We further discuss and compare several alternative confidence set constructions, based on inversion of Wald and score-type tests and resampling techniques, detailing an improvement that is effective for more extreme quantile coefficients. In high dimensions, a sparse framework is adopted, where the proposed doubly-smoothed objective function is complemented with an $\\ell_1$-penalty. We show that the corresponding distributed penalized QR estimator achieves the global convergence rate after a near-constant number of communication rounds. A thorough simulation study further elucidates our findings.",
+    "authors": [
+        "Kean Ming Tan",
+        "Heather Battey",
+        "Wen-Xin Zhou"
+    ],
+    "emails": [
+        "keanming@umich.edu",
+        "h.battey@imperial.ac.uk",
+        "wez243@ucsd.edu"
+    ],
+    "id": "21-1269",
+    "issue": 272,
+    "pages": [
+        1,
+        61
+    ],
+    "title": "Communication-Constrained Distributed Quantile Regression with Optimal Statistical Guarantees",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,32 @@
+{
+    "abstract": "With the increasing adoption of electronic health records,  there is an increasing interest in developing individualized treatment rules, which recommend treatments according to patients' characteristics, from large observational data. However,  there is a lack of valid inference procedures for such rules developed from this type of data in the presence of high-dimensional covariates. In this work, we develop a penalized doubly robust method to estimate the optimal individualized treatment rule from high-dimensional data.  We propose a split-and-pooled de-correlated score to construct hypothesis tests and confidence intervals. Our proposal adopts the data splitting to conquer the slow convergence rate of nuisance parameter estimations, such as non-parametric methods for outcome regression or propensity models. We establish the limiting distributions of the split-and-pooled de-correlated score test and the corresponding one-step estimator in high-dimensional setting. Simulation and real data analysis are conducted to demonstrate the superiority of the proposed method.",
+    "authors": [
+        "Muxuan Liang",
+        "Young-Geun Choi",
+        "Yang Ning",
+        "Maureen A Smith",
+        "Ying-Qi Zhao"
+    ],
+    "emails": [
+        "muxuan.liang@ufl.edu",
+        "ygchoi@sm.ac.kr",
+        "yn265@cornell.edu",
+        "maureensmith@wisc.edu",
+        "yqzhao@fredhutch.org"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/muxuanliang/ITRInference.git"
+        ]
+    ],
+    "id": "21-0993",
+    "issue": 262,
+    "pages": [
+        1,
+        65
+    ],
+    "title": "Estimation and inference on high-dimensional individualized treatment rule in observational data using split-and-pooled de-correlated score",
+    "volume": 23,
+    "year": 2022
+}

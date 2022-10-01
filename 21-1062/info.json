@@ -1,0 +1,20 @@
+{
+    "abstract": "In this paper we consider optimization problems with  stochastic composite objective function subject to (possibly) infinite intersection of constraints. The objective function is   expressed in terms of expectation operator over a sum of two terms   satisfying a stochastic bounded gradient condition, with or without strong convexity type properties. In contrast to the classical approach, where the constraints are usually represented as intersection of simple sets, in this paper we consider that each constraint set is  given as the level set of a convex but not necessarily differentiable function.  Based on the flexibility offered by our general optimization model we consider a stochastic subgradient method with random  feasibility updates.  At each iteration, our algorithm takes a stochastic proximal (sub)gradient step aimed at  minimizing the objective function and then a subsequent subgradient step  minimizing the feasibility violation of the observed random constraint.  We analyze the convergence behavior of the proposed algorithm  for  diminishing stepsizes and for the case when the objective function is  convex or has a quadratic functional growth, unifying the nonsmooth and smooth cases.  We prove sublinear convergence rates for this stochastic subgradient algorithm, which are known to be optimal for subgradient  methods on  this class of problems. When the objective function has a linear least-square form and the constraints are polyhedral, it is shown that the algorithm converges linearly.   Numerical evidence supports the effectiveness of our method in real problems.",
+    "authors": [
+        "Ion Necoara",
+        "Nitesh Kumar Singh"
+    ],
+    "emails": [
+        "ion.necoara@upb.ro",
+        "nitesh.nitesh@stud.acs.upb.ro"
+    ],
+    "id": "21-1062",
+    "issue": 265,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Stochastic subgradient for composite  convex optimization with functional constraints",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,20 @@
+{
+    "abstract": "As the size, complexity, and availability of data continues to grow, scientists are increasingly relying upon black-box learning algorithms that can often provide accurate predictions with minimal a priori model specifications.  Tools like random forests have an established track record of off-the-shelf success and even offer various strategies for analyzing the underlying relationships among variables. Here, motivated by recent insights into random forest behavior, we introduce the simple idea of augmented bagging (AugBagg), a procedure that operates in an identical fashion to classical bagging and random forests, but which operates on a larger, augmented space containing additional randomly generated noise features. Surprisingly, we demonstrate that this simple act of including extra noise variables in the model can lead to dramatic improvements in out-of-sample predictive accuracy, sometimes outperforming even an optimally tuned traditional random forest.  As a result, intuitive notions of variable importance based on improved model accuracy may be deeply flawed, as even purely random noise can routinely register as statistically significant.  Numerous demonstrations on both real and synthetic data are provided along with a proposed solution.",
+    "authors": [
+        "Lucas Mentch",
+        "Siyu Zhou"
+    ],
+    "emails": [
+        "lkm31@pitt.edu",
+        "siz25@pitt.edu"
+    ],
+    "id": "20-1264",
+    "issue": 224,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Getting Better from Worse:  Augmented Bagging and A Cautionary Tale of Variable Importance",
+    "volume": 23,
+    "year": 2022
+}

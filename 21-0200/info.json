@@ -1,0 +1,18 @@
+{
+    "abstract": "We present local mappings that relate the marginal probabilities of a global probability mass function represented by its primal normal factor graph to the corresponding marginal probabilities in its dual normal factor  graph. The mapping is based on the Fourier transform of the local factors of the models. Details of the mapping are provided for the  Ising model, where it is proved that the local extrema of the fixed points are attained at the phase transition of the two-dimensional nearest-neighbor Ising model. The results are further extended to the Potts model, to the clock model, and to Gaussian Markov random fields.  By employing the mapping, we can transform  simultaneously all the estimated marginal probabilities from the dual domain to the primal domain (and vice versa), which  is advantageous if estimating the marginals  can be carried out more efficiently in the dual domain. An example of particular significance is the ferromagnetic Ising model in a positive  external magnetic field. For this model, there exists a rapidly mixing Markov chain (called the subgraphs--world process)  to generate configurations in the dual normal factor graph of the model. Our numerical experiments illustrate that the proposed procedure can provide more accurate  estimates of marginal probabilities of a global probability mass function in various settings.",
+    "authors": [
+        "Mehdi Molkaraie"
+    ],
+    "emails": [
+        "mehdi.molkaraie@alumni.ethz.ch"
+    ],
+    "id": "21-0200",
+    "issue": 245,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Mappings for Marginal Probabilities with Applications to Models in Statistical Physics",
+    "volume": 23,
+    "year": 2022
+}

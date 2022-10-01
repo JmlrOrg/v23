@@ -1,0 +1,20 @@
+{
+    "abstract": "In this paper we propose an algorithm for exact partitioning of high-order models. We define a general class of $m$-degree Homogeneous Polynomial Models, which subsumes several examples motivated from prior literature. Exact partitioning can be formulated as a tensor optimization problem. We relax this high-order combinatorial problem to a convex conic form problem. To this end, we carefully define the Carath\u00e9odory symmetric tensor cone, and show its convexity, and the convexity of its dual cone. This allows us to construct a primal-dual certificate to show that the solution of the convex relaxation is correct (equal to the unobserved true group assignment) and to analyze the statistical upper bound of exact partitioning.",
+    "authors": [
+        "Chuyang Ke",
+        "Jean Honorio"
+    ],
+    "emails": [
+        "cke@purdue.edu",
+        "jhonorio@purdue.edu"
+    ],
+    "id": "22-0232",
+    "issue": 284,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "Exact Partitioning of High-order Models with a Novel Convex Tensor Cone Relaxation",
+    "volume": 23,
+    "year": 2022
+}

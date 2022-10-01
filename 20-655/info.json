@@ -1,0 +1,22 @@
+{
+    "abstract": "In this paper, we provide non-asymptotic upper bounds on the error of sampling from a target density over  $\\mathbb{R}^p$ using three schemes of discretized Langevin diffusions. The first scheme is the Langevin Monte Carlo (LMC) algorithm, the Euler discretization of the Langevin diffusion. The second and the third schemes are, respectively, the kinetic Langevin Monte Carlo (KLMC) for differentiable potentials and the kinetic Langevin Monte Carlo for twice-differentiable potentials (KLMC2). The main focus is on the target densities that are smooth and log-concave on $\\mathbb{R}^p$, but not necessarily strongly log-concave. Bounds on the computational complexity are obtained under two types of smoothness assumption: the potential has a Lipschitz-continuous gradient and the potential has a Lipschitz-continuous Hessian matrix. The error of sampling is measured by Wasserstein-$q$ distances. We advocate for the use of a new dimension-adapted scaling in the definition of the computational complexity, when Wasserstein-$q$ distances are considered. The obtained results show that the number of iterations to achieve a scaled-error smaller than a prescribed value depends only polynomially in the dimension.",
+    "authors": [
+        "Arnak S. Dalalyan",
+        "Avetik Karagulyan",
+        "Lionel Riou-Durand"
+    ],
+    "emails": [
+        "arnak.dalalyan@ensae.fr",
+        "avetik.karagulyan@kaust.edu.sa",
+        "Lionel.Riou-Durand@warwick.ac.uk"
+    ],
+    "id": "20-655",
+    "issue": 235,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Bounding the Error of Discretized Langevin Algorithms for Non-Strongly Log-Concave Targets",
+    "volume": 23,
+    "year": 2022
+}

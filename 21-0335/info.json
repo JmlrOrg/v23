@@ -1,0 +1,26 @@
+{
+    "abstract": "Assigning weights to a large pool of objects is a fundamental task in a wide variety of applications. In this article, we introduce the concept of structured high-dimensional probability simplexes, in which most components are zero or near zero and the remaining ones are close to each other. Such structure is well motivated by (i) high-dimensional weights that are common in modern applications, and (ii) ubiquitous examples in which equal weights---despite their simplicity---often achieve favorable or even state-of-the-art predictive performance. This particular structure, however, presents unique challenges partly because, unlike high-dimensional linear regression, the parameter space is a simplex and pattern switching between partial constancy and sparsity is unknown. To address these challenges, we propose a new class of double spike Dirichlet priors to shrink a probability simplex to one with the desired structure. When applied to ensemble learning, such priors lead to a Bayesian method for structured high-dimensional ensembles that is useful for forecast combination and improving random forests, while enabling uncertainty quantification. We design efficient Markov chain Monte Carlo algorithms for implementation. Posterior contraction rates are established to study large sample behaviors of the posterior distribution. We demonstrate the wide applicability and competitive performance of the proposed methods through simulations and two real data applications using the European Central Bank Survey of Professional Forecasters data set and a data set from the UC Irvine Machine Learning Repository (UCI).",
+    "authors": [
+        "Huiming Lin",
+        "Meng Li"
+    ],
+    "emails": [
+        "hl68@rice.edu",
+        "meng@rice.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/xylimeng/StructuredEnsemble"
+        ]
+    ],
+    "id": "21-0335",
+    "issue": 248,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "Double Spike Dirichlet Priors for Structured Weighting",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,26 @@
+{
+    "abstract": "We investigate a nonstochastic bandit setting in which the loss of an action is not immediately charged to the player, but rather spread over the subsequent rounds in an adversarial way. The instantaneous loss observed by the player at the end of each round is then a sum of many loss components of previously played actions. This setting encompasses as a special case the easier task of bandits with delayed feedback, a well-studied framework where the player observes the delayed losses individually.  Our first contribution is a general reduction transforming a standard bandit algorithm into one that can operate in the harder setting: We bound the regret of the transformed algorithm in terms of the stability and regret of the original algorithm. Then, we show that the transformation of a suitably tuned FTRL with Tsallis entropy has a regret of order $\\sqrt{(d+1)KT}$, where $d$ is the maximum delay, $K$ is the number of arms, and $T$ is the time horizon. Finally, we show that our results cannot be improved in general by exhibiting a matching (up to a log factor) lower bound on the regret of any algorithm operating in this setting.",
+    "authors": [
+        "Nicol\u00f2 Cesa-Bianchi",
+        "Tommaso Cesari",
+        "Roberto Colomboni",
+        "Claudio Gentile",
+        "Yishay Mansour"
+    ],
+    "emails": [
+        "nicolo.cesa-bianchi@unimi.it",
+        "tommaso.cesari@tse-fr.eu",
+        "roberto.colomboni@unimi.it",
+        "cgentile@google.com",
+        "mansour@tau.ac.il"
+    ],
+    "id": "21-1443",
+    "issue": 277,
+    "pages": [
+        1,
+        24
+    ],
+    "title": "Nonstochastic Bandits with Composite Anonymous Feedback",
+    "volume": 23,
+    "year": 2022
+}

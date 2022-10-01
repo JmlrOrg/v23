@@ -1,0 +1,30 @@
+{
+    "abstract": "We study a functional linear regression model that deals with functional responses and allows for both functional covariates and high-dimensional vector covariates. The proposed model is flexible and nests several functional regression models in the literature as special cases. Based on the theory of reproducing kernel Hilbert spaces (RKHS), we propose a penalized least squares estimator that can accommodate functional variables observed on discrete sample points. Besides a conventional smoothness penalty, a group Lasso-type penalty is further imposed to induce sparsity in the high-dimensional vector predictors. We derive finite sample theoretical guarantees and show that the excess prediction risk of our estimator is minimax optimal. Furthermore, our analysis reveals an interesting phase transition phenomenon that the optimal excess risk is determined jointly by the smoothness and the sparsity of the functional regression coefficients. A novel efficient optimization algorithm based on iterative coordinate descent is devised to handle the smoothness and group penalties simultaneously. Simulation studies and real data applications illustrate the promising performance of the proposed approach compared to the state-of-the-art methods in the literature.",
+    "authors": [
+        "Daren Wang",
+        " Zifeng Zhao",
+        "Yi Yu",
+        "Rebecca Willett"
+    ],
+    "emails": [
+        "dwang24@nd.edu",
+        "zifeng.zhao@nd.edu",
+        "Yi.Yu.2@warwick.ac.uk",
+        "willett@uchicago.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/darenwang/functional_regression"
+        ]
+    ],
+    "id": "21-1091",
+    "issue": 266,
+    "pages": [
+        1,
+        94
+    ],
+    "title": "Functional Linear Regression with Mixed Predictors",
+    "volume": 23,
+    "year": 2022
+}

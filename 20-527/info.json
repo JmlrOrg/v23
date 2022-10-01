@@ -1,0 +1,24 @@
+{
+    "abstract": "We consider the problem of sampling from a density of the form $p(x) \\propto \\exp(-f(x)- g(x))$, where $f: \\mathbb{R}^d \\rightarrow \\mathbb{R}$ is a smooth function and $g: \\mathbb{R}^d \\rightarrow \\mathbb{R}$ is a convex and Lipschitz function. We propose a new algorithm based on the Metropolis--Hastings framework. Under certain isoperimetric inequalities on the target density, we prove that the algorithm mixes to within total variation (TV) distance $\\varepsilon$ of the target density in at most $O(d \\log (d/\\varepsilon))$ iterations. This guarantee extends previous results on sampling from distributions with smooth log densities ($g = 0$) to the more general composite non-smooth case, with the same mixing time up to a multiple of the condition number.  Our method is based on a novel proximal-based proposal distribution that can be efficiently computed for a large class of non-smooth functions $g$. Simulation results on posterior sampling problems that arise from the Bayesian Lasso show empirical advantage over previous proposal distributions.",
+    "authors": [
+        "Wenlong Mou",
+        "Nicolas Flammarion",
+        "Martin J. Wainwright",
+        "Peter L. Bartlett"
+    ],
+    "emails": [
+        "wmou@berkeley.edu",
+        "nicolas.flammarion@epfl.ch",
+        "wainwrig@berkeley.edu",
+        "peter@berkeley.edu"
+    ],
+    "id": "20-527",
+    "issue": 233,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "An Efficient Sampling Algorithm for Non-smooth Composite Potentials",
+    "volume": 23,
+    "year": 2022
+}

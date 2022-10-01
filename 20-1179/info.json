@@ -1,0 +1,20 @@
+{
+    "abstract": "The accelerated proximal methods (APM) have become one of the most important optimization tools for large-scale convex composite minimization problems, due to their wide range of applications and the optimal convergence rate in first-order algorithms. However, most existing theoretical results of APM are obtained by assuming that the gradient oracle is exact and the proximal mapping must be exactly solved, which may not hold in practice. This work presents a theoretical study of APM by allowing to use inexact gradient oracle and approximate proximal mapping. Specifically, we analyze inexact APM by improving the approximate duality gap technique (ADGT) which was originally designed for convergence analysis for first-order methods with both exact gradient oracle and proximal mapping. Our approach has several advantages: 1) we provide a unified convergence analysis that allows both inexact gradient oracle and approximate proximal mapping; 2) our proof is generic that naturally recovers the convergence rates of both accelerated and non-accelerated proximal methods, on top of which the advantages and the disadvantages of acceleration can be easily derived; 3) we derive the same convergence bound as previous methods in terms of inexact gradient oracle, but a tighter convergence bound in terms of approximate proximal mapping.",
+    "authors": [
+        "Qiang Zhou",
+        "Sinno Jialin Pan"
+    ],
+    "emails": [
+        "zhouqiang@u.nus.edu",
+        "sinnopan@ntu.edu.sg"
+    ],
+    "id": "20-1179",
+    "issue": 223,
+    "pages": [
+        1,
+        59
+    ],
+    "title": "On Acceleration for Convex Composite Minimization with Noise-Corrupted Gradients and Approximate Proximal Mapping",
+    "volume": 23,
+    "year": 2022
+}

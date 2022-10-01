@@ -1,0 +1,38 @@
+{
+    "abstract": "As we deploy reinforcement learning agents to solve increasingly challenging problems, methods that allow us to inject prior knowledge about the structure of the world and effective solution strategies becomes increasingly important. In this work we consider how information and architectural constraints can be combined with ideas from the probabilistic modeling literature to learn behavior priors that capture the common movement and interaction patterns that are shared across a set of related tasks or contexts. For example the day-to day behavior of humans comprises distinctive locomotion and manipulation patterns that recur across many different situations and goals. We discuss how such behavior patterns can be captured using probabilistic trajectory models and how these can be integrated effectively into reinforcement learning schemes, e.g. to facilitate multi-task and transfer learning. We then extend these ideas to latent variable models and consider a formulation to learn hierarchical priors that capture different aspects of the behavior in reusable modules. We discuss how such latent variable formulations connect to related work on hierarchical reinforcement learning (HRL) and mutual information and curiosity based objectives, thereby offering an alternative perspective on existing ideas. We demonstrate the effectiveness of our framework by applying it to a range of simulated continuous control domains, videos of which can be found at the following url: https://sites.google.com/view/behavior-priors.",
+    "authors": [
+        "Dhruva Tirumala",
+        "Alexandre Galashov",
+        "Hyeonwoo Noh",
+        "Leonard Hasenclever",
+        "Razvan Pascanu",
+        "Jonathan Schwarz",
+        "Guillaume Desjardins",
+        "Wojciech Marian Czarnecki",
+        "Arun Ahuja",
+        "Yee Whye Teh",
+        "Nicolas Heess"
+    ],
+    "emails": [
+        "dhruvat@deepmind.com",
+        "agalashov@deepmind.com",
+        "hyeonwoonoh@openai.com",
+        "leonardh@deepmind.com",
+        "razp@deepmind.com",
+        "schwarzjn@deepmind.com",
+        "gdesjardins@deepmind.com",
+        "lejlot@deepmind.com",
+        "arahuja@deepmind.com",
+        "ywteh@deepmind.com",
+        "heess@deepmind.com"
+    ],
+    "id": "20-1038",
+    "issue": 221,
+    "pages": [
+        1,
+        68
+    ],
+    "title": "Behavior Priors for Efficient Reinforcement Learning",
+    "volume": 23,
+    "year": 2022
+}

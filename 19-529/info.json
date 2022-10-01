@@ -1,0 +1,32 @@
+{
+    "abstract": "A new causal discovery method, Structural Agnostic Modeling (SAM), is presented in this paper. Leveraging both conditional independencies and distributional asymmetries, SAM aims to find the underlying causal structure from observational data. The approach is based on a game between different players estimating each variable distribution conditionally to the others as a neural net, and an adversary aimed at discriminating the generated data against the original data. A learning criterion combining distribution estimation, sparsity and acyclicity constraints is used to enforce the  optimization of the graph structure and parameters through stochastic gradient descent. SAM is extensively experimentally validated on synthetic and real data.",
+    "authors": [
+        "Diviyan Kalainathan",
+        "Olivier Goudet",
+        "Isabelle Guyon",
+        "David Lopez-Paz",
+        "Mich\u00e8le Sebag"
+    ],
+    "emails": [
+        "diviyan@fentech.ai",
+        "olivier.goudet@univ-angers.fr",
+        "guyon@chalearn.org",
+        "dlp@fb.com",
+        "sebag@lri.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/FenTechSolutions/CausalDiscoveryToolbox"
+        ]
+    ],
+    "id": "19-529",
+    "issue": 219,
+    "pages": [
+        1,
+        62
+    ],
+    "title": "Structural Agnostic Modeling: Adversarial Learning of Causal Graphs",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "A large number of scientific studies involve high-dimensional spatiotemporal data with complicated relationships.  In this paper, we focus on a type of space-time interaction named temporal evolution of spatial dependence (TESD), which is a zero time-lag spatiotemporal covariance. For this purpose, we propose a novel Bayesian nonparametric method based on non-stationary spatiotemporal Gaussian process (STGP). The classic STGP has a covariance kernel separable in space and time, failed to characterize TESD. More recent works on non-separable STGP treat location and time together as a joint variable, which is unnecessarily inefficient. We generalize STGP (gSTGP) to introduce time-dependence to the spatial kernel by varying its eigenvalues over time in the Mercer's representation. The resulting non-stationary non-separable covariance model bares a quasi Kronecker sum structure.  Finally, a hierarchical Bayesian model for the joint covariance is proposed to allow for full flexibility in learning TESD. A simulation study and a longitudinal neuroimaging analysis on Alzheimer's patients demonstrate that the proposed methodology is (statistically) effective and (computationally) efficient in characterizing TESD. Theoretic properties of gSTGP including posterior contraction (for covariance) are also studied.",
+    "authors": [
+        "Shiwei Lan"
+    ],
+    "emails": [
+        "slan@asu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/lanzithinking/TESD_gSTGP"
+        ]
+    ],
+    "id": "21-0952",
+    "issue": 259,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "Learning Temporal Evolution of Spatial Dependence with Generalized Spatiotemporal Gaussian Process Models",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "Adam is one of the most influential adaptive stochastic algorithms for training deep neural networks, which has been pointed out to be divergent even in the simple convex setting via a few simple counterexamples.  Many attempts, such as decreasing an adaptive learning rate, adopting a big batch size, incorporating a temporal decorrelation technique, seeking an analogous surrogate, etc., have been tried to promote Adam-type algorithms to converge.  In contrast with existing approaches, we introduce an alternative easy-to-check sufficient condition, which merely depends on the parameters of the base learning rate and combinations of historical second-order moments, to guarantee the global convergence of generic Adam for solving large-scale non-convex stochastic optimization.  This observation, coupled with this sufficient condition, gives much deeper interpretations on the divergence of Adam. On the other hand, in practice, mini-Adam and distributed-Adam are widely used without any theoretical guarantee. We further give an analysis on how the batch size or the number of nodes in the distributed system affects the convergence of Adam, which theoretically shows that mini-batch and distributed Adam can be linearly accelerated by using a larger mini-batch size or a larger number of nodes. At last, we apply the generic Adam and mini-batch Adam with the sufficient condition for solving the counterexample and training several neural networks on various real-world datasets. Experimental results are exactly in accord with our theoretical analysis.",
+    "authors": [
+        "Congliang Chen",
+        "Li Shen",
+        "Fangyu Zou",
+        "Wei Liu"
+    ],
+    "emails": [
+        "congliangchen@link.cuhk.edu.cn",
+        "mathshenli@gmail.com",
+        "fangyuzou@gmail.com",
+        "wl2223@columbia.edu"
+    ],
+    "id": "20-1438",
+    "issue": 229,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Towards Practical Adam: Non-Convexity, Convergence Theory, and Mini-Batch Acceleration",
+    "volume": 23,
+    "year": 2022
+}

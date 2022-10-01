@@ -1,0 +1,26 @@
+{
+    "abstract": "We introduce a class of first-order methods for smooth constrained optimization that are based on an analogy to non-smooth dynamical systems. Two distinctive features of our approach are that (i) projections or optimizations over the entire feasible set are avoided, in stark contrast to projected gradient methods or the Frank-Wolfe method, and (ii) iterates are allowed to become infeasible, which differs from active set or feasible direction methods, where the descent motion stops as soon as a new constraint is encountered. The resulting algorithmic procedure is simple to implement even when constraints are nonlinear, and is suitable for large-scale constrained optimization problems in which the feasible set fails to have a simple structure.  The key underlying idea is that constraints are expressed in terms of velocities instead of positions, which has the algorithmic consequence that optimizations over feasible sets at each iteration are replaced with optimizations over local, sparse convex approximations. In particular, this means that at each iteration only constraints that are violated are taken into account. The result is a simplified suite of algorithms and an expanded range of possible applications in machine learning.",
+    "authors": [
+        "Michael Muehlebach",
+        "Michael I. Jordan"
+    ],
+    "emails": [
+        "michaelm@tuebingen.mpg.de",
+        "jordan@cs.berkeley.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/michaemu/OnConstraintsInFirstOrderOptimization.git"
+        ]
+    ],
+    "id": "21-0798",
+    "issue": 256,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "On Constraints in First-Order Optimization: A View from Non-Smooth Dynamical Systems",
+    "volume": 23,
+    "year": 2022
+}

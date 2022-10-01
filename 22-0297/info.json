@@ -1,0 +1,28 @@
+{
+    "abstract": "Discretization invariant learning aims at learning in the infinite-dimensional function spaces with the capacity to process heterogeneous discrete representations of functions as inputs and/or outputs of a learning model. This paper proposes a novel deep learning framework based on integral autoencoders (IAE-Net) for discretization invariant learning. The basic building block of IAE-Net consists of an encoder and a decoder as integral transforms with data-driven kernels, and a fully connected neural network between the encoder and decoder. This basic building block is applied in parallel in a wide multi-channel structure, which is repeatedly composed to form a deep and densely connected neural network with skip connections as IAE-Net. IAE-Net is trained with randomized data augmentation that generates training data with heterogeneous structures to facilitate the performance of discretization invariant learning. The proposed IAE-Net is tested with various applications in predictive data science, solving forward and inverse problems in scientific computing, and signal/image processing. Compared with alternatives in the literature, IAE-Net achieves state-of-the-art performance in existing applications and creates a wide range of new applications where existing methods fail.",
+    "authors": [
+        "Yong Zheng Ong",
+        "Zuowei Shen",
+        "Haizhao Yang"
+    ],
+    "emails": [
+        "e0011814@u.nus.edu",
+        "matzuows@nus.edu.sg",
+        "hzyang@umd.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/IAE-Net/iae_net"
+        ]
+    ],
+    "id": "22-0297",
+    "issue": 286,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "Integral Autoencoder Network for Discretization-Invariant Learning",
+    "volume": 23,
+    "year": 2022
+}

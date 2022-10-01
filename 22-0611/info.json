@@ -1,0 +1,33 @@
+{
+    "abstract": "We introduce ReservoirComputing.jl, an open source Julia library for reservoir computing models. It is designed for temporal or sequential tasks such as time series prediction and modeling complex dynamical systems. As such it is suited to process a range of complex spatio-temporal data sets, from mathematical models to climate data. The key ideas of reservoir computing are the model architecture, i.e. the reservoir, which embeds the input into a higher dimensional space, and the learning paradigm, where only the readout layer is trained. As a result the computational resources can be kept low, and only linear optimization is required for the training. Although reservoir computing has proven itself as a successful machine learning algorithm, the software implementations have lagged behind, hindering wide recognition, reproducibility, and uptake by general scientists.  ReservoirComputing.jl enhances this field by being intuitive, highly modular, and faster compared to alternative tools.  A variety of modular components from the literature are implemented, e.g. two reservoir types - echo state networks and cellular automata models, and multiple training methods including Gaussian and support vector regression. A comprehensive documentation, which includes reproduced experiments from the literature is provided. The code and documentation are hosted on Github under an MIT license https://github.com/SciML/ReservoirComputing.jl.",
+    "authors": [
+        "Francesco Martinuzzi",
+        "Chris Rackauckas",
+        "Anas Abdelrehim",
+        "Miguel D. Mahecha",
+        "Karin Mora"
+    ],
+    "emails": [
+        "francesco.martinuzzi@uni-leipzig.de",
+        "crackauc@mit.edu",
+        "anasabdel.rehim@juliacomputing.com",
+        "miguel.mahecha@uni-leipzig.de",
+        "karin.mora@uni-leipzig.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/SciML/ReservoirComputing.jl"
+        ]
+    ],
+    "id": "22-0611",
+    "issue": 288,
+    "pages": [
+        1,
+        8
+    ],
+    "special_issue": "MLOSS",
+    "title": "ReservoirComputing.jl: An Efficient and Modular Library for Reservoir Computing Models",
+    "volume": 23,
+    "year": 2022
+}

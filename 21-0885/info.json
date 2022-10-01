@@ -1,0 +1,20 @@
+{
+    "abstract": "This paper presents a new approach for regression tree-based models, such as simple regression tree, random forest and gradient boosting, in settings involving correlated data. We show the problems that arise when implementing standard regression tree-based models, which ignore the correlation structure. Our new approach explicitly takes the correlation structure into account in the splitting criterion, stopping rules and fitted values in the leaves, which induces some major modifications of standard methodology. The superiority of our new approach over tree-based models that do not account for the correlation, and over previous work that integrated some aspects of our approach, is supported by simulation experiments and real data analyses.",
+    "authors": [
+        "Assaf Rabinowicz",
+        "Saharon Rosset"
+    ],
+    "emails": [
+        "assafrab@gmail.com",
+        "saharon@tauex.tau.ac.il"
+    ],
+    "id": "21-0885",
+    "issue": 258,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "Tree-Based Models for Correlated Data",
+    "volume": 23,
+    "year": 2022
+}

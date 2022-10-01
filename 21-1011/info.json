@@ -1,0 +1,22 @@
+{
+    "abstract": "The recent success of neural network models has shone light on a rather surprising statistical phenomenon: statistical models that perfectly fit noisy data can generalize well to unseen test data. Understanding this phenomenon of benign overfitting has attracted intense theoretical and empirical study. In this paper, we consider interpolating two-layer linear neural networks trained with gradient flow on the squared loss and derive bounds on the excess risk when the covariates satisfy sub-Gaussianity and anti-concentration properties, and the noise is independent and sub-Gaussian. By leveraging recent results that characterize the implicit bias of this estimator, our bounds emphasize the role of both the quality of the initialization as well as the properties of the data covariance matrix in achieving low excess risk.",
+    "authors": [
+        "Niladri S. Chatterji",
+        "Philip M. Long",
+        "Peter L. Bartlett"
+    ],
+    "emails": [
+        "niladri@cs.stanfor.edu",
+        "plong@google.com",
+        "peter@berkeley.edu"
+    ],
+    "id": "21-1011",
+    "issue": 263,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "The Interplay Between Implicit Bias and Benign Overfitting in Two-Layer Linear Networks",
+    "volume": 23,
+    "year": 2022
+}

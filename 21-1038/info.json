@@ -1,0 +1,22 @@
+{
+    "abstract": "Several machine learning problems such as latent variable model learning and community detection can be addressed by estimating a low-rank signal from a noisy tensor. Despite recent substantial progress on the fundamental limits of the corresponding estimators in the large-dimensional setting, some of the most significant results are based on spin glass theory, which is not easily accessible to non-experts. We propose a sharply distinct and more elementary approach, relying on tools from random matrix theory. The key idea is to study random matrices arising from contractions of a random tensor, which give access to its spectral properties. In particular, for a symmetric $d$th-order rank-one model with Gaussian noise, our approach yields a novel characterization of maximum likelihood (ML) estimation performance in terms of a fixed-point equation valid in the regime where weak recovery is possible. For $d=3$, the solution to this equation matches the existing results. We conjecture that the same holds for any order $d$, based on numerical evidence for $d \\in \\{4,5\\}$. Moreover, our analysis illuminates certain properties of the large-dimensional ML landscape. Our approach can be extended to other models, including asymmetric and non-Gaussian ones.",
+    "authors": [
+        "Jos\u00e9 Henrique de M. Goulart",
+        "Romain Couillet",
+        "Pierre Comon"
+    ],
+    "emails": [
+        "henrique.goulart@irit.fr",
+        "romain.couillet@univ-grenoble-alpes.fr",
+        "pierre.comon@gipsa-lab.grenoble-inp.fr"
+    ],
+    "id": "21-1038",
+    "issue": 264,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "A Random Matrix Perspective on Random Tensors",
+    "volume": 23,
+    "year": 2022
+}

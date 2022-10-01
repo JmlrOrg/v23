@@ -1,0 +1,22 @@
+{
+    "abstract": "This paper studies the estimation of the conditional density $f(x,\\cdot)$  of $Y_i$ given $X_i=x$, from the observation of an i.i.d. sample $(X_i,Y_i)\\in \\mathbb R^d$, $i\\in \\{1,\\dots,n\\}.$ We assume that $f$ depends only on $r$ unknown components with  typically $r\\ll d$.We provide an adaptive fully-nonparametric strategy based on kernel rules to estimate $f$. To select the bandwidth of our kernel rule, we propose a new fast iterative algorithm inspired by the Rodeo algorithm (Wasserman and Lafferty, 2006) to detect the sparsity structure of $f$. More precisely, in the minimax setting, our pointwise estimator, which is adaptive to both the regularity and the sparsity,  achieves the quasi-optimal rate of convergence. Our results also hold for   (unconditional) density estimation. The computational complexity of our method is only $O(dn \\log n)$. A deep numerical study shows nice performances of our approach.",
+    "authors": [
+        "Minh-Lien Jeanne Nguyen",
+        "Claire Lacour",
+        "Vincent Rivoirard"
+    ],
+    "emails": [
+        "m.j.nguyen@math.leidenuniv.nl",
+        "claire.lacour@univ-eiffel.fr",
+        "vincent.rivoirard@dauphine.fr"
+    ],
+    "id": "21-0582",
+    "issue": 254,
+    "pages": [
+        1,
+        74
+    ],
+    "title": "Adaptive Greedy Algorithm for Moderately Large Dimensions in Kernel Conditional Density Estimation",
+    "volume": 23,
+    "year": 2022
+}

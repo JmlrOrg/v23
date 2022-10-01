@@ -1,0 +1,28 @@
+{
+    "abstract": "Particle smoothers are SMC (Sequential Monte Carlo) algorithms designed to approximate the joint distribution of the states given observations from a state-space model. We propose dSMC (de-Sequentialized Monte Carlo), a new particle smoother that is able to process $T$ observations in $\\mathcal{O}(\\log_2 T)$ time on parallel architectures. This compares favorably with standard particle smoothers, the complexity of which is linear in $T$. We derive $\\mathcal{L}_p$ convergence results for dSMC, with an explicit upper bound, polynomial in $T$. We then discuss how to reduce the variance of the smoothing estimates computed by dSMC by (i) designing good proposal distributions for sampling the particles at the initialization of the algorithm, as well as by (ii) using lazy resampling to increase the number of particles used in dSMC. Finally, we design a particle Gibbs sampler based on dSMC, which is able to perform parameter inference in a state-space model at a $\\mathcal{O}(\\log_2 T)$ cost on parallel hardware.",
+    "authors": [
+        "Adrien Corenflos",
+        "Nicolas Chopin",
+        "Simo S\u00e4rkk\u00e4"
+    ],
+    "emails": [
+        "adrien.corenflos@aalto.fi",
+        "nicolas.chopin@ensae.fr",
+        "simo.sarkka@aalto.fi"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/AdrienCorenflos/parallel-ps"
+        ]
+    ],
+    "id": "22-0140",
+    "issue": 283,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "De-Sequentialized Monte Carlo: a parallel-in-time particle smoother",
+    "volume": 23,
+    "year": 2022
+}

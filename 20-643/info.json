@@ -1,0 +1,22 @@
+{
+    "abstract": "In this paper, we study the offline change point localization problem in a sequence of dependent nonparametric random dot product graphs.  To be specific, assume that at every time point, a network is generated from a nonparametric random dot product graph model (see e.g. Athreya et al., 2018), where the latent positions are generated from unknown underlying distributions.  The underlying distributions are piecewise constant in time and change at unknown locations, called change points.  Most importantly, we allow for dependence among networks generated between two consecutive change points.  This setting incorporates edge-dependence within networks and temporal dependence between networks, which is the most flexible setting in the published literature. To accomplish the task of consistently localizing change points, we propose a novel change point detection algorithm, consisting of two steps.  First, we estimate the latent positions of the random dot product model, our theoretical result being a refined version of the state-of-the-art results, allowing the dimension of the latent positions to diverge.  Subsequently, we construct a nonparametric version of the CUSUM statistic (e.g. Page, 1954; Padilla et al., 2019a) that allows for temporal dependence.  Consistent localization is proved theoretically and supported by extensive numerical experiments, which illustrate state-of-the-art performance.  We also provide in depth discussion of possible extensions to give more understanding and insights.",
+    "authors": [
+        "Oscar Hernan Madrid Padilla",
+        "Yi Yu",
+        "Carey E. Priebe"
+    ],
+    "emails": [
+        "oscar.madrid@stat.ucla.edu",
+        "yi.yu.2@warwick.ac.uk",
+        "cep@jhu.edu"
+    ],
+    "id": "20-643",
+    "issue": 234,
+    "pages": [
+        1,
+        59
+    ],
+    "title": "Change point localization in dependent dynamic nonparametric random dot product graphs",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,20 @@
+{
+    "abstract": "This paper studies some asymptotic properties of adaptive algorithms widely used in optimization and machine learning, and among them Adagrad and Rmsprop, which are involved in most of the blackbox deep learning algorithms. Our setup is the non-convex landscape optimization point of view, we consider a one time scale parametrization and the situation where these algorithms may or may not be used with mini-batches. We adopt the point of view of stochastic algorithms and establish the almost sure convergence of these methods when using a decreasing step-size towards the set of critical points of the target function. With a mild extra assumption on the noise, we also obtain the convergence towards the set of minimizers of the function. Along our study, we also obtain a \"convergence rate'' of the methods, namely a bound on the expected value of the gradient of the cost function along a finite number of iterations.",
+    "authors": [
+        "S\u00e9bastien Gadat",
+        "Ioana Gavra"
+    ],
+    "emails": [
+        "sebastien.gadat@tse-fr.eu",
+        "ioana.gavra@univ-rennes2.fr"
+    ],
+    "id": "20-1407",
+    "issue": 228,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Asymptotic Study of Stochastic Adaptive Algorithms in Non-convex Landscape",
+    "volume": 23,
+    "year": 2022
+}

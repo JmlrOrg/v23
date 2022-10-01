@@ -1,0 +1,26 @@
+{
+    "abstract": "In scientific applications, multivariate observations often come in tandem with temporal or spatial covariates, with which the underlying signals vary smoothly. The standard approaches such as principal component analysis and factor analysis neglect the smoothness of the data, while multivariate linear or nonparametric regression fails to leverage the correlation information among multivariate response variables. We propose a novel approach named nonparametric principal subspace regression to overcome these issues. By decoupling the model discrepancy, a simple two-step estimation procedure is introduced, which takes advantage of the low-rank approximation while keeping smooth dynamics. The theoretical property of the proposed procedure is established under an increasing-dimension framework. We demonstrate the favorable  performance of our method in comparison with its counterpart, the conventional nonparametric regression, from both theoretical and numerical perspectives.",
+    "authors": [
+        "Yang Zhou",
+        "Mark Koudstaal",
+        "Dengdeng Yu",
+        "Dehan Kong",
+        "Fang Yao"
+    ],
+    "emails": [
+        "yangz91@163.com",
+        "mkoudstaal@gmail.com",
+        "dengdeng.yu@utoronto.ca",
+        "kongdehan@utstat.toronto.edu",
+        "fyao@math.pku.edu.cn"
+    ],
+    "id": "20-963",
+    "issue": 237,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "Nonparametric Principal Subspace Regression",
+    "volume": 23,
+    "year": 2022
+}

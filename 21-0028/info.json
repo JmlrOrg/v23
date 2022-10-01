@@ -1,0 +1,20 @@
+{
+    "abstract": "We propose and analyze several stochastic gradient algorithms for finding stationary points or local minimum in nonconvex, possibly with nonsmooth regularizer, finite-sum and online optimization problems. First, we propose a simple proximal stochastic gradient algorithm based on variance reduction called ProxSVRG+.  We provide a clean and tight analysis of ProxSVRG+, which shows that it outperforms the deterministic proximal gradient descent (ProxGD) for a wide range of minibatch sizes, hence solves an open problem proposed in Reddi et al. 2016. Also, ProxSVRG+ uses much less proximal oracle calls than ProxSVRG (Reddi et al. 2016) and extends to the online setting by avoiding full gradient computations. Then, we further propose an optimal algorithm, called SSRGD, based on ARAH (Nguyen et al. 2017) and show that SSRGD further improves the gradient complexity of ProxSVRG+ and achieves the the optimal upper bound, matching the known lower bound. Moreover, we show that both ProxSVRG+ and SSRGD enjoy automatic adaptation with local structure of the objective function such as the Polyak-Lojasiewicz (PL) condition for nonconvex functions in the finite-sum case, i.e., we prove that both of them can automatically switch to faster global linear convergence without any restart performed in prior work. Finally, we focus on the more challenging problem of finding an $(\\epsilon, \\delta)$-local minimum instead of just finding an $\\epsilon$-approximate (first-order) stationary point  (which may be some bad unstable saddle points). We show that SSRGD can find an $(\\epsilon, \\delta)$-local minimum by simply adding some random perturbations. Our algorithm is almost as simple as its counterpart for finding stationary points, and achieves similar optimal rates.",
+    "authors": [
+        "Zhize Li",
+        "Jian Li"
+    ],
+    "emails": [
+        "zhizeli@cmu.edu",
+        "lijian83@mail.tsinghua.edu.cn"
+    ],
+    "id": "21-0028",
+    "issue": 239,
+    "pages": [
+        1,
+        61
+    ],
+    "title": "Simple and Optimal Stochastic Gradient Methods for Nonsmooth Nonconvex Optimization",
+    "volume": 23,
+    "year": 2022
+}

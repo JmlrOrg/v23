@@ -1,0 +1,22 @@
+{
+    "abstract": "We introduce a new test for conditional independence which is based on what we call the weighted generalised covariance measure (WGCM). It is an extension of the recently introduced generalised covariance measure (GCM). To test the null hypothesis of $X$ and $Y$ being conditionally independent given $Z$, our test statistic is a weighted form of the sample covariance between the residuals of nonlinearly regressing  $X$ and $Y$ on $Z$. We propose different variants of the test for both univariate and multivariate $X$ and $Y$. We give conditions under which the tests yield the correct type I error rate. Finally, we compare our novel tests to the original GCM using simulation and on real data sets. Typically, our tests have power against a wider class of alternatives compared to the GCM. This comes at the cost of having less power against alternatives for which the GCM already works well. In the special case of binary or categorical $X$ and $Y$, one of our tests has power against all alternatives.",
+    "authors": [
+        "Cyrill Scheidegger",
+        "Julia H\u00f6rrmann",
+        "Peter B\u00fchlmann"
+    ],
+    "emails": [
+        "cyrill.scheidegger@stat.math.ethz.ch",
+        "jhoerrmann@ethz.ch",
+        "peter.buehlmann@stat.math.ethz.ch"
+    ],
+    "id": "21-1328",
+    "issue": 273,
+    "pages": [
+        1,
+        68
+    ],
+    "title": "The Weighted Generalised Covariance Measure",
+    "volume": 23,
+    "year": 2022
+}
