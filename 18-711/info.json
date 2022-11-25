@@ -1,0 +1,24 @@
+{
+    "abstract": "Real-world systems are often comprised of interconnected units, and can be represented as networks, with nodes and edges. In a social system, for instance, individuals  may have social ties and financial relationships. In these settings, when a node (the unit analysis) is exposed to a treatment, its effects may spill over to connected units; then estimating both the direct effect of the treatment and its spillover effects presents several challenges. First, assumptions about the mechanism through which spillover effects occur along the observed network are required. Second, in observational studies, where the treatment assignment has not been randomized, confounding and homophily are further potential threats to the identification and to the estimation of causal effects, on networks. Here, we make two structural assumptions: (i) neighborhood interference, which assumes interference operates only through a function of the immediate neighbors' treatments, and (ii) unconfoundedness of the individual and neighborhood treatment, which rules out the presence of unmeasured confounding variables, including those driving homophily.  Under these assumptions we develop a new covariate-adjustment estimator for direct treatment and spillover effects in observational studies on networks. We proposed an estimation strategy based on a generalized propensity score that balances individual and neighborhood covariates across units under different levels of individual treatment and of exposure to neighbors' treatment. Adjustment for propensity score is performed using a penalized spline regression. Our inference strategy capitalizes on a three-step Bayesian procedure, which allows to take account for the uncertainty in the propensity score estimation, and avoids model feedback. The correlation among connected units is taken into account using a community detection algorithm, and incorporating random effects in the outcome model. All these sources of variability, including variability of treatment assignment, are accounted for in the posterior distribution of the finite-sample causal estimands we target. We design a simulation study to assess the performance of the proposed estimator on different network topologies, both on synthetic networks and on real friendship network from the Add-Health study.",
+    "authors": [
+        "Laura Forastiere",
+        "Fabrizia Mealli",
+        "Albert Wu",
+        "Edoardo M. Airoldi"
+    ],
+    "emails": [
+        "laura.forastiere@yale.edu",
+        "fabrizia.mealli@unifi.it",
+        "albertwu@g.harvard.edu",
+        "airoldi@temple.edu"
+    ],
+    "id": "18-711",
+    "issue": 289,
+    "pages": [
+        1,
+        61
+    ],
+    "title": "Estimating Causal Effects under Network Interference with Bayesian Generalized Propensity Scores",
+    "volume": 23,
+    "year": 2022
+}

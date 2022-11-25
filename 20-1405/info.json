@@ -1,0 +1,20 @@
+{
+    "abstract": "Dynamical Systems (DS) are fundamental to the modeling and understanding time evolving phenomena, and have application in physics, biology and control. As determining an analytical description of the dynamics is often difficult, data-driven approaches are preferred for identifying and controlling nonlinear DS with multiple equilibrium points. Identification of such DS has been treated largely as a supervised learning problem. Instead, we focus on an unsupervised learning scenario where we know neither the number nor the type of dynamics. We propose a Graph-based spectral clustering method that takes advantage of a velocity-augmented kernel to connect data points belonging to the same dynamics, while preserving the natural temporal evolution. We study the eigenvectors and eigenvalues of the Graph Laplacian and show that they form a set of orthogonal embedding spaces, one for each sub-dynamics. We prove that there always exist a set of 2-dimensional embedding spaces in which the sub-dynamics are linear and n-dimensional embedding spaces where they are quasi-linear. We compare the clustering performance of our algorithm to Kernel K-Means, Spectral Clustering and Gaussian Mixtures and show that, even when these algorithms are provided with the correct number of sub-dynamics, they fail to cluster them correctly. We learn a diffeomorphism from the Laplacian embedding space to the original space and show that the Laplacian embedding leads to good reconstruction accuracy and a faster training time through an exponential decaying loss compared to the state-of-the-art diffeomorphism-based approaches.",
+    "authors": [
+        "Bernardo Fichera",
+        "Aude Billard"
+    ],
+    "emails": [
+        "bernardo.fichera@epfl.ch",
+        "aude.billard@epfl.ch"
+    ],
+    "id": "20-1405",
+    "issue": 294,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Linearization and Identification of Multiple-Attractor Dynamical Systems through Laplacian Eigenmaps",
+    "volume": 23,
+    "year": 2022
+}

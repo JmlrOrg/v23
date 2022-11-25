@@ -1,0 +1,26 @@
+{
+    "abstract": "We introduce a general tensor model suitable for data analytic tasks for heterogeneous datasets, wherein there are joint low-rank structures within groups of observations, but also discriminative structures across different groups. To capture such complex structures, a double core tensor (DCOT) factorization model is introduced together with a family of smoothing loss functions. By leveraging the proposed smoothing function, the model accurately estimates the model factors, even in the presence of missing entries. A linearized ADMM method is employed to solve regularized versions of DCOT factorizations, that avoid large tensor operations and large memory storage requirements. Further, we establish theoretically its global convergence, together with consistency of the estimates of the model parameters. The effectiveness of the DCOT model is illustrated on several real-world examples including image completion, recommender systems, subspace clustering, and detecting modules in heterogeneous Omics multi-modal data, since it provides more insightful decompositions than conventional tensor methods.",
+    "authors": [
+        "Davoud Ataee Tarzanagh",
+        "George Michailidis"
+    ],
+    "emails": [
+        "tarzanaq@umich.edu",
+        "gmichail@ufl.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Tarzanagh/DCOT"
+        ]
+    ],
+    "id": "20-1002",
+    "issue": 290,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Regularized and Smooth Double Core Tensor Factorization for Heterogeneous Data",
+    "volume": 23,
+    "year": 2022
+}

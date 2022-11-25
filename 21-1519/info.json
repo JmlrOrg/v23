@@ -1,0 +1,22 @@
+{
+    "abstract": "We study the minimax rates of the label shift problem in non-parametric classification. In addition to the unsupervised setting in which the learner only has access to unlabeled examples from the target domain, we also consider the setting in which a small number of labeled examples from the target domain is available to the learner. Our study reveals a difference in the difficulty of the label shift problem in the two settings, and we attribute this difference to the availability of data from the target domain to estimate the class conditional distributions in the latter setting. We also show that a class proportion estimation approach is minimax rate-optimal in the unsupervised setting.",
+    "authors": [
+        "Subha Maity",
+        "Yuekai Sun",
+        "Moulinath Banerjee"
+    ],
+    "emails": [
+        "smaity@umich.edu",
+        "yuekai@umich.edu",
+        "moulib@umich.edu"
+    ],
+    "id": "21-1519",
+    "issue": 346,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "Minimax optimal approaches to the label shift problem in non-parametric settings",
+    "volume": 23,
+    "year": 2022
+}

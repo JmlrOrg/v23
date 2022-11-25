@@ -1,0 +1,20 @@
+{
+    "abstract": "We provide a necessary and sufficient condition for the uniqueness of penalized least-squares estimators whose penalty term is given by a norm with a polytope unit ball, covering a wide range of methods including SLOPE, PACS, fused, clustered and classical LASSO as well as the related method of basis pursuit. We consider a strong type of uniqueness that is relevant for statistical problems. The uniqueness condition is geometric and involves how the row span of the design matrix intersects the faces of the dual norm unit ball, which for SLOPE is given by the signed permutahedron. Further considerations based this condition also allow to derive results on sparsity and clustering features. In particular, we define the notion of a SLOPE pattern to describe both sparsity and clustering properties of this method and also provide a geometric characterization of accessible SLOPE patterns.",
+    "authors": [
+        "Ulrike Schneider",
+        "Patrick Tardivel"
+    ],
+    "emails": [
+        "ulrike.schneider@tuwien.ac.at",
+        "Patrick.Tardivel@u-bourgogne.fr"
+    ],
+    "id": "21-0420",
+    "issue": 331,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "The Geometry of Uniqueness, Sparsity and Clustering in Penalized Estimation",
+    "volume": 23,
+    "year": 2022
+}

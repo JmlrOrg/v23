@@ -1,0 +1,28 @@
+{
+    "abstract": "Despite the wide applications of neural networks, there have been increasing concerns about their vulnerability issue. While numerous attack and defense techniques have been developed, this work investigates the robustness issue from a new angle: can we design a self-healing neural network that can automatically detect and fix the vulnerability issue by itself? A typical self-healing mechanism is the immune system of a human body. This biology-inspired idea has been used in many engineering designs but has rarely been investigated in deep learning.  This paper considers the post-training self-healing of a neural network, and proposes a closed-loop control formulation to automatically detect and fix the errors caused by various attacks or perturbations. We provide a margin-based analysis to explain how this formulation can improve the robustness of a classifier. To speed up the inference, we convert the optimal control problem to Pontryagon's Maximum Principle and solve it via the method of successive approximation. Lastly, we present an error estimation of the proposed framework for neural networks with nonlinear activation functions. We validate the performance of several network architectures against various perturbations. Since the self-healing method does not need a-priori information about data perturbations or attacks, it can handle a broad class of unforeseen perturbations.",
+    "authors": [
+        "Zhuotong Chen",
+        "Qianxiao Li",
+        "Zheng Zhang"
+    ],
+    "emails": [
+        "ztchen@ucsb.edu",
+        "qianxiao@nus.edu.sg",
+        "zhengzhang@ece.ucsb.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/zhuotongchen/Self-Healing-Robust-Neural-Networks-via-Closed-Loop-Control"
+        ]
+    ],
+    "id": "22-0529",
+    "issue": 319,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Self-Healing Robust Neural Networks via Closed-Loop Control",
+    "volume": 23,
+    "year": 2022
+}

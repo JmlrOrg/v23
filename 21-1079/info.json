@@ -1,0 +1,24 @@
+{
+    "abstract": "Neural networks with random weights appear in a variety of machine learning applications, most prominently as the initialization of many deep learning algorithms and as a computationally cheap alternative to fully learned neural networks. In the present article, we enhance the theoretical understanding of random neural networks by addressing the following data separation problem: under what conditions can a random neural network make two classes $\\mathcal{X}^-, \\mathcal{X}^+ \\subset \\mathbb{R}^d$ (with positive distance) linearly separable? We show that a sufficiently large two-layer ReLU-network with standard Gaussian weights and uniformly distributed biases can solve this problem with high probability. Crucially, the number of required neurons is explicitly linked to geometric properties of the underlying sets $\\mathcal{X}^-, \\mathcal{X}^+$ and their mutual arrangement. This instance-specific viewpoint allows us to overcome the usual curse of dimensionality (exponential width of the layers) in non-pathological situations where the data carries low-complexity structure. We quantify the relevant structure of the data in terms of a novel notion of mutual complexity (based on a localized version of Gaussian mean width), which leads to sound and informative separation guarantees. We connect our result with related lines of work on approximation, memorization, and generalization.",
+    "authors": [
+        "Sjoerd Dirksen",
+        "Martin Genzel",
+        "Laurent Jacques",
+        "Alexander Stollenwerk"
+    ],
+    "emails": [
+        "s.dirksen@uu.nl",
+        "martingenzel@gmail.com",
+        "laurent.jacques@uclouvain.be",
+        "alexander.stollenwerk@uclouvain.be"
+    ],
+    "id": "21-1079",
+    "issue": 309,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "The Separation Capacity of Random Neural Networks",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,20 @@
+{
+    "abstract": "We study high-dimensional bayesian linear regression with product priors. Using the nascent theory of ``non-linear large deviations\" (Chatterjee and Dembo, 2016), we derive sufficient conditions for the leading-order correctness of the naive mean-field approximation to the log-normalizing constant of the posterior distribution. Subsequently, assuming a true  linear model for the observed data, we derive a limiting infinite dimensional variational formula for the log normalizing constant for the posterior. Furthermore, we establish that under an additional ``separation\" condition, the variational problem has a unique optimizer, and this optimizer governs the probabilistic properties of the posterior distribution. We provide intuitive sufficient conditions for the validity of this ``separation\" condition. Finally, we illustrate our results on concrete examples with specific design matrices.",
+    "authors": [
+        "Sumit Mukherjee",
+        "Subhabrata Sen"
+    ],
+    "emails": [
+        "sm3949@columbia.edu",
+        "subhabratasen@fas.harvard.edu"
+    ],
+    "id": "21-0696",
+    "issue": 304,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Variational Inference in high-dimensional linear regression",
+    "volume": 23,
+    "year": 2022
+}

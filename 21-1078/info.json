@@ -1,0 +1,28 @@
+{
+    "abstract": "A wide range of machine learning applications such as privacy-preserving learning, algorithmic fairness, and domain adaptation/generalization among others, involve learning invariant representations of the data that aim to achieve two competing goals: (a) maximize information or accuracy with respect to a target response, and (b) maximize invariance or independence with respect to a set of protected features (e.g.\\ for fairness, privacy, etc). Despite their wide applicability, theoretical understanding of the optimal tradeoffs --- with respect to accuracy, and invariance --- achievable by invariant representations is still severely lacking. In this paper, we provide an information theoretic analysis of such tradeoffs under both classification and regression settings. More precisely, we provide a geometric characterization of the accuracy and invariance achievable by any representation of the data; we term this feasible region the information plane. We provide an inner bound for this feasible region for the classification case, and an exact characterization for the regression case, which allows us to either bound or exactly characterize the Pareto optimal frontier between accuracy and invariance. Although our contributions are mainly theoretical, a key practical application of our results is in certifying the potential sub-optimality of any given representation learning algorithm for either classification or regression tasks. Our results shed new light on the fundamental interplay between accuracy and invariance, and may be useful in guiding the design of future representation learning algorithms.",
+    "authors": [
+        "Han Zhao",
+        "Chen Dan",
+        "Bryon Aragam",
+        "Tommi S. Jaakkola",
+        "Geoffrey J. Gordon",
+        "Pradeep Ravikumar"
+    ],
+    "emails": [
+        "hanzhao@illinois.edu",
+        "cdan@cs.cmu.edu",
+        "bryon@chicagobooth.edu",
+        "tommi@csail.mit.edu",
+        "ggordon@cs.cmu.edu",
+        "pradeepr@cs.cmu.edu"
+    ],
+    "id": "21-1078",
+    "issue": 340,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Fundamental Limits and Tradeoffs in Invariant Representation Learning",
+    "volume": 23,
+    "year": 2022
+}

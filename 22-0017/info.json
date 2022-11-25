@@ -1,0 +1,27 @@
+{
+    "abstract": "In this paper, we introduce d3rlpy, an open-sourced offline deep reinforcement learning (RL) library for Python. d3rlpy supports a set of offline deep RL algorithms as well as off-policy online algorithms via a fully documented plug-and-play API. To address a reproducibility issue, we conduct a large-scale benchmark with D4RL and Atari 2600 dataset to ensure implementation quality and provide experimental scripts and full tables of results. The d3rlpy source code can be found on GitHub: https://github.com/takuseno/d3rlpy.",
+    "authors": [
+        "Takuma Seno",
+        "Michita Imai"
+    ],
+    "emails": [
+        "seno@ailab.ics.keio.ac.jp",
+        "michita@ailab.ics.keio.ac.jp"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/takuseno/d3rlpy"
+        ]
+    ],
+    "id": "22-0017",
+    "issue": 315,
+    "pages": [
+        1,
+        20
+    ],
+    "special_issue": "MLOSS",
+    "title": "d3rlpy: An Offline Deep Reinforcement Learning Library",
+    "volume": 23,
+    "year": 2022
+}

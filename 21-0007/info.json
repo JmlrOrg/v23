@@ -1,0 +1,26 @@
+{
+    "abstract": "Shape constraints, such as non-negativity, monotonicity, convexity  or supermodularity, play a key role in various applications of machine learning and statistics. However, incorporating this side information into predictive models in a hard way (for example at all points of an interval) for rich function classes is a notoriously challenging problem. We propose a unified and modular convex optimization framework, relying on second-order cone (SOC) tightening, to encode hard affine SDP constraints on function derivatives, for models belonging to vector-valued reproducing kernel Hilbert spaces (vRKHSs). The modular nature of the proposed approach allows to simultaneously handle multiple shape constraints, and to tighten an infinite number of constraints into finitely many. We prove the convergence of the proposed scheme and that of its adaptive variant, leveraging geometric properties of vRKHSs. Due to the covering-based construction of the tightening, the method is particularly well-suited to tasks with small to moderate input dimensions. The efficiency of the approach is illustrated in the context of shape optimization, safety-critical control, robotics and econometrics.",
+    "authors": [
+        "Pierre-Cyril Aubin-Frankowski",
+        "Zoltan Szabo"
+    ],
+    "emails": [
+        "pierre-cyril.aubin@inria.fr",
+        "z.szabo@lse.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/PCAubin/Handling-Hard-Affine-SDP-Shape-Constraints-in-RKHSs"
+        ]
+    ],
+    "id": "21-0007",
+    "issue": 297,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Handling Hard Affine SDP Shape Constraints in RKHSs",
+    "volume": 23,
+    "year": 2022
+}

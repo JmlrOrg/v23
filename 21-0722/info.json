@@ -1,0 +1,28 @@
+{
+    "abstract": "We consider conducting inference on the output of the Classification and Regression Tree (CART) (Breiman et al., 1984) algorithm. A naive approach to inference that does not account for the fact that the tree was estimated from the data will not achieve standard guarantees, such as Type 1 error rate control and nominal coverage. Thus, we propose a selective inference framework for conducting inference on a fitted CART tree. In a nutshell, we condition on the fact that the tree was estimated from the data. We propose a test for the difference in the mean response between a pair of terminal nodes that controls the selective Type 1 error rate, and a confidence interval for the mean response within a single terminal node that attains the nominal selective coverage. Efficient algorithms for computing the necessary conditioning sets are provided. We apply these methods in simulation and to a dataset involving the association between portion control interventions and caloric intake.",
+    "authors": [
+        "Anna C. Neufeld",
+        "Lucy L. Gao",
+        "Daniela M. Witten"
+    ],
+    "emails": [
+        "aneufeld@uw.edu",
+        "lucy.gao@stat.ubc.ca",
+        "dwitten@uw.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/anna-neufeld/treevalues-simulations"
+        ]
+    ],
+    "id": "21-0722",
+    "issue": 305,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "Tree-Values: Selective Inference for Regression Trees",
+    "volume": 23,
+    "year": 2022
+}

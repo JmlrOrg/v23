@@ -1,0 +1,20 @@
+{
+    "abstract": "In causal inference, it is common to estimate the causal effect of a single treatment variable on an outcome. However, practitioners may also be interested in the effect of simultaneous interventions on multiple covariates of a fixed target variable. We propose a novel method that allows to estimate the effect of joint interventions using data from different experiments in which only very few variables are manipulated. If there is only little randomized data or no randomized data at all, one can use observational data sets if certain parental sets are known or instrumental variables are available. If the joint causal effect is linear, the proposed method can be used for estimation and inference of joint causal effects, and we characterize conditions for identifiability. In the overidentified case, we indicate how to leverage all the available causal information across multiple data sets to efficiently estimate the causal effects. If the dimension of the covariate vector is large, we may only have a few samples in each data set. Under a sparsity assumption, we derive an estimator of the causal effects in this high-dimensional scenario. In addition, we show how to deal with the case where a lack of experimental constraints prevents direct estimation of the causal effects. When the joint causal effects are non-linear, we characterize conditions under which identifiability holds, and propose a non-linear causal aggregation methodology for experimental data sets similar to the gradient boosting algorithm where in each iteration we combine weak learners trained on different datasets using only unconfounded samples. We demonstrate the effectiveness of the proposed method on simulated and semi-synthetic data.",
+    "authors": [
+        "Jaime Roquero Gimenez",
+        "Dominik Rothenh\u00e4usler"
+    ],
+    "emails": [
+        "roquero@stanford.edu",
+        "rdominik@stanford.edu"
+    ],
+    "id": "21-0656",
+    "issue": 335,
+    "pages": [
+        1,
+        60
+    ],
+    "title": "Causal Aggregation: Estimation and Inference of Causal Effects by Constraint-Based Data Fusion",
+    "volume": 23,
+    "year": 2022
+}

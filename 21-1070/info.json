@@ -1,0 +1,22 @@
+{
+    "abstract": "Square-root (loss) regularized models have recently become popular in linear regression due to their nice statistical properties. Moreover, some of these models can be interpreted as the distributionally robust optimization  counterparts of the traditional least-squares regularized models. In this paper, we give a unified proof to show that any square-root regularized model whose penalty function being the sum of a simple norm and a seminorm can be interpreted as the distributionally robust optimization (DRO) formulation of the corresponding least-squares problem. In particular, the optimal transport cost in the DRO formulation is given by a certain dual form of the penalty. To solve the resulting square-root regularized model whose loss function and penalty function are both nonsmooth, we design a proximal point dual semismooth Newton algorithm and demonstrate its efficiency when the penalty is the  sparse group Lasso penalty or the  fused Lasso penalty. Extensive experiments demonstrate that our algorithm is highly efficient for solving the square-root sparse group Lasso problems and the square-root fused Lasso problems.",
+    "authors": [
+        "Hong T.M. Chu",
+        "Kim-Chuan Toh",
+        "Yangjing Zhang"
+    ],
+    "emails": [
+        "hongtmchu@u.nus.edu",
+        "mattohkc@nus.edu.sg",
+        "yangjing.zhang@amss.ac.cn"
+    ],
+    "id": "21-1070",
+    "issue": 308,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "On Regularized Square-root Regression Problems: Distributionally Robust Interpretation and Fast Computations",
+    "volume": 23,
+    "year": 2022
+}

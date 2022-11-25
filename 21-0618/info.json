@@ -1,0 +1,22 @@
+{
+    "abstract": "In imitation learning, imitators and demonstrators are policies for picking actions given past interactions with the environment. If we run an imitator, we probably want events to unfold similarly to the way they would have if the demonstrator had been acting the whole time. In general, one mistake during learning can lead to completely different events. In the special setting of environments that restart, existing work provides formal guidance in how to imitate so that events unfold similarly, but outside that setting, no formal guidance exists. We address a fully general setting, in which the (stochastic) environment and demonstrator never reset, not even for training purposes, and we allow our imitator to learn online from the demonstrator. Our new conservative Bayesian imitation learner underestimates the probabilities of each available action, and queries for more data with the remaining probability. Our main result: if an event would have been unlikely had the demonstrator acted the whole time, that event's likelihood can be bounded above when running the (initially totally ignorant) imitator instead. Meanwhile, queries to the demonstrator rapidly diminish in frequency. If any such event qualifies as \"dangerous\", our imitator would have the notable distinction of being relatively \"safe\".",
+    "authors": [
+        "Michael K. Cohen",
+        "Marcus Hutter",
+        "Neel Nanda"
+    ],
+    "emails": [
+        "michael.cohen@eng.ox.ac.uk",
+        "marcus.hutter@anu.edu.au",
+        "neelnanda27@gmail.com"
+    ],
+    "id": "21-0618",
+    "issue": 334,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Fully General Online Imitation Learning",
+    "volume": 23,
+    "year": 2022
+}

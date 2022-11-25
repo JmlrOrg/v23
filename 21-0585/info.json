@@ -1,0 +1,26 @@
+{
+    "abstract": "Random Forest is a successful and widely used regression and classification algorithm. Part of its appeal and reason for its versatility is its (implicit) construction of a kernel-type weighting function on training data, which can also be used for targets other than the original mean estimation. We propose a novel forest construction for multivariate responses based on their joint conditional distribution, independent of the estimation target and the data model. It uses a new splitting criterion based on the MMD distributional metric, which is suitable for detecting heterogeneity in multivariate distributions. The induced weights define an estimate of the full conditional distribution, which in turn can be used for arbitrary and potentially complicated targets of interest. The method is very versatile and convenient to use, as we illustrate on a wide range of examples. The code is available as Python and R packages drf.",
+    "authors": [
+        "Domagoj Cevid",
+        "Loris Michel",
+        "Jeffrey N\u00e4f",
+        "Peter B\u00fchlmann",
+        "Nicolai Meinshausen"
+    ],
+    "emails": [
+        "cevid@stat.math.ethz.ch",
+        "michel@stat.math.ethz.ch",
+        "naef@stat.math.ethz.ch",
+        "buhlmann@stat.math.ethz.ch",
+        "meinshausen@stat.math.ethz.ch"
+    ],
+    "id": "21-0585",
+    "issue": 333,
+    "pages": [
+        1,
+        79
+    ],
+    "title": "Distributional Random Forests: Heterogeneity Adjustment and Multivariate Distributional Regression",
+    "volume": 23,
+    "year": 2022
+}

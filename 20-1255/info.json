@@ -1,0 +1,24 @@
+{
+    "abstract": "Many network data encountered are two-mode networks. These networks are characterized by having two sets of nodes and links are only made between nodes belonging to different sets. While their two-mode feature triggers interesting interactions, it also increases the risk of  privacy exposure, and it is essential to protect sensitive information from being disclosed when releasing these data. In this paper, we introduce a weak notion of edge differential privacy and propose to release the degree sequence of a two-mode network by adding non-negative Laplacian noises that satisfies this privacy definition. Under mild conditions for an exponential-family model for bipartite graphs in which each node is individually parameterized, we establish the consistency and Asymptotic normality of two differential privacy estimators, the first based on moment equations and the second after denoising the noisy sequence. For the latter, we develop an efficient algorithm which produces a readily useful synthetic bipartite graph. Numerical simulations and a real data application are carried out to verify  our theoretical results and demonstrate the usefulness of our proposal.",
+    "authors": [
+        "Qiuping Wang",
+        "Ting Yan",
+        "Binyan Jiang",
+        "Chenlei Leng"
+    ],
+    "emails": [
+        "qp.wang@mails.ccnu.edu.cn",
+        "tingyanty@mail.ccnu.edu.cn",
+        "by.jiang@polyu.edu.hk",
+        "C.Leng@warwick.ac.uk"
+    ],
+    "id": "20-1255",
+    "issue": 292,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Two-mode Networks: Inference with as Many Parameters as Actors and Differential Privacy",
+    "volume": 23,
+    "year": 2022
+}

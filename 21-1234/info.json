@@ -1,0 +1,22 @@
+{
+    "abstract": "This paper proposes a logistic undirected network formation model which allows for assortative matching on observed individual characteristics and the presence of edge-wise fixed effects. We model the coefficients of observed characteristics to have a latent community structure and the edge-wise fixed effects to be of low rank. We propose a multi-step estimation procedure involving nuclear norm regularization, sample splitting, iterative logistic regression and spectral clustering to detect the latent communities. We show that the latent communities can be exactly recovered when the expected degree of the network is of order logn or higher, where n is the number of nodes in the network. The finite sample performance of the new estimation and inference methods is illustrated through both simulated and real datasets.",
+    "authors": [
+        "Shujie Ma",
+        "Liangjun Su",
+        "Yichong Zhang"
+    ],
+    "emails": [
+        "shujie.ma@ucr.edu",
+        "sulj@sem.tsinghua.edu.cn",
+        "yczhang@smu.edu.sg"
+    ],
+    "id": "21-1234",
+    "issue": 310,
+    "pages": [
+        1,
+        61
+    ],
+    "title": "Detecting Latent Communities in Network Formation Models",
+    "volume": 23,
+    "year": 2022
+}

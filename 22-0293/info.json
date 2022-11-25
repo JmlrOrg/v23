@@ -1,0 +1,26 @@
+{
+    "abstract": "Shortest path graph distances are widely used in data science and machine learning, since they can approximate the underlying geodesic distance on the data manifold. However, the shortest path distance is highly sensitive to the addition of corrupted edges in the graph, either through noise or an adversarial perturbation. In this paper we study a family of Hamilton-Jacobi equations on graphs that we call the $p$-eikonal equation. We show that the $p$-eikonal equation with $p=1$ is a provably robust distance-type function on a graph, and the $p\\to \\infty$ limit recovers shortest path distances. While the $p$-eikonal equation does not correspond to a shortest-path graph distance, we nonetheless show that the continuum limit of the $p$-eikonal equation on a random geometric graph recovers a geodesic density weighted distance in the continuum. We consider applications of the $p$-eikonal equation to data depth and semi-supervised learning, and use the continuum limit to prove asymptotic consistency results for both applications. Finally, we show the results of experiments with data depth and semi-supervised learning on real image datasets, including MNIST, FashionMNIST and CIFAR-10, which show that the $p$-eikonal equation offers significantly better results compared to shortest path distances.",
+    "authors": [
+        "Jeff Calder",
+        "Mahmood Ettehad"
+    ],
+    "emails": [
+        "jwcalder@umn.edu",
+        "etteh001@umn.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/jwcalder/peikonal"
+        ]
+    ],
+    "id": "22-0293",
+    "issue": 318,
+    "pages": [
+        1,
+        62
+    ],
+    "title": "Hamilton-Jacobi equations on graphs with applications to semi-supervised learning and data depth",
+    "volume": 23,
+    "year": 2022
+}

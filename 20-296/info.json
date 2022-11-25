@@ -1,0 +1,28 @@
+{
+    "abstract": "Identification theory for causal effects in causal models associated with hidden variable directed acyclic graphs (DAGs) is well studied. However, the corresponding algorithms are underused due to the complexity of estimating the identifying functionals they output. In this work, we bridge the gap between identification and estimation of population-level causal effects involving a single treatment and a single outcome. We derive influence function based estimators that exhibit double robustness for the identified effects in a large class of hidden variable DAGs where the treatment satisfies a simple graphical criterion; this class includes models yielding the adjustment and front-door functionals as special cases. We also provide necessary and sufficient conditions under which the statistical model of a hidden variable DAG is nonparametrically saturated and implies no equality constraints on the observed data distribution. Further, we derive an important class of hidden variable DAGs that imply observed data distributions observationally equivalent (up to equality constraints) to fully observed DAGs. In these classes of DAGs, we derive estimators that achieve the semiparametric efficiency bounds for the target of interest where the treatment satisfies our graphical criterion. Finally, we provide a sound and complete identification algorithm that directly yields a weight based estimation strategy for any identifiable effect in hidden variable causal models.",
+    "authors": [
+        "Rohit Bhattacharya",
+        "Razieh Nabi",
+        "Ilya Shpitser"
+    ],
+    "emails": [
+        "rb17@williams.edu",
+        "razieh.nabi@emory.edu",
+        "ilyas@cs.jhu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://ananke.readthedocs.io/en/latest/"
+        ]
+    ],
+    "id": "20-296",
+    "issue": 295,
+    "pages": [
+        1,
+        76
+    ],
+    "title": "Semiparametric Inference For Causal Effects In Graphical Models With Hidden Variables",
+    "volume": 23,
+    "year": 2022
+}

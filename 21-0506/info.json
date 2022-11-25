@@ -1,0 +1,20 @@
+{
+    "abstract": "Subsampling is a computationally effective approach to extract information from massive data sets when computing resources are limited. After a subsample is taken from the full data, most available methods use an inverse probability weighted (IPW) objective function to estimate the model parameters. The IPW estimator does not fully utilize the information in the selected subsample. In this paper, we propose to use the maximum sampled conditional likelihood estimator (MSCLE) based on the sampled data. We established the asymptotic normality of the MSCLE and prove that its asymptotic variance covariance matrix is the smallest among a class of asymptotically unbiased estimators, including the IPW estimator. We further discuss the asymptotic results with the L-optimal subsampling probabilities and illustrate the estimation procedure with generalized linear models. Numerical experiments are provided to evaluate the practical performance of the proposed method.",
+    "authors": [
+        "HaiYing Wang",
+        "Jae Kwang Kim"
+    ],
+    "emails": [
+        "haiying.wang@uconn.edu",
+        "jkim@iastate.edu"
+    ],
+    "id": "21-0506",
+    "issue": 332,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Maximum sampled conditional likelihood for informative subsampling",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,20 @@
+{
+    "abstract": "This paper investigates the theoretical foundations of the t-distributed stochastic neighbor embedding (t-SNE) algorithm, a popular nonlinear dimension reduction and data visualization method. A novel theoretical framework for the analysis of t-SNE based on the gradient descent approach is presented. For the early exaggeration stage of t-SNE, we show its asymptotic equivalence to power iterations based on the underlying graph Laplacian, characterize its limiting behavior, and uncover its deep connection to Laplacian spectral clustering, and fundamental principles including early stopping as implicit regularization. The results explain the intrinsic mechanism and the empirical benefits of such a computational strategy. For the embedding stage of t-SNE, we characterize the kinematics of the low-dimensional map throughout the iterations, and identify an amplification phase, featuring the intercluster repulsion and the expansive behavior of the low-dimensional map, and a stabilization phase. The general theory explains the fast convergence rate and the exceptional empirical performance of t-SNE for visualizing clustered data, brings forth the interpretations of the t-SNE visualizations, and provides theoretical guidance for applying t-SNE and selecting its tuning parameters in various applications.",
+    "authors": [
+        "T. Tony Cai",
+        "Rong Ma"
+    ],
+    "emails": [
+        "tcai@wharton.upenn.edu",
+        "rongm@stanford.edu"
+    ],
+    "id": "21-0524",
+    "issue": 301,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Theoretical Foundations of t-SNE for Visualizing High-Dimensional Clustered Data",
+    "volume": 23,
+    "year": 2022
+}

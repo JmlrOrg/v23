@@ -1,0 +1,20 @@
+{
+    "abstract": "In model selection problems for machine learning, the desire for a well-performing model with meaningful structure is typically expressed through a regularized optimization problem.  In many scenarios, however, the meaningful structure is specified in some discrete space, leading to difficult nonconvex optimization problems.  In this paper, we connect the model selection problem with structure-promoting regularizers to submodular function minimization with continuous and discrete arguments.  In particular, we leverage the theory of submodular functions to identify a class of these problems that can be solved exactly and efficiently with an agnostic combination of discrete and continuous optimization routines.  We show how simple continuous or discrete constraints can also be handled for certain problem classes and extend these ideas to a robust optimization framework.  We also show how some problems outside of this class can be embedded into the class, further extending the class of problems our framework can accommodate.  Finally, we numerically validate our theoretical results with several proof-of-concept examples with synthetic and real-world data, comparing against state-of-the-art algorithms.",
+    "authors": [
+        "Jonathan Bunton",
+        "Paulo Tabuada"
+    ],
+    "emails": [
+        "j.bunton@ucla.edu",
+        "tabuada@ee.ucla.edu"
+    ],
+    "id": "21-0166",
+    "issue": 329,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Joint Continuous and Discrete Model Selection via Submodularity",
+    "volume": 23,
+    "year": 2022
+}

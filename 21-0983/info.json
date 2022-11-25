@@ -1,0 +1,20 @@
+{
+    "abstract": "In this paper, we investigate the early stopping strategy for the iterative regularization technique, which is based on gradient descent of convex loss functions in reproducing kernel Hilbert spaces without an explicit regularization term. This work shows that projecting the last iterate of the stopping time produces an estimator that can improve the generalization ability. Using the upper bound of the generalization errors, we  establish a close link between the iterative regularization and Tikhonov regularization scheme and explain theoretically why the two schemes have similar regularization paths in the existing  numerical simulations. We introduce a data-dependent way based on cross-validation to select the  stopping time.  We prove that the  a-posteriori selection way can retain the comparable generalization errors to those obtained by our stopping rules with a-prior parameters.",
+    "authors": [
+        "Ting Hu",
+        "Yunwen Lei"
+    ],
+    "emails": [
+        "tinghu@xjtu.edu.cn",
+        "yunwen.lei@hotmail.com"
+    ],
+    "id": "21-0983",
+    "issue": 339,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Early Stopping for Iterative Regularization with General Loss Functions",
+    "volume": 23,
+    "year": 2022
+}

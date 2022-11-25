@@ -1,0 +1,26 @@
+{
+    "abstract": "In this paper, we study the trace regression when a matrix of parameters $\\mathbf{B}^\\star$ is estimated via the convex relaxation of a rank-regularized regression or via regularized non-convex optimization. It is known that these estimators satisfy near-optimal error bounds under assumptions on the rank, coherence, and spikiness of $\\mathbf{B}^\\star$. We start by introducing a general notion of spikiness for $\\mathbf{B}^\\star$ that provides a generic recipe to prove the restricted strong convexity of the sampling operator of the trace regression and obtain near-optimal and non-asymptotic error bounds for the estimation error. Similar to the existing literature, these results require the regularization parameter to be above a certain theory-inspired threshold that depends on observation noise that may be unknown in practice. Next, we extend the error bounds to cases where the regularization parameter is chosen via cross-validation. This result is significant in that existing theoretical results on cross-validated estimators (Kale et al., 2011; Kumar et al., 2013; Abou-Moustafa and Szepesvari, 2017) do not apply to our setting since the estimators we study are not known to satisfy their required notion of stability. Finally, using simulations on synthetic and real data, we show that the cross-validated estimator selects a near-optimal penalty parameter and outperforms the theory-inspired approach of selecting the parameter.",
+    "authors": [
+        "Nima Hamidi",
+        "Mohsen Bayati"
+    ],
+    "emails": [
+        "hamidi@stanford.edu",
+        "bayati@stanford.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/mohsenbayati/cv-impute"
+        ]
+    ],
+    "id": "19-795",
+    "issue": 321,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "On Low-rank Trace Regression under General Sampling Distribution",
+    "volume": 23,
+    "year": 2022
+}

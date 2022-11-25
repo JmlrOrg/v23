@@ -1,0 +1,24 @@
+{
+    "abstract": "It has long been thought that high-dimensional data encountered in many practical machine learning tasks have low-dimensional structure, i.e., the manifold hypothesis holds. A natural question, thus, is to estimate the intrinsic dimension of a given population distribution from a finite sample. We introduce a new estimator of the intrinsic dimension and provide finite sample, non-asymptotic guarantees. We then apply our techniques to get new sample complexity bounds for Generative Adversarial Networks (GANs) depending only on the intrinsic dimension of the data.",
+    "authors": [
+        "Adam Block",
+        "Zeyu Jia",
+        "Yury Polyanskiy",
+        "Alexander Rakhlin"
+    ],
+    "emails": [
+        "ablock@mit.edu",
+        "zyjia@mit.edu",
+        "yp@mit.edu",
+        "rakhlin@mit.edu"
+    ],
+    "id": "21-1483",
+    "issue": 313,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Intrinsic Dimension Estimation Using Wasserstein Distance",
+    "volume": 23,
+    "year": 2022
+}

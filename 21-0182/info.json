@@ -1,0 +1,24 @@
+{
+    "abstract": "The paper considers a Mixture Multilayer Stochastic Block Model (MMLSBM), where layers can be partitioned into groups of similar networks, and networks in each group are equipped with a distinct Stochastic Block Model. The goal is to partition the multilayer network into clusters of similar layers, and to identify communities in those layers. Jing et al. (2020) introduced the MMLSBM and developed a clustering methodology, TWIST, based on regularized tensor decomposition. The present paper proposes a different technique, an alternating minimization algorithm (ALMA), that aims at simultaneous recovery of the layer partition, together with estimation of the matrices of connection probabilities of the distinct layers. Compared to TWIST, ALMA achieves higher accuracy, both theoretically and numerically.",
+    "authors": [
+        "Xing Fan",
+        "Marianna Pensky",
+        "Feng Yu",
+        "Teng Zhang"
+    ],
+    "emails": [
+        "fanxing@knights.ucf.edu",
+        "marianna.pensky@ucf.edu",
+        "yfeng@knights.ucf.edu",
+        "teng.zhang@ucf.edu"
+    ],
+    "id": "21-0182",
+    "issue": 330,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "ALMA: Alternating Minimization Algorithm for Clustering Mixture Multilayer Network",
+    "volume": 23,
+    "year": 2022
+}

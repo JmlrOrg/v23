@@ -1,0 +1,20 @@
+{
+    "abstract": "In online linear optimisation with stochastic losses it is common to bound the pseudo-regret of an algorithm rather than the expected regret.  This is attributed to the expected fluctuations for i.i.d sums making expected regret bounds better than  $\\Omega(\\sqrt T)$ impossible.   In this paper we show that when there is a unique optimal action and the action set is a polytope the difference between pseudo-regret and expected regret is $o(1)$.   This means that the existing upper bounds on pseudo-regret in the literature can immediately be extended to also upper bound the expected regret.   Our results are independent of the algorithm used to select the actions and apply equally to the bandit and full-information settings.",
+    "authors": [
+        "Daron Anderson",
+        "Douglas J. Leith"
+    ],
+    "emails": [
+        "andersd3@tcd.ie",
+        "doug.leith@tcd.ie"
+    ],
+    "id": "20-1339",
+    "issue": 293,
+    "pages": [
+        1,
+        12
+    ],
+    "title": "Expected Regret and Pseudo-Regret are Equivalent When the Optimal Arm is Unique",
+    "volume": 23,
+    "year": 2022
+}

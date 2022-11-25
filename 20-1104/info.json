@@ -1,0 +1,30 @@
+{
+    "abstract": "Unmeasured or latent variables are often the cause of correlations between multivariate measurements, which are studied in a variety of fields such as psychology, ecology, and medicine. For Gaussian measurements, there are classical tools such as factor analysis or principal component analysis with a well-established theory and fast algorithms. Generalized Linear Latent Variable models (GLLVMs) generalize such factor models to non-Gaussian responses. However, current algorithms for estimating model parameters in GLLVMs require intensive computation and do not scale to large data sets with thousands of observational units or responses. In this article, we propose a new approach for fitting GLLVMs to high-dimensional data sets, based on approximating the model using penalized quasi-likelihood and then using a Newton method and Fisher scoring to learn the model parameters. Computationally, our method is noticeably faster and more stable, enabling GLLVM fits to much larger matrices than previously possible. We apply our method on a data set of 48,000 observational units with over 2,000 observed species in each unit and find that most of the variability can be explained with a handful of factors. We publish an easy-to-use implementation of our proposed fitting algorithms.",
+    "authors": [
+        "Lukasz Kidzinski",
+        "Francis K.C. Hui",
+        "David I. Warton",
+        "Trevor J. Hastie"
+    ],
+    "emails": [
+        "lukasz.kidzinski@stanford.edu",
+        "francis.hui@anu.edu.au",
+        "david.warton@unsw.edu.au",
+        "hastie@stanford.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/kidzik/gmf"
+        ]
+    ],
+    "id": "20-1104",
+    "issue": 291,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "Generalized Matrix Factorization: efficient algorithms for fitting generalized linear latent variable models to large data arrays",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,34 @@
+{
+    "abstract": "SU classification employs similar (S) data pairs (two examples belong to the same class) and unlabeled (U) data points to build a classifier, which can serve as an alternative to the standard supervised trained classifiers requiring data points with class labels. SU classification is advantageous because in the era of big data, more attention has been paid to data privacy. Datasets with specific class labels are often difficult to obtain in real-world classification applications regarding privacy-sensitive matters, such as politics and religion, which can be a bottleneck in supervised classification. Fortunately, similarity labels do not reveal the explicit information and inherently protect the privacy, e.g., collecting answers to ``With whom do you share the same opinion on issue $\\mathcal{I}$?\" instead of ``What is your opinion on issue $\\mathcal{I}$?\". Nevertheless, SU classification still has an obvious limitation: respondents might answer these questions in a manner that is viewed favorably by others instead of answering truthfully. Therefore, there exist some dissimilar data pairs labeled as similar, which significantly degenerates the performance of SU classification. In this paper, we study how to learn from noisy similar (nS) data pairs and unlabeled (U) data, which is called nSU classification. Specifically, we carefully model the similarity noise and estimate the noise rate by using the mixture proportion estimation technique. Then, a clean classifier can be learned by minimizing a denoised and unbiased classification risk estimator, which only involves the noisy data. Moreover, we further derive a theoretical generalization error bound for the proposed method. Experimental results demonstrate the effectiveness of the proposed algorithm on several benchmark datasets.",
+    "authors": [
+        "Songhua Wu",
+        "Tongliang Liu",
+        "Bo Han",
+        "Jun Yu",
+        "Gang Niu",
+        "Masashi Sugiyama"
+    ],
+    "emails": [
+        "songhua.wu@sydney.edu.au",
+        "tongliang.liu@sydney.edu.au",
+        "bhanml@comp.hkbu.edu.hk",
+        "harryjun@ustc.edu.cn",
+        "gang.niu@riken.jp",
+        "sugi@k.u-tokyo.ac.jp"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/scifancier/Learning-from-Noisy-Pairwise-Similarity-and-Unlabeled-Data"
+        ]
+    ],
+    "id": "21-0946",
+    "issue": 307,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Learning from Noisy Pairwise Similarity and Unlabeled Data",
+    "volume": 23,
+    "year": 2022
+}

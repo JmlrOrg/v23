@@ -1,0 +1,30 @@
+{
+    "abstract": "Many real-world structured prediction problems need machine learning to capture data distribution and constraint reasoning to ensure structure validity. Nevertheless, constrained structured prediction is still limited in real-world applications because of the lack of tools to bridge constraint satisfaction and machine learning. In this paper, we propose COnstraint REasoning embedded Structured Prediction (Core-Sp), a scalable constraint reasoning and machine learning integrated approach for learning over structured domains. We propose to embed decision diagrams, a popular constraint reasoning tool, as a fully-differentiable module into deep neural networks for structured prediction. We also propose an iterative search algorithm to automate the searching process of the best Core-Sp structure. We evaluate Core-Sp on three applications: vehicle dispatching service planning, if-then program synthesis, and text2SQL generation. The proposed Core-Sp module demonstrates superior performance over state-of-the-art approaches in all three applications. The structures generated with Core-Sp satisfy 100% of the constraints when using exact decision diagrams. In addition, Core-Sp boosts learning performance by reducing the modeling space via constraint satisfaction.",
+    "authors": [
+        "Nan Jiang",
+        "Maosen Zhang",
+        "Willem-Jan van Hoeve",
+        "Yexiang Xue"
+    ],
+    "emails": [
+        "jiang631@purdue.edu",
+        "zhangmaosen.pku@bytedance.com",
+        "vanhoeve@andrew.cmu.edu",
+        "yexiang@purdue.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://jiangnanhugo.github.io/CORE-SP/"
+        ]
+    ],
+    "id": "21-1484",
+    "issue": 345,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Constraint Reasoning Embedded Structured Prediction",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,26 @@
+{
+    "abstract": "Many important machine learning problems can be formulated as highly constrained convex optimization problems. One important example is metric constrained problems. In this paper, we show that standard optimization techniques can not be used to solve metric constrained problem. To solve such problems, we provide a general active set framework, called Project and Forget, and several variants thereof that use Bregman projections. Project and Forget is a general purpose method that can be used to solve highly constrained convex problems with many (possibly exponentially) constraints. We provide a theoretical analysis of Project and Forget and prove that our algorithms converge to the global optimal solution and have a linear rate of convergence. We demonstrate that using our method, we can solve large problem instances of general weighted correlation clustering, metric nearness, information theoretic metric learning and quadratically regularized optimal transport; in each case, out-performing the state of the art methods with respect to CPU times and problem sizes.",
+    "authors": [
+        "Rishi Sonthalia",
+        "Anna C. Gilbert"
+    ],
+    "emails": [
+        "rsonthal@umich.edu",
+        "anna.gilbert@yale.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/rsonthal/ProjectAndForget"
+        ]
+    ],
+    "id": "20-1424",
+    "issue": 326,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Project and Forget: Solving Large-Scale Metric Constrained Problems",
+    "volume": 23,
+    "year": 2022
+}

@@ -1,0 +1,30 @@
+{
+    "abstract": "Gaussian process (GP) regression is a flexible, nonparametric approach to regression that naturally quantifies uncertainty. In many applications, the number of responses and covariates are both large, and a goal is to select covariates that are related to the response. For this setting, we propose a novel, scalable algorithm, coined VGPR, which optimizes a penalized GP log-likelihood based on the Vecchia GP approximation, an ordered conditional approximation from spatial statistics that implies a sparse Cholesky factor of the precision matrix. We traverse the regularization path from strong to weak penalization, sequentially adding candidate covariates based on the gradient of the log-likelihood and deselecting irrelevant covariates via a new quadratic constrained coordinate descent algorithm. We propose Vecchia-based mini-batch subsampling, which provides unbiased gradient estimators. The resulting procedure is scalable to millions of responses and thousands of covariates. Theoretical analysis and numerical studies demonstrate the improved scalability and accuracy relative to existing methods.",
+    "authors": [
+        "Jian Cao",
+        "Joseph Guinness",
+        "Marc G. Genton",
+        "Matthias Katzfuss"
+    ],
+    "emails": [
+        "jian.cao@tamu.edu",
+        "guinness@cornell.edu",
+        "marc.genton@kaust.edu.sa",
+        "katzfuss@tamu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/katzfuss-group/Vecchia_GPR_var_select"
+        ]
+    ],
+    "id": "22-0204",
+    "issue": 348,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Scalable Gaussian-process regression and variable selection using Vecchia approximations",
+    "volume": 23,
+    "year": 2022
+}

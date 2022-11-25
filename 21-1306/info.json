@@ -1,0 +1,28 @@
+{
+    "abstract": "In this paper,  we establish the global optimality and convergence rate of an off-policy actor critic algorithm in the tabular setting without using density ratio to correct the discrepancy between the state distribution of the behavior policy and that of the target policy.  Our work goes beyond existing works on the optimality of policy gradient methods in that  existing works use the exact policy gradient for updating the policy parameters   while we use an approximate and stochastic update step.  Our update step is not a gradient update because we do not use a density ratio to correct the state distribution,  which aligns well with what practitioners do.  Our update is approximate because we use a learned critic instead of the true value function.  Our update is stochastic because at each step the update is done for only the current state action pair.  Moreover,  we remove several restrictive assumptions from existing works in our analysis.  Central to our work is the finite sample analysis of a generic stochastic approximation algorithm with time-inhomogeneous update operators on time-inhomogeneous Markov chains,  based on its uniform contraction properties.",
+    "authors": [
+        "Shangtong Zhang",
+        "Remi Tachet des Combes",
+        "Romain Laroche"
+    ],
+    "emails": [
+        "shangtong@virginia.edu",
+        "remi.tachet@microsoft.com",
+        "romain.laroche@microsoft.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ShangtongZhang/DeepRL"
+        ]
+    ],
+    "id": "21-1306",
+    "issue": 343,
+    "pages": [
+        1,
+        91
+    ],
+    "title": "Global Optimality and Finite Sample Analysis of Softmax Off-Policy Actor Critic under State Distribution Mismatch",
+    "volume": 23,
+    "year": 2022
+}

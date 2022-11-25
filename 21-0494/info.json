@@ -1,0 +1,26 @@
+{
+    "abstract": "Conditional selective inference (SI) has been studied intensively as a new statistical inference framework for data-driven hypotheses. The basic concept of conditional SI is to make the inference conditional on the selection event, which enables an exact and valid statistical inference to be conducted even when the hypothesis is selected based on the data. Conditional SI has mainly been studied in the context of model selection, such as vanilla lasso or generalized lasso. The main limitation of existing approaches is the low statistical power owing to over-conditioning, which is required for computational tractability. In this study, we propose a more powerful and general conditional SI method for a class of problems that can be converted into quadratic parametric programming, which includes generalized lasso. The key concept is to compute the continuum path of the optimal solution in the direction of the selected test statistic and to identify the subset of the data space that corresponds to the model selection event by following the solution path. The proposed parametric programming-based method not only avoids the aforementioned major drawback of over-conditioning, but also improves the performance and practicality of SI in various respects. We conducted several experiments to demonstrate the effectiveness and efficiency of our proposed method.",
+    "authors": [
+        "Vo Nguyen Le Duy",
+        "Ichiro Takeuchi"
+    ],
+    "emails": [
+        "duy.mllab.nit@gmail.com",
+        "ichiro.takeuchi@mae.nagoya-u.ac.jp"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/vonguyenleduy/parametric_generalized_lasso_selective_inference"
+        ]
+    ],
+    "id": "21-0494",
+    "issue": 300,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "More Powerful Conditional Selective Inference for Generalized Lasso by Parametric Programming",
+    "volume": 23,
+    "year": 2022
+}

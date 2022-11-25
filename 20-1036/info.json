@@ -1,0 +1,22 @@
+{
+    "abstract": "We show that a simple community detection algorithm originated from stochastic blockmodel literature achieves consistency, and even optimality, for a broad and flexible class of sparse latent space models. The class of models includes latent eigenmodels (Hoff, 2008). The community detection algorithm is based on spectral clustering followed by local refinement via normalized edge counting. It is easy to implement and attains high accuracy with a low computational budget. The proof of its optimality depends on a neat equivalence between likelihood ratio test and edge counting in a simple vs. simple hypothesis testing problem that underpins the refinement step, which could be of independent interest.",
+    "authors": [
+        "Fengnan Gao",
+        "Zongming Ma",
+        "Hongsong Yuan"
+    ],
+    "emails": [
+        "fngao@fudan.edu.cn",
+        "zongming@wharton.upenn.edu",
+        "yuan.hongsong@shufe.edu.cn"
+    ],
+    "id": "20-1036",
+    "issue": 322,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Community detection in sparse latent space models",
+    "volume": 23,
+    "year": 2022
+}

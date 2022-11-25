@@ -1,0 +1,25 @@
+{
+    "abstract": "This paper focuses on learning rate analysis of Nystrom regularization with sequential sub-sampling for $\\tau$-mixing time series. Using a recently developed Banach-valued Bernstein inequality for $\\tau$-mixing sequences and an integral operator approach based on second-order decomposition, we succeed in deriving almost optimal learning rates of Nystrom regularization with sequential sub-sampling for $\\tau$-mixing time series. A series of numerical experiments are carried out to verify our theoretical results, showing the  excellent learning performance of Nystrom regularization with sequential sub-sampling in learning massive  time series data. All these results extend the applicable range of  Nystr\\\"{o}m regularization  from i.i.d. samples to non-i.i.d. sequences.",
+    "authors": [
+        "Zirui Sun",
+        "Mingwei Dai",
+        "Yao Wang",
+        "Shao-Bo Lin"
+    ],
+    "emails": [
+        "sunzirui@stu.xjtu.edu.cn",
+        "daimw@swufe.edu.cn",
+        "yao.s.wang@gmail.com",
+        "sblin1983@gmail.com"
+    ],
+    "id": "21-1341",
+    "issue": 312,
+    "pages": [
+        1,
+        42
+    ],
+    "special_issue": "MLOSS",
+    "title": "Nystrom Regularization for Time Series Forecasting",
+    "volume": 23,
+    "year": 2022
+}

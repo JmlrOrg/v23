@@ -1,0 +1,30 @@
+{
+    "abstract": "Outcome labeling ambiguity and subjectivity are ubiquitous in real-world datasets. While practitioners commonly combine ambiguous outcome labels for all data points (instances) in an ad hoc way to improve the accuracy of multi-class classification, there lacks a principled approach to guide the label combination for all data points by any optimality criterion. To address this problem, we propose the information-theoretic classification accuracy (ITCA), a criterion that balances the trade-off between prediction accuracy (how well do predicted labels agree with actual labels) and classification resolution (how many labels are predictable), to guide practitioners on how to combine ambiguous outcome labels. To find the optimal label combination indicated by ITCA, we propose two search strategies: greedy search and breadth-first search. ITCA and the two search strategies are adaptive to all machine-learning classification algorithms. Coupled with a classification algorithm and a search strategy, ITCA has two uses: improving prediction accuracy and identifying ambiguous labels. We first verify that ITCA achieves high accuracy with both search strategies in finding the correct label combinations on synthetic and real data. Then we demonstrate the effectiveness of ITCA in diverse applications, including medical prognosis, cancer survival prediction, user demographics prediction, and cell type classification. We also provide theoretical insights into ITCA by studying the oracle and the linear discriminant analysis classification algorithms. Python package itca (available at https://github.com/JSB-UCLA/ITCA) implements ITCA and the search strategies.",
+    "authors": [
+        "Chihao Zhang",
+        "Yiling Elaine Chen",
+        "Shihua Zhang",
+        "Jingyi Jessica Li"
+    ],
+    "emails": [
+        "zhangchihao@amss.ac.cn",
+        "yiling0210@ucla.edu",
+        "zsh@amss.ac.cn",
+        "jli@stat.ucla.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/JSB-UCLA/ITCA"
+        ]
+    ],
+    "id": "21-1150",
+    "issue": 341,
+    "pages": [
+        1,
+        65
+    ],
+    "title": "Information-theoretic Classification Accuracy: A Criterion that Guides Data-driven Combination of Ambiguous Outcome Labels in Multi-class Classification",
+    "volume": 23,
+    "year": 2022
+}

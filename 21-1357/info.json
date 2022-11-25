@@ -1,0 +1,26 @@
+{
+    "abstract": "We propose and analyse a reduced-rank method for solving least-squares regression problems with infinite dimensional output. We derive learning bounds for our method, and study under which setting statistical performance is improved in comparison to full-rank method. Our analysis extends the interest of reduced-rank regression beyond the standard low-rank setting to more general output regularity assumptions. We illustrate our theoretical insights on synthetic least-squares problems. Then, we propose a surrogate structured prediction method derived from this reduced-rank method.  We assess its benefits on three different problems: image reconstruction, multi-label classification, and metabolite identification.",
+    "authors": [
+        "Luc Brogat-Motte",
+        "Alessandro Rudi",
+        "C\u00e9line Brouard",
+        "Juho Rousu",
+        "Florence d'Alch\u00e9-Buc"
+    ],
+    "emails": [
+        "luc.motte@telecom-paris.fr",
+        "alessandro.rudi@inria.fr",
+        "celine.brouard@inrae.fr",
+        "juho.rousu@aalto.fi",
+        "florence.dalche@telecom-paris.fr"
+    ],
+    "id": "21-1357",
+    "issue": 344,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Vector-Valued Least-Squares Regression under Output Regularity Assumptions",
+    "volume": 23,
+    "year": 2022
+}

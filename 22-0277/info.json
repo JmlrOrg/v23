@@ -1,0 +1,37 @@
+{
+    "abstract": "The optimization and machine learning toolkit (OMLT) is an open-source software package incorporating neural network and gradient-boosted tree surrogate models, which have been trained using machine learning, into larger optimization problems. We discuss the advances in optimization technology that made OMLT possible and show how OMLT seamlessly integrates with the algebraic modeling language Pyomo. We demonstrate how to use OMLT for solving decision-making problems in both computer science and engineering.",
+    "authors": [
+        "Francesco Ceccon",
+        "Jordan Jalving",
+        "Joshua Haddad",
+        "Alexander Thebelt",
+        "Calvin Tsay",
+        "Carl D Laird",
+        "Ruth Misener"
+    ],
+    "emails": [
+        "francesco.ceccon14@imperial.ac.uk",
+        "jhjalvi@sandia.gov",
+        "jihadda@sandia.gov",
+        "alexander.thebelt18@imperial.ac.uk",
+        "c.tsay@imperial.ac.uk",
+        "claird@andrew.cmu.edu",
+        "r.misener@imperial.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/cog-imperial/OMLT"
+        ]
+    ],
+    "id": "22-0277",
+    "issue": 349,
+    "pages": [
+        1,
+        8
+    ],
+    "special_issue": "MLOSS",
+    "title": "OMLT: Optimization & Machine Learning Toolkit",
+    "volume": 23,
+    "year": 2022
+}

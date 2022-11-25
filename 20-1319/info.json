@@ -1,0 +1,28 @@
+{
+    "abstract": "Structure learning algorithms that learn the graph of a Bayesian network from observational data often do so by assuming the data correctly reflect the true distribution of the variables. However, this assumption does not hold in the presence of measurement error, which can lead to spurious edges. This is one of the reasons why the synthetic performance of these algorithms often overestimates real-world performance. This paper describes a heuristic algorithm that can be added as an additional learning phase at the end of any structure learning algorithm, and serves as a correction learning phase that removes potential false positive edges. The results show that the proposed correction algorithm successfully improves the graphical score of five well-established structure learning algorithms spanning different classes of learning in the presence of measurement error.",
+    "authors": [
+        "Yang Liu",
+        "Anthony C. Constantinou",
+        "Zhigao Guo"
+    ],
+    "emails": [
+        "yangliu@qmul.ac.uk",
+        "a.constantinou@qmul.ac.uk",
+        "zhigao.guo@qmul.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Enderlogic/Spurious-Edge-Detection"
+        ]
+    ],
+    "id": "20-1319",
+    "issue": 324,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "Improving Bayesian Network Structure Learning in the Presence of Measurement Error",
+    "volume": 23,
+    "year": 2022
+}

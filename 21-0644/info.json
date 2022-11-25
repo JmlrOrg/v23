@@ -1,0 +1,32 @@
+{
+    "abstract": "We present a novel method for graph partitioning, based on reinforcement learning and graph convolutional neural networks. Our approach is to recursively partition coarser representations of a given graph. The neural network is implemented using SAGE graph convolution layers, and trained using an advantage actor critic (A2C) agent. We present two variants, one for finding ean edge separator that minimizes the normalized cut or quotient cut, and one that finds a small vertex separator. The vertex separators are then used to construct a nested dissection ordering to permute a sparse matrix so that its triangular factorization will incur less fill-in. The partitioning quality is compared with partitions obtained using METIS and SCOTCH, and the nested dissection ordering is evaluated in the sparse solver SuperLU. Our results show that the proposed method achieves similar partitioning quality as METIS, SCOTCH and spectral partitioning. Furthermore, the method generalizes across different classes of graphs, and works well on a variety of graphs from the SuiteSparse sparse matrix collection.",
+    "authors": [
+        "Alice Gatti",
+        "Zhixiong Hu",
+        "Tess Smidt",
+        "Esmond G. Ng",
+        "Pieter Ghysels"
+    ],
+    "emails": [
+        "agatti@lbl.gov",
+        "zhu95@ucsc.edu",
+        "tsmidt@mit.edu",
+        "egng@lbl.gov",
+        "pghysels@lbl.gov"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/alga-hopf/drl-graph-partitioning"
+        ]
+    ],
+    "id": "21-0644",
+    "issue": 303,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "Graph Partitioning and Sparse Matrix Ordering using Reinforcement Learning and Graph Neural Networks",
+    "volume": 23,
+    "year": 2022
+}

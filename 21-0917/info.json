@@ -1,0 +1,30 @@
+{
+    "abstract": "Interval-censored data solely records the aggregated counts of events during specific time intervals -- such as the number of patients admitted to the hospital or the volume of vehicles passing traffic loop detectors -- and not the exact occurrence time of the events. It is currently not understood how to fit the Hawkes point processes to this kind of data. Its typical loss function (the point process log-likelihood) cannot be computed without exact event times. Furthermore, it does not have the independent increments property to use the Poisson likelihood. This work builds a novel point process, a set of tools, and approximations for fitting Hawkes processes within interval-censored data scenarios. First, we define the Mean Behavior Poisson process (MBPP), a novel Poisson process with a direct parameter correspondence to the popular self-exciting Hawkes process. We fit MBPP in the interval-censored setting using an interval-censored Poisson log-likelihood (IC-LL). We use the parameter equivalence to uncover the parameters of the associated Hawkes process. Second, we introduce two novel exogenous functions to distinguish the exogenous from the endogenous events. We propose the multi-impulse exogenous function -- for when the exogenous events are observed as event time -- and the latent homogeneous Poisson process exogenous function -- for when the exogenous events are presented as interval-censored volumes. Third, we provide several approximation methods to estimate the intensity and compensator function of MBPP when no analytical solution exists. Fourth and finally, we connect the interval-censored loss of MBPP to a broader class of Bregman divergence-based functions. Using the connection, we show that the popularity estimation algorithm Hawkes Intensity Process (HIP) is a particular case of the MBPP. We verify our models through empirical testing on synthetic data and real-world data. We find that our MBPP outperforms HIP on real-world datasets for the task of popularity prediction. This work makes it possible to efficiently fit the Hawkes process to interval-censored data.",
+    "authors": [
+        "Marian-Andrei Rizoiu",
+        "Alexander Soen",
+        "Shidi Li",
+        "Pio Calderon",
+        "Leanne J. Dong",
+        "Aditya Krishna Menon",
+        "Lexing Xie"
+    ],
+    "emails": [
+        "Marian-Andrei.Rizoiu@uts.edu.au",
+        "alexander.soen@anu.edu.au",
+        "shidi.li@anu.edu.au",
+        "piogabrielle.b.calderon@student.uts.edu.au",
+        "leanne.dong@concordia.ca",
+        "adityakmenon@google.com",
+        "lexing.xie@anu.edu.au"
+    ],
+    "id": "21-0917",
+    "issue": 338,
+    "pages": [
+        1,
+        84
+    ],
+    "title": "Interval-censored Hawkes processes",
+    "volume": 23,
+    "year": 2022
+}

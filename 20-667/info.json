@@ -1,0 +1,22 @@
+{
+    "abstract": "We address the problem of instability of classification models: small changes in the training data leading to large changes in the resulting model and predictions. This phenomenon is especially well established for single tree based methods such as CART, however it is present  in all classification methods. We apply robust optimization to improve the stability of four of the most commonly used classification methods:  Random Forests, Logistic Regression, Support Vector Machines, and Optimal Classification Trees. Through experiments on 30 data sets with sizes ranging between 10^2 and 10^4 observations and features,  we show that our approach  (a) leads to improvements in stability, and in some cases accuracy, compared to the original methods, with the gains in stability being particularly significant (even, surprisingly, for those methods that were previously thought to be stable, such as Random Forests) and (b) has computational times comparable with (and indeed in some cases even faster than) the original methods allowing the method to be very scalable.",
+    "authors": [
+        "Dimitris Bertsimas",
+        "Jack Dunn",
+        "Ivan Paskov"
+    ],
+    "emails": [
+        "dbertsim@mit.edu",
+        "jack@interpretable.ai",
+        "ipaskov@mit.edu"
+    ],
+    "id": "20-667",
+    "issue": 296,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "Stable Classification",
+    "volume": 23,
+    "year": 2022
+}

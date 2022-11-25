@@ -1,0 +1,22 @@
+{
+    "abstract": "Approximate Bayesian Computation (ABC) enables statistical inference in simulator-based models whose likelihoods are difficult to calculate but easy to simulate from. ABC constructs  a kernel-type approximation to the posterior distribution through an accept/reject mechanism which compares summary statistics of real and simulated data.  To obviate the need for summary statistics, we directly compare empirical distributions  with a Kullback-Leibler (KL) divergence estimator obtained via contrastive learning. In particular, we blend flexible machine learning classifiers within ABC to automate fake/real data comparisons. We consider the traditional accept/reject kernel as well as  an exponential weighting scheme which does not require the ABC acceptance threshold. Our theoretical results show that the rate at which our ABC posterior distributions concentrate  around the true parameter depends on the estimation error of the classifier. We derive  limiting posterior shape results and find that, with a properly scaled exponential kernel, asymptotic normality holds.  We demonstrate the usefulness of our approach on simulated examples as well as real data in the context of stock volatility estimation.",
+    "authors": [
+        "Yuexi Wang",
+        "Tetsuya Kaji",
+        "Veronika Rockova"
+    ],
+    "emails": [
+        "yuexi.wang@chicagobooth.edu",
+        "tetsuya.kaji@chicagobooth.edu",
+        "veronika.rockova@chicagobooth.edu"
+    ],
+    "id": "22-0383",
+    "issue": 350,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Approximate Bayesian Computation via Classification",
+    "volume": 23,
+    "year": 2022
+}

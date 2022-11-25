@@ -1,0 +1,31 @@
+{
+    "abstract": "WarpDrive is a flexible, lightweight, and easy-to-use open-source framework for end-to-end deep multi-agent reinforcement learning (MARL) on a Graphics Processing Unit (GPU), available at https://github.com/salesforce/warp-drive. It addresses key system bottlenecks when applying MARL to complex environments with high-dimensional state, observation, or action spaces. For example, WarpDrive eliminates data copying between the CPU and GPU and runs thousands of simulations and agents in parallel. It also enables distributed training on multiple GPUs and scales to millions of agents. In all, WarpDrive enables orders-of-magnitude faster MARL compared to common CPU-GPU implementations. For example, WarpDrive yields 2.9 million environment steps/second with 2000 environments and 1000 agents (at least 100\u00d7 faster than a CPU version) in a 2d-Tag simulation. It is user-friendly: e.g., it provides a lightweight, extendable Python interface and flexible environment wrappers. It is also compatible with PyTorch. In all, WarpDrive offers a platform to significantly accelerate reinforcement learning research and development.",
+    "authors": [
+        "Tian Lan",
+        "Sunil Srinivasa",
+        "Huan Wang",
+        "Stephan Zheng"
+    ],
+    "emails": [
+        "tian.lan@salesforce.com",
+        "ssunil@gmail.com",
+        "huan.wang@salesforce.com",
+        "stephan.zheng@salesforce.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/salesforce/warp-drive"
+        ]
+    ],
+    "id": "22-0185",
+    "issue": 316,
+    "pages": [
+        1,
+        6
+    ],
+    "special_issue": "MLOSS",
+    "title": "WarpDrive: Fast End-to-End Deep Multi-Agent Reinforcement Learning on a GPU",
+    "volume": 23,
+    "year": 2022
+}

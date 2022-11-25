@@ -1,0 +1,30 @@
+{
+    "abstract": "We make an attempt to understand convolutional neural network by exploring the relationship between (deep) convolutional neural networks and Volterra convolutions. We propose a novel approach to explain and  study the overall characteristics of neural networks without being disturbed by the horribly complex architectures. Specifically, we  attempt to convert the basic structures of a convolutional neural network (CNN) and their combinations to the form of Volterra convolutions. The results show that most of convolutional neural networks can be approximated in the form of Volterra convolution, where the approximated proxy kernels preserve the characteristics of the original network. Analyzing these proxy kernels may give valuable insight about the original network. Based on this setup, we present methods to approximate the order-zero and order-one proxy kernels, and verify the correctness and effectiveness of our results.",
+    "authors": [
+        "Tenghui Li",
+        "Guoxu Zhou",
+        "Yuning Qiu",
+        "Qibin Zhao"
+    ],
+    "emails": [
+        "tenghui.lee@foxmail.com",
+        "gx.zhou@gdut.edu.cn",
+        "yuning.qiu.gd@gmail.com",
+        "qibin.zhao@riken.jp"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/tenghuilee/nnvolterra.git"
+        ]
+    ],
+    "id": "21-1259",
+    "issue": 311,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Toward Understanding Convolutional Neural Networks from Volterra Convolution Perspective",
+    "volume": 23,
+    "year": 2022
+}

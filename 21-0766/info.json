@@ -1,0 +1,20 @@
+{
+    "abstract": "Kernel methods provide an elegant framework for developing nonlinear learning algorithms from simple linear methods. Though these methods have superior empirical performance in several real data applications, their usefulness is inhibited by the significant computational burden incurred in large sample situations. Various approximation schemes have been proposed in the literature to alleviate these computational issues, and the approximate kernel machines are shown to retain the empirical performance. However, the theoretical properties of these approximate kernel machines are less well understood. In this work, we theoretically study the trade-off between computational complexity and statistical accuracy in Nystrom approximate kernel principal component analysis (KPCA), wherein we show that the Nystrom approximate KPCA matches the statistical performance of (non-approximate) KPCA while remaining computationally beneficial. Additionally, we show that Nystrom approximate KPCA outperforms the statistical behavior of another popular approximation scheme, the random feature approximation, when applied to KPCA.",
+    "authors": [
+        "Nicholas Sterge",
+        "Bharath K. Sriperumbudur"
+    ],
+    "emails": [
+        "nsterge@us.flowtraders.com",
+        "bks18@psu.edu"
+    ],
+    "id": "21-0766",
+    "issue": 337,
+    "pages": [
+        1,
+        32
+    ],
+    "title": "Statistical Optimality and Computational Efficiency of Nystrom Kernel PCA",
+    "volume": 23,
+    "year": 2022
+}

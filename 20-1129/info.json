@@ -1,0 +1,22 @@
+{
+    "abstract": "We provide a theoretical treatment of over-specified Gaussian mixtures of experts with covariate-free gating networks. We establish the convergence rates of the maximum likelihood estimation (MLE) for these models. Our proof technique is based on a novel notion of algebraic independence of the expert functions. Drawing on optimal transport, we establish a connection between the algebraic independence of the expert functions and a certain class of partial differential equations (PDEs) with respect to the parameters. Exploiting this connection allows us to derive convergence rates for parameter estimation.",
+    "authors": [
+        "Nhat Ho",
+        "Chiao-Yu Yang",
+        "Michael I. Jordan"
+    ],
+    "emails": [
+        "minhnhat@utexas.edu",
+        "chiaoyu@berkeley.edu",
+        "jordan@cs.berkeley.edu"
+    ],
+    "id": "20-1129",
+    "issue": 323,
+    "pages": [
+        1,
+        81
+    ],
+    "title": "Convergence Rates for Gaussian Mixtures of Experts",
+    "volume": 23,
+    "year": 2022
+}

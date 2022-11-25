@@ -1,0 +1,24 @@
+{
+    "abstract": "Mixup is a data augmentation technique that creates new examples as convex combinations of training points and labels. This simple technique has empirically shown to improve the accuracy of many state-of-the-art models in different settings and applications, but the reasons behind this empirical success remain poorly understood. In this paper we take a substantial step in explaining the theoretical foundations of Mixup, by clarifying its regularization effects. We show that Mixup can be interpreted as standard empirical risk minimization estimator subject to a combination of data transformation and random perturbation of the transformed data. We gain two core insights from this new interpretation. First, the data transformation suggests that, at test time, a model trained with Mixup should also be applied to transformed data, a one-line change in code that we show empirically to improve both accuracy and calibration of the prediction. Second, we show how the random perturbation of the new interpretation of Mixup induces multiple known regularization schemes, including label smoothing and reduction of the Lipschitz constant of the estimator. These schemes interact synergistically with each other, resulting in a self calibrated and effective regularization effect that prevents overfitting and overconfident predictions. We corroborate our theoretical analysis with experiments that support our conclusions.",
+    "authors": [
+        "Luigi Carratino",
+        "Moustapha Ciss\u00e9",
+        "Rodolphe Jenatton",
+        "Jean-Philippe Vert"
+    ],
+    "emails": [
+        "luigi.carratino@dibris.unige.it",
+        "moustaphacisse@google.com",
+        "rjenatton@google.com",
+        "jean-philippe.vert@m4x.org"
+    ],
+    "id": "20-1385",
+    "issue": 325,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "On Mixup Regularization",
+    "volume": 23,
+    "year": 2022
+}

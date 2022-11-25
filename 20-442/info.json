@@ -1,0 +1,24 @@
+{
+    "abstract": "We consider autocovariance operators of a stationary stochastic process on a Polish space that is embedded into a reproducing kernel Hilbert space. We investigate how empirical estimates of these operators converge along realizations of the process under various conditions. In particular, we examine ergodic and strongly mixing processes and obtain several asymptotic results as well as finite sample error bounds. We provide applications of our theory in terms of consistency results for kernel PCA with dependent data and the conditional mean embedding of transition probabilities. Finally, we use our approach to examine the nonparametric estimation of Markov transition operators and highlight how our theory can give a consistency analysis for a large family of spectral analysis methods including kernel-based dynamic mode decomposition.",
+    "authors": [
+        "Mattes Mollenhauer",
+        "Stefan Klus",
+        "Christof Sch\u00fctte",
+        "P\u00e9ter Koltai"
+    ],
+    "emails": [
+        "mattes.mollenhauer@fu-berlin.de",
+        "s.klus@hw.ac.uk",
+        "schuette@zib.de",
+        "peter.koltai@fu-berlin.de"
+    ],
+    "id": "20-442",
+    "issue": 327,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Kernel Autocovariance Operators of Stationary Processes: Estimation and Convergence",
+    "volume": 23,
+    "year": 2022
+}

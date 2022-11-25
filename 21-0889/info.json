@@ -1,0 +1,30 @@
+{
+    "abstract": "We propose Pathfinder, a variational method for approximately sampling from differentiable probability densities.  Starting from a random initialization, Pathfinder locates normal approximations to the target density along a quasi-Newton optimization path, with local covariance estimated using the inverse Hessian estimates produced by the optimizer.  Pathfinder returns draws from the approximation with the lowest estimated Kullback-Leibler (KL) divergence to the target distribution. We evaluate Pathfinder on a wide range of posterior distributions, demonstrating that its approximate draws are better than those from automatic differentiation variational inference (ADVI) and comparable to those produced by short chains of dynamic Hamiltonian Monte Carlo (HMC), as measured by 1-Wasserstein distance.  Compared to ADVI and short dynamic HMC runs, Pathfinder requires one to two orders of magnitude fewer log density and gradient evaluations, with greater reductions for more challenging posteriors.  Importance resampling over multiple runs of Pathfinder improves the diversity of approximate draws, reducing 1-Wasserstein distance further and providing a measure of robustness to optimization failures on plateaus, saddle points, or in minor modes.  The Monte Carlo KL divergence estimates are embarrassingly parallelizable in the core Pathfinder algorithm, as are multiple runs in the resampling version, further increasing Pathfinder's speed advantage with multiple cores.",
+    "authors": [
+        "Lu Zhang",
+        "Bob Carpenter",
+        "Andrew Gelman",
+        "Aki Vehtari"
+    ],
+    "emails": [
+        "lzhang63@usc.edu",
+        "bcarpenter@flatironinstitute.org",
+        "gelman@stat.columbia.edu",
+        "aki.vehtari@aalto.fi"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/LuZhangstat/Pathfinder"
+        ]
+    ],
+    "id": "21-0889",
+    "issue": 306,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Pathfinder:  Parallel quasi-Newton variational inference",
+    "volume": 23,
+    "year": 2022
+}

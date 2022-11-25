@@ -1,0 +1,20 @@
+{
+    "abstract": "The neighborhood selection method directly explores the conditional dependence structure and has been widely used to construct undirected graphical models. However, except for some special cases with discrete data, there is little research on nonparametric methods for neighborhood selection with mixed data. This paper develops a fully nonparametric neighborhood selection method under a consolidated smoothing spline ANOVA (SS ANOVA) decomposition framework. The proposed model is flexible and contains many existing models as special cases. The proposed method provides a unified framework for mixed data without any restrictions on the type of each random variable. We detect edges by applying an L1 regularization to interactions in the SS ANOVA decomposition. We propose an iterative procedure to compute the estimates and establish the convergence rates for conditional density and interactions. Simulations indicate that the proposed methods perform well under Gaussian and non-Gaussian settings. We illustrate the proposed methods using two real data examples.",
+    "authors": [
+        "Hao Dong",
+        "Yuedong Wang"
+    ],
+    "emails": [
+        "hao_dong@pstat.ucsb.edu",
+        "yuedong@ucsb.edu"
+    ],
+    "id": "22-0207",
+    "issue": 317,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Nonparametric Neighborhood Selection in Graphical Models",
+    "volume": 23,
+    "year": 2022
+}

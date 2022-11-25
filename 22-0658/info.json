@@ -1,0 +1,32 @@
+{
+    "abstract": "Many predictions are probabilistic in nature; for example, a prediction could be for precipitation tomorrow, but with only a 30 percent chance. Given such probabilistic predictions together with the actual outcomes, \u201creliability diagrams\u201d (also known as \u201ccalibration plots\u201d) help detect and diagnose statistically significant discrepancies\u2014so-called \u201cmiscalibration\u201d\u2014between the predictions and the outcomes. The canonical reliability diagrams are based on histogramming the observed and expected values of the predictions; replacing the hard histogram binning with soft kernel density estimation using smooth convolutional kernels is another common practice. But, which widths of bins or kernels are best? Plots of the cumulative differences between the observed and expected values largely avoid this question, by displaying miscalibration directly as the slopes of secant lines for the graphs. Slope is easy to perceive with quantitative precision, even when the constant offsets of the secant lines are irrelevant; there is no need to bin or perform kernel density estimation. The existing standard metrics of miscalibration each summarize a reliability diagram into a single scalar statistic. The cumulative plots naturally lead to scalar metrics for the deviation of the graph of cumulative differences away from zero; good calibration corresponds to a horizontal, flat graph which deviates little from zero. The cumulative approach is currently unconventional, yet offers many favorable statistical properties, guaranteed via mathematical theory backed by rigorous proofs and illustrative numerical examples. In particular, metrics based on binning or kernel density estimation unavoidably must trade-off statistical confidence for the ability to resolve variations as a function of the predicted probability or vice versa. Widening the bins or kernels averages away random noise while giving up some resolving power. Narrowing the bins or kernels enhances resolving power while not averaging away as much noise. The cumulative methods do not impose such an explicit trade-off. Considering these results, practitioners probably should adopt the cumulative approach as a standard for best practices.",
+    "authors": [
+        "Imanol Arrieta-Ibarra",
+        "Paman Gujral",
+        "Jonathan Tannen",
+        "Mark Tygert",
+        "Cherie Xu"
+    ],
+    "emails": [
+        "imanolai@meta.com",
+        "pgujral@meta.com",
+        "jonathan.tannen@gmail.com",
+        "tygert@meta.com",
+        "cheriexu@meta.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/facebookresearch/ecevecce"
+        ]
+    ],
+    "id": "22-0658",
+    "issue": 351,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Metrics of Calibration for Probabilistic Predictions",
+    "volume": 23,
+    "year": 2022
+}

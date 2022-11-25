@@ -1,0 +1,24 @@
+{
+    "abstract": "Gradient-descent (GD) based algorithms are an indispensable tool for optimizing modern machine learning models. The paper considers distributed stochastic GD (D-SGD)--a network-based variant of GD. Distributed algorithms play an important role in large-scale machine learning problems as well as the Internet of Things (IoT) and related applications. The paper considers two main issues. First, we study convergence of D-SGD to critical points when the loss function is nonconvex and nonsmooth. We consider a broad range of nonsmooth loss functions including those of practical interest in modern deep learning. It is shown that, for each fixed initialization, D-SGD converges to critical points of the loss with probability one. Next, we consider the problem of avoiding saddle points. It is well known that classical GD avoids saddle points; however, analogous results have been absent for distributed variants of GD. For this problem, we again assume that loss functions may be nonconvex and nonsmooth, but are smooth in a neighborhood of a saddle point. It is shown that, for any fixed initialization, D-SGD avoids such saddle points with probability one. Results are proved by studying the underlying (distributed) gradient flow, using the ordinary differential equation (ODE) method of stochastic approximation.",
+    "authors": [
+        "Brian Swenson",
+        "Ryan Murray",
+        "H. Vincent Poor",
+        "Soummya Kar"
+    ],
+    "emails": [
+        "swenson@psu.edu",
+        "rwmurray@ncsu.edu",
+        "poor@princeton.edu",
+        "soummyak@andrew.cmu.edu"
+    ],
+    "id": "20-899",
+    "issue": 328,
+    "pages": [
+        1,
+        62
+    ],
+    "title": "Distributed Stochastic Gradient Descent: Nonconvexity, Nonsmoothness, and Convergence to Local Minima",
+    "volume": 23,
+    "year": 2022
+}

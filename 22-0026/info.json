@@ -1,0 +1,28 @@
+{
+    "abstract": "Imposing orthogonality on the layers of neural networks is known to facilitate the learning by limiting the exploding/vanishing of the gradient; decorrelate the features; improve the robustness. This paper studies the theoretical properties of orthogonal convolutional layers. We establish necessary and sufficient conditions on the layer architecture guaranteeing the existence of an orthogonal convolutional transform. The conditions prove that orthogonal convolutional transforms exist for almost all architectures used in practice for 'circular' padding. We also exhibit limitations with 'valid' boundary conditions and 'same' boundary conditions with zero-padding. Recently, a regularization term imposing the orthogonality of convolutional layers has been proposed, and impressive empirical results have been obtained in different applications (Wang et al., 2020). The second motivation of the present paper is to specify the theory behind this. We make the link between this regularization term and orthogonality measures. In doing so, we show that this regularization strategy is stable with respect to numerical and optimization errors and that, in the presence of small errors and when the size of the signal/image is large, the convolutional layers remain close to isometric. The theoretical results are confirmed with experiments and the landscape of the regularization term is studied. Experiments on real data sets show that when orthogonality is used to enforce robustness, the parameter multiplying the regularization term can be used to tune a tradeoff between accuracy and orthogonality, for the benefit of both accuracy and robustness. Altogether, the study guarantees that the regularization proposed in Wang et al. (2020) is an efficient, flexible and stable numerical strategy to learn orthogonal convolutional layers.",
+    "authors": [
+        "El Mehdi Achour",
+        "Fran\u00e7ois Malgouyres",
+        "Franck Mamalet"
+    ],
+    "emails": [
+        "el_mehdi.achour@math.univ-toulouse.fr",
+        "francois.malgouyres@math.univ-toulouse.fr",
+        "franck.mamalet@irt-saintexupery.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/deel-ai/deel-lip"
+        ]
+    ],
+    "id": "22-0026",
+    "issue": 347,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Existence, Stability and Scalability of Orthogonal Convolutional Neural Networks",
+    "volume": 23,
+    "year": 2022
+}

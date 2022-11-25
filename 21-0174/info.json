@@ -1,0 +1,31 @@
+{
+    "abstract": "Standard machine learning (ML) problems are formulated on data converted into a suitable tensor representation. However, there are data sources, for example in cybersecurity, that are naturally represented in a unifying hierarchical structure, such as XML, JSON, and Protocol Buffers. Converting this data to a tensor representation is usually done by manual feature engineering, which is laborious, lossy, and prone to bias originating from the human inability to correctly judge the importance of particular features. JsonGrinder.jl is a library automating various ML tasks on these difficult sources. Starting with an arbitrary set of JSON samples, it automatically creates a differentiable ML model (called hmilnet), which embeds raw JSON samples into a fixed-size tensor representation. This embedding network can be naturally extended by an arbitrary  ML model expecting tensor inputs in order to perform classification, regression, or clustering.",
+    "authors": [
+        "\u0160imon Mandl\u00edk",
+        "Mat\u011bj Ra\u010dinsk\u00fd",
+        "Viliam Lis\u00fd",
+        "Tom\u00e1\u0161 Pevn\u00fd"
+    ],
+    "emails": [
+        "simon.mandlik@gmail.com",
+        "racinsky.matej@seznam.cz",
+        "viliam.lisy@avast.com",
+        "pevnak@protonmail.ch"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/CTUAvastLab/JsonGrinder.jl"
+        ]
+    ],
+    "id": "21-0174",
+    "issue": 298,
+    "pages": [
+        1,
+        5
+    ],
+    "special_issue": "MLOSS",
+    "title": "JsonGrinder.jl: automated differentiable neural architecture for embedding arbitrary JSON data",
+    "volume": 23,
+    "year": 2022
+}

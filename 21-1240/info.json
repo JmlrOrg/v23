@@ -1,0 +1,26 @@
+{
+    "abstract": "While classical forms of stochastic gradient descent algorithm treat the different coordinates in the same way, a framework allowing for adaptive (non uniform) coordinate sampling is developed to leverage structure in data. In a non-convex setting and including zeroth-order gradient estimate, almost sure convergence as well as non-asymptotic bounds are established. Within the proposed framework, we develop an algorithm, MUSKETEER, based on a reinforcement strategy: after collecting information on the noisy gradients, it samples the most promising coordinate (all for one); then it moves along the one direction yielding an important decrease of the objective (one for all). Numerical experiments on both synthetic and real data examples confirm the effectiveness of MUSKETEER in large scale problems.",
+    "authors": [
+        "R\u00e9mi Leluc",
+        "Fran\u00e7ois Portier"
+    ],
+    "emails": [
+        "remi.leluc@gmail.com",
+        "francois.portier@gmail.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/RemiLELUC/SCGD-Musketeer"
+        ]
+    ],
+    "id": "21-1240",
+    "issue": 342,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "SGD with Coordinate Sampling: Theory and Practice",
+    "volume": 23,
+    "year": 2022
+}
