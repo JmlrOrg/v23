@@ -1,0 +1,22 @@
+{
+    "abstract": "Several fields in science, from genomics to neuroimaging, require monitoring populations (measures) that evolve with time. These complex datasets, describing dynamics with both time and spatial components, pose new challenges for data analysis. We propose in this work a new framework to carry out averaging of these datasets, with the goal of synthesizing a representative template trajectory from multiple trajectories. We show that this requires addressing three sources of invariance: shifts in time, space, and total population size (or mass/amplitude). Here we draw inspiration from dynamic time warping (DTW), optimal transport (OT) theory and its unbalanced extension (UOT) to propose a criterion that can address all three issues. This proposal leverages a smooth formulation of DTW (Soft-DTW) that is shown to capture temporal shifts, and UOT to handle both variations in space and size. Our proposed loss can be used to define spatio-temporal barycenters as Fr\u00e9chet means. Using Fenchel duality, we show how these barycenters can be computed efficiently, in parallel, via a novel variant of entropy-regularized debiased UOT.  Experiments on handwritten letters and brain imaging data confirm our theoretical findings and illustrate the effectiveness of the proposed loss for spatio-temporal data.",
+    "authors": [
+        "Hicham Janati",
+        "Marco Cuturi",
+        "Alexandre Gramfort"
+    ],
+    "emails": [
+        "hjanati@insea.ac.ma",
+        "marcocuturi@ensae.fr",
+        "alexandre.gramfort@inria.fr"
+    ],
+    "id": "22-0257",
+    "issue": 352,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Averaging Spatio-temporal Signals using Optimal Transport and Soft Alignment",
+    "volume": 23,
+    "year": 2022
+}
